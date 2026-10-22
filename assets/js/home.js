@@ -70,7 +70,7 @@
     });
 
     // Phones get a plain grid of places instead of the coast road.
-    [{ id: null, name: 'Whole coast' }].concat(AREAS).forEach(function (a) {
+    AREAS.concat([{ id: null, name: 'All properties' }]).forEach(function (a) {
       var b = document.createElement('button');
       b.type = 'button';
       b.className = 'area-btn' + (a.id ? '' : ' area-all');
@@ -157,7 +157,7 @@
       b.querySelector('.a-n').textContent = n;
       b.classList.toggle('is-empty', n === 0);
       b.setAttribute('aria-pressed', String(state.area === id));
-      b.setAttribute('aria-label', (id ? areaName(id) : 'Whole coast') + ', ' + n + (n === 1 ? ' listing' : ' listings'));
+      b.setAttribute('aria-label', (id ? areaName(id) : 'All properties') + ', ' + n + (n === 1 ? ' listing' : ' listings'));
     });
     chips.forEach(function (c) { c.setAttribute('aria-pressed', String(c.dataset.type === state.type)); });
   }
