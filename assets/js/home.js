@@ -161,15 +161,6 @@
     c.addEventListener('click', function () { state.type = c.dataset.type; update(true); });
   });
 
-  // Mobile menu
-  var menuBtn = document.querySelector('.menu-btn');
-  var mobileNav = document.getElementById('mobile-nav');
-  menuBtn.addEventListener('click', function () {
-    var open = menuBtn.getAttribute('aria-expanded') === 'true';
-    menuBtn.setAttribute('aria-expanded', String(!open));
-    mobileNav.hidden = open;
-  });
-
   // Sample listings link nowhere yet.
   grid.addEventListener('click', function (e) {
     var a = e.target.closest('a[aria-disabled="true"]');

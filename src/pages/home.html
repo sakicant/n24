@@ -1,0 +1,118 @@
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-media">
+      <img src="/assets/img/hero-1600.webp" srcset="/assets/img/hero-1000.webp 1000w, /assets/img/hero-1600.webp 1600w" sizes="100vw" alt="" width="1600" height="914" fetchpriority="high">
+    </div>
+    <div class="wrap hero-copy">
+      <h1 id="hero-title">Property on the Šibenik coast, from Vodice to&nbsp;Rogoznica</h1>
+      <p class="lede">Houses, villas, apartments and building land in eight places along one stretch of road. Pick a place to see what is for sale there.</p>
+    </div>
+  </section>
+
+  <section class="road-panel" id="search" aria-label="Search by place and type">
+      <div class="wrap">
+        <div class="road-scroll" tabindex="-1">
+          <div class="road" role="group" aria-label="Choose a place on the coast">
+            <span class="road-end road-end-n" aria-hidden="true">Zadar 75&nbsp;km</span>
+            <svg class="road-line" viewBox="0 0 1000 60" preserveAspectRatio="none" aria-hidden="true">
+              <path class="sea" d="M0 22 C 40 20, 70 26, 110 24 S 200 18, 250 22 L 258 36 L 268 22 C 290 20, 330 30, 380 27 S 440 22, 470 25 S 540 30, 570 26 S 640 22, 690 27 L 712 40 C 722 46, 742 46, 748 36 L 760 26 C 810 22, 860 30, 900 28 S 950 40, 975 34 S 995 24, 1000 24 L1000 60 L0 60 Z"/>
+              <path class="coast" d="M0 22 C 40 20, 70 26, 110 24 S 200 18, 250 22 L 258 36 L 268 22 C 290 20, 330 30, 380 27 S 440 22, 470 25 S 540 30, 570 26 S 640 22, 690 27 L 712 40 C 722 46, 742 46, 748 36 L 760 26 C 810 22, 860 30, 900 28 S 950 40, 975 34 S 995 24, 1000 24"/>
+            </svg>
+            <span class="road-marker" aria-hidden="true"></span>
+            <ol class="stops"></ol>
+            <span class="road-end road-end-s" aria-hidden="true">Split 50&nbsp;km</span>
+          </div>
+        </div>
+
+        <div class="road-controls">
+          <div class="chips" role="group" aria-label="Property type">
+            <button type="button" class="chip" data-type="all" aria-pressed="true">All</button>
+            <button type="button" class="chip" data-type="house" aria-pressed="false">Houses</button>
+            <button type="button" class="chip" data-type="apartment" aria-pressed="false">Apartments</button>
+            <button type="button" class="chip" data-type="villa" aria-pressed="false">Villas</button>
+            <button type="button" class="chip" data-type="land" aria-pressed="false">Land</button>
+            <button type="button" class="chip" data-type="new-build" aria-pressed="false">New builds</button>
+          </div>
+          <a class="btn btn-navy" id="show-all" href="/properties-for-sale/">Show all properties</a>
+        </div>
+        <p class="preview-note">Preview: counts include sample listings until the admin panel is live.</p>
+      </div>
+  </section>
+
+  <section class="listings wrap" aria-labelledby="listings-title">
+    <div class="section-head">
+      <h2 id="listings-title">For sale on the coast</h2>
+      <p class="count" id="listings-count" aria-live="polite"></p>
+    </div>
+    <ul class="grid" id="grid"></ul>
+    <div class="empty" id="empty" hidden>
+      <p class="empty-title">Nothing listed here right now</p>
+      <p>New properties come in every month, often before they are advertised. Tell Tomislav what you are looking for, or if you own property here, let N24 sell it.</p>
+      <div class="empty-actions">
+        <a class="btn btn-red" href="https://wa.me/385957007001">Message Tomislav</a>
+        <a class="btn btn-line" href="/sell-your-property/">Sell with N24</a>
+      </div>
+    </div>
+    <p class="more"><a class="link-arrow" id="more-link" href="/properties-for-sale/">See every property for sale</a></p>
+  </section>
+
+  <section class="resort" aria-labelledby="resort-title">
+    <div class="wrap resort-row">
+      <figure class="resort-photo">
+        <img src="/assets/img/listings/sun-hill-primosten-resort-1200.webp" srcset="/assets/img/listings/sun-hill-primosten-resort-640.webp 640w, /assets/img/listings/sun-hill-primosten-resort-1200.webp 1024w" sizes="(min-width: 900px) 40vw, 100vw" alt="Sun Hill apartments at Primošten Resort" width="1024" height="1280" loading="lazy">
+      </figure>
+      <div class="resort-copy">
+        <h2 id="resort-title">Primošten Resort</h2>
+        <p class="big">More than 100 new apartments and villas above Primošten, sold directly through Tomislav at N24.</p>
+        <p>Choose a unit by building, floor, size and view, see what is still available, and get the full price list and plans before you visit.</p>
+        <dl class="facts">
+          <div><dt>Units</dt><dd>100+</dd></div>
+          <div><dt>Place</dt><dd>Primošten</dd></div>
+          <div><dt>Type</dt><dd>New builds</dd></div>
+        </dl>
+        <a class="btn btn-navy" href="/primosten-resort/">See the units</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sell" aria-labelledby="sell-title">
+    <div class="wrap sell-row">
+      <h2 id="sell-title">Selling a house or land between Vodice and Rogoznica?</h2>
+      <div>
+        <p>N24 has sold property on this coast since 2010. Tell us what you have, and Tomislav will come and see it, give you a realistic price and find the buyer.</p>
+        <a class="btn btn-red" href="/sell-your-property/">Sell with N24</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services wrap" aria-labelledby="services-title">
+    <div class="services-intro">
+      <h2 id="services-title">More than an agency for land and investors</h2>
+      <p>Most of the coast is split into small cadastral plots with many owners. N24 puts them together, checks every paper and runs the project from permit to keys.</p>
+    </div>
+    <ol class="service-list">
+      <li><a href="/services/land-consolidation/"><span class="s-name">Land consolidation</span><span class="s-desc">Plot analysis, cadastre and ownership checks, finding missing owners and heirs, price negotiation.</span></a></li>
+      <li><a href="/services/investment-consulting/"><span class="s-name">Investment consulting</span><span class="s-desc">Short, medium and long-term opportunities, with the numbers behind them.</span></a></li>
+      <li><a href="/services/project-management/"><span class="s-name">Project management</span><span class="s-desc">From planning and approvals through construction, with the right consultants.</span></a></li>
+      <li><a href="/services/architecture-and-engineering/"><span class="s-name">Architecture and engineering</span><span class="s-desc">Trusted designers, architects and building engineers.</span></a></li>
+      <li><a href="/services/property-maintenance/"><span class="s-name">Property maintenance</span><span class="s-desc">Summer and winter care, cleaning and inspections after storms.</span></a></li>
+    </ol>
+  </section>
+
+  <section class="agent" aria-labelledby="agent-title">
+    <div class="wrap agent-row">
+      <div class="agent-photo" role="img" aria-label="Portrait of Tomislav Plenča, coming soon">
+        <span>Tomislav's photo</span>
+      </div>
+      <div class="agent-copy">
+        <h2 id="agent-title">Talk to Tomislav</h2>
+        <p>Tomislav Plenča runs N24 and knows every property on this site. Call, send a WhatsApp message or email, in English or Croatian.</p>
+        <ul class="contact-lines">
+          <li><a href="tel:+385957007001"><span>Phone</span>+385 95 700 7001</a></li>
+          <li><a href="https://wa.me/385957007001"><span>WhatsApp</span>+385 95 700 7001</a></li>
+          <li><a href="mailto:nekretnine24@n24.hr"><span>Email</span>nekretnine24@n24.hr</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+

@@ -1,0 +1,75 @@
+  <section class="band-hero" aria-labelledby="page-title">
+    <div class="wrap band-hero-row">
+      <h1 id="page-title">Contact N24</h1>
+      <p class="lede">Buying, selling or looking at land between Vodice and Rogoznica? Tomislav answers himself, by phone, WhatsApp or email, in English or Croatian.</p>
+    </div>
+  </section>
+
+  <section class="contact wrap" aria-label="Contact details and enquiry form">
+    <div class="contact-details">
+      <h2>Talk to Tomislav</h2>
+      <p class="contact-who">Tomislav Plenča, director</p>
+      <ul class="contact-lines">
+        <li><a href="tel:+385957007001"><span>Phone</span>+385 95 700 7001</a></li>
+        <li><a href="https://wa.me/385957007001"><span>WhatsApp</span>+385 95 700 7001</a></li>
+        <li><a href="mailto:nekretnine24@n24.hr"><span>Email</span>nekretnine24@n24.hr</a></li>
+      </ul>
+
+      <h2 class="office-title">Office</h2>
+      <address class="office">
+        Nekretnine 24 d.o.o.<br>
+        Bože Peričića 26<br>
+        22000 Šibenik, Croatia
+      </address>
+      <dl class="company">
+        <div><dt>OIB</dt><dd>34776595520</dd></div>
+        <div><dt>MB</dt><dd>02060698</dd></div>
+      </dl>
+    </div>
+
+    <form class="enquiry" id="enquiry" action="/api/contact.php" method="post" novalidate>
+      <h2>Send an enquiry</h2>
+      <fieldset class="topic">
+        <legend>I would like to</legend>
+        <div class="topic-options">
+          <label><input type="radio" name="topic" value="buy" checked><span>Buy</span></label>
+          <label><input type="radio" name="topic" value="sell"><span>Sell</span></label>
+          <label><input type="radio" name="topic" value="land"><span>Land and investment</span></label>
+          <label><input type="radio" name="topic" value="other"><span>Something else</span></label>
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <label for="f-name">Name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required>
+        <p class="error" id="e-name" hidden>Enter your name.</p>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+          <p class="error" id="e-email" hidden>Enter an email address Tomislav can reply to.</p>
+        </div>
+        <div class="field">
+          <label for="f-phone">Phone or WhatsApp <span class="opt">(optional)</span></label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel">
+        </div>
+      </div>
+      <div class="field">
+        <label for="f-msg">Message</label>
+        <textarea id="f-msg" name="message" rows="6" required placeholder="For example: a house with a sea view in Primošten or Rogoznica, up to €600,000."></textarea>
+        <p class="error" id="e-msg" hidden>Write a few words about what you are looking for.</p>
+      </div>
+      <label class="consent">
+        <input type="checkbox" name="consent" id="f-consent" required>
+        <span>I agree that N24 may use these details to answer my enquiry, as described in the <a href="/privacy-policy/">privacy policy</a>.</span>
+      </label>
+      <p class="error" id="e-consent" hidden>Tick the box so we can reply to you.</p>
+      <button class="btn btn-red" type="submit">Send enquiry</button>
+      <p class="form-status" id="form-status" role="status" hidden></p>
+    </form>
+  </section>
+
+  <section class="map" aria-label="Map of the N24 office in Šibenik">
+    <iframe title="N24 office, Bože Peričića 26, Šibenik" src="https://maps.google.com/maps?q=Bo%C5%BEe%20Peri%C4%8Di%C4%87a%2026%2C%20%C5%A0ibenik&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
