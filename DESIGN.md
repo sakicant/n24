@@ -1,6 +1,6 @@
 ---
 name: N24 Real Estate
-description: Property on the Šibenik coast, from Vodice to Rogoznica, drawn as one coast road.
+description: Property on the Šibenik coast, from Vodice to Rogoznica: sand, navy line work and one red mark for what matters now.
 colors:
   navy: "#13264B"
   navy-2: "#22365C"
@@ -127,7 +127,7 @@ components:
 
 **Creative North Star: "The Coast Road"**
 
-N24 is a local agency on one stretch of Adriatic coast, and the system is drawn the way a good local map is drawn: a warm sand page, navy line work, and a single red mark for where you are. The signature is the coast road itself, a navy line with square km-stones for the eight places from Vodice to Rogoznica; the empty red square of the logo becomes the "you are here" frame that slides along it. Everything else is quiet so that the road, the photographs and the prices can carry the page.
+N24 is a local agency on one stretch of Adriatic coast, and the system is drawn the way a good local map is drawn: a warm sand page, navy line work, and a single red mark for where you are. The signature is the place grid: the eight places from Vodice to Rogoznica as square tiles with live counts, where the empty red square of the logo becomes the "you are here" frame around the chosen place. Everything else is quiet so that the photographs and the prices can carry the page. (The original drawn coast road was retired on 2026-10-22 at the client's request.)
 
 Density is calm and editorial rather than portal-like: generous section padding, three-column listing grids, hairline rules instead of boxes, and full-bleed photography cropped into square-cornered frames. Type is a two-voice pairing taken straight from the logo: Cormorant Garamond for names and headlines, Manrope for every functional word and number. Figures are lining and tabular throughout, because distances, plot sizes and prices are the proof of local knowledge.
 
@@ -135,7 +135,7 @@ The world refuses the real-estate category default: no photo hero with a floatin
 
 **Key Characteristics:**
 - Sand ground, navy line work and headings, ink body text, red only for what matters now.
-- The coast road as navigation: a single navy line, square stops, a red frame for the selected place.
+- The place grid as navigation: square tiles, live counts, a red frame for the selected place.
 - Square corners everywhere; the logo's empty square frame is the recurring geometry.
 - Flat surfaces; depth comes from tonal bands (sand, sand-2, navy) and 1px hairlines.
 - Cormorant Garamond display over Manrope text, tabular lining figures for every number.
@@ -145,11 +145,11 @@ The world refuses the real-estate category default: no photo hero with a floatin
 A warm sand-and-navy coastal palette with one disciplined red, pinned by the client's logo.
 
 ### Primary
-- **Harbour Navy** (navy): the system's structural colour. Headings, nav links, the coast-road line and stop outlines, the selected chip, the secondary action button, the Sell band and the footer. On sand it reads at 13.5:1.
+- **Harbour Navy** (navy): the system's structural colour. Headings, nav links, the selected chip, the secondary action button, the Sell band and the footer. On sand it reads at 13.5:1.
 - **Deep Harbour** (navy-2): hover state for navy buttons only.
 
 ### Secondary
-- **Signal Red** (red): the logo frame and "what matters now": the selected road stop and its sliding marker, listing prices, the primary contact action (WhatsApp, Sell with N24), the mobile WhatsApp bar, the focus ring, and the frame around Tomislav's portrait. White on red is 5.2:1; red text on sand is 4.7:1, so red text stays at 1.0625rem/600 or larger (prices, selected stop names).
+- **Signal Red** (red): the logo frame and "what matters now": the selected place tile, listing prices, the primary contact action (WhatsApp, Sell with N24), the focus ring, and the frame around Tomislav's portrait. White on red is 5.2:1; red text on sand is 4.7:1, so red text stays at 1.0625rem/600 or larger (prices, selected stop names).
 - **Fired Red** (red-dark): hover state for red buttons only.
 
 ### Neutral
@@ -158,12 +158,12 @@ A warm sand-and-navy coastal palette with one disciplined red, pinned by the cli
 - **Ink** (ink): body text.
 - **Slate Ink** (ink-2): secondary text: ledes, meta lines, counts, km labels, descriptions (7.4:1 on sand, 6.6:1 on sand-2).
 - **Dry-Wall Hairline** (line): every 1px divider and the resting chip border. Decorative only; never carries meaning by itself.
-- **Shallow Sea** (sea): the wash under the coast-road line, at 0.7 opacity and faded out with a vertical mask. Not used elsewhere.
+- **Shallow Sea** (sea): reserved; no longer used since the coast road was retired.
 
 ### Named Rules
 **The Red Means Now Rule.** Red marks the logo, the current selection, the price and the one primary action in view. If two red things compete in one viewport for different reasons, one of them is wrong. Red is never a background band, a heading colour or decoration.
 
-**The Navy Line Rule.** Navy draws: the road, the stop outlines, the rules above lists, the outline offset around a feature photo. Structure is a navy or hairline stroke, not a filled panel.
+**The Navy Line Rule.** Navy draws: the rules above lists, the outline offset around a feature photo. Structure is a navy or hairline stroke, not a filled panel.
 
 ## Typography
 
@@ -175,7 +175,7 @@ A warm sand-and-navy coastal palette with one disciplined red, pinned by the cli
 ### Hierarchy
 - **Display** (600, clamp(2.375rem, 4.6vw, 4.25rem), 1.08, -0.02em): the page headline only, max 19ch, balanced wrap.
 - **Headline** (600, clamp(2rem, 3.6vw, 3rem), 1.08): section titles. Feature sections (Resort, Sell, Contact) scale up to clamp(2.25rem, 4.2vw, 3.5–4rem) on the same face.
-- **Title** (600, 1.5rem, 1.15): listing card titles, service names, fact values, mobile-menu links. Road stop names use the same face at 1.25rem; Cormorant never goes smaller than that.
+- **Title** (600, 1.5rem, 1.15): listing card titles, service names, fact values, mobile-menu links. Place tile names use the same face at 1.25rem; Cormorant never goes smaller than that.
 - **Lead** (400, 1.0625rem, 1.65): intro paragraphs in Slate Ink, max 34ch beside the headline. A serif lead (500, clamp(1.375rem, 2vw, 1.75rem), 1.3, navy) is used once per feature section.
 - **Body** (400, 1rem, 1.65): running text, max 40–52ch.
 - **Label** (500, 0.8125rem): meta lines (area · type), counts, definition terms, footer column titles (600, 0.02em). Km labels drop to 0.6875rem. Sentence case; no uppercase tracking outside the logo.
@@ -192,10 +192,10 @@ A single centred column of max 1240px with a fluid side gutter (clamp(16px, 4vw,
 
 The listing grid is 3 columns with 40px row and 28px column gaps, 2 columns under 1080px and 1 under 600px. The spacing rhythm is 8 / 16 / 28 / 40px inside components.
 
-Breakpoints: 1080px (desktop nav becomes a menu button, grid to 2 columns), 860px (single-column rows, coast road becomes a horizontally scrolling ribbon at a fixed 820px width with snap, chips scroll in one row, a fixed Call / WhatsApp bar appears at the bottom), 600px (single-column grid and service rows).
+Breakpoints: 1080px (desktop nav becomes a menu button, grid to 2 columns), 860px (single-column rows, the place grid drops from 4 columns plus an All tile to 2 columns with All properties full width at the bottom, type chips wrap), 600px (single-column grid and service rows).
 
 ### Named Rules
-**The One Road Rule.** The coast road is drawn edge to edge in its true order (Vodice, Srima, Šibenik, Brodarica, Žaborić, Grebaštica, Primošten, Rogoznica), positioned by real km. On narrow screens it scrolls; it is never reordered, wrapped or turned into a dropdown.
+**The Place Order Rule.** The place grid runs Šibenik, Brodarica, Vodice, Srima, Žaborić, Grebaštica, Primošten, Rogoznica, then All properties (client's order). Search-page checklists keep road order (Vodice to Rogoznica).
 
 ## Elevation & Depth
 
@@ -206,7 +206,7 @@ Flat. There are no box shadows anywhere in the system. Depth comes from three to
 
 ## Shapes
 
-Square, always: 0px radius on buttons, chips, cards, images, tags and the menu button. The logo's empty square frame is the recurring geometry: road stops are 14px squares with a 2px navy border, the selected-stop marker is a 34px square with a 3px red border, and the portrait frame is a 3px red square border. Images fill 4:3 (cards) or 4:5 (portrait, feature) frames with `object-fit: cover`. Lines are 1px, with 2px reserved for the road and stop outlines and 3px for red frames.
+Square, always: 0px radius on buttons, chips, cards, images, tags and the menu button. The logo's empty square frame is the recurring geometry: the selected place tile gets a 2px red border, and the portrait frame is a 3px red square border. Images fill 4:3 (cards) or 4:5 (portrait, feature) frames with `object-fit: cover`. Lines are 1px, with 2px for the selected tile and 3px for red frames.
 
 ### Named Rules
 **The Square Frame Rule.** Selection and emphasis are shown with a square frame, never with a pill, a circle or a rounded corner.
@@ -234,11 +234,11 @@ Plain, square and confident; colour does the work.
 - **Internal structure:** photo, then meta label (area · type), Cormorant title (1.5rem), then facts left and price right in Signal Red 600. "Price on request" drops to navy. An optional navy tag sits flush in the photo's top-left corner (e.g. Primošten Resort). Land listings without a photo show a navy line-drawn plot plan with the plot outlined in red.
 
 ### Navigation
-- **Desktop:** sticky sand header, 72px tall, logo left, Manrope 500 navy links at 0.9375rem with a 1px navy underline on hover, red WhatsApp button at the right end.
-- **Mobile (under 1080px):** a 46px square menu button with a hairline border; the three-bar icon morphs to a cross. The open menu lists links in Cormorant 1.5rem with hairlines between. Under 860px a fixed bottom bar splits Call (sand) and WhatsApp (red).
+- **Desktop:** fixed header, 96px tall, transparent with sand text over the hero or navy band and solid sand with navy text once the page scrolls; logo left, Manrope 500 navy links at 0.9375rem with a 1px navy underline on hover, red WhatsApp button at the right end.
+- **Mobile (under 1080px):** 72px header with WhatsApp and call icons (27px) and a 46px square menu button with a currentColor border; the three-bar icon morphs to a cross. The open menu lists links in Cormorant 1.75rem with hairlines between, then phone and email.
 
-### Coast Road (signature)
-The page's search. A navy 2px line over a masked Shallow Sea wash, eight square stops placed by km, labels alternating above and below the line (Cormorant name, Manrope count), km labels in 0.6875rem Slate Ink, and end labels to Zadar and Split. Hover fills the stop navy and underlines its name; selecting a stop turns it red, and a 34px red square frame slides to it over 0.55s on the expressive ease. Stops with no listings grey out. Selection filters the listing grid in place with a 0.25s opacity crossfade and writes `?area=&type=` to the URL.
+### Place Grid (signature)
+The homepage finder: "Find a property" with Place then Type. White square tiles with a hairline border, Cormorant 1.25rem name and Manrope 600 count; 4 columns plus a 2-row All properties tile on desktop, 2 columns with All properties full width at the bottom on phones. The selected tile gets a 2px red border and red text; places with no listings grey out. Selection filters the listing grid in place with a 0.25s opacity crossfade and writes `?area=&type=` to the URL; "Show N properties" opens /properties-for-sale/ with the same filters.
 
 ### Ruled Lists
 Services and contact details are ruled lists, not cards: a navy 1px top rule, hairline rows, Cormorant name with Manrope description (services) or navy 600 value with a Slate Ink label (contact). Service rows nudge 10px right on hover; contact rows turn red on hover.
@@ -258,7 +258,6 @@ Services and contact details are ruled lists, not cards: a navy 1px top rule, ha
 - **Don't** use rounded corners, pills or circles on buttons, chips, cards or images.
 - **Don't** add box shadows or floating panels; the system is flat.
 - **Don't** use red as a background band, a heading colour or decoration.
-- **Don't** put a search box floating over a hero photo or add a featured carousel; the coast road is the search.
-- **Don't** reorder, wrap or collapse the coast road; on phones it scrolls.
+- **Don't** put a search box floating over a hero photo or add a featured carousel; the place grid is the homepage search, /properties-for-sale/ is the full search.
 - **Don't** add uppercase letterspaced labels or kickers above headings; the only letterspaced caps are REAL ESTATE inside the logo.
-- **Don't** recolour or redraw the logo: red empty square frame, N24 in Cormorant Garamond, REAL ESTATE in letterspaced Manrope (brand/logo-en-horizontal.svg, brand/logo-en-reversed.svg on navy).
+- **Don't** recolour or redraw the logo: red empty square frame, N24 in Cormorant Garamond, the line underneath in the page language (REAL ESTATE / NEKRETNINE / IMMOBILIEN) in Manrope 600, spanning the full width (brand/logo-{en,hr,de}-*.svg).

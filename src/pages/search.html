@@ -1,0 +1,95 @@
+  <section class="band-hero band-hero-short" aria-labelledby="page-title">
+    <div class="wrap band-hero-row">
+      <h1 id="page-title">Properties for sale</h1>
+      <p class="lede">Houses, villas, apartments, new builds and building land on the Šibenik coast, from Vodice to Rogoznica.</p>
+    </div>
+  </section>
+
+  <div class="search wrap">
+    <button class="btn btn-line filters-toggle" type="button" aria-expanded="false" aria-controls="filters">
+      Filters <span class="filters-count" id="filters-count"></span>
+    </button>
+
+    <form class="filters" id="filters" aria-label="Filter properties">
+      <fieldset class="f-group">
+        <legend>Place</legend>
+        <div class="f-checks" id="f-areas"></div>
+      </fieldset>
+
+      <fieldset class="f-group">
+        <legend>Type</legend>
+        <div class="f-checks">
+          <label><input type="checkbox" name="type" value="house"><span>Houses</span></label>
+          <label><input type="checkbox" name="type" value="apartment"><span>Apartments</span></label>
+          <label><input type="checkbox" name="type" value="villa"><span>Villas</span></label>
+          <label><input type="checkbox" name="type" value="land"><span>Land</span></label>
+          <label><input type="checkbox" name="type" value="new-build"><span>New builds</span></label>
+        </div>
+      </fieldset>
+
+      <div class="f-group f-selects">
+        <label for="f-price">Max price</label>
+        <select id="f-price" name="price">
+          <option value="">Any price</option>
+          <option value="200000">€200,000</option>
+          <option value="300000">€300,000</option>
+          <option value="400000">€400,000</option>
+          <option value="500000">€500,000</option>
+          <option value="750000">€750,000</option>
+          <option value="1000000">€1,000,000</option>
+        </select>
+
+        <label for="f-beds">Bedrooms</label>
+        <select id="f-beds" name="beds">
+          <option value="">Any</option>
+          <option value="1">1 or more</option>
+          <option value="2">2 or more</option>
+          <option value="3">3 or more</option>
+          <option value="4">4 or more</option>
+        </select>
+
+        <label for="f-size">Size</label>
+        <select id="f-size" name="size">
+          <option value="">Any size</option>
+          <option value="50">50 m² or more</option>
+          <option value="100">100 m² or more</option>
+          <option value="150">150 m² or more</option>
+          <option value="250">250 m² or more</option>
+          <option value="1000">1,000 m² or more</option>
+        </select>
+      </div>
+
+      <div class="f-actions">
+        <button class="btn btn-navy f-apply" type="button" id="f-apply">Show results</button>
+        <button class="f-reset" type="reset" id="f-reset">Clear filters</button>
+      </div>
+    </form>
+
+    <section class="results" aria-labelledby="results-title">
+      <div class="results-bar">
+        <h2 id="results-title" aria-live="polite">Properties for sale</h2>
+        <label class="sort">
+          <span>Sort</span>
+          <select id="f-sort">
+            <option value="newest">Newest first</option>
+            <option value="price-asc">Price, low to high</option>
+            <option value="price-desc">Price, high to low</option>
+            <option value="size-desc">Largest first</option>
+          </select>
+        </label>
+      </div>
+      <p class="preview-note">Preview: some listings are samples until the admin panel is live.</p>
+      <ul class="grid grid-2" id="results"></ul>
+      <div class="empty" id="results-empty" hidden>
+        <p class="empty-title">Nothing matches these filters</p>
+        <p>Try fewer filters, or tell Tomislav what you are looking for. New properties come in every month, often before they are advertised.</p>
+        <div class="empty-actions">
+          <button class="btn btn-line" type="button" id="empty-reset">Clear filters</button>
+          <a class="btn btn-red" href="https://wa.me/385957007001">Message Tomislav</a>
+        </div>
+      </div>
+      <div class="load-more">
+        <button class="btn btn-line" type="button" id="load-more" hidden>Show more</button>
+      </div>
+    </section>
+  </div>

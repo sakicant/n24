@@ -16,7 +16,13 @@ const pages = [
     src: 'home.html', out: 'index.html', path: '/', nav: null, bodyClass: 'has-photo-hero',
     title: 'N24 Real Estate | Houses, Villas and Land from Vodice to Rogoznica',
     description: 'Houses, villas, apartments and building land on the Šibenik coast, from Vodice to Rogoznica. Local agency since 2010. Call or WhatsApp Tomislav: +385 95 700 7001.',
-    scripts: ['/assets/js/home.js'],
+    scripts: ['/assets/js/listings.js', '/assets/js/home.js'],
+  },
+  {
+    src: 'search.html', out: 'properties-for-sale/index.html', path: '/properties-for-sale/', nav: 'buy', bodyClass: 'has-band-hero',
+    title: 'Properties for Sale on the Šibenik Coast | Houses, Villas, Land | N24',
+    description: 'Search houses, villas, apartments, new builds and building land for sale from Vodice to Rogoznica. Filter by place, type, price and size. N24 Real Estate.',
+    scripts: ['/assets/js/listings.js', '/assets/js/search.js'],
   },
   {
     src: 'services.html', out: 'services/index.html', path: '/services/', nav: 'services', bodyClass: 'has-band-hero',
