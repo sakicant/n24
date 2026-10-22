@@ -9,7 +9,7 @@ Open items for the website. Tick them off as they are done.
 - [ ] Area pages: Tomislav to read and confirm the local texts for all 8 places.
 
 ## Links
-- [ ] Footer social links still to add: TikTok, Google Business Profile (now "#", marked data-todo in src/partials/footer.html). Instagram and LinkedIn confirmed; Facebook is from the old site, confirm it is current.
+- [ ] Footer social links still to add: Facebook, TikTok, Google Business Profile (now "#", marked data-todo in src/partials/footer.html). Instagram and LinkedIn are done.
 
 ## Legal
 - [ ] Tomislav (ideally with his lawyer or accountant) to read the Privacy Policy and Terms of Use.
