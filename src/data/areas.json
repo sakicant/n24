@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "vodice",
+    "name": "Vodice",
+    "lede": "Houses, villas, apartments and building land for sale in Vodice, the liveliest seaside town on the Šibenik riviera.",
+    "intro": [
+      "Vodice is a busy seaside town about 12 km north-west of Šibenik. In summer it is one of the most popular places on the riviera, with a long promenade, beaches, cafés and the ACI marina. Out of season it is a working town with shops, schools and a health centre, so it suits both holiday owners and people who live here all year.",
+      "The ferry and boats from Vodice reach the islands of Prvić and Tijat, and the Kornati islands are a popular day trip from the harbour."
+    ],
+    "homes": "Most properties in Vodice are apartments in small residential buildings, family houses with an apartment to rent, and new builds close to the sea. Apartments are a common choice for buyers who want rental income in summer.",
+    "land": "Building plots in Vodice are mostly on the edges of town and on the hills behind it, many with a sea view. Before buying, it is essential to check that a plot lies inside the building zone of the spatial plan and has road access and utilities.",
+    "highlights": ["ACI marina and a long seafront promenade", "Shops, schools and a health centre open all year", "Boats to Prvić and the Kornati islands"],
+    "local_q": "Is Vodice good for rental income?",
+    "local_a": "Vodice has one of the longest tourist seasons on the Šibenik riviera, so apartments close to the sea and the centre usually rent well in summer. Tomislav can tell you what similar properties earn and what to watch for."
+  },
+  {
+    "slug": "srima",
+    "name": "Srima",
+    "lede": "Houses, apartments and land for sale in Srima, a quiet seaside settlement between Vodice and Šibenik.",
+    "intro": [
+      "Srima lies right next to Vodice, about 11 km from Šibenik, along a long bay with pebble beaches and a seafront walk. It is calmer than Vodice, with mostly family houses and holiday homes, yet the shops and restaurants of Vodice are a few minutes away.",
+      "Its long, shallow beaches make Srima a popular choice for families."
+    ],
+    "homes": "In Srima you will mostly find detached family houses, holiday houses with apartments and newer apartment buildings a short walk from the beach.",
+    "land": "Building plots in Srima are limited, which is one reason land here is sought after. N24 checks the spatial plan, ownership and access before a plot is offered for sale.",
+    "highlights": ["Long pebble beaches and a seafront walk", "Quieter than Vodice, with Vodice minutes away", "Popular with families"],
+    "local_q": "What is the difference between Srima and Vodice?",
+    "local_a": "Srima is the quieter neighbour of Vodice: mostly houses and holiday homes along the beach, with less traffic and nightlife. Vodice has more shops, restaurants and year-round services, and it is only a few minutes away."
+  },
+  {
+    "slug": "sibenik",
+    "name": "Šibenik",
+    "lede": "Apartments, houses, villas and building land for sale in Šibenik, a historic city on the sea with life all year round.",
+    "intro": [
+      "Šibenik is the centre of the county and the largest town between Split and Zadar. Its old town of stone streets climbs from the waterfront to the fortresses, and the Cathedral of St James and St Nicholas Fortress are on the UNESCO World Heritage List.",
+      "As a real city, Šibenik has everything open all year: a hospital, schools, shops and services. Krka National Park is a short drive inland."
+    ],
+    "homes": "Šibenik offers the widest choice of property on this coast: apartments in the old town and in newer neighbourhoods, family houses, villas on the edge of town and new builds near the sea.",
+    "land": "Building land in and around Šibenik ranges from small plots in residential areas to larger plots for development. Ownership records here are often complex, so cadastre and land registry checks are especially important.",
+    "highlights": ["Two UNESCO World Heritage sites", "Hospital, schools and services all year", "Krka National Park nearby"],
+    "local_q": "Is Šibenik a good place to live all year?",
+    "local_a": "Yes. Šibenik is a working city with a hospital, schools, shops and services open all year, which makes it the most practical choice on this coast for people who want to live here permanently."
+  },
+  {
+    "slug": "brodarica",
+    "name": "Brodarica",
+    "lede": "Houses, apartments and land for sale in Brodarica, a seaside village just south of Šibenik, facing the island of Krapanj.",
+    "intro": [
+      "Brodarica is a seaside village about 7 km south of Šibenik. It looks out over a narrow channel to Krapanj, a small island known for its sponge diving tradition and reached by a short boat ride.",
+      "With a small harbour, beaches and a promenade, Brodarica is calm, but Šibenik is only about ten minutes away by car."
+    ],
+    "homes": "Property in Brodarica is mostly family houses, holiday houses with apartments and some newer apartment buildings, many with a view of Krapanj and the sea.",
+    "land": "Building plots in Brodarica are usually on the slopes above the village. Sea views are common, so it is worth checking access, utilities and the building zone early.",
+    "highlights": ["View across to the island of Krapanj", "Small harbour and seaside promenade", "About 10 minutes from Šibenik"],
+    "local_q": "Can I buy property on Krapanj through N24?",
+    "local_a": "Krapanj is just across the channel from Brodarica, and Tomislav knows the island well. Ask him about current properties there."
+  },
+  {
+    "slug": "zaboric",
+    "name": "Žaborić",
+    "lede": "Houses, villas, apartments and building land for sale in Žaborić, a quiet village by the sea south of Šibenik.",
+    "intro": [
+      "Žaborić is a small village about 10 km south of Šibenik, on the main coast road towards Primošten. It is known for its beaches and a relaxed pace, with mostly family houses and holiday homes.",
+      "It is close enough to Šibenik for shopping and services, and a little under an hour by car from Split Airport."
+    ],
+    "homes": "Most properties in Žaborić are detached houses and holiday houses with apartments, plus newer villas with pools on the slopes above the sea.",
+    "land": "Žaborić still has building plots with sea views, mostly above the village. N24 checks that each plot lies in the building zone and has access before it is offered.",
+    "highlights": ["Beaches and a quiet village pace", "On the coast road between Šibenik and Primošten", "About 53 km from Split Airport"],
+    "local_q": "Is Žaborić busy in summer?",
+    "local_a": "Žaborić gets livelier in July and August, but it stays a village: there is no large hotel strip, and most of the coast is lined with family houses and holiday homes."
+  },
+  {
+    "slug": "grebastica",
+    "name": "Grebaštica",
+    "lede": "Houses, villas and land for sale in Grebaštica, a village on a long, sheltered bay between Šibenik and Primošten.",
+    "intro": [
+      "Grebaštica is a village about 19 km south of Šibenik, set around a long, sheltered bay. The bay keeps the water calm, which makes it popular with swimmers and small-boat owners.",
+      "It is a quiet place, with Primošten and Šibenik both a short drive away along the coast road."
+    ],
+    "homes": "In Grebaštica you will mostly find family houses and holiday houses, many of them close to the bay, and a smaller number of villas.",
+    "land": "Building plots around the bay and on the slopes above it come up from time to time. Many are made of several older cadastral plots, which is where N24's land consolidation work helps.",
+    "highlights": ["Long, sheltered bay with calm water", "Quiet village between Šibenik and Primošten", "About 47 km from Split Airport"],
+    "local_q": "Is Grebaštica good for people with a boat?",
+    "local_a": "The sheltered bay makes Grebaštica one of the calmer spots on this coast for small boats. Ask Tomislav about properties close to the water and about berths in the area."
+  },
+  {
+    "slug": "primosten",
+    "name": "Primošten",
+    "lede": "Houses, villas, apartments, new builds and building land for sale in Primošten, one of the most beautiful small towns on the Croatian coast.",
+    "intro": [
+      "Primošten is a small town about 28 km south of Šibenik. Its old town sits on a small peninsula crowned by a church, and the hills around it are covered with the famous stone-walled vineyards where the Babić wine grows.",
+      "With pine-shaded beaches, a lively summer and Split Airport about 40 km away, Primošten is one of the most sought-after places to buy on this coast."
+    ],
+    "homes": "Primošten has a wide mix of property: stone houses in and near the old town, modern villas with pools and sea views, apartments, and new developments such as Primošten Resort.",
+    "land": "Building land in Primošten is in high demand and limited in supply, especially with a sea view. Careful checks of the spatial plan, ownership and access are essential before buying.",
+    "highlights": ["Old town on a small peninsula", "Stone-walled vineyards of Babić wine", "About 39 km from Split Airport"],
+    "local_q": "What is Primošten Resort?",
+    "local_a": "Primošten Resort is a development of more than 100 new apartments and villas above Primošten. N24 is a sales channel for the resort, and all its units are listed on the Primošten Resort page."
+  },
+  {
+    "slug": "rogoznica",
+    "name": "Rogoznica",
+    "lede": "Houses, villas, apartments and building land for sale in Rogoznica, a seaside town with a large marina and the nearest to Split Airport.",
+    "intro": [
+      "Rogoznica is a seaside town about 34 km south-east of Šibenik, built partly on a small island joined to the mainland. It is home to Marina Frapa and to the Dragon's Eye, a striking salt-water lake close to the sea.",
+      "Of the eight places N24 covers, Rogoznica is the closest to Split Airport, about 35 km away."
+    ],
+    "homes": "Property in Rogoznica ranges from houses in the old part of town to holiday houses, apartments and modern villas around its many coves.",
+    "land": "Rogoznica's indented coastline means many plots have a sea view. As everywhere, check the building zone, ownership and road access before buying.",
+    "highlights": ["Marina Frapa", "The Dragon's Eye salt-water lake", "About 34 km from Split Airport"],
+    "local_q": "Is Rogoznica a good choice for boat owners?",
+    "local_a": "With Marina Frapa and many sheltered coves, Rogoznica is one of the best places on this coast for boat owners. Ask Tomislav about properties close to the marina."
+  }
+]

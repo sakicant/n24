@@ -22,7 +22,6 @@ listing is entered once in the admin and shows up on every page it belongs to.
 | Hub | URL | Targets |
 | --- | --- | --- |
 | Properties for sale | `/properties/` | real estate for sale Šibenik / Dalmatia |
-| Areas | `/areas/` | real estate Šibenik riviera, links to all 8 area pages |
 | Primošten Resort | `/primosten-resort/` | Primošten Resort apartments for sale |
 | Long-term rentals | `/long-term-rentals/` | long term rent Šibenik |
 | Services | `/services/` | real estate services Croatia |
@@ -122,6 +121,8 @@ and its units appear in the list only when the "New builds" chip is chosen.
 - Hidden admin panel (unlisted URL, password protected).
 
 ## Navigation
+
+"Areas" is a dropdown (no page of its own) listing the 8 area pages.
 
 Buy · Rent · Sell · Areas · Primošten Resort · Services · About · Contact,
 with call and WhatsApp always visible (sticky bar on mobile).

@@ -25,6 +25,32 @@
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !mobileNav.hidden) { setMenu(false); menuBtn.focus(); }
   });
+  // Areas dropdown: hover opens it on desktop; click and keyboard work too.
+  Array.prototype.forEach.call(document.querySelectorAll('.menu-toggle'), function (btn) {
+    btn.addEventListener('click', function () {
+      btn.setAttribute('aria-expanded', String(btn.getAttribute('aria-expanded') !== 'true'));
+    });
+  });
+  document.addEventListener('click', function (e) {
+    Array.prototype.forEach.call(document.querySelectorAll('.menu-toggle[aria-expanded="true"]'), function (btn) {
+      if (!btn.parentNode.contains(e.target)) btn.setAttribute('aria-expanded', 'false');
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    Array.prototype.forEach.call(document.querySelectorAll('.menu-toggle[aria-expanded="true"]'), function (btn) {
+      btn.setAttribute('aria-expanded', 'false'); btn.focus();
+    });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.m-toggle'), function (btn) {
+    var sub = document.getElementById(btn.getAttribute('aria-controls'));
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      sub.hidden = open;
+    });
+  });
+
   window.matchMedia('(min-width: 1081px)').addEventListener('change', function (m) {
     if (m.matches) setMenu(false);
   });

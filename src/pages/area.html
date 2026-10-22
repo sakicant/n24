@@ -1,0 +1,65 @@
+  <section class="band-hero band-hero-short" aria-labelledby="page-title">
+    <div class="wrap band-hero-row">
+      <div>
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span aria-hidden="true">/</span> <span aria-current="page">Real estate {{name}}</span></nav>
+        <h1 id="page-title">Real estate in {{name}}</h1>
+      </div>
+      <p class="lede">{{lede}}</p>
+    </div>
+  </section>
+
+  <section class="area-listings wrap" aria-labelledby="area-listings-title" data-area="{{slug}}">
+    <div class="results-bar">
+      <h2 id="area-listings-title" aria-live="polite">Property for sale in {{name}}</h2>
+      <div class="chips" role="group" aria-label="Property type" id="area-chips"></div>
+    </div>
+    <p class="preview-note">Preview: some listings are samples until the admin panel is live.</p>
+{{resort}}
+    <ul class="grid" id="area-grid"></ul>
+    <div class="empty" id="area-empty" hidden>
+      <p class="empty-title">Nothing listed in {{name}} right now</p>
+      <p>New properties come in every month, often before they are advertised. Tell Tomislav what you are looking for in {{name}}, or if you own property here, let N24 sell it.</p>
+      <div class="empty-actions">
+        <a class="btn btn-red" href="/contact/?topic=buy">Ask Tomislav</a>
+        <a class="btn btn-line" href="/contact/?topic=sell">Sell with N24</a>
+      </div>
+    </div>
+    <p class="more"><a class="link-arrow" href="/properties/?area={{slug}}">Search all property in {{name}} with more filters</a></p>
+  </section>
+
+  <article class="area-guide wrap" aria-labelledby="guide-title">
+    <div class="area-guide-main">
+      <h2 id="guide-title">Living in {{name}}</h2>
+{{intro}}
+      <h2>Houses, villas and apartments in {{name}}</h2>
+      <p>{{homes}}</p>
+      <h2>Building land in {{name}}</h2>
+      <p>{{land}}</p>
+      <h2>Buying property in {{name}}: questions</h2>
+{{faq}}
+    </div>
+    <aside class="area-facts" aria-labelledby="facts-title">
+      <h2 id="facts-title" class="facts-title">{{name}} at a glance</h2>
+      <ul class="ticks">
+{{highlights}}
+      </ul>
+      <h3 class="facts-sub">Driving distances</h3>
+      <dl class="distances">
+{{distances}}
+      </dl>
+      <h3 class="facts-sub">Nearby areas</h3>
+      <ul class="near">
+{{nearby}}
+      </ul>
+    </aside>
+  </article>
+
+  <section class="sell" aria-labelledby="cta-title">
+    <div class="wrap sell-row">
+      <h2 id="cta-title">Looking for property in {{name}}?</h2>
+      <div>
+        <p>Tell Tomislav what you are looking for. He knows what is for sale in {{name}}, including properties that are not advertised yet.</p>
+        <a class="btn btn-red" href="/contact/?topic=buy">Contact Tomislav</a>
+      </div>
+    </div>
+  </section>

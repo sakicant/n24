@@ -7,7 +7,19 @@
       <ul>
         <li><a href="/properties/"{{nav:buy}}>Buy</a></li>
         <li><a href="/contact/?topic=sell">Sell</a></li>
-        <li><a href="/areas/"{{nav:areas}}>Areas</a></li>
+        <li class="has-menu">
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="areas-menu"{{nav:areas}}>Areas <svg class="chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5"/></svg></button>
+          <ul class="dropdown" id="areas-menu">
+            <li><a href="/real-estate-vodice/"{{nav:area-vodice}}>Vodice</a></li>
+            <li><a href="/real-estate-srima/"{{nav:area-srima}}>Srima</a></li>
+            <li><a href="/real-estate-sibenik/"{{nav:area-sibenik}}>Šibenik</a></li>
+            <li><a href="/real-estate-brodarica/"{{nav:area-brodarica}}>Brodarica</a></li>
+            <li><a href="/real-estate-zaboric/"{{nav:area-zaboric}}>Žaborić</a></li>
+            <li><a href="/real-estate-grebastica/"{{nav:area-grebastica}}>Grebaštica</a></li>
+            <li><a href="/real-estate-primosten/"{{nav:area-primosten}}>Primošten</a></li>
+            <li><a href="/real-estate-rogoznica/"{{nav:area-rogoznica}}>Rogoznica</a></li>
+          </ul>
+        </li>
         <li><a href="/services/"{{nav:services}}>Services</a></li>
         <li><a href="/about/"{{nav:about}}>About</a></li>
         <li><a href="/contact/"{{nav:contact}}>Contact</a></li>
@@ -33,7 +45,19 @@
     <ul>
       <li><a href="/properties/">Buy</a></li>
       <li><a href="/contact/?topic=sell">Sell</a></li>
-      <li><a href="/areas/">Areas</a></li>
+      <li class="m-has-menu">
+        <button class="m-toggle" type="button" aria-expanded="false" aria-controls="m-areas">Areas <svg class="chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5"/></svg></button>
+        <ul class="m-sub" id="m-areas" hidden>
+          <li><a href="/real-estate-vodice/">Vodice</a></li>
+          <li><a href="/real-estate-srima/">Srima</a></li>
+          <li><a href="/real-estate-sibenik/">Šibenik</a></li>
+          <li><a href="/real-estate-brodarica/">Brodarica</a></li>
+          <li><a href="/real-estate-zaboric/">Žaborić</a></li>
+          <li><a href="/real-estate-grebastica/">Grebaštica</a></li>
+          <li><a href="/real-estate-primosten/">Primošten</a></li>
+          <li><a href="/real-estate-rogoznica/">Rogoznica</a></li>
+        </ul>
+      </li>
       <li><a href="/services/">Services</a></li>
       <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
