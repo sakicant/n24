@@ -1,3 +1,11 @@
+/* fonts: self-hosted, no requests to Google */
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 500; font-display: swap; src: url('/assets/fonts/cormorant-garamond-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 500; font-display: swap; src: url('/assets/fonts/cormorant-garamond-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 600; font-display: swap; src: url('/assets/fonts/cormorant-garamond-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 600; font-display: swap; src: url('/assets/fonts/cormorant-garamond-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/assets/fonts/manrope-400-700-latin-ext.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/assets/fonts/manrope-400-700-latin.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 :root {
   --navy: #13264B;
   --navy-2: #22365C;
@@ -336,8 +344,16 @@ body.menu-open { overflow: hidden; }
 .consent input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--navy); flex: none; }
 .enquiry .btn { margin-top: 20px; }
 .form-status { margin-top: 16px; padding: 14px 16px; background: var(--sand-2); color: var(--navy); font-size: .9375rem; }
-.map { height: clamp(320px, 40vw, 460px); border-top: 1px solid var(--line); }
-.map iframe { display: block; width: 100%; height: 100%; border: 0; filter: grayscale(.35) contrast(1.02); }
+.map { position: relative; height: clamp(320px, 40vw, 460px); border-top: 1px solid var(--line); background: var(--sand-2); }
+.map-link { position: absolute; right: 16px; bottom: 16px; background: var(--navy); color: var(--sand); font-weight: 600; font-size: .875rem; padding: 10px 14px; text-decoration: none; }
+.map-link:hover { background: var(--navy-2); }
+.cookie-banner { position: fixed; left: 20px; bottom: 20px; z-index: 60; width: min(420px, calc(100% - 40px)); padding: 20px; background: var(--sand); color: var(--ink); border: 1px solid var(--line); box-shadow: 0 12px 32px -12px rgba(19, 38, 75, .35); font-size: .875rem; }
+.cookie-banner p { line-height: 1.55; }
+.cookie-banner strong { display: block; font-family: var(--serif); font-size: 1.25rem; color: var(--navy); margin-bottom: 4px; }
+.cookie-banner a { color: var(--navy); font-weight: 600; }
+.cookie-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 14px; }
+.cookie-actions .btn { min-height: 42px; }
+.map iframe { display: block; width: 100%; height: 100%; border: 0; filter: grayscale(.3); }
 
 /* services page */
 .service-index { display: flex; flex-wrap: wrap; gap: 8px 28px; padding-top: 28px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
@@ -406,6 +422,7 @@ body.menu-open { overflow: hidden; }
   .step-desc { grid-column: 2; }
   .footer-grid { grid-template-columns: minmax(0, 1fr); }
   .footer-bottom { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .cookie-banner { left: 12px; right: 12px; bottom: 12px; width: auto; }
   .fb-copy, .fb-credit { text-align: left; }
 }
 @media (prefers-reduced-motion: reduce) {
