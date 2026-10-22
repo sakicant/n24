@@ -42,6 +42,18 @@ const pages = [
     description: 'Call, WhatsApp or email Tomislav Plenča at N24 Real Estate, Bože Peričića 26, Šibenik. Buying, selling and land on the coast from Vodice to Rogoznica.',
     scripts: ['/assets/js/contact.js'],
   },
+  {
+    src: 'privacy.html', out: 'privacy-policy/index.html', path: '/privacy-policy/', nav: null, bodyClass: 'has-band-hero',
+    title: 'Privacy Policy and Cookies | N24 Real Estate',
+    description: 'How Nekretnine 24 d.o.o. collects, uses and protects personal data, and how this website uses cookies.',
+    scripts: [],
+  },
+  {
+    src: 'terms.html', out: 'terms/index.html', path: '/terms/', nav: null, bodyClass: 'has-band-hero',
+    title: 'Terms of Use | N24 Real Estate',
+    description: 'General terms of use of the N24 Real Estate website, published by Nekretnine 24 d.o.o., Šibenik.',
+    scripts: [],
+  },
 ];
 
 const version = createHash('md5')
