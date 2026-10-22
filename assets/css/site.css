@@ -424,9 +424,13 @@ body.menu-open { overflow: hidden; }
   .steps li { grid-template-columns: 32px minmax(0, 1fr); }
   .step-desc { grid-column: 2; }
   .footer-grid { grid-template-columns: minmax(0, 1fr); }
-  .footer-bottom { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .footer-bottom { grid-template-columns: minmax(0, 1fr); gap: 8px; text-align: center; }
+  .site-footer .footer-grid { text-align: center; }
+  .f-office svg { margin-left: auto; margin-right: auto; }
+  .f-legal div { display: flex; justify-content: center; gap: 8px; }
+  .site-footer p { margin-left: auto; margin-right: auto; max-width: 36ch; }
   .cookie-banner { left: 12px; right: 12px; bottom: 12px; width: auto; }
-  .fb-copy, .fb-credit { text-align: left; }
+  .fb-copy, .fb-credit { text-align: center; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: .01ms !important; scroll-behavior: auto !important; }
