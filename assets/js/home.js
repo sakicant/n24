@@ -8,6 +8,7 @@
 
   var areaGrid = document.querySelector('.area-grid');
   var go = document.getElementById('show-all');
+  var goLabel = document.getElementById('show-all-label');
   var latest = document.getElementById('latest');
   var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
 
@@ -53,14 +54,14 @@
     var place = state.area ? ' in ' + areaName(state.area) : '';
     if (n === 0) {
       go.href = '/contact/?topic=buy';
-      go.textContent = 'Nothing yet' + place + ', ask Tomislav';
+      goLabel.textContent = 'Nothing yet' + place + ', ask Tomislav';
       return;
     }
     var p = new URLSearchParams();
     if (state.area) p.set('area', state.area);
     if (state.type !== 'all') p.set('type', state.type);
     go.href = '/properties/' + (p.toString() ? '?' + p.toString() : '');
-    go.textContent = 'Show ' + n + ' ' + (n === 1 ? SINGULAR[what] : what) + place;
+    goLabel.textContent = 'Show ' + n + ' ' + (n === 1 ? SINGULAR[what] : what) + place;
   }
 
   chips.forEach(function (c) {
