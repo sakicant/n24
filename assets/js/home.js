@@ -70,7 +70,10 @@
     });
 
     // Phones get a plain grid of places instead of the coast road.
-    AREAS.concat([{ id: null, name: 'All properties' }]).forEach(function (a) {
+    // Grid order on phones: Šibenik and Brodarica first, then Vodice and Srima.
+    var GRID_ORDER = ['sibenik', 'brodarica', 'vodice', 'srima', 'zaboric', 'grebastica', 'primosten', 'rogoznica'];
+    GRID_ORDER.map(function (id) { return AREAS.filter(function (a) { return a.id === id; })[0]; })
+      .concat([{ id: null, name: 'All properties' }]).forEach(function (a) {
       var b = document.createElement('button');
       b.type = 'button';
       b.className = 'area-btn' + (a.id ? '' : ' area-all');

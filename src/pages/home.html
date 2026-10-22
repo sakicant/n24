@@ -13,21 +13,8 @@
       <div class="wrap">
         <div class="finder-head">
           <h2 id="finder-title">Find a property</h2>
-          <p>Choose a type and a place. The listings below update straight away.</p>
+          <p>Choose a place and a type. The listings below update straight away.</p>
         </div>
-        <p class="filter-label" id="lbl-type">Type</p>
-        <div class="road-controls">
-          <div class="chips" role="group" aria-labelledby="lbl-type">
-            <button type="button" class="chip" data-type="all" aria-pressed="true">All</button>
-            <button type="button" class="chip" data-type="house" aria-pressed="false">Houses</button>
-            <button type="button" class="chip" data-type="apartment" aria-pressed="false">Apartments</button>
-            <button type="button" class="chip" data-type="villa" aria-pressed="false">Villas</button>
-            <button type="button" class="chip" data-type="land" aria-pressed="false">Land</button>
-            <button type="button" class="chip" data-type="new-build" aria-pressed="false">New builds</button>
-          </div>
-          <a class="btn btn-navy" id="show-all" href="/properties-for-sale/">Show all properties</a>
-        </div>
-
         <p class="filter-label" id="lbl-place">Place</p>
         <div class="road-scroll" tabindex="-1">
           <div class="road" role="group" aria-labelledby="lbl-place">
@@ -43,6 +30,19 @@
         </div>
 
         <div class="area-grid" role="group" aria-labelledby="lbl-place"></div>
+
+        <p class="filter-label" id="lbl-type">Type</p>
+        <div class="road-controls">
+          <div class="chips" role="group" aria-labelledby="lbl-type">
+            <button type="button" class="chip" data-type="all" aria-pressed="true">All</button>
+            <button type="button" class="chip" data-type="house" aria-pressed="false">Houses</button>
+            <button type="button" class="chip" data-type="apartment" aria-pressed="false">Apartments</button>
+            <button type="button" class="chip" data-type="villa" aria-pressed="false">Villas</button>
+            <button type="button" class="chip" data-type="land" aria-pressed="false">Land</button>
+            <button type="button" class="chip" data-type="new-build" aria-pressed="false">New builds</button>
+          </div>
+          <a class="btn btn-navy" id="show-all" href="/properties-for-sale/">Show all properties</a>
+        </div>
         <p class="preview-note">Preview: counts include sample listings until the admin panel is live.</p>
       </div>
   </section>
