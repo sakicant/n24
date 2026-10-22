@@ -127,6 +127,10 @@ body.menu-open { overflow: hidden; }
 .area-btn[aria-pressed="true"] { border: 2px solid var(--red); padding: 0 13px; }
 .area-btn[aria-pressed="true"] .a-name, .area-btn[aria-pressed="true"] .a-n { color: var(--red); }
 .road-controls { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.finder-go { margin-top: 24px; }
+.finder-go .btn { min-height: 54px; padding: 0 28px; font-size: 1rem; }
+.latest { padding-top: clamp(56px, 7vw, 96px); padding-bottom: clamp(56px, 7vw, 96px); }
+.latest .section-head { align-items: center; }
 #lbl-type { margin-top: 20px; padding-top: 18px; border-top: 1px solid var(--line); }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip { min-height: 40px; padding: 0 16px; background: transparent; border: 1px solid var(--line); color: var(--navy); font: 500 .875rem/1 var(--sans); cursor: pointer; transition: border-color .2s, background-color .2s, color .2s; }
@@ -333,7 +337,10 @@ body.menu-open { overflow: hidden; }
   .hero-copy, .resort-row, .contact, .service, .about-what, .sell-row, .services, .agent-row { grid-template-columns: minmax(0, 1fr); }
   .hero-copy { gap: 16px; }
   .lede { padding-bottom: 0; }
-  #show-all { display: none; }
+  .finder-go .btn { width: 100%; }
+  .grid.latest-row { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 84%; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; scrollbar-width: none; }
+  .latest-row .card { scroll-snap-align: start; }
+  .latest .section-head { flex-direction: column; align-items: flex-start; gap: 10px; }
   .search { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .filters-toggle { display: inline-flex; justify-self: start; }
   .filters-count { font-weight: 600; }
@@ -349,7 +356,7 @@ body.menu-open { overflow: hidden; }
   .area-btn.area-all { grid-column: 1 / -1; grid-row: auto; }
   .road-controls { flex-direction: column; align-items: stretch; }
   .chip { flex: 1 1 auto; }
-  .resort-photo { max-width: 460px; }
+  .resort-photo { max-width: 460px; margin: 8px; outline-offset: 8px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .band-hero-row { grid-template-columns: minmax(0, 1fr); gap: 16px; padding-top: 128px; }
   .hero-copy { padding-top: 110px; grid-template-areas: "title" "lede" "actions"; gap: 16px; }

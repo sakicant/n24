@@ -238,7 +238,7 @@ Plain, square and confident; colour does the work.
 - **Mobile (under 1080px):** 72px header with WhatsApp and call icons (27px) and a 46px square menu button with a currentColor border; the three-bar icon morphs to a cross. The open menu lists links in Cormorant 1.75rem with hairlines between, then phone and email.
 
 ### Place Grid (signature)
-The homepage finder: "Find a property" with Place then Type. White square tiles with a hairline border, Cormorant 1.25rem name and Manrope 600 count; 4 columns plus a 2-row All properties tile on desktop, 2 columns with All properties full width at the bottom on phones. The selected tile gets a 2px red border and red text; places with no listings grey out. Selection filters the listing grid in place with a 0.25s opacity crossfade and writes `?area=&type=` to the URL; "Show N properties" opens /properties-for-sale/ with the same filters.
+The homepage finder: "Find a property" with Place then Type. White square tiles with a hairline border, Cormorant 1.25rem name and Manrope 600 count; 4 columns plus a 2-row All properties tile on desktop, 2 columns with All properties full width at the bottom on phones. The selected tile gets a 2px red border and red text; places with no listings grey out. Selection filters the listing grid in place with a 0.25s opacity crossfade and writes `?area=&type=` to the URL; "Show N properties" opens /properties/ with the same filters.
 
 ### Ruled Lists
 Services and contact details are ruled lists, not cards: a navy 1px top rule, hairline rows, Cormorant name with Manrope description (services) or navy 600 value with a Slate Ink label (contact). Service rows nudge 10px right on hover; contact rows turn red on hover.
@@ -258,6 +258,6 @@ Services and contact details are ruled lists, not cards: a navy 1px top rule, ha
 - **Don't** use rounded corners, pills or circles on buttons, chips, cards or images.
 - **Don't** add box shadows or floating panels; the system is flat.
 - **Don't** use red as a background band, a heading colour or decoration.
-- **Don't** put a search box floating over a hero photo or add a featured carousel; the place grid is the homepage search, /properties-for-sale/ is the full search.
+- **Don't** put a search box floating over a hero photo or add a featured carousel; the place grid is the homepage search, /properties/ is the full search.
 - **Don't** add uppercase letterspaced labels or kickers above headings; the only letterspaced caps are REAL ESTATE inside the logo.
 - **Don't** recolour or redraw the logo: red empty square frame, N24 in Cormorant Garamond, the line underneath in the page language (REAL ESTATE / NEKRETNINE / IMMOBILIEN) in Manrope 600, spanning the full width (brand/logo-{en,hr,de}-*.svg).

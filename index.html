@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css?v=f20030c7">
+<link rel="stylesheet" href="/assets/css/site.css?v=31de661e">
 </head>
 <body class="has-photo-hero">
 <a class="skip" href="#main">Skip to content</a>
@@ -21,7 +21,7 @@
     </a>
     <nav class="main-nav" aria-label="Main">
       <ul>
-        <li><a href="/properties-for-sale/">Buy</a></li>
+        <li><a href="/properties/">Buy</a></li>
         <li><a href="/sell-your-property/">Sell</a></li>
         <li><a href="/areas/">Areas</a></li>
         <li><a href="/services/">Services</a></li>
@@ -47,7 +47,7 @@
   </div>
   <nav id="mobile-nav" class="mobile-nav" aria-label="Main" hidden>
     <ul>
-      <li><a href="/properties-for-sale/">Buy</a></li>
+      <li><a href="/properties/">Buy</a></li>
       <li><a href="/sell-your-property/">Sell</a></li>
       <li><a href="/areas/">Areas</a></li>
       <li><a href="/services/">Services</a></li>
@@ -79,7 +79,7 @@
       <div class="wrap">
         <div class="finder-head">
           <h2 id="finder-title">Find a property</h2>
-          <p>Choose a place and a type. The listings below update straight away.</p>
+          <p>Choose a place and a type, then see every property that matches.</p>
         </div>
         <p class="filter-label" id="lbl-place">Place</p>
         <div class="area-grid" role="group" aria-labelledby="lbl-place"></div>
@@ -94,27 +94,12 @@
             <button type="button" class="chip" data-type="land" aria-pressed="false">Land</button>
             <button type="button" class="chip" data-type="new-build" aria-pressed="false">New builds</button>
           </div>
-          <a class="btn btn-navy" id="show-all" href="/properties-for-sale/">Show all properties</a>
+        </div>
+        <div class="finder-go">
+          <a class="btn btn-red" id="show-all" href="/properties/">Show all properties</a>
         </div>
         <p class="preview-note">Preview: counts include sample listings until the admin panel is live.</p>
       </div>
-  </section>
-
-  <section class="listings wrap" aria-labelledby="listings-title">
-    <div class="section-head">
-      <h2 id="listings-title">For sale on the coast</h2>
-      <p class="count" id="listings-count" aria-live="polite"></p>
-    </div>
-    <ul class="grid" id="grid"></ul>
-    <div class="empty" id="empty" hidden>
-      <p class="empty-title">Nothing listed here right now</p>
-      <p>New properties come in every month, often before they are advertised. Tell Tomislav what you are looking for, or if you own property here, let N24 sell it.</p>
-      <div class="empty-actions">
-        <a class="btn btn-red" href="https://wa.me/385957007001">Message Tomislav</a>
-        <a class="btn btn-line" href="/sell-your-property/">Sell with N24</a>
-      </div>
-    </div>
-    <p class="more"><a class="link-arrow" id="more-link" href="/properties-for-sale/">See every property for sale</a></p>
   </section>
 
   <section class="agent" aria-labelledby="agent-title">
@@ -132,6 +117,14 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="latest wrap" aria-labelledby="latest-title">
+    <div class="section-head">
+      <h2 id="latest-title">Latest properties</h2>
+      <a class="link-arrow" href="/properties/">See all properties</a>
+    </div>
+    <ul class="grid latest-row" id="latest"></ul>
   </section>
 
   <section class="resort" aria-labelledby="resort-title">
@@ -199,11 +192,11 @@
     <nav aria-label="Property types">
       <h2 class="f-title">For sale</h2>
       <ul>
-        <li><a href="/properties-for-sale/houses/">Houses</a></li>
-        <li><a href="/properties-for-sale/apartments/">Apartments</a></li>
-        <li><a href="/properties-for-sale/villas/">Villas</a></li>
-        <li><a href="/properties-for-sale/land/">Land</a></li>
-        <li><a href="/properties-for-sale/new-builds/">New builds</a></li>
+        <li><a href="/properties/houses/">Houses</a></li>
+        <li><a href="/properties/apartments/">Apartments</a></li>
+        <li><a href="/properties/villas/">Villas</a></li>
+        <li><a href="/properties/land/">Land</a></li>
+        <li><a href="/properties/new-builds/">New builds</a></li>
         <li><a href="/primosten-resort/">Primošten Resort</a></li>
       </ul>
     </nav>
@@ -224,8 +217,8 @@
     <p>Website by <a href="https://antoniodigital.com" target="_blank" rel="noopener">Antonio Digital</a></p>
   </div>
 </footer>
-<script src="/assets/js/site.js?v=f20030c7" defer></script>
-<script src="/assets/js/listings.js?v=f20030c7" defer></script>
-<script src="/assets/js/home.js?v=f20030c7" defer></script>
+<script src="/assets/js/site.js?v=31de661e" defer></script>
+<script src="/assets/js/listings.js?v=31de661e" defer></script>
+<script src="/assets/js/home.js?v=31de661e" defer></script>
 </body>
 </html>

@@ -21,7 +21,7 @@ listing is entered once in the admin and shows up on every page it belongs to.
 
 | Hub | URL | Targets |
 | --- | --- | --- |
-| Properties for sale | `/properties-for-sale/` | real estate for sale Šibenik / Dalmatia |
+| Properties for sale | `/properties/` | real estate for sale Šibenik / Dalmatia |
 | Areas | `/areas/` | real estate Šibenik riviera, links to all 8 area pages |
 | Primošten Resort | `/primosten-resort/` | Primošten Resort apartments for sale |
 | Long-term rentals | `/long-term-rentals/` | long term rent Šibenik |
@@ -68,11 +68,11 @@ and its units appear in the list only when the "New builds" chip is chosen.
 
 ### Type pages (whole region)
 
-- `/properties-for-sale/houses/`
-- `/properties-for-sale/apartments/`
-- `/properties-for-sale/villas/`
-- `/properties-for-sale/land/` (most important: land investment is N24's specialty)
-- `/properties-for-sale/new-builds/`
+- `/properties/houses/`
+- `/properties/apartments/`
+- `/properties/villas/`
+- `/properties/land/` (most important: land investment is N24's specialty)
+- `/properties/new-builds/`
 
 ### Primošten Resort
 
@@ -80,7 +80,7 @@ and its units appear in the list only when the "New builds" chip is chosen.
   a unit table for all 100+ units (building, floor, size, bedrooms, price,
   status: available / reserved / sold) with filters, enquiry form.
 - Its units are normal listings tagged "Primošten Resort", so they also appear
-  in the general search, on `/properties-for-sale/new-builds/` and (via the
+  in the general search, on `/properties/new-builds/` and (via the
   featured card) on `/real-estate-primosten/`.
 - primosten-resort.hr is the owner's official site and will win searches for
   the bare name. Our page targets the buying searches around it ("Primošten
