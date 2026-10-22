@@ -1,0 +1,9 @@
+node_modules/
+.vercel/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.impeccable/config.local.json
+.claude/settings.local.json
+.claude/worktrees/

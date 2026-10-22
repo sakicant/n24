@@ -1,0 +1,26 @@
+# Example Company
+# https://example.com
+
+> Example Company helps small SaaS teams ship AI-powered features faster. Free tier, no setup. Used by thousands of solo founders and small teams.
+
+## Main Pages
+
+- [Homepage](https://example.com/): Product overview and signup.
+- [Features](https://example.com/features): Full feature list with screenshots.
+- [Pricing](https://example.com/pricing): Free, Pro, and Team tiers.
+- [Docs](https://example.com/docs): Setup guide and API reference.
+- [Blog](https://example.com/blog): Tutorials and product updates.
+
+## Key Concepts
+
+- **Workflow**: A reusable AI process that runs on schedule or trigger.
+- **Connector**: An integration with an external service (Slack, GitHub, etc.).
+
+## How It Works
+
+1. Sign up with email — no credit card.
+2. Pick a workflow template or start from scratch.
+3. Connect your tools (Slack, GitHub, Linear, etc.).
+4. Run the workflow on demand or schedule it.
+
+Free tier covers 100 runs per month. Upgrade for unlimited.
