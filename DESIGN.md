@@ -206,7 +206,7 @@ Flat. There are no box shadows anywhere in the system. Depth comes from three to
 
 ## Shapes
 
-Controls are slightly rounded: 8px on buttons, place tiles and the menu button, 6px on chips, inputs and selects, 12px on the enquiry form and cookie banner; cards, images and tags stay square. The logo's empty square frame is the recurring geometry: the selected place tile gets a 2px red border, and the portrait frame is a 3px red square border. Images fill 4:3 (cards) or 4:5 (portrait, feature) frames with `object-fit: cover`. Lines are 1px, with 2px for the selected tile and 3px for red frames.
+Controls are slightly rounded: 8px on buttons, place tiles and the menu button, 6px on chips, inputs and selects, 12px on the enquiry form, cookie banner and all photos (listing images, feature photos, the portrait frame); full-width hero photos and tags stay square. The logo's empty square frame is the recurring geometry: the selected place tile gets a 2px red border, and the portrait frame is a 3px red square border. Images fill 4:3 (cards) or 4:5 (portrait, feature) frames with `object-fit: cover`. Lines are 1px, with 2px for the selected tile and 3px for red frames.
 
 ### Named Rules
 **The Square Frame Rule.** Selection and emphasis are shown with a square frame, never with a pill, a circle or a rounded corner.
@@ -248,14 +248,14 @@ Services and contact details are ruled lists, not cards: a navy 1px top rule, ha
 ### Do:
 - **Do** keep the page on Dalmatian Sand (#F6F3EE) with navy (#13264B) headings and line work, and ink (#1A1A1A) body text.
 - **Do** spend red (#D2252E) only on the logo, the current selection, prices and the one primary contact action in view.
-- **Do** round controls slightly (8px buttons and tiles, 6px chips and inputs) and keep photos and cards square; show selection with a red frame.
+- **Do** round controls slightly (8px buttons and tiles, 6px chips and inputs) and photos at 12px; show selection with a red frame.
 - **Do** set every number with lining tabular figures, in Manrope.
 - **Do** separate with 1px hairlines and tonal bands instead of shadows.
 - **Do** use Cormorant Garamond 600 for names and headlines at 1.25rem or larger, and Manrope for all functional text.
 - **Do** crop photography into 4:3 or 4:5 square-cornered frames or full-bleed bands, with descriptive alt text.
 
 ### Don't:
-- **Don't** use pills or circles; keep rounding subtle and leave photos square.
+- **Don't** use pills or circles; keep rounding subtle.
 - **Don't** add heavy or decorative shadows; buttons get one soft shadow in their own colour, and floating elements (cookie banner) a soft drop.
 - **Don't** use red as a background band, a heading colour or decoration.
 - **Don't** put a search box floating over a hero photo or add a featured carousel; the place grid is the homepage search, /properties/ is the full search.
