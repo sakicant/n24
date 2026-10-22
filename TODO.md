@@ -8,6 +8,9 @@ Open items for the website. Tick them off as they are done.
 - [ ] Photos: new shoot for the hero and all listings (current ones are temporary).
 - [ ] Area pages: Tomislav to read and confirm the local texts for all 8 places.
 
+## Links
+- [ ] Footer social links still to add: Instagram, TikTok, Google Business Profile (now "#", marked data-todo in src/partials/footer.html). Facebook and LinkedIn are taken from the old site; confirm they are current.
+
 ## Legal
 - [ ] Tomislav (ideally with his lawyer or accountant) to read the Privacy Policy and Terms of Use.
 
