@@ -59,8 +59,9 @@ Tomislav for Primošten Resort.
 ## Brand Commitments
 
 - Name: N24 (Nekretnine 24 d.o.o.). Wordmark "N24", no space.
-- Logo: empty red square frame + "N24" wordmark + "REAL ESTATE" letterspaced
-  (brand/logo-a-*.svg, drafts).
+- Logo: empty red square frame + "N24" wordmark + a line underneath spanning
+  its full width, in the page language: "REAL ESTATE" (en), "NEKRETNINE" (hr),
+  "IMMOBILIEN" (de). Files: brand/logo-{en,hr,de}-*.svg.
 - Palette: navy #13264B, red #D2252E (accent only), sand #F6F3EE, ink #1A1A1A.
 - Client references they like: regent.hr, sothebysrealty.hr.
 

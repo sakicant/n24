@@ -8,6 +8,9 @@ import { fileURLToPath } from 'node:url';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => readFileSync(join(root, p), 'utf8');
 
+// The line under N24 in the logo, in each site language.
+const LOGO_TAGLINE = { en: 'REAL ESTATE', hr: 'NEKRETNINE', de: 'IMMOBILIEN' };
+
 const pages = [
   {
     src: 'home.html', out: 'index.html', path: '/', nav: null, bodyClass: 'has-photo-hero',
@@ -38,9 +41,11 @@ const header = read('src/partials/header.html');
 const footer = read('src/partials/footer.html');
 
 for (const page of pages) {
+  const lang = page.lang || 'en';
   const head = header.replace(/\{\{nav:(\w+)\}\}/g, (_, id) => (id === page.nav ? ' aria-current="page"' : ''));
   const scripts = page.scripts.map((s) => `<script src="${s}?v=${version}" defer></script>`).join('\n');
   const html = layout
+    .replace('{{lang}}', lang)
     .replace('{{title}}', page.title)
     .replace('{{description}}', page.description)
     .replace('{{path}}', page.path)
@@ -49,6 +54,7 @@ for (const page of pages) {
     .replace('{{footer}}', footer.trim())
     .replace('{{content}}', read(`src/pages/${page.src}`).trim())
     .replace('{{scripts}}', scripts)
+    .replaceAll('{{logo_tagline}}', LOGO_TAGLINE[lang])
     .replaceAll('{{version}}', version);
   const out = join(root, page.out);
   mkdirSync(dirname(out), { recursive: true });

@@ -56,6 +56,7 @@ decisions are made.
 - Logo: concept A, "the frame, refined". An empty red square frame (a window /
   plot boundary), the "N24" wordmark in Cormorant Garamond beside it, and
   "REAL ESTATE" letterspaced underneath (changed from "REAL ESTATE CROATIA").
+  That line is in the page language: NEKRETNINE (hr), IMMOBILIEN (de).
   Wordmark is "N24" with no space.
 - Homepage / general title: "N24 Real Estate".
 - SEO model: hub and spoke like taxisibenik.hr, with one page per area

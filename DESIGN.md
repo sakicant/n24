@@ -261,4 +261,4 @@ Services and contact details are ruled lists, not cards: a navy 1px top rule, ha
 - **Don't** put a search box floating over a hero photo or add a featured carousel; the coast road is the search.
 - **Don't** reorder, wrap or collapse the coast road; on phones it scrolls.
 - **Don't** add uppercase letterspaced labels or kickers above headings; the only letterspaced caps are REAL ESTATE inside the logo.
-- **Don't** recolour or redraw the logo: red empty square frame, N24 in Cormorant Garamond, REAL ESTATE in letterspaced Manrope (brand/logo-a-horizontal.svg, brand/logo-a-reversed.svg on navy).
+- **Don't** recolour or redraw the logo: red empty square frame, N24 in Cormorant Garamond, REAL ESTATE in letterspaced Manrope (brand/logo-en-horizontal.svg, brand/logo-en-reversed.svg on navy).
