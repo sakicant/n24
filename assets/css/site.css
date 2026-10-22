@@ -343,6 +343,9 @@ body.menu-open { overflow: hidden; }
 .consent { display: flex; gap: 12px; align-items: flex-start; font-size: .875rem; color: var(--ink-2); margin: 4px 0 4px; cursor: pointer; }
 .consent input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--navy); flex: none; }
 .enquiry .btn { margin-top: 20px; }
+.topic-hint { margin: -6px 0 18px; padding: 12px 14px; background: var(--sand-2); color: var(--navy); font-size: .875rem; line-height: 1.5; }
+.topic-hint a { font-weight: 600; color: var(--navy); }
+.sell-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .form-status { margin-top: 16px; padding: 14px 16px; background: var(--sand-2); color: var(--navy); font-size: .9375rem; }
 .map { position: relative; height: clamp(320px, 40vw, 460px); border-top: 1px solid var(--line); background: var(--sand-2); }
 .map-link { position: absolute; right: 16px; bottom: 16px; background: var(--navy); color: var(--sand); font-weight: 600; font-size: .875rem; padding: 10px 14px; text-decoration: none; }

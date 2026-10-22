@@ -9,6 +9,31 @@
   var radio = topic && form.querySelector('input[name="topic"][value="' + topic + '"]');
   if (radio) radio.checked = true;
 
+  // Each topic gets its own example, so people know what to write.
+  var msg = document.getElementById('f-msg');
+  var hint = document.getElementById('topic-hint');
+  var TOPICS = {
+    buy: { ph: 'For example: a house with a sea view in Primošten or Rogoznica, up to €600,000.' },
+    sell: {
+      ph: 'For example: 3-bedroom house in Vodice, 140 m² on a 500 m² plot, 300 m from the sea. Asking about €400,000.',
+      hint: 'Selling? Tell Tomislav the place, type, size, plot size and your asking price if you have one. Photos are easiest by WhatsApp on +385 95 700 7001.'
+    },
+    land: { ph: 'For example: building plot of about 1,000 m² near Grebaštica or Žaborić, for a holiday house.' },
+    other: { ph: 'How can Tomislav help?' }
+  };
+  function applyTopic() {
+    var t = form.querySelector('input[name="topic"]:checked').value;
+    msg.placeholder = TOPICS[t].ph;
+    hint.hidden = !TOPICS[t].hint;
+    hint.innerHTML = TOPICS[t].hint
+      ? TOPICS[t].hint.replace('+385 95 700 7001', '<a href="https://wa.me/385957007001">+385 95 700 7001</a>')
+      : '';
+  }
+  Array.prototype.forEach.call(form.querySelectorAll('input[name="topic"]'), function (r) {
+    r.addEventListener('change', applyTopic);
+  });
+  applyTopic();
+
   var checks = [
     { input: 'f-name', error: 'e-name', ok: function (v) { return v.trim().length > 1; } },
     { input: 'f-email', error: 'e-email', ok: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()); } },

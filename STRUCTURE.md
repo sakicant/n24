@@ -115,7 +115,7 @@ and its units appear in the list only when the "New builds" chip is chosen.
 
 ## Utility pages
 
-- `/sell-your-property/` : owner form (location, type, size, asking price, photos, contact).
+- Selling: no separate page. Owners reach N24 by WhatsApp, phone or the contact form; every "Sell" link opens `/contact/?topic=sell`, which preselects Sell and asks for the property details.
 - `/about/` : the agency since 2010, Tomislav Plenča with photo.
 - `/contact/`
 - `/privacy-policy/`, `/terms/`, cookie notice.
