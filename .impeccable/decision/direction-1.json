@@ -1,0 +1,123 @@
+{
+  "title": "N24 homepage: choose the direction",
+  "question": "Logo A and palette 1 stay fixed. This decides how the homepage is built around them.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The coast road",
+      "kicker": "THE ROLL",
+      "lineage": "Jadranska magistrala (D8) strip maps and km stones",
+      "thesis": "Your 8 areas sit in exact order on one road, Vodice to Rogoznica, so the coast itself becomes the search.",
+      "palette": ["#13264B", "#D2252E", "#F6F3EE", "#1A1A1A"],
+      "materials": ["strip-map coastline line work", "km-stone markers", "listing photography"],
+      "viewport": "A full-width sea photo above an edge-to-edge strip map of the coast with 8 stops (Vodice, Srima, Šibenik, Brodarica, Žaborić, Grebaštica, Primošten, Rogoznica), each with its listing count. Tap a stop and the listings below filter to it. Type chips and a Search button sit on the strip.",
+      "risk": "The strip must stay readable on phones, where it scrolls sideways as a coast ribbon.",
+      "raised": [
+        {"from": "challenger-glazier", "raise": "Red is reserved for what matters now: the selected stop, the price and the one primary action. Nothing else is red."},
+        {"from": "challenger-indoor-sun", "raise": "One long horizon band: the coastline strip runs edge to edge and every section aligns to it."},
+        {"from": "challenger-detector", "raise": "Distances and prices set in tabular figures, like km stones: 12 km to Šibenik, 300 m to the sea."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "The cadastral sheet",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Croatian katastarski plan and parcel survey drawings",
+      "thesis": "The red frame is a plot boundary; every listing is a parcel with its number, area and outline.",
+      "palette": ["#13264B", "#D2252E", "#F6F3EE", "#1A1A1A"],
+      "materials": ["thin navy survey line work", "parcel numbers", "listing photography"],
+      "viewport": "A sand-colored survey sheet with fine parcel outlines across the page; the headline sits inside one red-framed parcel, the search bar in the title block, featured listings as numbered parcels.",
+      "risk": "Speaks loudest to land buyers; house buyers may find it technical. It is also close to where many agency sites go."
+    },
+    {
+      "id": "challenger-glazier",
+      "label": "Glazier's partition",
+      "verdict": "declined",
+      "lineage": "steel-framed colored glass walls",
+      "thesis": "Listings as panes in a black glazing grid.",
+      "palette": ["#111111", "#E9EEF0", "#1F4FA8", "#B23A2E"],
+      "materials": ["black glazing bars", "seeded glass"],
+      "viewport": "A wall of panes, one lit per listing.",
+      "case": "Buyers don't connect a glass wall to a coastal home; the color-per-pane system fights the pinned palette.",
+      "risk": "Reads as an art piece, not an agency.",
+      "kept": "Red only for what matters now."
+    },
+    {
+      "id": "challenger-indoor-sun",
+      "label": "Indoor weather sun",
+      "verdict": "declined",
+      "lineage": "installation art, amber haze",
+      "thesis": "One vast horizontal band of light.",
+      "palette": ["#E8A23A", "#1A1208"],
+      "materials": ["haze", "mirror"],
+      "viewport": "A half sun on a horizon line.",
+      "case": "Amber monochrome erases listing photos and the pinned palette.",
+      "risk": "Photos become unreadable.",
+      "kept": "One long horizon band as the page's spine."
+    },
+    {
+      "id": "challenger-detector",
+      "label": "Collider event display",
+      "verdict": "declined",
+      "lineage": "particle physics event displays",
+      "thesis": "Concentric rings and tracks.",
+      "palette": ["#0B0E14", "#F2C94C", "#4FC3F7", "#E53935"],
+      "materials": ["WebGL tracks", "tabular figures"],
+      "viewport": "A ring section with tracks.",
+      "case": "No buyer identifies with a detector; too abstract for listings.",
+      "risk": "Pure spectacle.",
+      "kept": "Numbers in tabular figures."
+    },
+    {
+      "id": "challenger-flyer",
+      "label": "Torn flyer wall",
+      "verdict": "declined",
+      "lineage": "club photocopy flyer walls",
+      "thesis": "Layers of torn posters.",
+      "palette": ["#111111", "#FF4FA3", "#F5F04A"],
+      "materials": ["photocopy", "staples"],
+      "viewport": "Torn strips over older sheets.",
+      "case": "Undermines trust for a purchase this size.",
+      "risk": "Feels cheap and loud.",
+      "kept": "Nothing material."
+    },
+    {
+      "id": "challenger-algorave",
+      "label": "Algorave floor",
+      "verdict": "declined",
+      "lineage": "live-coded music",
+      "thesis": "Projected code as stage.",
+      "palette": ["#000000", "#39FF14", "#FF2BD6"],
+      "materials": ["mono type", "projector black"],
+      "viewport": "A code buffer at stage scale.",
+      "case": "No connection to buyers or property.",
+      "risk": "Off-subject.",
+      "kept": "Nothing material."
+    },
+    {
+      "id": "challenger-massin",
+      "label": "Massin stage page",
+      "verdict": "declined",
+      "lineage": "Massin's typographic theatre",
+      "thesis": "Dialogue typeset as performance.",
+      "palette": ["#111111", "#FFFFFF", "#D2252E"],
+      "materials": ["stamp prints", "expressive type"],
+      "viewport": "Colliding voices across a spread.",
+      "case": "Too theatrical for search and enquiry tasks.",
+      "risk": "Hurts scanability.",
+      "kept": "Nothing material."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A big photo hero with a search box, then a featured listings carousel, done impeccably.",
+    "palette": ["#13264B", "#D2252E", "#F6F3EE", "#FFFFFF"],
+    "materials": ["full-bleed photography", "card grid"],
+    "viewport": "Full-screen sea-view photo, headline and search box on top, featured listings below.",
+    "risk": "Looks like every agency site, including today's N24 and Sotheby's."
+  },
+  "steer": true
+}

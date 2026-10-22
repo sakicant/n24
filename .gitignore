@@ -7,3 +7,6 @@ Thumbs.db
 .impeccable/config.local.json
 .claude/settings.local.json
 .claude/worktrees/
+.impeccable/review/
+.impeccable/tmp/
+.impeccable/questions/

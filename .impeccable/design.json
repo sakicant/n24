@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T16:17:17+00:00",
+  "title": "Design System: N24 Real Estate",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Harbour Navy",
+        "canonical": "oklch(27.5% 0.073 262)",
+        "tonalRamp": [
+          "oklch(15% 0.073 262)",
+          "oklch(26% 0.073 262)",
+          "oklch(38% 0.073 262)",
+          "oklch(49% 0.073 262)",
+          "oklch(61% 0.073 262)",
+          "oklch(72% 0.073 262)",
+          "oklch(84% 0.073 262)",
+          "oklch(95% 0.073 262)"
+        ]
+      },
+      "navy-2": {
+        "role": "primary",
+        "displayName": "Deep Harbour",
+        "canonical": "oklch(33.6% 0.072 262)",
+        "tonalRamp": [
+          "oklch(15% 0.072 262)",
+          "oklch(26% 0.072 262)",
+          "oklch(38% 0.072 262)",
+          "oklch(49% 0.072 262)",
+          "oklch(61% 0.072 262)",
+          "oklch(72% 0.072 262)",
+          "oklch(84% 0.072 262)",
+          "oklch(95% 0.072 262)"
+        ]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Signal Red",
+        "canonical": "oklch(55.9% 0.206 25)",
+        "tonalRamp": [
+          "oklch(15% 0.206 25)",
+          "oklch(26% 0.206 25)",
+          "oklch(38% 0.206 25)",
+          "oklch(49% 0.206 25)",
+          "oklch(61% 0.206 25)",
+          "oklch(72% 0.206 25)",
+          "oklch(84% 0.206 25)",
+          "oklch(95% 0.206 25)"
+        ]
+      },
+      "red-dark": {
+        "role": "secondary",
+        "displayName": "Fired Red",
+        "canonical": "oklch(49.1% 0.180 25)",
+        "tonalRamp": [
+          "oklch(15% 0.180 25)",
+          "oklch(26% 0.180 25)",
+          "oklch(38% 0.180 25)",
+          "oklch(49% 0.180 25)",
+          "oklch(61% 0.180 25)",
+          "oklch(72% 0.180 25)",
+          "oklch(84% 0.180 25)",
+          "oklch(95% 0.180 25)"
+        ]
+      },
+      "sand": {
+        "role": "neutral",
+        "displayName": "Dalmatian Sand",
+        "canonical": "oklch(96.5% 0.007 81)",
+        "tonalRamp": [
+          "oklch(15% 0.007 81)",
+          "oklch(26% 0.007 81)",
+          "oklch(38% 0.007 81)",
+          "oklch(49% 0.007 81)",
+          "oklch(61% 0.007 81)",
+          "oklch(72% 0.007 81)",
+          "oklch(84% 0.007 81)",
+          "oklch(95% 0.007 81)"
+        ]
+      },
+      "sand-2": {
+        "role": "neutral",
+        "displayName": "Dry Stone",
+        "canonical": "oklch(92.7% 0.015 81)",
+        "tonalRamp": [
+          "oklch(15% 0.015 81)",
+          "oklch(26% 0.015 81)",
+          "oklch(38% 0.015 81)",
+          "oklch(49% 0.015 81)",
+          "oklch(61% 0.015 81)",
+          "oklch(72% 0.015 81)",
+          "oklch(84% 0.015 81)",
+          "oklch(95% 0.015 81)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(21.8% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(26% 0.000 0)",
+          "oklch(38% 0.000 0)",
+          "oklch(49% 0.000 0)",
+          "oklch(61% 0.000 0)",
+          "oklch(72% 0.000 0)",
+          "oklch(84% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Slate Ink",
+        "canonical": "oklch(42.7% 0.019 266)",
+        "tonalRamp": [
+          "oklch(15% 0.019 266)",
+          "oklch(26% 0.019 266)",
+          "oklch(38% 0.019 266)",
+          "oklch(49% 0.019 266)",
+          "oklch(61% 0.019 266)",
+          "oklch(72% 0.019 266)",
+          "oklch(84% 0.019 266)",
+          "oklch(95% 0.019 266)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Dry-Wall Hairline",
+        "canonical": "oklch(86.6% 0.018 81)",
+        "tonalRamp": [
+          "oklch(15% 0.018 81)",
+          "oklch(26% 0.018 81)",
+          "oklch(38% 0.018 81)",
+          "oklch(49% 0.018 81)",
+          "oklch(61% 0.018 81)",
+          "oklch(72% 0.018 81)",
+          "oklch(84% 0.018 81)",
+          "oklch(95% 0.018 81)"
+        ]
+      },
+      "sea": {
+        "role": "neutral",
+        "displayName": "Shallow Sea",
+        "canonical": "oklch(91.1% 0.013 256)",
+        "tonalRamp": [
+          "oklch(15% 0.013 256)",
+          "oklch(26% 0.013 256)",
+          "oklch(38% 0.013 256)",
+          "oklch(49% 0.013 256)",
+          "oklch(61% 0.013 256)",
+          "oklch(72% 0.013 256)",
+          "oklch(84% 0.013 256)",
+          "oklch(95% 0.013 256)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The page headline only, max 19ch."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles; feature sections scale up on the same face."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card titles, service names, fact values, mobile menu links; road stop names at 1.25rem."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Intro paragraphs in Slate Ink beside headlines."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, 40-52ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Meta lines, counts, definition terms; sentence case."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Buttons and nav links."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-expressive",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Road marker slide, image zoom, link rule, service row nudge, menu icon morph."
+      },
+      {
+        "name": "duration-state",
+        "value": "200ms",
+        "purpose": "Colour and border changes on buttons, chips and pins."
+      },
+      {
+        "name": "duration-crossfade",
+        "value": "250ms",
+        "purpose": "Listing grid opacity crossfade when the road or a chip filters it (content swaps at 180ms)."
+      },
+      {
+        "name": "duration-marker",
+        "value": "550ms",
+        "purpose": "Red square frame sliding to the selected road stop."
+      },
+      {
+        "name": "duration-photo",
+        "value": "800ms",
+        "purpose": "Card photo scale to 1.035 on hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition-duration: .01ms",
+        "purpose": "All transitions collapse under prefers-reduced-motion; the grid swaps without a fade."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop-nav",
+        "value": "1080px"
+      },
+      {
+        "name": "single-column",
+        "value": "860px"
+      },
+      {
+        "name": "phone",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (red)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one primary contact action in view: WhatsApp, Message Tomislav, Sell with N24.",
+      "html": "<a class=\"ds-btn ds-btn-red\" href=\"#\">Sell with N24</a>",
+      "css": ":host{--navy:#13264B;--navy-2:#22365C;--red:#D2252E;--red-dark:#B01E26;--sand:#F6F3EE;--sand-2:#ECE6DC;--ink:#1A1A1A;--ink-2:#4A4F5A;--line:#D9D2C6;--sea:#DCE2EA;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Manrope,'Segoe UI',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 22px;font:600 .9375rem/1 var(--sans);letter-spacing:.01em;text-decoration:none;border:1px solid transparent;border-radius:0;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s;} .ds-btn:focus-visible{outline:2px solid var(--red);outline-offset:3px;} .ds-btn-red{background:var(--red);color:#fff;} .ds-btn-red:hover{background:var(--red-dark);}"
+    },
+    {
+      "name": "Navy Button",
+      "kind": "button",
+      "refersTo": "button-navy",
+      "description": "Search and browse actions such as Show N properties.",
+      "html": "<a class=\"ds-btn ds-btn-navy\" href=\"#\">Show 5 properties</a>",
+      "css": ":host{--navy:#13264B;--navy-2:#22365C;--red:#D2252E;--red-dark:#B01E26;--sand:#F6F3EE;--sand-2:#ECE6DC;--ink:#1A1A1A;--ink-2:#4A4F5A;--line:#D9D2C6;--sea:#DCE2EA;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Manrope,'Segoe UI',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 22px;font:600 .9375rem/1 var(--sans);letter-spacing:.01em;text-decoration:none;border:1px solid transparent;border-radius:0;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s;} .ds-btn:focus-visible{outline:2px solid var(--red);outline-offset:3px;} .ds-btn-navy{background:var(--navy);color:var(--sand);} .ds-btn-navy:hover{background:var(--navy-2);}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary option beside a red button.",
+      "html": "<a class=\"ds-btn ds-btn-line\" href=\"#\">Sell with N24</a>",
+      "css": ":host{--navy:#13264B;--navy-2:#22365C;--red:#D2252E;--red-dark:#B01E26;--sand:#F6F3EE;--sand-2:#ECE6DC;--ink:#1A1A1A;--ink-2:#4A4F5A;--line:#D9D2C6;--sea:#DCE2EA;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Manrope,'Segoe UI',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 22px;font:600 .9375rem/1 var(--sans);letter-spacing:.01em;text-decoration:none;border:1px solid transparent;border-radius:0;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s;} .ds-btn:focus-visible{outline:2px solid var(--red);outline-offset:3px;} .ds-btn-line{border-color:var(--navy);color:var(--navy);background:transparent;} .ds-btn-line:hover{background:var(--navy);color:var(--sand);}"
+    },
+    {
+      "name": "Type Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Property-type filter; selected chip fills navy.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" aria-pressed=\"true\">All</button><button class=\"ds-chip\" aria-pressed=\"false\">Houses</button><button class=\"ds-chip\" aria-pressed=\"false\">Land</button></div>",
+      "css": ":host{--navy:#13264B;--navy-2:#22365C;--red:#D2252E;--red-dark:#B01E26;--sand:#F6F3EE;--sand-2:#ECE6DC;--ink:#1A1A1A;--ink-2:#4A4F5A;--line:#D9D2C6;--sea:#DCE2EA;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Manrope,'Segoe UI',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-chips{display:flex;gap:8px;flex-wrap:wrap;background:var(--sand);padding:16px;} .ds-chip{min-height:40px;padding:0 16px;background:transparent;border:1px solid var(--line);border-radius:0;color:var(--navy);font:500 .875rem/1 var(--sans);cursor:pointer;transition:border-color .2s,background-color .2s,color .2s;} .ds-chip:hover{border-color:var(--navy);} .ds-chip[aria-pressed=\"true\"]{background:var(--navy);border-color:var(--navy);color:var(--sand);} .ds-chip:focus-visible{outline:2px solid var(--red);outline-offset:3px;}"
+    },
+    {
+      "name": "Listing Card",
+      "kind": "card",
+      "refersTo": "listing-card",
+      "description": "Square 4:3 photo frame, meta label, Cormorant title, facts and red price on a hairline.",
+      "html": "<a class=\"ds-card\" href=\"#\"><div class=\"ds-card-ph\"><span class=\"ds-card-tag\">Primošten Resort</span></div><p class=\"ds-card-meta\">Primošten · Land</p><h3 class=\"ds-card-title\">Building plot with villa project</h3><div class=\"ds-card-row\"><span>1,523 m² plot</span><span class=\"ds-card-price\">€310,000</span></div></a>",
+      "css": ":host{--navy:#13264B;--navy-2:#22365C;--red:#D2252E;--red-dark:#B01E26;--sand:#F6F3EE;--sand-2:#ECE6DC;--ink:#1A1A1A;--ink-2:#4A4F5A;--line:#D9D2C6;--sea:#DCE2EA;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Manrope,'Segoe UI',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-card{display:block;width:320px;text-decoration:none;color:var(--ink);background:var(--sand);padding:16px;font:400 1rem/1.65 var(--sans);font-variant-numeric:lining-nums tabular-nums;} .ds-card-ph{position:relative;aspect-ratio:4/3;background:linear-gradient(180deg,var(--sea),var(--sand-2));overflow:hidden;} .ds-card-tag{position:absolute;left:0;top:0;background:var(--navy);color:var(--sand);font-size:.75rem;font-weight:600;padding:6px 10px;} .ds-card-meta{margin:16px 0 0;font-size:.8125rem;font-weight:500;color:var(--ink-2);} .ds-card-title{margin:6px 0 0;font:600 1.5rem/1.08 var(--serif);color:var(--navy);} .ds-card:hover .ds-card-title{text-decoration:underline;text-underline-offset:.15em;text-decoration-thickness:1px;} .ds-card-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:.875rem;color:var(--ink-2);} .ds-card-price{font-weight:600;font-size:1.0625rem;color:var(--red);} .ds-card:focus-visible{outline:2px solid var(--red);outline-offset:3px;}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky sand header: logo left, navy links, red WhatsApp button right.",
+      "html": "<header class=\"ds-nav\"><svg viewBox=\"0 0 260 80\" width=\"110\" height=\"34\" role=\"img\" aria-label=\"N24 Real Estate\"><rect x=\"4\" y=\"12\" width=\"44\" height=\"44\" fill=\"none\" stroke=\"#D2252E\" stroke-width=\"5\"/><text x=\"62\" y=\"52\" font-family=\"Cormorant Garamond, Georgia, serif\" font-weight=\"600\" font-size=\"48\" fill=\"#13264B\">N24</text><text x=\"5\" y=\"74\" font-family=\"Manrope, Arial, sans-serif\" font-weight=\"500\" font-size=\"9.5\" letter-spacing=\"6.4\" fill=\"#13264B\">REAL ESTATE</text></svg><nav><a href=\"#\">Buy</a><a href=\"#\">Sell</a><a href=\"#\">Areas</a><a href=\"#\">Contact</a></nav><a class=\"ds-nav-wa\" href=\"#\">WhatsApp</a></header>",
+      "css": ":host{--navy:#13264B;--navy-2:#22365C;--red:#D2252E;--red-dark:#B01E26;--sand:#F6F3EE;--sand-2:#ECE6DC;--ink:#1A1A1A;--ink-2:#4A4F5A;--line:#D9D2C6;--sea:#DCE2EA;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Manrope,'Segoe UI',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-nav{display:flex;align-items:center;gap:28px;min-height:72px;padding:0 24px;background:rgba(246,243,238,.96);border-bottom:1px solid var(--line);} .ds-nav nav{margin-left:auto;display:flex;gap:26px;} .ds-nav nav a{font:500 .9375rem/1 var(--sans);color:var(--navy);text-decoration:none;padding:6px 0;border-bottom:1px solid transparent;} .ds-nav nav a:hover{border-color:var(--navy);} .ds-nav a:focus-visible{outline:2px solid var(--red);outline-offset:3px;} .ds-nav-wa{display:inline-flex;align-items:center;min-height:42px;padding:0 16px;background:var(--red);color:#fff;font:600 .9375rem/1 var(--sans);text-decoration:none;transition:background-color .2s;} .ds-nav-wa:hover{background:var(--red-dark);}"
+    },
+    {
+      "name": "Coast Road",
+      "kind": "custom",
+      "description": "Signature search: navy coast line, square km-stones, red square frame on the selected place.",
+      "html": "<div class=\"ds-road\"><div class=\"ds-road-line\"></div><button class=\"ds-stop\" style=\"left:12%\" aria-pressed=\"false\"><span class=\"ds-pin\"></span><span class=\"ds-name\">Vodice</span><span class=\"ds-n\">2 listings</span></button><button class=\"ds-stop\" style=\"left:50%\" aria-pressed=\"true\"><span class=\"ds-pin\"></span><span class=\"ds-name\">Primošten</span><span class=\"ds-n\">5 listings</span></button><button class=\"ds-stop\" style=\"left:88%\" aria-pressed=\"false\"><span class=\"ds-pin\"></span><span class=\"ds-name\">Rogoznica</span><span class=\"ds-n\">2 listings</span></button></div>",
+      "css": ":host{--navy:#13264B;--navy-2:#22365C;--red:#D2252E;--red-dark:#B01E26;--sand:#F6F3EE;--sand-2:#ECE6DC;--ink:#1A1A1A;--ink-2:#4A4F5A;--line:#D9D2C6;--sea:#DCE2EA;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Manrope,'Segoe UI',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-road{position:relative;height:120px;background:var(--sand);font-family:var(--sans);font-variant-numeric:lining-nums tabular-nums;} .ds-road-line{position:absolute;left:0;right:0;top:70px;height:2px;background:var(--navy);} .ds-road-line::after{content:'';position:absolute;left:0;right:0;top:2px;height:24px;background:linear-gradient(var(--sea),transparent);opacity:.7;} .ds-stop{position:absolute;top:0;height:100%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;background:none;border:0;cursor:pointer;color:var(--navy);padding:0 6px;} .ds-name{font:600 1.25rem/1.1 var(--serif);white-space:nowrap;} .ds-n{font-size:.8125rem;font-weight:500;color:var(--ink-2);} .ds-pin{position:absolute;top:64px;left:50%;width:14px;height:14px;margin-left:-7px;box-sizing:border-box;background:var(--sand);border:2px solid var(--navy);transition:transform .3s var(--ease),background-color .2s;} .ds-stop:hover .ds-pin{background:var(--navy);} .ds-stop:hover .ds-name{text-decoration:underline;text-underline-offset:.18em;text-decoration-thickness:1px;} .ds-stop[aria-pressed=\"true\"] .ds-pin{background:var(--red);border-color:var(--red);transform:scale(1.15);outline:3px solid var(--red);outline-offset:6px;} .ds-stop[aria-pressed=\"true\"] .ds-name{color:var(--red);} .ds-stop:focus-visible{outline:2px solid var(--red);outline-offset:3px;}"
+    },
+    {
+      "name": "Ruled Service List",
+      "kind": "custom",
+      "description": "Services as a ruled list: navy top rule, hairline rows, Cormorant name, Manrope description.",
+      "html": "<ol class=\"ds-rules\"><li><a href=\"#\"><span class=\"ds-r-name\">Land consolidation</span><span class=\"ds-r-desc\">Plot analysis, cadastre and ownership checks.</span></a></li><li><a href=\"#\"><span class=\"ds-r-name\">Project management</span><span class=\"ds-r-desc\">From planning and approvals through construction.</span></a></li></ol>",
+      "css": ":host{--navy:#13264B;--navy-2:#22365C;--red:#D2252E;--red-dark:#B01E26;--sand:#F6F3EE;--sand-2:#ECE6DC;--ink:#1A1A1A;--ink-2:#4A4F5A;--line:#D9D2C6;--sea:#DCE2EA;--serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;--sans:Manrope,'Segoe UI',Arial,sans-serif;--ease:cubic-bezier(.16,1,.3,1);} .ds-rules{list-style:none;margin:0;padding:0;border-top:1px solid var(--navy);background:var(--sand);} .ds-rules a{display:grid;grid-template-columns:5fr 7fr;gap:24px;padding:22px 0;border-bottom:1px solid var(--line);text-decoration:none;} .ds-rules a>span{transition:transform .35s var(--ease);} .ds-rules a:hover>span{transform:translateX(10px);} .ds-rules a:focus-visible{outline:2px solid var(--red);outline-offset:3px;} .ds-r-name{font:600 1.5rem/1.15 var(--serif);color:var(--navy);} .ds-r-desc{font:400 1rem/1.65 var(--sans);color:var(--ink-2);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Coast Road",
+    "overview": "N24 is a local agency on one stretch of Adriatic coast, and the system is drawn the way a good local map is drawn: a warm sand page, navy line work, and a single red mark for where you are. The signature is the coast road itself, a navy line with square km-stones for the eight places from Vodice to Rogoznica; the empty red square of the logo becomes the \"you are here\" frame that slides along it. Everything else is quiet so that the road, the photographs and the prices can carry the page.\n\nDensity is calm and editorial rather than portal-like: generous section padding, three-column listing grids, hairline rules instead of boxes, and full-bleed photography cropped into square-cornered frames. Type is a two-voice pairing taken straight from the logo: Cormorant Garamond for names and headlines, Manrope for every functional word and number. Figures are lining and tabular throughout, because distances, plot sizes and prices are the proof of local knowledge.\n\nThe world refuses the real-estate category default: no photo hero with a floating search box, no featured carousel, no drop shadows, no rounded cards. Photography on the current build is temporary placeholder material until the client reshoots; the frames, ratios and crops are the system, not the pictures in them.",
+    "keyCharacteristics": [
+      "Sand ground, navy line work and headings, ink body text, red only for what matters now.",
+      "The coast road as navigation: a single navy line, square stops, a red frame for the selected place.",
+      "Square corners everywhere; the logo's empty square frame is the recurring geometry.",
+      "Flat surfaces; depth comes from tonal bands (sand, sand-2, navy) and 1px hairlines.",
+      "Cormorant Garamond display over Manrope text, tabular lining figures for every number."
+    ],
+    "rules": [
+      {
+        "name": "The Red Means Now Rule",
+        "body": "Red marks the logo, the current selection, the price and the one primary action in view. If two red things compete in one viewport for different reasons, one of them is wrong. Red is never a background band, a heading colour or decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Navy Line Rule",
+        "body": "Navy draws: the road, the stop outlines, the rules above lists, the outline offset around a feature photo. Structure is a navy or hairline stroke, not a filled panel.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Every number is lining and tabular (`font-variant-numeric: lining-nums tabular-nums`, set on body and headings). Prices, km, m² and counts must line up and never use old-style figures, even inside Cormorant.",
+        "section": "typography"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Cormorant names things (places, properties, services, people); Manrope says everything else, including every button, label, price and form field.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Road Rule",
+        "body": "The coast road is drawn edge to edge in its true order (Vodice, Srima, Šibenik, Brodarica, Žaborić, Grebaštica, Primošten, Rogoznica), positioned by real km. On narrow screens it scrolls; it is never reordered, wrapped or turned into a dropdown.",
+        "section": "layout"
+      },
+      {
+        "name": "The Hairline Rule",
+        "body": "Separation is a 1px rule or a change of ground. If a surface seems to need a shadow, give it a hairline or move it onto a different band instead.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Frame Rule",
+        "body": "Selection and emphasis are shown with a square frame, never with a pill, a circle or a rounded corner.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep the page on Dalmatian Sand (#F6F3EE) with navy (#13264B) headings and line work, and ink (#1A1A1A) body text.",
+      "**Do** spend red (#D2252E) only on the logo, the current selection, prices and the one primary contact action in view.",
+      "**Do** keep every corner square (0px) and show selection with a square frame that echoes the logo.",
+      "**Do** set every number with lining tabular figures, in Manrope.",
+      "**Do** separate with 1px hairlines and tonal bands instead of shadows.",
+      "**Do** use Cormorant Garamond 600 for names and headlines at 1.25rem or larger, and Manrope for all functional text.",
+      "**Do** crop photography into 4:3 or 4:5 square-cornered frames or full-bleed bands, with descriptive alt text."
+    ],
+    "donts": [
+      "**Don't** use rounded corners, pills or circles on buttons, chips, cards or images.",
+      "**Don't** add box shadows or floating panels; the system is flat.",
+      "**Don't** use red as a background band, a heading colour or decoration.",
+      "**Don't** put a search box floating over a hero photo or add a featured carousel; the coast road is the search.",
+      "**Don't** reorder, wrap or collapse the coast road; on phones it scrolls.",
+      "**Don't** add uppercase letterspaced labels or kickers above headings; the only letterspaced caps are REAL ESTATE inside the logo.",
+      "**Don't** recolour or redraw the logo: red empty square frame, N24 in Cormorant Garamond, REAL ESTATE in letterspaced Manrope (brand/logo-a-horizontal.svg, brand/logo-a-reversed.svg on navy)."
+    ]
+  }
+}
