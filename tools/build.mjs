@@ -25,6 +25,12 @@ const pages = [
     scripts: [],
   },
   {
+    src: 'about.html', out: 'about/index.html', path: '/about/', nav: 'about', bodyClass: 'has-band-hero',
+    title: 'About N24 Real Estate | Tomislav Plenča | Šibenik since 2010',
+    description: 'N24 is a Šibenik real estate agency working the coast from Vodice to Rogoznica since 2010. Meet director Tomislav Plenča and see what N24 does.',
+    scripts: [],
+  },
+  {
     src: 'contact.html', out: 'contact/index.html', path: '/contact/', nav: 'contact', bodyClass: 'has-band-hero',
     title: 'Contact N24 Real Estate | Šibenik | +385 95 700 7001',
     description: 'Call, WhatsApp or email Tomislav Plenča at N24 Real Estate, Bože Peričića 26, Šibenik. Buying, selling and land on the coast from Vodice to Rogoznica.',

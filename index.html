@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/site.css?v=97e6103a">
+<link rel="stylesheet" href="/assets/css/site.css?v=87b58e1f">
 </head>
 <body class="has-photo-hero">
 <a class="skip" href="#main">Skip to content</a>
@@ -25,6 +25,7 @@
         <li><a href="/sell-your-property/">Sell</a></li>
         <li><a href="/areas/">Areas</a></li>
         <li><a href="/services/">Services</a></li>
+        <li><a href="/about/">About</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
     </nav>
@@ -50,6 +51,7 @@
       <li><a href="/sell-your-property/">Sell</a></li>
       <li><a href="/areas/">Areas</a></li>
       <li><a href="/services/">Services</a></li>
+      <li><a href="/about/">About</a></li>
       <li><a href="/contact/">Contact</a></li>
     </ul>
     <div class="mobile-nav-contact">
@@ -69,10 +71,15 @@
     </div>
   </section>
 
-  <section class="road-panel" id="search" aria-label="Search by place and type">
+  <section class="road-panel" id="search" aria-labelledby="finder-title">
       <div class="wrap">
+        <div class="finder-head">
+          <h2 id="finder-title">Find a property</h2>
+          <p>Choose a place and a type. The listings below update straight away.</p>
+        </div>
+        <p class="filter-label" id="lbl-place">Place</p>
         <div class="road-scroll" tabindex="-1">
-          <div class="road" role="group" aria-label="Choose a place on the coast">
+          <div class="road" role="group" aria-labelledby="lbl-place">
             <span class="road-end road-end-n" aria-hidden="true">Zadar 75&nbsp;km</span>
             <svg class="road-line" viewBox="0 0 1000 60" preserveAspectRatio="none" aria-hidden="true">
               <path class="sea" d="M0 22 C 40 20, 70 26, 110 24 S 200 18, 250 22 L 258 36 L 268 22 C 290 20, 330 30, 380 27 S 440 22, 470 25 S 540 30, 570 26 S 640 22, 690 27 L 712 40 C 722 46, 742 46, 748 36 L 760 26 C 810 22, 860 30, 900 28 S 950 40, 975 34 S 995 24, 1000 24 L1000 60 L0 60 Z"/>
@@ -84,10 +91,11 @@
           </div>
         </div>
 
-        <div class="area-grid" role="group" aria-label="Choose a place on the coast"></div>
+        <div class="area-grid" role="group" aria-labelledby="lbl-place"></div>
 
+        <p class="filter-label" id="lbl-type">Type</p>
         <div class="road-controls">
-          <div class="chips" role="group" aria-label="Property type">
+          <div class="chips" role="group" aria-labelledby="lbl-type">
             <button type="button" class="chip" data-type="all" aria-pressed="true">All</button>
             <button type="button" class="chip" data-type="house" aria-pressed="false">Houses</button>
             <button type="button" class="chip" data-type="apartment" aria-pressed="false">Apartments</button>
@@ -116,6 +124,23 @@
       </div>
     </div>
     <p class="more"><a class="link-arrow" id="more-link" href="/properties-for-sale/">See every property for sale</a></p>
+  </section>
+
+  <section class="agent" aria-labelledby="agent-title">
+    <div class="wrap agent-row">
+      <div class="agent-photo" role="img" aria-label="Portrait of Tomislav Plenča, coming soon">
+        <span>Tomislav's photo</span>
+      </div>
+      <div class="agent-copy">
+        <h2 id="agent-title">Tomislav Plenča</h2>
+        <p class="agent-role">Director of N24</p>
+        <p>N24 has sold property on this coast since 2010. Tomislav is the person you deal with from the first call to the contract: he knows the houses, the plots and the places between Vodice and Rogoznica, and he tells you honestly what a property is worth.</p>
+        <div class="agent-actions">
+          <a class="btn btn-navy" href="/about/">About Tomislav and N24</a>
+          <a class="link-arrow" href="https://wa.me/385957007001">WhatsApp Tomislav</a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="resort" aria-labelledby="resort-title">
@@ -159,23 +184,6 @@
       <li><a href="/services/architecture-and-engineering/"><span class="s-name">Architecture and engineering</span><span class="s-desc">Trusted designers, architects and building engineers.</span></a></li>
       <li><a href="/services/property-maintenance/"><span class="s-name">Property maintenance</span><span class="s-desc">Summer and winter care, cleaning and inspections after storms.</span></a></li>
     </ol>
-  </section>
-
-  <section class="agent" aria-labelledby="agent-title">
-    <div class="wrap agent-row">
-      <div class="agent-photo" role="img" aria-label="Portrait of Tomislav Plenča, coming soon">
-        <span>Tomislav's photo</span>
-      </div>
-      <div class="agent-copy">
-        <h2 id="agent-title">Talk to Tomislav</h2>
-        <p>Tomislav Plenča runs N24 and knows every property on this site. Call, send a WhatsApp message or email, in English or Croatian.</p>
-        <ul class="contact-lines">
-          <li><a href="tel:+385957007001"><span>Phone</span>+385 95 700 7001</a></li>
-          <li><a href="https://wa.me/385957007001"><span>WhatsApp</span>+385 95 700 7001</a></li>
-          <li><a href="mailto:nekretnine24@n24.hr"><span>Email</span>nekretnine24@n24.hr</a></li>
-        </ul>
-      </div>
-    </div>
   </section>
 </main>
 <footer class="site-footer">
@@ -225,7 +233,7 @@
     <p>Website by <a href="https://antoniodigital.com" target="_blank" rel="noopener">Antonio Digital</a></p>
   </div>
 </footer>
-<script src="/assets/js/site.js?v=97e6103a" defer></script>
-<script src="/assets/js/home.js?v=97e6103a" defer></script>
+<script src="/assets/js/site.js?v=87b58e1f" defer></script>
+<script src="/assets/js/home.js?v=87b58e1f" defer></script>
 </body>
 </html>
