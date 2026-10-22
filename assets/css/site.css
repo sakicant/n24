@@ -263,7 +263,7 @@ body.menu-open { overflow: hidden; }
 .coast-links a:hover { border-color: var(--navy); }
 
 /* footer */
-.site-footer { --f-muted: #B4C0D6; background: var(--navy); color: var(--sand); padding: 72px 0 28px; font-size: .9375rem; }
+.site-footer { --f-muted: #B4C0D6; border-top: 1px solid rgba(246, 243, 238, .14); background: var(--navy); color: var(--sand); padding: 72px 0 28px; font-size: .9375rem; }
 .footer-grid { display: grid; grid-template-columns: 1.3fr 1fr 1.1fr 1.2fr; gap: 48px; }
 .f-title { font-family: var(--sans); font-size: .8125rem; font-weight: 700; color: #fff; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 14px; }
 .site-footer p { color: var(--f-muted); line-height: 1.6; }

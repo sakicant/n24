@@ -3,7 +3,6 @@
 Open items for the website. Tick them off as they are done.
 
 ## Content
-- [ ] Homepage, section "Selling a house or land?": write the text (placeholder is on the page now).
 - [ ] Tomislav: portrait photo and a few real details for the About page and the homepage intro; he should confirm the drafted bio.
 - [ ] Photos: new shoot for the hero and all listings (current ones are temporary).
 - [ ] Area pages: Tomislav to read and confirm the local texts for all 8 places.
