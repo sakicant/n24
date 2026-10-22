@@ -20,6 +20,7 @@
 
   var road = document.querySelector('.road');
   var stopsEl = road.querySelector('.stops');
+  var areaGrid = document.querySelector('.area-grid');
   var marker = road.querySelector('.road-marker');
   var grid = document.getElementById('grid');
   var empty = document.getElementById('empty');
@@ -66,6 +67,20 @@
         update(true);
       });
       stopsEl.appendChild(li);
+    });
+
+    // Phones get a plain grid of places instead of the coast road.
+    [{ id: null, name: 'Whole coast' }].concat(AREAS).forEach(function (a) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'area-btn' + (a.id ? '' : ' area-all');
+      b.dataset.area = a.id || '';
+      b.innerHTML = '<span class="a-name">' + a.name + '</span><span class="a-n"></span>';
+      b.addEventListener('click', function () {
+        state.area = a.id;
+        update(true);
+      });
+      areaGrid.appendChild(b);
     });
   }
 
@@ -136,6 +151,14 @@
       }
     });
     road.classList.toggle('has-pick', !!state.area);
+    Array.prototype.forEach.call(areaGrid.children, function (b) {
+      var id = b.dataset.area || null;
+      var n = listings.filter(function (l) { return matches(l, id, state.type); }).length;
+      b.querySelector('.a-n').textContent = n;
+      b.classList.toggle('is-empty', n === 0);
+      b.setAttribute('aria-pressed', String(state.area === id));
+      b.setAttribute('aria-label', (id ? areaName(id) : 'Whole coast') + ', ' + n + (n === 1 ? ' listing' : ' listings'));
+    });
     chips.forEach(function (c) { c.setAttribute('aria-pressed', String(c.dataset.type === state.type)); });
   }
 
