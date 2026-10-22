@@ -197,7 +197,7 @@ body.menu-open { overflow: hidden; }
 .sell p { color: var(--sand); margin-bottom: 24px; max-width: 46ch; }
 
 /* services */
-.services { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: clamp(32px, 6vw, 88px); padding-top: clamp(64px, 8vw, 112px); padding-bottom: clamp(64px, 8vw, 112px); }
+.services { border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: clamp(32px, 6vw, 88px); padding-top: clamp(64px, 8vw, 112px); padding-bottom: clamp(64px, 8vw, 112px); }
 .services-intro h2 { font-size: clamp(2rem, 3.6vw, 3rem); margin-bottom: 18px; }
 .services-intro p { color: var(--ink-2); max-width: 40ch; }
 .service-list { border-top: 1px solid var(--navy); }
