@@ -259,5 +259,5 @@ Services and contact details are ruled lists, not cards: a navy 1px top rule, ha
 - **Don't** add box shadows or floating panels; the system is flat.
 - **Don't** use red as a background band, a heading colour or decoration.
 - **Don't** put a search box floating over a hero photo or add a featured carousel; the place grid is the homepage search, /properties/ is the full search.
-- **Don't** add uppercase letterspaced labels or kickers above headings; the only letterspaced caps are REAL ESTATE inside the logo.
+- **Don't** add uppercase letterspaced labels or kickers above headings; letterspaced caps appear only in the logo line and as footer column titles.
 - **Don't** recolour or redraw the logo: red empty square frame, N24 in Cormorant Garamond, the line underneath in the page language (REAL ESTATE / NEKRETNINE / IMMOBILIEN) in Manrope 600, spanning the full width (brand/logo-{en,hr,de}-*.svg).
