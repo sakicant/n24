@@ -9,7 +9,7 @@
 <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/manrope-400-700-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/cormorant-garamond-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css?v=6e818dd7">
+<link rel="stylesheet" href="/assets/css/site.css?v=575b8f91">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.n24.hr/"},{"@type":"ListItem","position":2,"name":"Real estate Primošten","item":"https://www.n24.hr/real-estate-primosten/"}]}</script>
 </head>
 <body class="has-band-hero">
@@ -96,10 +96,39 @@
   </section>
 
   <section class="area-listings wrap" aria-labelledby="area-listings-title" data-area="primosten">
-    <div class="results-bar">
-      <h2 id="area-listings-title" aria-live="polite">Property for sale in Primošten</h2>
+    <h2 id="area-listings-title" aria-live="polite">Property for sale in Primošten</h2>
+    <form class="area-filters" id="area-filters" aria-label="Filter property in Primošten">
       <div class="chips" role="group" aria-label="Property type" id="area-chips"></div>
-    </div>
+      <div class="af-selects">
+        <label><span class="sr">Max price</span>
+          <select name="price">
+            <option value="">Any price</option>
+            <option value="200000">Up to €200,000</option>
+            <option value="300000">Up to €300,000</option>
+            <option value="500000">Up to €500,000</option>
+            <option value="750000">Up to €750,000</option>
+            <option value="1000000">Up to €1,000,000</option>
+          </select>
+        </label>
+        <label><span class="sr">Bedrooms</span>
+          <select name="beds">
+            <option value="">Any bedrooms</option>
+            <option value="1">1+ bedrooms</option>
+            <option value="2">2+ bedrooms</option>
+            <option value="3">3+ bedrooms</option>
+            <option value="4">4+ bedrooms</option>
+          </select>
+        </label>
+        <label><span class="sr">Sort</span>
+          <select name="sort">
+            <option value="newest">Newest first</option>
+            <option value="price-asc">Price, low to high</option>
+            <option value="price-desc">Price, high to low</option>
+            <option value="size-desc">Largest first</option>
+          </select>
+        </label>
+      </div>
+    </form>
     <p class="preview-note">Preview: some listings are samples until the admin panel is live.</p>
     <a class="resort-card" href="/primosten-resort/">
       <span class="rc-name">Primošten Resort</span>
@@ -241,8 +270,8 @@
     <p class="fb-credit">Website by <a class="credit" href="https://antoniodigital.com" target="_blank" rel="noopener">Antonio Digital</a></p>
   </div>
 </footer>
-<script src="/assets/js/site.js?v=6e818dd7" defer></script>
-<script src="/assets/js/listings.js?v=6e818dd7" defer></script>
-<script src="/assets/js/area.js?v=6e818dd7" defer></script>
+<script src="/assets/js/site.js?v=575b8f91" defer></script>
+<script src="/assets/js/listings.js?v=575b8f91" defer></script>
+<script src="/assets/js/area.js?v=575b8f91" defer></script>
 </body>
 </html>

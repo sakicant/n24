@@ -50,7 +50,7 @@ Each area page ranks for BOTH land and houses / villas / apartments:
   ("Houses and villas for sale in <Area>", "Land for sale in <Area>", ...).
   Those headings, plus the local text, are what let one page rank for
   "land <area>" as well as "houses for sale <area>".
-- All listings in that area shown together, with type chips on top
+- Only that area's listings, with filters on top: type chips, max price, bedrooms and sort (all kept in the URL). Type chips
   (All · Houses · Apartments · Villas · Land · New builds). Chips filter in place,
   no page reload, and are reflected in the URL (`?type=land`) so a filtered
   view can be shared. The filtered URLs canonicalise to the main area page.
