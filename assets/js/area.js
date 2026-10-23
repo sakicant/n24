@@ -46,8 +46,7 @@
   function sorted(hits, by) {
     var fn = {
       'price-asc': function (a, b) { return (a.price || Infinity) - (b.price || Infinity); },
-      'price-desc': function (a, b) { return (b.price || 0) - (a.price || 0); },
-      'size-desc': function (a, b) { return (b.size || 0) - (a.size || 0); }
+      'price-desc': function (a, b) { return (b.price || 0) - (a.price || 0); }
     }[by];
     return fn ? hits.slice().sort(fn) : hits;
   }
@@ -103,6 +102,8 @@
     .then(function (data) {
       // Only this area's listings are ever shown on its page.
       listings = data.filter(function (l) { return l.area === area; });
+      price.bounds(listings.map(function (l) { return l.price; }));
+      size.bounds(listings.map(function (l) { return l.size; }));
       buildChips();
       render();
     })

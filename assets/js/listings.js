@@ -71,21 +71,46 @@ window.N24 = (function () {
     size: { steps: [50, 75, 100, 150, 200, 300, 500, 1000, 2000, 5000], fmt: function (v) { return num.format(v) + ' m²'; } }
   };
 
+  // The first option of each select means "no limit" and shows the real lowest or
+  // highest value among the listings; the steps in between come from RANGES.
   function setupRange(form, key) {
     var lo = form.elements[key + 'Min'];
     var hi = form.elements[key + 'Max'];
     var r = RANGES[key];
-    lo.innerHTML = '<option value="">No min</option>' + r.steps.map(function (v) { return '<option value="' + v + '">' + r.fmt(v) + '</option>'; }).join('');
-    hi.innerHTML = '<option value="">No max</option>' + r.steps.map(function (v) { return '<option value="' + v + '">' + r.fmt(v) + '</option>'; }).join('');
+    var wanted = { min: '', max: '' };
+
+    function opt(v, label) { return '<option value="' + v + '">' + label + '</option>'; }
+
+    function fill(values) {
+      var nums = (values || []).filter(function (v) { return v > 0; });
+      var low = nums.length ? Math.min.apply(null, nums) : 0;
+      var high = nums.length ? Math.max.apply(null, nums) : 0;
+      var steps = nums.length ? r.steps.filter(function (s) { return s > low && s < high; }) : r.steps;
+      // Keep a value that came from a shared link even if it is not a regular step.
+      [wanted.min, wanted.max].forEach(function (v) {
+        if (v && steps.indexOf(+v) === -1) steps = steps.concat(+v).sort(function (a, b) { return a - b; });
+      });
+      lo.innerHTML = opt('', nums.length ? r.fmt(low) + ' (min)' : 'Any') + steps.map(function (v) { return opt(v, r.fmt(v)); }).join('');
+      hi.innerHTML = opt('', nums.length ? r.fmt(high) + ' (max)' : 'Any') + steps.map(function (v) { return opt(v, r.fmt(v)); }).join('');
+      lo.value = wanted.min;
+      hi.value = wanted.max;
+      fix();
+    }
+
     // A "from" above the "to" is almost always a slip: swap them.
     function fix() {
       if (lo.value && hi.value && +lo.value > +hi.value) { var t = lo.value; lo.value = hi.value; hi.value = t; }
+      wanted = { min: lo.value, max: hi.value };
     }
     lo.addEventListener('change', fix);
     hi.addEventListener('change', fix);
+    fill([]);
+
     return {
       get: function () { return { min: +lo.value || 0, max: +hi.value || 0 }; },
-      set: function (min, max) { lo.value = min || ''; hi.value = max || ''; fix(); }
+      set: function (min, max) { wanted = { min: min ? String(+min) : '', max: max ? String(+max) : '' }; fill([]); },
+      // Called once the listings are loaded, with the prices or sizes on this page.
+      bounds: function (values) { fill(values); }
     };
   }
 

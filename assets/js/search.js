@@ -65,8 +65,7 @@
     });
     var by = {
       'price-asc': function (a, b) { return (a.price || Infinity) - (b.price || Infinity); },
-      'price-desc': function (a, b) { return (b.price || 0) - (a.price || 0); },
-      'size-desc': function (a, b) { return (b.size || 0) - (a.size || 0); }
+      'price-desc': function (a, b) { return (b.price || 0) - (a.price || 0); }
     }[f.sort];
     return by ? hits.slice().sort(by) : hits;
   }
@@ -133,6 +132,11 @@
 
   N24.blockSampleLinks(results);
   N24.load()
-    .then(function (data) { listings = data; render(); })
+    .then(function (data) {
+      listings = data;
+      price.bounds(listings.map(function (l) { return l.price; }));
+      size.bounds(listings.map(function (l) { return l.size; }));
+      render();
+    })
     .catch(function () { empty.hidden = false; });
 })();
