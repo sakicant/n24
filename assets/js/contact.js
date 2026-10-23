@@ -34,6 +34,12 @@
   });
   applyTopic();
 
+  // Coming from a property page: start the message with the property and its reference.
+  var params = new URLSearchParams(location.search);
+  if (params.get('ref') && !msg.value) {
+    msg.value = 'I am interested in ' + (params.get('title') ? '"' + params.get('title') + '" ' : '') + '(' + params.get('ref') + '). ';
+  }
+
   var checks = [
     { input: 'f-name', error: 'e-name', ok: function (v) { return v.trim().length > 1; } },
     { input: 'f-email', error: 'e-email', ok: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()); } },

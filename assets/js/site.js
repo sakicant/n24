@@ -25,6 +25,16 @@
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !mobileNav.hidden) { setMenu(false); menuBtn.focus(); }
   });
+  // Email links: the address is not in the HTML, so scrapers cannot harvest it.
+  // Each .js-email link carries the two halves reversed; they are joined here.
+  // Without JavaScript the link still works and points to the contact form.
+  function rev(s) { return (s || '').split('').reverse().join(''); }
+  Array.prototype.forEach.call(document.querySelectorAll('.js-email'), function (a) {
+    var addr = rev(a.getAttribute('data-u')) + String.fromCharCode(64) + rev(a.getAttribute('data-h'));
+    a.href = 'mailto:' + addr;
+    (a.querySelector('.js-email-text') || a).textContent = addr;
+  });
+
   // Areas dropdown: hover opens it on desktop; click and keyboard work too.
   Array.prototype.forEach.call(document.querySelectorAll('.menu-toggle'), function (btn) {
     btn.addEventListener('click', function () {

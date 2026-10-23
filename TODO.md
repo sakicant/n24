@@ -20,9 +20,14 @@ Open items for the website. Tick them off as they are done.
 - [ ] Add the ~20 listings: photos through tools/photos.py (WebP in 640/1200/1920), details into the listings data; remove the sample listings.
 - [ ] Remove the "Preview: ... sample listings" notes.
 
+## Listings to confirm with Tomislav
+- [ ] N24-107 (Primošten apartment with pool): the card says 63 m², the old description says 136.39 m² with the pool. Which is right?
+- [ ] N24-276: listed as Land (building plot with a villa design); the old site called it a Villa.
+- [ ] N24-251 is in Tisno, outside the 8 areas: it shows in search but on no area page. Keep it?
+- [ ] Primošten Resort: list of units (building, floor, size, bedrooms, price, status) for the table on /primosten-resort/.
+- [ ] Final domain: canonical links and sitemap use https://www.n24.hr; change SITE in tools/build.mjs if it will be realestatecroatia-n24.hr.
+
 ## Build
-- [ ] Primošten Resort page (/primosten-resort/).
-- [ ] Single property page (/property/...).
 - [ ] Backend: PHP + MySQL admin panel, real listings, contact form email.
 - [ ] Croatian and German versions.
 - [ ] Analytics (then switch on the cookie banner in assets/js/site.js).

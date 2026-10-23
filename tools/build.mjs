@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { listingPages, staticCard } from './listing-pages.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => readFileSync(join(root, p), 'utf8');
@@ -110,6 +111,25 @@ areas.forEach((a, i) => {
   });
 });
 
+// Primošten Resort, the 404 page and one page per listing.
+pages.push({
+  src: 'resort.html', out: 'primosten-resort/index.html', path: '/primosten-resort/', nav: 'area-primosten', bodyClass: 'has-band-hero',
+  title: 'Primošten Resort | New Apartments and Villas for Sale | N24',
+  description: 'More than 100 new apartments and villas in the Sunhill settlement above Primošten, 600 m from the beaches. Ask Tomislav Plenča at N24 for plans and prices.',
+  scripts: ['/assets/js/property.js'],
+});
+pages.push({
+  src: '404.html', out: '404.html', path: '/404.html', nav: null, bodyClass: 'has-band-hero', noindex: true,
+  title: 'Page not found | N24 Real Estate',
+  description: 'This page is not here. See the properties for sale on the Šibenik coast or contact N24.',
+  scripts: [],
+});
+const listings = JSON.parse(read('assets/data/listings.json'));
+for (const lp of listingPages(listings)) {
+  lp.html = lp.html.replace('{{similar}}', lp.similarFor(staticCard));
+  pages.push(lp);
+}
+
 const version = createHash('md5')
   .update(read('assets/css/site.css') + read('assets/js/site.js'))
   .digest('hex').slice(0, 8);
@@ -135,7 +155,7 @@ for (const page of pages) {
     .replace('{{header}}', head.trim())
     .replace('{{footer}}', footer.trim())
     .replace('{{content}}', (page.html || read(`src/pages/${page.src}`)).trim())
-    .replace('{{head}}', page.head || '')
+    .replace('{{head}}', (page.head || '') + (page.noindex ? '\n<meta name="robots" content="noindex">' : ''))
     .replace('{{scripts}}', scripts)
     .replaceAll('{{logo_tagline}}', LOGO_TAGLINE[lang])
     .replaceAll('{{version}}', version);
@@ -144,3 +164,11 @@ for (const page of pages) {
   writeFileSync(out, html);
   console.log('built', page.out);
 }
+
+// sitemap.xml and robots.txt for the live domain (the 404 page is left out).
+const SITE = 'https://www.n24.hr';
+const today = new Date().toISOString().slice(0, 10);
+const urls = pages.filter((p) => !p.noindex).map((p) => `  <url><loc>${SITE}${p.path}</loc><lastmod>${today}</lastmod></url>`);
+writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`);
+writeFileSync(join(root, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: ${SITE}/sitemap.xml\n`);
+console.log('built sitemap.xml with', urls.length, 'pages');
