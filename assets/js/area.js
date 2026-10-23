@@ -18,11 +18,16 @@
   // Filters live in the URL, so a filtered view can be shared: ?type=land&price=300000
   var params = new URLSearchParams(location.search);
   if (LABEL[params.get('type')]) type = params.get('type');
-  ['price', 'beds', 'sort'].forEach(function (k) { if (params.get(k)) form.elements[k].value = params.get(k); });
+  var price = N24.setupRange(form, 'price');
+  var size = N24.setupRange(form, 'size');
+  price.set(params.get('pmin'), params.get('pmax') || params.get('price'));
+  size.set(params.get('smin'), params.get('smax'));
+  ['beds', 'sort'].forEach(function (k) { if (params.get(k)) form.elements[k].value = params.get(k); });
 
   function current() {
     return {
-      price: +form.elements.price.value || 0,
+      price: price.get(),
+      size: size.get(),
       beds: +form.elements.beds.value || 0,
       sort: form.elements.sort.value
     };
@@ -32,7 +37,8 @@
     // Primošten Resort has its own page; its units show here only under New builds.
     if (l.project === 'primosten-resort' && type !== 'new-build') return false;
     if (type !== 'all' && l.type !== type) return false;
-    if (f.price && (!l.price || l.price > f.price)) return false;
+    if (!N24.inRange(l.price, f.price)) return false;
+    if (!N24.inRange(l.size, f.size)) return false;
     if (f.beds && (!l.beds || l.beds < f.beds || l.type === 'land')) return false;
     return true;
   }
@@ -59,7 +65,10 @@
   function syncUrl(f) {
     var p = new URLSearchParams();
     if (type !== 'all') p.set('type', type);
-    if (f.price) p.set('price', f.price);
+    if (f.price.min) p.set('pmin', f.price.min);
+    if (f.price.max) p.set('pmax', f.price.max);
+    if (f.size.min) p.set('smin', f.size.min);
+    if (f.size.max) p.set('smax', f.size.max);
     if (f.beds) p.set('beds', f.beds);
     if (f.sort !== 'newest') p.set('sort', f.sort);
     var qs = p.toString();

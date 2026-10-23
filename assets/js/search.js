@@ -26,7 +26,12 @@
   function list(key) { return (params.get(key) || '').split(',').filter(Boolean); }
   list('area').forEach(function (v) { check('area', v); });
   list('type').forEach(function (v) { check('type', v); });
-  ['price', 'beds', 'size'].forEach(function (k) { if (params.get(k)) form.elements[k].value = params.get(k); });
+  var price = N24.setupRange(form, 'price');
+  var size = N24.setupRange(form, 'size');
+  // Older links used price= (a maximum) and size= (a minimum).
+  price.set(params.get('pmin'), params.get('pmax') || params.get('price'));
+  size.set(params.get('smin') || params.get('size'), params.get('smax'));
+  if (params.get('beds')) form.elements.beds.value = params.get('beds');
   if (params.get('sort')) sort.value = params.get('sort');
 
   function check(name, value) {
@@ -42,9 +47,9 @@
     return {
       area: values('area'),
       type: values('type'),
-      price: +form.elements.price.value || 0,
+      price: price.get(),
+      size: size.get(),
       beds: +form.elements.beds.value || 0,
-      size: +form.elements.size.value || 0,
       sort: sort.value
     };
   }
@@ -53,9 +58,9 @@
     var hits = listings.filter(function (l) {
       if (f.area.length && f.area.indexOf(l.area) === -1) return false;
       if (f.type.length && f.type.indexOf(l.type) === -1) return false;
-      if (f.price && (!l.price || l.price > f.price)) return false;
+      if (!N24.inRange(l.price, f.price)) return false;
+      if (!N24.inRange(l.size, f.size)) return false;
       if (f.beds && (!l.beds || l.beds < f.beds || l.type === 'land')) return false;
-      if (f.size && (!l.size || l.size < f.size)) return false;
       return true;
     });
     var by = {
@@ -75,16 +80,18 @@
   }
 
   function activeCount(f) {
-    return f.area.length + f.type.length + (f.price ? 1 : 0) + (f.beds ? 1 : 0) + (f.size ? 1 : 0);
+    return f.area.length + f.type.length + (f.price.min || f.price.max ? 1 : 0) + (f.size.min || f.size.max ? 1 : 0) + (f.beds ? 1 : 0);
   }
 
   function syncUrl(f) {
     var p = new URLSearchParams();
     if (f.area.length) p.set('area', f.area.join(','));
     if (f.type.length) p.set('type', f.type.join(','));
-    if (f.price) p.set('price', f.price);
+    if (f.price.min) p.set('pmin', f.price.min);
+    if (f.price.max) p.set('pmax', f.price.max);
+    if (f.size.min) p.set('smin', f.size.min);
+    if (f.size.max) p.set('smax', f.size.max);
     if (f.beds) p.set('beds', f.beds);
-    if (f.size) p.set('size', f.size);
     if (f.sort !== 'newest') p.set('sort', f.sort);
     var qs = p.toString();
     history.replaceState(null, '', location.pathname + (qs ? '?' + qs : ''));

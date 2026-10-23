@@ -9,7 +9,7 @@
 <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/manrope-400-700-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/cormorant-garamond-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css?v=575b8f91">
+<link rel="stylesheet" href="/assets/css/site.css?v=c0c0952b">
 
 </head>
 <body class="has-band-hero">
@@ -115,16 +115,23 @@
       </fieldset>
 
       <div class="f-group f-selects">
-        <label for="f-price">Max price</label>
-        <select id="f-price" name="price">
-          <option value="">Any price</option>
-          <option value="200000">€200,000</option>
-          <option value="300000">€300,000</option>
-          <option value="400000">€400,000</option>
-          <option value="500000">€500,000</option>
-          <option value="750000">€750,000</option>
-          <option value="1000000">€1,000,000</option>
-        </select>
+        <fieldset class="range-group">
+          <legend>Price</legend>
+          <div class="range">
+            <label><span class="sr">Price from</span><select name="priceMin"></select></label>
+            <span class="range-to" aria-hidden="true">to</span>
+            <label><span class="sr">Price to</span><select name="priceMax"></select></label>
+          </div>
+        </fieldset>
+
+        <fieldset class="range-group">
+          <legend>Size</legend>
+          <div class="range">
+            <label><span class="sr">Size from</span><select name="sizeMin"></select></label>
+            <span class="range-to" aria-hidden="true">to</span>
+            <label><span class="sr">Size to</span><select name="sizeMax"></select></label>
+          </div>
+        </fieldset>
 
         <label for="f-beds">Bedrooms</label>
         <select id="f-beds" name="beds">
@@ -133,16 +140,6 @@
           <option value="2">2 or more</option>
           <option value="3">3 or more</option>
           <option value="4">4 or more</option>
-        </select>
-
-        <label for="f-size">Size</label>
-        <select id="f-size" name="size">
-          <option value="">Any size</option>
-          <option value="50">50 m² or more</option>
-          <option value="100">100 m² or more</option>
-          <option value="150">150 m² or more</option>
-          <option value="250">250 m² or more</option>
-          <option value="1000">1,000 m² or more</option>
         </select>
       </div>
 
@@ -256,8 +253,8 @@
     <p class="fb-credit">Website by <a class="credit" href="https://antoniodigital.com" target="_blank" rel="noopener">Antonio Digital</a></p>
   </div>
 </footer>
-<script src="/assets/js/site.js?v=575b8f91" defer></script>
-<script src="/assets/js/listings.js?v=575b8f91" defer></script>
-<script src="/assets/js/search.js?v=575b8f91" defer></script>
+<script src="/assets/js/site.js?v=c0c0952b" defer></script>
+<script src="/assets/js/listings.js?v=c0c0952b" defer></script>
+<script src="/assets/js/search.js?v=c0c0952b" defer></script>
 </body>
 </html>

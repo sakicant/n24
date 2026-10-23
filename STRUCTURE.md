@@ -129,6 +129,5 @@ with call and WhatsApp always visible (sticky bar on mobile).
 ## Search UX
 
 - Default: one bar (area, type, max price) and results right away.
-- Results page: a few chips (type, price, bedrooms, sea view), "More filters"
-  for size, plot size, distance to sea, etc.
+- Price and size use a From and a To select each: only To = "up to X", only From = "at least X", both = a range (URL: pmin, pmax, smin, smax).
 - Filters live in the URL so results can be shared and bookmarked.

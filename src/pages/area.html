@@ -13,17 +13,23 @@
     <form class="area-filters" id="area-filters" aria-label="Filter property in {{name}}">
       <div class="chips" role="group" aria-label="Property type" id="area-chips"></div>
       <div class="af-selects">
-        <label><span class="sr">Max price</span>
-          <select name="price">
-            <option value="">Any price</option>
-            <option value="200000">Up to €200,000</option>
-            <option value="300000">Up to €300,000</option>
-            <option value="500000">Up to €500,000</option>
-            <option value="750000">Up to €750,000</option>
-            <option value="1000000">Up to €1,000,000</option>
-          </select>
-        </label>
-        <label><span class="sr">Bedrooms</span>
+        <fieldset class="range-group">
+          <legend>Price</legend>
+          <div class="range">
+            <label><span class="sr">Price from</span><select name="priceMin"></select></label>
+            <span class="range-to" aria-hidden="true">to</span>
+            <label><span class="sr">Price to</span><select name="priceMax"></select></label>
+          </div>
+        </fieldset>
+        <fieldset class="range-group">
+          <legend>Size</legend>
+          <div class="range">
+            <label><span class="sr">Size from</span><select name="sizeMin"></select></label>
+            <span class="range-to" aria-hidden="true">to</span>
+            <label><span class="sr">Size to</span><select name="sizeMax"></select></label>
+          </div>
+        </fieldset>
+        <label class="af-beds"><span class="sr">Bedrooms</span>
           <select name="beds">
             <option value="">Any bedrooms</option>
             <option value="1">1+ bedrooms</option>
@@ -32,7 +38,7 @@
             <option value="4">4+ bedrooms</option>
           </select>
         </label>
-        <label><span class="sr">Sort</span>
+        <label class="af-sort"><span class="sr">Sort</span>
           <select name="sort">
             <option value="newest">Newest first</option>
             <option value="price-asc">Price, low to high</option>

@@ -64,6 +64,37 @@ window.N24 = (function () {
     });
   }
 
+  // Price and size filters: a "from" and a "to" select. Only "to" means "up to X",
+  // only "from" means "at least X", both make a range.
+  var RANGES = {
+    price: { steps: [100000, 150000, 200000, 250000, 300000, 400000, 500000, 750000, 1000000, 1500000, 2000000], fmt: function (v) { return euro.format(v); } },
+    size: { steps: [50, 75, 100, 150, 200, 300, 500, 1000, 2000, 5000], fmt: function (v) { return num.format(v) + ' m²'; } }
+  };
+
+  function setupRange(form, key) {
+    var lo = form.elements[key + 'Min'];
+    var hi = form.elements[key + 'Max'];
+    var r = RANGES[key];
+    lo.innerHTML = '<option value="">No min</option>' + r.steps.map(function (v) { return '<option value="' + v + '">' + r.fmt(v) + '</option>'; }).join('');
+    hi.innerHTML = '<option value="">No max</option>' + r.steps.map(function (v) { return '<option value="' + v + '">' + r.fmt(v) + '</option>'; }).join('');
+    // A "from" above the "to" is almost always a slip: swap them.
+    function fix() {
+      if (lo.value && hi.value && +lo.value > +hi.value) { var t = lo.value; lo.value = hi.value; hi.value = t; }
+    }
+    lo.addEventListener('change', fix);
+    hi.addEventListener('change', fix);
+    return {
+      get: function () { return { min: +lo.value || 0, max: +hi.value || 0 }; },
+      set: function (min, max) { lo.value = min || ''; hi.value = max || ''; fix(); }
+    };
+  }
+
+  function inRange(v, r) {
+    if (r.min && (!v || v < r.min)) return false;
+    if (r.max && (!v || v > r.max)) return false;
+    return true;
+  }
+
   function load() {
     return fetch('/assets/data/listings.json').then(function (r) { return r.json(); });
   }
@@ -71,6 +102,7 @@ window.N24 = (function () {
   return {
     AREAS: AREAS, TYPES: TYPES, TYPE_PLURAL: TYPE_PLURAL,
     isArea: isArea, areaName: areaName, card: card, blockSampleLinks: blockSampleLinks, load: load,
+    setupRange: setupRange, inRange: inRange,
     euro: euro, num: num
   };
 })();
