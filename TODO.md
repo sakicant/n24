@@ -26,6 +26,12 @@ Open items for the website. Tick them off as they are done.
 - [ ] N24-251 is in Tisno, outside the 8 areas: it shows in search but on no area page. Keep it?
 - [ ] Primošten Resort: list of units (building, floor, size, bedrooms, price, status) for the table on /primosten-resort/.
 
+## Redirects (.htaccess)
+- [ ] Point realestatecroatia-n24.hr DNS at the new hosting (today the .hr domain does not respond); keep the .com and n24.hr on the same hosting so they redirect.
+- [ ] After launch: test a few old URLs on the live server (e.g. /en/properties/modern-villa-primosten, /hr/kontakt) and submit the new sitemap in Google Search Console.
+- [ ] When the Croatian version exists: point the /hr/ redirects at the /hr/ pages and change them from 302 to 301.
+- [ ] FAQ page: the old /en/faq and /hr/pitanja-i-odgovori rank in Google (foreign buyers, taxes, agency fee). Build a FAQ page and point both there (now they go to /about/).
+
 ## Build
 - [ ] Backend: PHP + MySQL admin panel, real listings, contact form email.
 - [ ] Croatian and German versions.
