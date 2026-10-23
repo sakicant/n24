@@ -9,7 +9,7 @@ decisions are made.
 - Address: Bože Peričića 26, 22000 Šibenik, Croatia.
 - Director and main salesman: Tomislav Plenča (profile with photo on the site).
 - Phone / WhatsApp: +385 95 700 7001. Email: nekretnine24@n24.hr.
-- Domains: realestatecroatia-n24.hr, n24.hr (current live site: realestatecroatia-n24.com).
+- Domains: main www.realestatecroatia-n24.com (the domain the old site ranks on); n24.hr redirects to it. A .hr version of the long domain does not exist.
 - Area: Šibenik and the coast, mainly between Split and Zadar.
 - Business: sales, long-term rentals, new builds, land investment.
 - Specialties (services): investment consulting and analysis, land consolidation

@@ -1,7 +1,7 @@
 # N24 Real Estate on LiteSpeed/Apache. Upload to the web root.
-# Main address: https://www.realestatecroatia-n24.hr
-# Every other domain pointing at this hosting (n24.hr, realestatecroatia-n24.com,
-# with or without www) is sent there permanently, keeping the path.
+# Main address: https://www.realestatecroatia-n24.com
+# Every other domain pointing at this hosting (n24.hr, www.n24.hr, the .com
+# without www) and plain http are sent there permanently, keeping the path.
 
 RewriteEngine On
 
@@ -12,88 +12,88 @@ RewriteEngine On
 # so rankings and old links carry over.
 
 # English: permanent
-RewriteRule ^en/?$ https://www.realestatecroatia-n24.hr/ [R=301,L,NC]
-RewriteRule ^en/properties/?$ https://www.realestatecroatia-n24.hr/properties/ [R=301,L,NC]
-RewriteRule ^en/featured-properties/?$ https://www.realestatecroatia-n24.hr/properties/ [R=301,L,NC]
-RewriteRule ^en/properties/villa-for-sale-project-contruction/?$ https://www.realestatecroatia-n24.hr/property/n24-276-villa-project-plot-primosten/ [R=301,L,NC]
-RewriteRule ^en/properties/sun-hill-primosten-resort-settlement-comming-soon/?$ https://www.realestatecroatia-n24.hr/property/n24-231-sun-hill-primosten-resort/ [R=301,L,NC]
-RewriteRule ^en/properties/house-first-line-to-sea-tisno/?$ https://www.realestatecroatia-n24.hr/property/n24-251-house-first-line-to-sea-tisno/ [R=301,L,NC]
-RewriteRule ^en/properties/new-construction-in-the-center-of-primosten-apartments/?$ https://www.realestatecroatia-n24.hr/property/n24-261-new-apartments-primosten-centre/ [R=301,L,NC]
-RewriteRule ^en/properties/modern-new-building-with-sea-view/?$ https://www.realestatecroatia-n24.hr/property/n24-169-modern-new-building-sea-view/ [R=301,L,NC]
-RewriteRule ^en/properties/primosten-modern-apartments-with-pool/?$ https://www.realestatecroatia-n24.hr/property/n24-107-primosten-apartment-with-pool/ [R=301,L,NC]
-RewriteRule ^en/properties/newly-built-4-bedroom-villa-ready-to-move-in-soon/?$ https://www.realestatecroatia-n24.hr/property/n24-70-new-4-bedroom-villa/ [R=301,L,NC]
-RewriteRule ^en/properties/modern-villa-primosten/?$ https://www.realestatecroatia-n24.hr/property/n24-92-modern-villa-sea-view-primosten/ [R=301,L,NC]
-RewriteRule ^en/properties/primoste-apartment-sea-view/?$ https://www.realestatecroatia-n24.hr/real-estate-primosten/ [R=301,L,NC]
-RewriteRule ^en/properties/exceptional-house-second-row-to-the-sea-ready-to-move-in/?$ https://www.realestatecroatia-n24.hr/properties/?type=house [R=301,L,NC,NE]
-RewriteRule ^en/services/?$ https://www.realestatecroatia-n24.hr/services/ [R=301,L,NC]
-RewriteRule ^en/services/property-consulting-and-investment-analysis/?$ https://www.realestatecroatia-n24.hr/services/#investment-consulting [R=301,L,NC,NE]
-RewriteRule ^en/services/land-consolidation/?$ https://www.realestatecroatia-n24.hr/services/#land-consolidation [R=301,L,NC,NE]
-RewriteRule ^en/services/project-management/?$ https://www.realestatecroatia-n24.hr/services/#project-management [R=301,L,NC,NE]
-RewriteRule ^en/services/architect-design-and-construction-engineering/?$ https://www.realestatecroatia-n24.hr/services/#architecture-and-engineering [R=301,L,NC,NE]
-RewriteRule ^en/services/property-management/?$ https://www.realestatecroatia-n24.hr/services/#property-management [R=301,L,NC,NE]
-RewriteRule ^en/about/?$ https://www.realestatecroatia-n24.hr/about/ [R=301,L,NC]
-RewriteRule ^en/contact/?$ https://www.realestatecroatia-n24.hr/contact/ [R=301,L,NC]
-RewriteRule ^en/terms-of-use/?$ https://www.realestatecroatia-n24.hr/terms/ [R=301,L,NC]
-RewriteRule ^en/privacy-policy/?$ https://www.realestatecroatia-n24.hr/privacy-policy/ [R=301,L,NC]
-RewriteRule ^en/cookie-policy/?$ https://www.realestatecroatia-n24.hr/privacy-policy/#cookies [R=301,L,NC,NE]
+RewriteRule ^en/?$ https://www.realestatecroatia-n24.com/ [R=301,L,NC]
+RewriteRule ^en/properties/?$ https://www.realestatecroatia-n24.com/properties/ [R=301,L,NC]
+RewriteRule ^en/featured-properties/?$ https://www.realestatecroatia-n24.com/properties/ [R=301,L,NC]
+RewriteRule ^en/properties/villa-for-sale-project-contruction/?$ https://www.realestatecroatia-n24.com/property/n24-276-villa-project-plot-primosten/ [R=301,L,NC]
+RewriteRule ^en/properties/sun-hill-primosten-resort-settlement-comming-soon/?$ https://www.realestatecroatia-n24.com/property/n24-231-sun-hill-primosten-resort/ [R=301,L,NC]
+RewriteRule ^en/properties/house-first-line-to-sea-tisno/?$ https://www.realestatecroatia-n24.com/property/n24-251-house-first-line-to-sea-tisno/ [R=301,L,NC]
+RewriteRule ^en/properties/new-construction-in-the-center-of-primosten-apartments/?$ https://www.realestatecroatia-n24.com/property/n24-261-new-apartments-primosten-centre/ [R=301,L,NC]
+RewriteRule ^en/properties/modern-new-building-with-sea-view/?$ https://www.realestatecroatia-n24.com/property/n24-169-modern-new-building-sea-view/ [R=301,L,NC]
+RewriteRule ^en/properties/primosten-modern-apartments-with-pool/?$ https://www.realestatecroatia-n24.com/property/n24-107-primosten-apartment-with-pool/ [R=301,L,NC]
+RewriteRule ^en/properties/newly-built-4-bedroom-villa-ready-to-move-in-soon/?$ https://www.realestatecroatia-n24.com/property/n24-70-new-4-bedroom-villa/ [R=301,L,NC]
+RewriteRule ^en/properties/modern-villa-primosten/?$ https://www.realestatecroatia-n24.com/property/n24-92-modern-villa-sea-view-primosten/ [R=301,L,NC]
+RewriteRule ^en/properties/primoste-apartment-sea-view/?$ https://www.realestatecroatia-n24.com/real-estate-primosten/ [R=301,L,NC]
+RewriteRule ^en/properties/exceptional-house-second-row-to-the-sea-ready-to-move-in/?$ https://www.realestatecroatia-n24.com/properties/?type=house [R=301,L,NC,NE]
+RewriteRule ^en/services/?$ https://www.realestatecroatia-n24.com/services/ [R=301,L,NC]
+RewriteRule ^en/services/property-consulting-and-investment-analysis/?$ https://www.realestatecroatia-n24.com/services/#investment-consulting [R=301,L,NC,NE]
+RewriteRule ^en/services/land-consolidation/?$ https://www.realestatecroatia-n24.com/services/#land-consolidation [R=301,L,NC,NE]
+RewriteRule ^en/services/project-management/?$ https://www.realestatecroatia-n24.com/services/#project-management [R=301,L,NC,NE]
+RewriteRule ^en/services/architect-design-and-construction-engineering/?$ https://www.realestatecroatia-n24.com/services/#architecture-and-engineering [R=301,L,NC,NE]
+RewriteRule ^en/services/property-management/?$ https://www.realestatecroatia-n24.com/services/#property-management [R=301,L,NC,NE]
+RewriteRule ^en/about/?$ https://www.realestatecroatia-n24.com/about/ [R=301,L,NC]
+RewriteRule ^en/contact/?$ https://www.realestatecroatia-n24.com/contact/ [R=301,L,NC]
+RewriteRule ^en/terms-of-use/?$ https://www.realestatecroatia-n24.com/terms/ [R=301,L,NC]
+RewriteRule ^en/privacy-policy/?$ https://www.realestatecroatia-n24.com/privacy-policy/ [R=301,L,NC]
+RewriteRule ^en/cookie-policy/?$ https://www.realestatecroatia-n24.com/privacy-policy/#cookies [R=301,L,NC,NE]
 
 # Croatian: temporary (302) until the Croatian version is built, then point
 # each one at its /hr/ page and make it 301
-RewriteRule ^hr/?$ https://www.realestatecroatia-n24.hr/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/?$ https://www.realestatecroatia-n24.hr/properties/ [R=302,L,NC]
-RewriteRule ^hr/izdvojene-nekretnine/?$ https://www.realestatecroatia-n24.hr/properties/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/primosten-villa-u-gradnji-projekt-zemljste/?$ https://www.realestatecroatia-n24.hr/property/n24-276-villa-project-plot-primosten/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/sun-hill-primosten-resort-uskoro/?$ https://www.realestatecroatia-n24.hr/property/n24-231-sun-hill-primosten-resort/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/tisno-ku-a-prvi-red-do-mora/?$ https://www.realestatecroatia-n24.hr/property/n24-251-house-first-line-to-sea-tisno/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/novogradnja-u-centru-primostena/?$ https://www.realestatecroatia-n24.hr/property/n24-261-new-apartments-primosten-centre/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/moderna-urbana-novogradnja-s-pogledom-na-more/?$ https://www.realestatecroatia-n24.hr/property/n24-169-modern-new-building-sea-view/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/primosten-moderni-apartmani-s-bazenom/?$ https://www.realestatecroatia-n24.hr/property/n24-107-primosten-apartment-with-pool/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/villa-novogradnja-4-spava-e-sobe-useljiva-uskoro/?$ https://www.realestatecroatia-n24.hr/property/n24-70-new-4-bedroom-villa/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/moderna-vila-s-pogledom-na-more-na-brdu-iznad-primostena/?$ https://www.realestatecroatia-n24.hr/property/n24-92-modern-villa-sea-view-primosten/ [R=302,L,NC]
-RewriteRule ^hr/nekretnine/posljednji-apartmani-prvi-red-do-mora/?$ https://www.realestatecroatia-n24.hr/properties/?type=apartment [R=302,L,NC,NE]
-RewriteRule ^hr/usluge/?$ https://www.realestatecroatia-n24.hr/services/ [R=302,L,NC]
-RewriteRule ^hr/usluge/savjetovanje-i-investicijska-analiza/?$ https://www.realestatecroatia-n24.hr/services/#investment-consulting [R=302,L,NC,NE]
-RewriteRule ^hr/usluge/okrupnjavanje-zemljista/?$ https://www.realestatecroatia-n24.hr/services/#land-consolidation [R=302,L,NC,NE]
-RewriteRule ^hr/usluge/projekt-management/?$ https://www.realestatecroatia-n24.hr/services/#project-management [R=302,L,NC,NE]
-RewriteRule ^hr/usluge/arhitektura-i-inzenjering/?$ https://www.realestatecroatia-n24.hr/services/#architecture-and-engineering [R=302,L,NC,NE]
-RewriteRule ^hr/usluge/odrzavanje-nekretnina/?$ https://www.realestatecroatia-n24.hr/services/#property-management [R=302,L,NC,NE]
-RewriteRule ^hr/o-nama/?$ https://www.realestatecroatia-n24.hr/about/ [R=302,L,NC]
-RewriteRule ^hr/kontakt/?$ https://www.realestatecroatia-n24.hr/contact/ [R=302,L,NC]
-RewriteRule ^hr/uvjeti-koristenja/?$ https://www.realestatecroatia-n24.hr/terms/ [R=302,L,NC]
-RewriteRule ^hr/pravila-privatnosti/?$ https://www.realestatecroatia-n24.hr/privacy-policy/ [R=302,L,NC]
-RewriteRule ^hr/izjava-o-kolacicima/?$ https://www.realestatecroatia-n24.hr/privacy-policy/#cookies [R=302,L,NC,NE]
+RewriteRule ^hr/?$ https://www.realestatecroatia-n24.com/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/?$ https://www.realestatecroatia-n24.com/properties/ [R=302,L,NC]
+RewriteRule ^hr/izdvojene-nekretnine/?$ https://www.realestatecroatia-n24.com/properties/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/primosten-villa-u-gradnji-projekt-zemljste/?$ https://www.realestatecroatia-n24.com/property/n24-276-villa-project-plot-primosten/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/sun-hill-primosten-resort-uskoro/?$ https://www.realestatecroatia-n24.com/property/n24-231-sun-hill-primosten-resort/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/tisno-ku-a-prvi-red-do-mora/?$ https://www.realestatecroatia-n24.com/property/n24-251-house-first-line-to-sea-tisno/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/novogradnja-u-centru-primostena/?$ https://www.realestatecroatia-n24.com/property/n24-261-new-apartments-primosten-centre/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/moderna-urbana-novogradnja-s-pogledom-na-more/?$ https://www.realestatecroatia-n24.com/property/n24-169-modern-new-building-sea-view/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/primosten-moderni-apartmani-s-bazenom/?$ https://www.realestatecroatia-n24.com/property/n24-107-primosten-apartment-with-pool/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/villa-novogradnja-4-spava-e-sobe-useljiva-uskoro/?$ https://www.realestatecroatia-n24.com/property/n24-70-new-4-bedroom-villa/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/moderna-vila-s-pogledom-na-more-na-brdu-iznad-primostena/?$ https://www.realestatecroatia-n24.com/property/n24-92-modern-villa-sea-view-primosten/ [R=302,L,NC]
+RewriteRule ^hr/nekretnine/posljednji-apartmani-prvi-red-do-mora/?$ https://www.realestatecroatia-n24.com/properties/?type=apartment [R=302,L,NC,NE]
+RewriteRule ^hr/usluge/?$ https://www.realestatecroatia-n24.com/services/ [R=302,L,NC]
+RewriteRule ^hr/usluge/savjetovanje-i-investicijska-analiza/?$ https://www.realestatecroatia-n24.com/services/#investment-consulting [R=302,L,NC,NE]
+RewriteRule ^hr/usluge/okrupnjavanje-zemljista/?$ https://www.realestatecroatia-n24.com/services/#land-consolidation [R=302,L,NC,NE]
+RewriteRule ^hr/usluge/projekt-management/?$ https://www.realestatecroatia-n24.com/services/#project-management [R=302,L,NC,NE]
+RewriteRule ^hr/usluge/arhitektura-i-inzenjering/?$ https://www.realestatecroatia-n24.com/services/#architecture-and-engineering [R=302,L,NC,NE]
+RewriteRule ^hr/usluge/odrzavanje-nekretnina/?$ https://www.realestatecroatia-n24.com/services/#property-management [R=302,L,NC,NE]
+RewriteRule ^hr/o-nama/?$ https://www.realestatecroatia-n24.com/about/ [R=302,L,NC]
+RewriteRule ^hr/kontakt/?$ https://www.realestatecroatia-n24.com/contact/ [R=302,L,NC]
+RewriteRule ^hr/uvjeti-koristenja/?$ https://www.realestatecroatia-n24.com/terms/ [R=302,L,NC]
+RewriteRule ^hr/pravila-privatnosti/?$ https://www.realestatecroatia-n24.com/privacy-policy/ [R=302,L,NC]
+RewriteRule ^hr/izjava-o-kolacicima/?$ https://www.realestatecroatia-n24.com/privacy-policy/#cookies [R=302,L,NC,NE]
 
 # No new page yet (FAQ, news): temporary
-RewriteRule ^en/faq/?$ https://www.realestatecroatia-n24.hr/about/ [R=302,L,NC]
-RewriteRule ^hr/pitanja-i-odgovori/?$ https://www.realestatecroatia-n24.hr/about/ [R=302,L,NC]
-RewriteRule ^en/news/?$ https://www.realestatecroatia-n24.hr/ [R=302,L,NC]
-RewriteRule ^hr/novosti/?$ https://www.realestatecroatia-n24.hr/ [R=302,L,NC]
+RewriteRule ^en/faq/?$ https://www.realestatecroatia-n24.com/about/ [R=302,L,NC]
+RewriteRule ^hr/pitanja-i-odgovori/?$ https://www.realestatecroatia-n24.com/about/ [R=302,L,NC]
+RewriteRule ^en/news/?$ https://www.realestatecroatia-n24.com/ [R=302,L,NC]
+RewriteRule ^hr/novosti/?$ https://www.realestatecroatia-n24.com/ [R=302,L,NC]
 
 # Anything else under the old /en/, /hr/ or /de/ paths (old FAQ answers, sold
 # listings, broken links): the closest section, never a 404. Pages that exist
 # here (the new /hr/ and /de/ pages) are left alone.
-RewriteRule ^en/(properties)/.+$ https://www.realestatecroatia-n24.hr/properties/ [R=301,L,NC]
+RewriteRule ^en/(properties)/.+$ https://www.realestatecroatia-n24.com/properties/ [R=301,L,NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^hr/(nekretnine|properties)/.+$ https://www.realestatecroatia-n24.hr/properties/ [R=302,L,NC]
+RewriteRule ^hr/(nekretnine|properties)/.+$ https://www.realestatecroatia-n24.com/properties/ [R=302,L,NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(en|hr|de)/(services|usluge)/.+$ https://www.realestatecroatia-n24.hr/services/ [R=301,L,NC]
+RewriteRule ^(en|hr|de)/(services|usluge)/.+$ https://www.realestatecroatia-n24.com/services/ [R=301,L,NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(en|de)(/.*)?$ https://www.realestatecroatia-n24.hr/ [R=301,L]
+RewriteRule ^(en|de)(/.*)?$ https://www.realestatecroatia-n24.com/ [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^hr/.*$ https://www.realestatecroatia-n24.hr/ [R=302,L]
+RewriteRule ^hr/.*$ https://www.realestatecroatia-n24.com/ [R=302,L]
 
 # Old search URL from the first preview of this site
-RewriteRule ^properties-for-sale(/.*)?$ https://www.realestatecroatia-n24.hr/properties/ [R=301,L]
+RewriteRule ^properties-for-sale(/.*)?$ https://www.realestatecroatia-n24.com/properties/ [R=301,L]
 
 # ---------------------------------------------------------------- one address
 # (after the old-URL rules, so those redirect in a single hop)
-RewriteCond %{HTTP_HOST} !^www\.realestatecroatia-n24\.hr$ [NC,OR]
+RewriteCond %{HTTP_HOST} !^www\.realestatecroatia-n24\.com$ [NC,OR]
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://www.realestatecroatia-n24.hr/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.realestatecroatia-n24.com/$1 [R=301,L]
 
 # ---------------------------------------------------------------- pages
 DirectoryIndex index.html

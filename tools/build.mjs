@@ -99,8 +99,8 @@ areas.forEach((a, i) => {
     .replace('{{nearby}}', nearby)
     .replace('{{resort}}', resort);
   const crumbs = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.realestatecroatia-n24.hr/' },
-    { '@type': 'ListItem', position: 2, name: `Real estate ${a.name}`, item: `https://www.realestatecroatia-n24.hr/real-estate-${a.slug}/` },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.realestatecroatia-n24.com/' },
+    { '@type': 'ListItem', position: 2, name: `Real estate ${a.name}`, item: `https://www.realestatecroatia-n24.com/real-estate-${a.slug}/` },
   ] };
   pages.push({
     html, out: `real-estate-${a.slug}/index.html`, path: `/real-estate-${a.slug}/`, nav: `area-${a.slug}`, bodyClass: 'has-band-hero',
@@ -191,7 +191,7 @@ for (const page of pages) {
 }
 
 // sitemap.xml and robots.txt for the live domain (the 404 page is left out).
-const SITE = 'https://www.realestatecroatia-n24.hr';
+const SITE = 'https://www.realestatecroatia-n24.com';
 const today = new Date().toISOString().slice(0, 10);
 const urls = pages.filter((p) => !p.noindex).map((p) => `  <url><loc>${SITE}${p.path}</loc><lastmod>${today}</lastmod></url>`);
 writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`);
