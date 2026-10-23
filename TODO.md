@@ -25,7 +25,6 @@ Open items for the website. Tick them off as they are done.
 - [ ] N24-276: listed as Land (building plot with a villa design); the old site called it a Villa.
 - [ ] N24-251 is in Tisno, outside the 8 areas: it shows in search but on no area page. Keep it?
 - [ ] Primošten Resort: list of units (building, floor, size, bedrooms, price, status) for the table on /primosten-resort/.
-- [ ] Final domain: canonical links and sitemap use https://www.n24.hr; change SITE in tools/build.mjs if it will be realestatecroatia-n24.hr.
 
 ## Build
 - [ ] Backend: PHP + MySQL admin panel, real listings, contact form email.

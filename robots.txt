@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://www.n24.hr/sitemap.xml
+Sitemap: https://www.realestatecroatia-n24.hr/sitemap.xml

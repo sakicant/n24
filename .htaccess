@@ -1,0 +1,78 @@
+# N24 Real Estate on LiteSpeed/Apache. Upload to the web root.
+# Main address: https://www.realestatecroatia-n24.hr
+# Every other domain pointing at this hosting (n24.hr, realestatecroatia-n24.com,
+# with or without www) is sent there permanently, keeping the path.
+
+RewriteEngine On
+
+# ---------------------------------------------------------------- one address
+RewriteCond %{HTTP_HOST} !^www\.realestatecroatia-n24\.hr$ [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.realestatecroatia-n24.hr/$1 [R=301,L]
+
+# ---------------------------------------------------------------- old site URLs
+# The old site lived under /en/ and /hr/. Send its pages to the new ones so
+# Google keeps their history and old links keep working.
+RewriteRule ^en/?$ / [R=301,L]
+RewriteRule ^hr/?$ / [R=301,L]
+
+# Old listings -> new property pages
+RewriteRule ^(en|hr)/(properties|nekretnine)/villa-for-sale-project-contruction/?$ /property/n24-276-villa-project-plot-primosten/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(properties|nekretnine)/sun-hill-primosten-resort-settlement-comming-soon/?$ /property/n24-231-sun-hill-primosten-resort/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(properties|nekretnine)/house-first-line-to-sea-tisno/?$ /property/n24-251-house-first-line-to-sea-tisno/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(properties|nekretnine)/new-construction-in-the-center-of-primosten-apartments/?$ /property/n24-261-new-apartments-primosten-centre/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(properties|nekretnine)/modern-new-building-with-sea-view/?$ /property/n24-169-modern-new-building-sea-view/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(properties|nekretnine)/primosten-modern-apartments-with-pool/?$ /property/n24-107-primosten-apartment-with-pool/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(properties|nekretnine)/newly-built-4-bedroom-villa-ready-to-move-in-soon/?$ /property/n24-70-new-4-bedroom-villa/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(properties|nekretnine)/modern-villa-primosten/?$ /property/n24-92-modern-villa-sea-view-primosten/ [R=301,L,NC]
+
+# Old services -> sections of the services page
+RewriteRule ^(en|hr)/(services|usluge)/land-consolidation/?$ /services/#land-consolidation [R=301,L,NE,NC]
+RewriteRule ^(en|hr)/(services|usluge)/property-consulting-and-investment-analysis/?$ /services/#investment-consulting [R=301,L,NE,NC]
+RewriteRule ^(en|hr)/(services|usluge)/project-management/?$ /services/#project-management [R=301,L,NE,NC]
+RewriteRule ^(en|hr)/(services|usluge)/architect-design-and-construction-engineering/?$ /services/#architecture-and-engineering [R=301,L,NE,NC]
+RewriteRule ^(en|hr)/(services|usluge)/property-management/?$ /services/#property-management [R=301,L,NE,NC]
+RewriteRule ^(en|hr)/(services|usluge)(/.*)?$ /services/ [R=301,L,NC]
+
+# Other old pages
+RewriteRule ^(en|hr)/(properties|nekretnine|featured-properties|izdvojene-nekretnine)(/.*)?$ /properties/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(about|tvrtka|o-nama)/?$ /about/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(contact|kontakt)/?$ /contact/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(terms-of-use|uvjeti-koristenja)/?$ /terms/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(privacy-policy|pravila-privatnosti)/?$ /privacy-policy/ [R=301,L,NC]
+RewriteRule ^(en|hr)/(cookie-policy|izjava-o-kolacicima)/?$ /privacy-policy/#cookies [R=301,L,NE,NC]
+# Anything else from the old site (news, FAQ, ...) goes to the homepage.
+RewriteRule ^(en|hr)/.*$ / [R=301,L]
+
+# Old search URL from the first preview of this site
+RewriteRule ^properties-for-sale(/.*)?$ /properties/ [R=301,L]
+
+# ---------------------------------------------------------------- pages
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+# Nothing outside the website itself should be reachable.
+RewriteRule ^(src|tools|content|\.impeccable|\.claude|\.git)(/|$) - [F,L]
+RewriteRule \.(md|py|mjs|json\.bak)$ - [F,L]
+
+# ---------------------------------------------------------------- headers and caching
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Strict-Transport-Security "max-age=31536000"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/json "access plus 1 hour"
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+</IfModule>
