@@ -65,13 +65,12 @@ Primošten listings. The resort appears there as ONE featured card
 ("Primošten Resort, 100+ units, from €X") linking to `/primosten-resort/`,
 and its units appear in the list only when the "New builds" chip is chosen.
 
-### Type pages (whole region)
+### Property types (no separate pages)
 
-- `/properties/houses/`
-- `/properties/apartments/`
-- `/properties/villas/`
-- `/properties/land/` (most important: land investment is N24's specialty)
-- `/properties/new-builds/`
+Types are filters on the search page, not pages of their own. Links such as
+the footer's "For sale" list open `/properties/` with the type preselected:
+`?type=house`, `?type=apartment`, `?type=villa`, `?type=land`,
+`?type=new-build`.
 
 ### Primošten Resort
 
@@ -79,7 +78,7 @@ and its units appear in the list only when the "New builds" chip is chosen.
   a unit table for all 100+ units (building, floor, size, bedrooms, price,
   status: available / reserved / sold) with filters, enquiry form.
 - Its units are normal listings tagged "Primošten Resort", so they also appear
-  in the general search, on `/properties/new-builds/` and (via the
+  in the general search, under the New builds filter and (via the
   featured card) on `/real-estate-primosten/`.
 - primosten-resort.hr is the owner's official site and will win searches for
   the bare name. Our page targets the buying searches around it ("Primošten

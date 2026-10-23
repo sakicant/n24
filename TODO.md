@@ -16,7 +16,6 @@ Open items for the website. Tick them off as they are done.
 ## Build
 - [ ] Primošten Resort page (/primosten-resort/).
 - [ ] Single property page (/property/...).
-- [ ] Property type pages (/properties/houses/, /land/, ...).
 - [ ] Backend: PHP + MySQL admin panel, real listings, contact form email.
 - [ ] Croatian and German versions.
 - [ ] Analytics (then switch on the cookie banner in assets/js/site.js).
