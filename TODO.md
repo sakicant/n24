@@ -34,5 +34,5 @@ Open items for the website. Tick them off as they are done.
 
 ## Build
 - [ ] Backend: PHP + MySQL admin panel, real listings, contact form email.
-- [ ] Croatian and German versions.
+- [ ] Croatian and German versions: empty pages already exist under /hr/ and /de/ (built by tools/build.mjs, noindex, not in the sitemap, slugs still English). When the English site is final: translate, give each page its local slug, add hreflang and a language switcher, add them to the sitemap, and remove noindex.
 - [ ] Analytics (then switch on the cookie banner in assets/js/site.js).

@@ -70,11 +70,20 @@ RewriteRule ^en/news/?$ https://www.realestatecroatia-n24.hr/ [R=302,L,NC]
 RewriteRule ^hr/novosti/?$ https://www.realestatecroatia-n24.hr/ [R=302,L,NC]
 
 # Anything else under the old /en/, /hr/ or /de/ paths (old FAQ answers, sold
-# listings, broken links): the closest section, never a 404.
+# listings, broken links): the closest section, never a 404. Pages that exist
+# here (the new /hr/ and /de/ pages) are left alone.
 RewriteRule ^en/(properties)/.+$ https://www.realestatecroatia-n24.hr/properties/ [R=301,L,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^hr/(nekretnine|properties)/.+$ https://www.realestatecroatia-n24.hr/properties/ [R=302,L,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(en|hr|de)/(services|usluge)/.+$ https://www.realestatecroatia-n24.hr/services/ [R=301,L,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(en|de)(/.*)?$ https://www.realestatecroatia-n24.hr/ [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^hr/.*$ https://www.realestatecroatia-n24.hr/ [R=302,L]
 
 # Old search URL from the first preview of this site

@@ -138,6 +138,31 @@ const layout = read('src/layout.html');
 const header = read('src/partials/header.html');
 const footer = read('src/partials/footer.html');
 
+// Croatian and German: an empty page for every English one, under /hr/ and /de/,
+// until the English version is final and gets translated. They are noindex and
+// stay out of the sitemap. Slugs are the English ones for now.
+const LANG_STUB = {
+  hr: { title: 'Hrvatska verzija uskoro', text: 'Ova stranica bit će uskoro dostupna na hrvatskom.', link: 'Pogledajte englesku verziju' },
+  de: { title: 'Deutsche Version folgt', text: 'Diese Seite ist bald auch auf Deutsch verfügbar.', link: 'Zur englischen Version' },
+};
+for (const page of pages.filter((p) => !p.lang && p.out !== '404.html')) {
+  for (const [lang, t] of Object.entries(LANG_STUB)) {
+    pages.push({
+      lang, out: `${lang}/${page.out}`, path: page.path, nav: null, bodyClass: 'has-band-hero', noindex: true, scripts: [],
+      title: `${t.title} | N24`, description: t.text,
+      html: `  <section class="band-hero lang-stub" aria-labelledby="page-title">
+    <div class="wrap band-hero-row">
+      <h1 id="page-title">${t.title}</h1>
+      <p class="lede">${t.text}</p>
+    </div>
+  </section>
+  <section class="wrap nf-actions">
+    <a class="btn btn-red" href="${page.path}" hreflang="en">${t.link}</a>
+  </section>`,
+    });
+  }
+}
+
 for (const page of pages) {
   const lang = page.lang || 'en';
   const head = header.replace(/\{\{nav:([\w-]+)\}\}/g, (_, id) => {
