@@ -91,7 +91,8 @@ window.N24 = (function () {
         if (v && steps.indexOf(+v) === -1) steps = steps.concat(+v).sort(function (a, b) { return a - b; });
       });
       lo.innerHTML = opt('', nums.length ? r.fmt(low) + ' (min)' : 'Any') + steps.map(function (v) { return opt(v, r.fmt(v)); }).join('');
-      hi.innerHTML = opt('', nums.length ? r.fmt(high) + ' (max)' : 'Any') + steps.map(function (v) { return opt(v, r.fmt(v)); }).join('');
+      // The "To" list ends with the highest value, so it reads low to high like "From".
+      hi.innerHTML = steps.map(function (v) { return opt(v, r.fmt(v)); }).join('') + opt('', nums.length ? r.fmt(high) + ' (max)' : 'Any');
       lo.value = wanted.min;
       hi.value = wanted.max;
       fix();
