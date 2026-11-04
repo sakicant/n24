@@ -41,6 +41,7 @@ RewriteRule \.(md|py|mjs|json\.bak|log)$ - [F,L]
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
   ExpiresByType font/woff2 "access plus 1 year"
   ExpiresByType text/css "access plus 1 year"
   ExpiresByType application/javascript "access plus 1 year"
@@ -57,5 +58,6 @@ RewriteRule \.(md|py|mjs|json\.bak|log)$ - [F,L]
 
 <IfModule mod_mime.c>
   AddType image/webp .webp
+  AddType video/mp4 .mp4
   AddType font/woff2 .woff2
 </IfModule>
