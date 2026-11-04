@@ -1,6 +1,6 @@
 <?php
 /**
- * Admin login: one account (Tomislav), created once on /admin/ with the setup code.
+ * Admin login: one account (Tomislav), created once on /manage/ with the setup code.
  * The password is stored only as a hash in api/data/admin-config.php.
  * Sessions expire after 8 hours without activity; every form carries a CSRF token;
  * after 8 wrong passwords from one address, login pauses for 15 minutes.
@@ -21,7 +21,7 @@ function n24_session(): void
     }
     $secure = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || (($_SERVER['SERVER_PORT'] ?? '') === '443');
     session_name('n24admin');
-    session_set_cookie_params(['lifetime' => 0, 'path' => '/admin/', 'secure' => $secure, 'httponly' => true, 'samesite' => 'Lax']);
+    session_set_cookie_params(['lifetime' => 0, 'path' => '/manage/', 'secure' => $secure, 'httponly' => true, 'samesite' => 'Lax']);
     session_start();
     if (!empty($_SESSION['user']) && (time() - ($_SESSION['seen'] ?? 0)) > N24_SESSION_IDLE) {
         $_SESSION = [];
@@ -68,7 +68,7 @@ function n24_write_config(string $user, string $password): void
     if (!is_dir(N24_DATA)) {
         mkdir(N24_DATA, 0750, true);
     }
-    $php = "<?php\n// Admin login for /admin/. Written by the admin; the password is only stored as a hash.\nreturn " .
+    $php = "<?php\n// Admin login for /manage/. Written by the admin; the password is only stored as a hash.\nreturn " .
         var_export(['user' => $user, 'hash' => password_hash($password, PASSWORD_DEFAULT), 'changed' => date('c')], true) . ";\n";
     if (file_put_contents(N24_ADMIN_CONFIG . '.tmp', $php) === false || !rename(N24_ADMIN_CONFIG . '.tmp', N24_ADMIN_CONFIG)) {
         throw new RuntimeException('The login could not be saved on the server (folder api/data is not writable).');

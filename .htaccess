@@ -21,7 +21,9 @@ RewriteRule ^sitemap\.xml$ api/sitemap.php [L]
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 
-# Nothing outside the website itself should be reachable.
+# Nothing outside the website itself should be reachable. The admin lives at
+# /manage/ (not listed anywhere); the old /admin/ address is dead.
+RewriteRule ^admin(/.*)?$ - [R=404,L]
 RewriteRule ^(src|tools|content|\.impeccable|\.claude|\.git)(/|$) - [F,L]
 RewriteRule ^api/(lib|data|views)(/|$) - [F,L]
 RewriteRule ^api/check-webp\.php$ - [F,L]

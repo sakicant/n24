@@ -1,6 +1,6 @@
 <?php
 /**
- * N24 admin: n24.hr/admin/
+ * N24 admin: n24.hr/manage/
  * Log in, then add, edit, hide and delete listings and their photos.
  * Every save goes straight to the website (assets/data/listings.json) and keeps
  * a backup of the previous version in api/data/backups/.
@@ -23,7 +23,7 @@ $post = ($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST';
 
 function go(string $to): void
 {
-    header('Location: /admin/' . $to, true, 303);
+    header('Location: /manage/' . $to, true, 303);
     exit;
 }
 
@@ -59,7 +59,7 @@ if (!n24_is_setup()) {
         } else {
             n24_write_config($user, (string) $_POST['password']);
             n24_login($user, (string) $_POST['password']);
-            flash('Your login is ready. From now on use your username and password at n24.hr/admin/.');
+            flash('Your login is ready. From now on use your username and password at n24.hr/manage/.');
             go('');
         }
     }
@@ -96,7 +96,7 @@ if (!n24_logged_in()) {
         }
     }
     page('Log in', function () use ($error) { ?>
-      <form method="post" action="/admin/?a=login" class="card narrow">
+      <form method="post" action="/manage/?a=login" class="card narrow">
         <h1>N24 admin</h1>
         <?php if ($error) echo '<p class="msg msg-error">' . n24_e($error) . '</p>'; ?>
         <input type="hidden" name="csrf" value="<?= n24_e(n24_csrf()) ?>">
@@ -228,14 +228,14 @@ $list = n24_load();
 
 if ($a === 'password') {
     page('Change password', function () { ?>
-      <form method="post" action="/admin/?a=password" class="card narrow">
+      <form method="post" action="/manage/?a=password" class="card narrow">
         <h1>Change password</h1>
         <input type="hidden" name="csrf" value="<?= n24_e(n24_csrf()) ?>">
         <label>Current password <input name="current" type="password" required autocomplete="current-password"></label>
         <label>New password (at least 10 characters) <input name="password" type="password" required minlength="10" autocomplete="new-password"></label>
         <label>New password again <input name="repeat" type="password" required minlength="10" autocomplete="new-password"></label>
         <button class="btn">Change password</button>
-        <p><a href="/admin/">Back to listings</a></p>
+        <p><a href="/manage/">Back to listings</a></p>
       </form>
     <?php });
     exit;
@@ -274,7 +274,7 @@ if ($a === 'edit' || $a === 'new') {
             return isset($errors[$k]) ? '<span class="field-error">' . n24_e($errors[$k]) . '</span>' : '';
         };
         $f = function ($k) use ($v) { return n24_e($v[$k]); }; ?>
-      <form method="post" action="/admin/?a=save" class="edit" id="edit" data-id="<?= n24_e($l['id']) ?>" data-csrf="<?= n24_e(n24_csrf()) ?>">
+      <form method="post" action="/manage/?a=save" class="edit" id="edit" data-id="<?= n24_e($l['id']) ?>" data-csrf="<?= n24_e(n24_csrf()) ?>">
         <input type="hidden" name="csrf" value="<?= n24_e(n24_csrf()) ?>">
         <input type="hidden" name="id" value="<?= n24_e($l['id']) ?>">
         <?php if ($isNew) echo '<input type="hidden" name="new" value="1">'; ?>
@@ -282,7 +282,7 @@ if ($a === 'edit' || $a === 'new') {
 
         <div class="edit-head">
           <div>
-            <p class="crumb"><a href="/admin/">All listings</a></p>
+            <p class="crumb"><a href="/manage/">All listings</a></p>
             <h1><?= $isNew ? 'New listing' : n24_e($l['title']) ?></h1>
             <p class="ref">Reference <?= n24_e(strtoupper($l['id'])) ?><?php if (!$isNew && empty($l['hidden'])): ?> · <a href="<?= n24_e(n24_listing_path($l)) ?>" target="_blank" rel="noopener">View on website</a><?php endif; ?></p>
           </div>
@@ -387,18 +387,18 @@ if ($a === 'edit' || $a === 'new') {
 
         <div class="savebar">
           <button class="btn" id="save">Save</button>
-          <a href="/admin/" class="btn btn-light">Cancel</a>
+          <a href="/manage/" class="btn btn-light">Cancel</a>
         </div>
       </form>
       <?php if (!$isNew): ?>
-      <form method="post" action="/admin/?a=delete" class="delete-form" data-title="<?= n24_e($l['title']) ?>">
+      <form method="post" action="/manage/?a=delete" class="delete-form" data-title="<?= n24_e($l['title']) ?>">
         <input type="hidden" name="csrf" value="<?= n24_e(n24_csrf()) ?>">
         <input type="hidden" name="id" value="<?= n24_e($l['id']) ?>">
         <button class="btn btn-danger">Delete this listing</button>
         <span class="hint">Deletes the listing and its photos from the website. This cannot be undone.</span>
       </form>
       <?php endif;
-    }, ['/assets/js/image-prep.js', '/admin/admin.js']);
+    }, ['/assets/js/image-prep.js', '/manage/admin.js']);
     exit;
 }
 
@@ -406,14 +406,14 @@ if ($a === 'edit' || $a === 'new') {
 page('Listings', function () use ($list) { ?>
   <div class="list-head">
     <h1>Listings <span class="count"><?= count($list) ?></span></h1>
-    <a class="btn" href="/admin/?a=new">+ Add listing</a>
+    <a class="btn" href="/manage/?a=new">+ Add listing</a>
   </div>
   <input type="search" id="filter" class="filter" placeholder="Search by title, place or reference" aria-label="Search listings">
   <ul class="rows" id="rows">
     <?php foreach ($list as $l):
         $search = mb_strtolower($l['title'] . ' ' . $l['id'] . ' ' . n24_area_name($l['area'] ?? '') . ' ' . ($l['status'] ?? '')); ?>
       <li data-search="<?= n24_e($search) ?>">
-        <a class="row" href="/admin/?a=edit&amp;id=<?= n24_e($l['id']) ?>">
+        <a class="row" href="/manage/?a=edit&amp;id=<?= n24_e($l['id']) ?>">
           <span class="thumb"><?php if (!empty($l['img'])): ?><img src="/assets/img/listings/<?= n24_e($l['img']) ?>-640.webp" alt="" loading="lazy"><?php endif; ?></span>
           <span class="info">
             <strong><?= n24_e($l['title']) ?></strong>
@@ -425,7 +425,7 @@ page('Listings', function () use ($list) { ?>
       </li>
     <?php endforeach; ?>
   </ul>
-<?php }, ['/admin/admin.js']);
+<?php }, ['/manage/admin.js']);
 
 // ------------------------------------------------------------------ layout
 function page(string $title, callable $body, array $scripts = []): void
@@ -441,17 +441,17 @@ function page(string $title, callable $body, array $scripts = []): void
 <meta name="robots" content="noindex, nofollow">
 <title><?= n24_e($title) ?> | N24 admin</title>
 <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/admin/admin.css?v=<?= n24_e($v) ?>">
+<link rel="stylesheet" href="/manage/admin.css?v=<?= n24_e($v) ?>">
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="/admin/"><span class="frame" aria-hidden="true"></span>N24 <small>admin</small></a>
+  <a class="brand" href="/manage/"><span class="frame" aria-hidden="true"></span>N24 <small>admin</small></a>
   <?php if (n24_logged_in()): ?>
   <nav>
     <a href="/" target="_blank" rel="noopener">Website</a>
-    <a href="/admin/?a=backup">Download backup</a>
-    <a href="/admin/?a=password">Password</a>
-    <form method="post" action="/admin/?a=logout"><input type="hidden" name="csrf" value="<?= n24_e(n24_csrf()) ?>"><button class="link">Log out</button></form>
+    <a href="/manage/?a=backup">Download backup</a>
+    <a href="/manage/?a=password">Password</a>
+    <form method="post" action="/manage/?a=logout"><input type="hidden" name="csrf" value="<?= n24_e(n24_csrf()) ?>"><button class="link">Log out</button></form>
   </nav>
   <?php endif; ?>
 </header>

@@ -86,7 +86,7 @@
       fd.append('csrf', form.getAttribute('data-csrf'));
       fd.append('id', form.getAttribute('data-id'));
       fd.append('photo', prep.blob, prep.name);
-      return fetch('/admin/?a=upload', { method: 'POST', body: fd, credentials: 'same-origin' })
+      return fetch('/manage/?a=upload', { method: 'POST', body: fd, credentials: 'same-origin' })
         .then(function (r) {
           return r.json().catch(function () { return { ok: false, error: 'The server did not accept this photo (it may be too large).' }; });
         });
