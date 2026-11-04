@@ -8,8 +8,8 @@ decisions are made.
 - Legal name: Nekretnine 24 d.o.o. (short: N 24 d.o.o.). In real estate since 2010.
 - Address: Bože Peričića 26, 22000 Šibenik, Croatia.
 - Director and main salesman: Tomislav Plenča (profile with photo on the site).
-- Phone / WhatsApp: +385 95 700 7001. Email: nekretnine24@n24.hr.
-- Domains: main www.realestatecroatia-n24.com (the domain the old site ranks on); n24.hr redirects to it. A .hr version of the long domain does not exist.
+- Phone / WhatsApp: +385 95 700 7001. Email on the site: info@n24.hr (nekretnine24@ forwards to info@, info@ forwards to tomislav@; Tomislav replies from tomislav@n24.hr).
+- Domain: https://n24.hr (decided 2026-11-04). The old realestatecroatia-n24.com expires; nothing is redirected from it.
 - Area: Šibenik and the coast, mainly between Split and Zadar.
 - Business: sales, long-term rentals, new builds, land investment.
 - Specialties (services): investment consulting and analysis, land consolidation

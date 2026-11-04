@@ -154,15 +154,15 @@ export function listingPages(all) {
   ${'{{similar}}'}`;
     const ld = [
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.realestatecroatia-n24.com/' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://n24.hr/' },
         onCoast
-          ? { '@type': 'ListItem', position: 2, name: `Real estate ${place}`, item: `https://www.realestatecroatia-n24.com/real-estate-${l.area}/` }
-          : { '@type': 'ListItem', position: 2, name: 'Properties', item: 'https://www.realestatecroatia-n24.com/properties/' },
-        { '@type': 'ListItem', position: 3, name: l.title, item: `https://www.realestatecroatia-n24.com${listingPath(l)}` },
+          ? { '@type': 'ListItem', position: 2, name: `Real estate ${place}`, item: `https://n24.hr/real-estate-${l.area}/` }
+          : { '@type': 'ListItem', position: 2, name: 'Properties', item: 'https://n24.hr/properties/' },
+        { '@type': 'ListItem', position: 3, name: l.title, item: `https://n24.hr${listingPath(l)}` },
       ] },
-      { '@context': 'https://schema.org', '@type': 'RealEstateListing', name: l.title, url: `https://www.realestatecroatia-n24.com${listingPath(l)}`,
+      { '@context': 'https://schema.org', '@type': 'RealEstateListing', name: l.title, url: `https://n24.hr${listingPath(l)}`,
         description: (l.description || [])[0] || l.title,
-        image: l.gallery ? `https://www.realestatecroatia-n24.com/assets/img/listings/${l.id}-1-1200.webp` : undefined,
+        image: l.gallery ? `https://n24.hr/assets/img/listings/${l.id}-1-1200.webp` : undefined,
         ...(l.price ? { offers: { '@type': 'Offer', price: l.price, priceCurrency: 'EUR', availability: 'https://schema.org/InStock' } } : {}) },
     ];
     const desc = ((l.description || [])[0] || l.title).slice(0, 150);

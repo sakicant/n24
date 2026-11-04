@@ -29,10 +29,10 @@ Open items for the website. Tick them off as they are done.
 - [ ] Primošten Resort: list of units (building, floor, size, bedrooms, price, status) for the table on /primosten-resort/.
 
 ## Redirects (.htaccess)
-- [ ] Point realestatecroatia-n24.com and n24.hr at the new hosting (main domain: www.realestatecroatia-n24.com; n24.hr redirects to it).
-- [ ] After launch: test a few old URLs on the live server (e.g. /en/properties/modern-villa-primosten, /hr/kontakt) and submit the new sitemap in Google Search Console.
-- [ ] When the Croatian version exists: point the /hr/ redirects at the /hr/ pages and change them from 302 to 301.
-- [ ] FAQ page: the old /en/faq and /hr/pitanja-i-odgovori rank in Google (foreign buyers, taxes, agency fee). Build a FAQ page and point both there (now they go to /about/).
+- [ ] n24.hr: add as addon domain on mydataknox cPanel, upload n24-website.zip (python tools/package.py) to its folder, then set nameservers ns1/ns2.mydataknox.com.
+- [ ] After DNS: send a test enquiry from /contact/ and check it reaches info@ and Tomislav (also the spam folder).
+- [ ] After launch: submit https://n24.hr/sitemap.xml in Google Search Console.
+- [ ] FAQ page: the old /en/faq and /hr/pitanja-i-odgovori rank in Google (foreign buyers, taxes, agency fee). Build a FAQ page (the old domain is not redirected).
 
 ## Build
 - [ ] Backend: PHP + MySQL admin panel, real listings, contact form email.

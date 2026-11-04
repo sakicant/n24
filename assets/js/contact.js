@@ -40,6 +40,16 @@
     msg.value = 'I am interested in ' + (params.get('title') ? '"' + params.get('title') + '" ' : '') + '(' + params.get('ref') + '). ';
   }
 
+  // Without JavaScript the form posts normally and comes back with ?sent=1 or ?error=1.
+  var back = document.getElementById('form-status');
+  if (params.get('sent') || params.get('error')) {
+    back.hidden = false;
+    back.className = 'form-status ' + (params.get('sent') ? 'is-ok' : 'is-error');
+    back.textContent = params.get('sent')
+      ? 'Thank you, your enquiry has been sent. Tomislav will reply by email.'
+      : 'Sending failed. Please call or WhatsApp Tomislav on +385 95 700 7001.';
+  }
+
   var checks = [
     { input: 'f-name', error: 'e-name', ok: function (v) { return v.trim().length > 1; } },
     { input: 'f-email', error: 'e-email', ok: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()); } },
@@ -72,9 +82,24 @@
     });
     if (firstBad) { firstBad.focus(); return; }
 
-    // The PHP backend comes in phase 2; until then the preview says so honestly.
     var status = document.getElementById('form-status');
+    var button = form.querySelector('button[type="submit"]');
+    button.disabled = true;
     status.hidden = false;
-    status.textContent = 'This preview is not connected to email yet. Please call or WhatsApp Tomislav on +385 95 700 7001.';
+    status.className = 'form-status';
+    status.textContent = 'Sending...';
+    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+      .then(function (r) { return r.json(); })
+      .then(function (res) {
+        status.textContent = res.message;
+        status.className = 'form-status ' + (res.ok ? 'is-ok' : 'is-error');
+        if (res.ok) form.reset(); else button.disabled = false;
+        if (res.ok) applyTopic();
+      })
+      .catch(function () {
+        status.textContent = 'Sending failed. Please call or WhatsApp Tomislav on +385 95 700 7001.';
+        status.className = 'form-status is-error';
+        button.disabled = false;
+      });
   });
 })();

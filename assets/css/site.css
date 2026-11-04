@@ -421,6 +421,9 @@ body.menu-open { overflow: hidden; }
 .topic-hint a { font-weight: 600; color: var(--navy); }
 .sell-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .form-status { margin-top: 16px; padding: 14px 16px; background: var(--sand-2); color: var(--navy); font-size: .9375rem; }
+.form-status.is-ok { background: #E7F2EA; color: #1E5631; }
+.form-status.is-error { background: #FBE9EA; color: #8E1A20; }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .map { position: relative; height: clamp(320px, 40vw, 460px); border-top: 1px solid var(--line); background: var(--sand-2); }
 .map-link { border-radius: var(--radius); box-shadow: 0 6px 16px -8px rgba(19, 38, 75, .55); position: absolute; right: 16px; bottom: 16px; background: var(--navy); color: var(--sand); font-weight: 600; font-size: .875rem; padding: 10px 14px; text-decoration: none; }
 .map-link:hover { background: var(--navy-2); }
