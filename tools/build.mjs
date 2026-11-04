@@ -163,9 +163,10 @@ for (const page of pages.filter((p) => !p.lang && p.out !== '404.html')) {
   }
 }
 
-for (const page of pages) {
+function render(page) {
   const lang = page.lang || 'en';
-  const head = header.replace(/\{\{nav:([\w-]+)\}\}/g, (_, id) => {
+  // The PHP property template keeps the {{nav:...}} markers; api/property.php fills them.
+  const head = page.keepNav ? header : header.replace(/\{\{nav:([\w-]+)\}\}/g, (_, id) => {
     if (id === page.nav) return ' aria-current="page"';
     if (id === 'areas' && String(page.nav).startsWith('area-')) return ' data-current="true"';
     return '';
@@ -184,16 +185,31 @@ for (const page of pages) {
     .replace('{{scripts}}', scripts)
     .replaceAll('{{logo_tagline}}', LOGO_TAGLINE[lang])
     .replaceAll('{{version}}', version);
+  return html;
+}
+
+for (const page of pages) {
   const out = join(root, page.out);
   mkdirSync(dirname(out), { recursive: true });
-  writeFileSync(out, html);
+  writeFileSync(out, render(page));
   console.log('built', page.out);
 }
+
+// On the live server property pages are made by PHP (api/property.php) from the
+// listings the admin saves. It fills this template: same layout, header and footer.
+mkdirSync(join(root, 'api/views'), { recursive: true });
+writeFileSync(join(root, 'api/views/property-shell.html'), render({
+  path: '{{path}}', keepNav: true, bodyClass: 'has-band-hero', scripts: ['/assets/js/property.js'],
+  title: '{{title}}', description: '{{description}}', head: '{{head}}', html: '{{content}}',
+}));
+writeFileSync(join(root, 'api/views/sitemap-static.json'), JSON.stringify(
+  pages.filter((p) => !p.noindex && !p.listing).map((p) => p.path), null, 1));
+console.log('built api/views (property template, sitemap pages)');
 
 // sitemap.xml and robots.txt for the live domain (the 404 page is left out).
 const SITE = 'https://n24.hr';
 const today = new Date().toISOString().slice(0, 10);
 const urls = pages.filter((p) => !p.noindex).map((p) => `  <url><loc>${SITE}${p.path}</loc><lastmod>${today}</lastmod></url>`);
 writeFileSync(join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`);
-writeFileSync(join(root, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\n\nSitemap: ${SITE}/sitemap.xml\n`);
+writeFileSync(join(root, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /admin/\n\nSitemap: ${SITE}/sitemap.xml\n`);
 console.log('built sitemap.xml with', urls.length, 'pages');

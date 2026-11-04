@@ -35,6 +35,8 @@ Open items for the website. Tick them off as they are done.
 - [ ] FAQ page: the old /en/faq and /hr/pitanja-i-odgovori rank in Google (foreign buyers, taxes, agency fee). Build a FAQ page (the old domain is not redirected).
 
 ## Build
-- [ ] Backend: PHP + MySQL admin panel, real listings, contact form email.
+- [x] Admin at n24.hr/admin/ (2026-11-04): login, add, edit, hide, delete listings, photo upload and order. Data stays in assets/data/listings.json (no MySQL); every save keeps a backup in api/data/backups/. Property pages and sitemap.xml are made by PHP on the server.
+- [ ] After the admin upload: open n24.hr/admin/, create Tomislav's login with the setup code, add one test listing with a phone photo, then delete it.
+- [ ] From now on the server owns the listings. Before any local work on listings, download the backup in the admin (Download backup) and replace assets/data/listings.json with it. Upload zips leave the server's listings alone unless made with --with-data.
 - [ ] Croatian and German versions: empty pages already exist under /hr/ and /de/ (built by tools/build.mjs, noindex, not in the sitemap, slugs still English). When the English site is final: translate, give each page its local slug, add hreflang and a language switcher, add them to the sitemap, and remove noindex.
 - [ ] Analytics (then switch on the cookie banner in assets/js/site.js).

@@ -4,7 +4,11 @@
     {
       "name": "n24-static",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5600"],
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "5600"
+      ],
       "port": 5600
     }
   ]

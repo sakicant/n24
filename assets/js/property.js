@@ -4,13 +4,13 @@
   // Photo viewer: opens over the page, arrows and swipe to move, Escape to close.
   var g = document.querySelector('.pg');
   if (!g) return;
-  var id = g.getAttribute('data-id');
-  var count = +g.getAttribute('data-count');
+  var photos = (g.getAttribute('data-photos') || '').split(',');
+  var count = photos.length;
   var title = g.getAttribute('data-title');
   var current = 1;
   var box, imgEl, counter, lastFocus;
 
-  function src(n, w) { return '/assets/img/listings/' + id + '-' + n + '-' + w + '.webp'; }
+  function src(n, w) { return '/assets/img/listings/' + photos[n - 1] + '-' + w + '.webp'; }
 
   function build() {
     box = document.createElement('div');

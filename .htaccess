@@ -12,13 +12,19 @@ RewriteRule ^(.*)$ https://n24.hr/$1 [R=301,L]
 # Old search URL from the first preview of this site
 RewriteRule ^properties-for-sale(/.*)?$ /properties/ [R=301,L]
 
+# Property pages and the sitemap are made by PHP from the listings saved in the admin.
+RewriteRule ^property/([a-z0-9-]+)$ /property/$1/ [R=301,L]
+RewriteRule ^property/([a-z0-9-]+)/$ api/property.php?slug=$1 [L,QSA]
+RewriteRule ^sitemap\.xml$ api/sitemap.php [L]
+
 # ---------------------------------------------------------------- pages
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 
 # Nothing outside the website itself should be reachable.
 RewriteRule ^(src|tools|content|\.impeccable|\.claude|\.git)(/|$) - [F,L]
-RewriteRule ^api/(lib|data)(/|$) - [F,L]
+RewriteRule ^api/(lib|data|views)(/|$) - [F,L]
+RewriteRule ^api/check-webp\.php$ - [F,L]
 RewriteRule \.(md|py|mjs|json\.bak|log)$ - [F,L]
 
 # ---------------------------------------------------------------- headers and caching
@@ -35,7 +41,14 @@ RewriteRule \.(md|py|mjs|json\.bak|log)$ - [F,L]
   ExpiresByType text/css "access plus 1 year"
   ExpiresByType application/javascript "access plus 1 year"
   ExpiresByType text/html "access plus 0 seconds"
-  ExpiresByType application/json "access plus 1 hour"
+  ExpiresByType application/json "access plus 0 seconds"
+</IfModule>
+
+# The admin and listing data change at any time: never cached.
+<IfModule mod_headers.c>
+  <FilesMatch "listings\.json$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
 </IfModule>
 
 <IfModule mod_mime.c>

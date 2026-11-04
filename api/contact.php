@@ -5,6 +5,8 @@
 
 declare(strict_types=1);
 
+ini_set('display_errors', '0'); // warnings must not break the JSON answer
+
 const TO   = 'info@n24.hr';
 const FROM = 'info@n24.hr';           // must be an address on this domain, or mail is marked as spam
 const SITE = 'https://n24.hr';
@@ -85,7 +87,7 @@ $headers = implode("\r\n", [
     'X-Mailer: n24.hr',
 ]);
 
-$sent = mail(TO, mb_encode_mimeheader($subject, 'UTF-8'), $body, $headers, '-f' . FROM);
+$sent = @mail(TO, mb_encode_mimeheader($subject, 'UTF-8'), $body, $headers, '-f' . FROM);
 
 $sent
     ? done(true, 'Thank you, your enquiry has been sent. Tomislav will reply by email.')

@@ -13,3 +13,7 @@ Thumbs.db
 
 # Original listing photos (large); the site uses the WebP files in assets/img/listings
 content/source-photos/*/
+
+# Server-side admin data (login, backups, lock): never in git
+api/data/*
+!api/data/.htaccess

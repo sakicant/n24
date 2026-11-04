@@ -35,10 +35,14 @@ window.N24 = (function () {
       '<path class="plot" d="M44 30 L78 28 L80 62 L48 66 Z"/></svg></div>';
   }
 
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
   function card(l) {
     var href = l.sample ? '#' : '/property/' + l.id + '-' + l.slug + '/';
     var ph = l.img
-      ? '<img src="/assets/img/listings/' + l.img + '-640.webp" srcset="/assets/img/listings/' + l.img + '-640.webp 640w, /assets/img/listings/' + l.img + '-1200.webp 1200w" sizes="(min-width: 1080px) 400px, (min-width: 600px) 50vw, 100vw" alt="' + l.title + '" loading="lazy" width="640" height="480">'
+      ? '<img src="/assets/img/listings/' + l.img + '-640.webp" srcset="/assets/img/listings/' + l.img + '-640.webp 640w, /assets/img/listings/' + l.img + '-1200.webp 1200w" sizes="(min-width: 1080px) 400px, (min-width: 600px) 50vw, 100vw" alt="' + esc(l.title) + '" loading="lazy" width="640" height="480">'
       : planPlaceholder();
     var tag = l.sample ? '<span class="tag sample">Sample listing</span>'
       : (l.project === 'primosten-resort' ? '<span class="tag">Primošten Resort</span>' : '');
@@ -47,12 +51,12 @@ window.N24 = (function () {
     if (l.size) facts.push(num.format(l.size) + ' m²' + (land ? ' plot' : ''));
     if (l.beds && !land) facts.push(l.beds + ' bed');
     if (l.baths && !land) facts.push(l.baths + ' bath');
-    if (!facts.length && l.note) facts.push(l.note);
+    if (!facts.length && l.note) facts.push(esc(l.note));
     var price = l.price ? '<span class="price">' + (l.units ? 'From ' : '') + euro.format(l.price) + '</span>' : '<span class="price ask">Price on request</span>';
     return '<li class="card"><a href="' + href + '"' + (l.sample ? ' aria-disabled="true"' : '') + '>' +
       '<div class="ph">' + ph + tag + '</div>' +
       '<p class="meta"><span>' + areaName(l.area) + '</span><span>' + TYPES[l.type] + '</span></p>' +
-      '<h3>' + l.title + '</h3>' +
+      '<h3>' + esc(l.title) + '</h3>' +
       '<div class="row"><span class="facts-line">' + facts.join(' · ') + '</span>' + price + '</div>' +
       '</a></li>';
   }
@@ -121,8 +125,11 @@ window.N24 = (function () {
     return true;
   }
 
+  // Listings hidden in the admin stay in the file but are not shown.
   function load() {
-    return fetch('/assets/data/listings.json').then(function (r) { return r.json(); });
+    return fetch('/assets/data/listings.json', { cache: 'no-cache' })
+      .then(function (r) { return r.json(); })
+      .then(function (all) { return all.filter(function (l) { return !l.hidden; }); });
   }
 
   return {

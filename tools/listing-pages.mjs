@@ -10,23 +10,22 @@ const areaName = (id) => AREA_NAMES[id] || 'Location to confirm';
 
 export const listingPath = (l) => `/property/${l.id}-${l.slug}/`;
 
-function img(l, n, sizes, extra = '') {
-  const base = `/assets/img/listings/${l.id}-${n}`;
+function img(l, name, n, sizes, extra = '') {
+  const base = `/assets/img/listings/${name}`;
   return `<img src="${base}-1200.webp" srcset="${base}-640.webp 640w, ${base}-1200.webp 1200w, ${base}-1920.webp 1920w" sizes="${sizes}" alt="${esc(l.title)}, photo ${n}" ${extra}>`;
 }
 
 function gallery(l) {
-  const n = l.gallery || 0;
-  if (!n) {
-    return `<div class="pg-main pg-single">${l.img ? `<img src="/assets/img/listings/${l.img}-1200.webp" alt="${esc(l.title)}">` : ''}</div>`;
-  }
+  const photos = l.photos || [];
+  const n = photos.length;
+  if (!n) return '';
   const thumbs = [];
   for (let i = 2; i <= Math.min(n, 5); i++) {
     const more = i === 5 && n > 5 ? `<span class="pg-more">+${n - 5} photos</span>` : '';
-    thumbs.push(`<button type="button" class="pg-thumb" data-photo="${i}" aria-label="Open photo ${i} of ${n}">${img(l, i, '(min-width: 900px) 20vw, 50vw', 'loading="lazy" width="640" height="480"')}${more}</button>`);
+    thumbs.push(`<button type="button" class="pg-thumb" data-photo="${i}" aria-label="Open photo ${i} of ${n}">${img(l, photos[i - 1], i, '(min-width: 900px) 20vw, 50vw', 'loading="lazy" width="640" height="480"')}${more}</button>`);
   }
-  return `<div class="pg" data-id="${l.id}" data-count="${n}" data-title="${esc(l.title)}">
-      <button type="button" class="pg-main" data-photo="1" aria-label="Open photo 1 of ${n}">${img(l, 1, '(min-width: 900px) 60vw, 100vw', 'fetchpriority="high" width="1200" height="800"')}</button>
+  return `<div class="pg" data-photos="${photos.join(',')}" data-title="${esc(l.title)}">
+      <button type="button" class="pg-main" data-photo="1" aria-label="Open photo 1 of ${n}">${img(l, photos[0], 1, '(min-width: 900px) 60vw, 100vw', 'fetchpriority="high" width="1200" height="800"')}</button>
       ${thumbs.length ? `<div class="pg-thumbs">${thumbs.join('')}</div>` : ''}
       <button type="button" class="pg-all" data-photo="1">Show all ${n} photos</button>
     </div>`;
@@ -70,7 +69,7 @@ function units(l) {
 }
 
 function similar(l, all, card) {
-  const pool = all.filter((x) => x.id !== l.id && !x.sample && x.slug);
+  const pool = all.filter((x) => x.id !== l.id && !x.hidden && x.slug);
   const score = (x) => (x.area === l.area ? 2 : 0) + (x.type === l.type ? 1 : 0);
   const picks = pool.sort((a, b) => score(b) - score(a)).slice(0, 3);
   if (!picks.length) return '';
@@ -97,7 +96,7 @@ export function staticCard(l) {
 }
 
 export function listingPages(all) {
-  return all.filter((l) => !l.sample && l.slug).map((l) => {
+  return all.filter((l) => !l.hidden && l.slug).map((l) => {
     const place = areaName(l.area);
     const onCoast = COAST.includes(l.area);
     const ref = l.id.toUpperCase();
@@ -162,7 +161,7 @@ export function listingPages(all) {
       ] },
       { '@context': 'https://schema.org', '@type': 'RealEstateListing', name: l.title, url: `https://n24.hr${listingPath(l)}`,
         description: (l.description || [])[0] || l.title,
-        image: l.gallery ? `https://n24.hr/assets/img/listings/${l.id}-1-1200.webp` : undefined,
+        image: l.img ? `https://n24.hr/assets/img/listings/${l.img}-1200.webp` : undefined,
         ...(l.price ? { offers: { '@type': 'Offer', price: l.price, priceCurrency: 'EUR', availability: 'https://schema.org/InStock' } } : {}) },
     ];
     const desc = ((l.description || [])[0] || l.title).slice(0, 150);
