@@ -237,7 +237,7 @@ body.menu-open { overflow: hidden; }
 .agent { border-top: 1px solid var(--line); }
 .agent-row { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: clamp(32px, 6vw, 88px); align-items: center; padding-top: clamp(56px, 8vw, 104px); padding-bottom: clamp(56px, 8vw, 104px); }
 .agent-photo { aspect-ratio: 4 / 5; border: 3px solid var(--red); border-radius: var(--radius-photo); overflow: hidden; background: var(--sand-2); display: grid; place-items: center; max-width: 360px; }
-.agent-photo span { font-size: .875rem; color: var(--ink-2); }
+.agent-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .agent-copy h2 { font-size: clamp(2.25rem, 4.2vw, 3.5rem); margin-bottom: 16px; }
 .agent-copy > p { color: var(--ink-2); max-width: 48ch; margin-bottom: 28px; }
 .contact-lines { border-top: 1px solid var(--navy); max-width: 520px; }
