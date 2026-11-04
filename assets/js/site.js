@@ -113,4 +113,19 @@
       if (e.target.closest('[data-cookie-settings]')) { closeBanner(); showBanner(); }
     });
   }
+
+  // Hero video: plays muted on a loop; the round button pauses and resumes it.
+  var heroVideo = document.querySelector('.hero-video');
+  var heroPause = document.querySelector('.hero-pause');
+  if (heroVideo && heroPause) {
+    heroPause.addEventListener('click', function () {
+      if (heroVideo.paused) { heroVideo.play(); } else { heroVideo.pause(); }
+    });
+    var sync = function () {
+      heroPause.setAttribute('aria-pressed', String(heroVideo.paused));
+      heroPause.setAttribute('aria-label', heroVideo.paused ? 'Play the background video' : 'Pause the background video');
+    };
+    heroVideo.addEventListener('play', sync);
+    heroVideo.addEventListener('pause', sync);
+  }
 })();
