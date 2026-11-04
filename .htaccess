@@ -18,7 +18,9 @@ RewriteRule ^property/([a-z0-9-]+)/$ api/property.php?slug=$1 [L,QSA]
 RewriteRule ^sitemap\.xml$ api/sitemap.php [L]
 
 # ---------------------------------------------------------------- pages
-DirectoryIndex index.html
+DirectoryIndex index.html index.php
+# Never show a list of a folder's files.
+Options -Indexes
 ErrorDocument 404 /404.html
 
 # Nothing outside the website itself should be reachable. The admin lives at
