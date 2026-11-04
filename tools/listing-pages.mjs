@@ -1,5 +1,5 @@
 // Builds one static page per real listing (/property/<id>-<slug>/) from assets/data/listings.json.
-const AREA_NAMES = { vodice: 'Vodice', srima: 'Srima', sibenik: 'Šibenik', brodarica: 'Brodarica', zaboric: 'Žaborić', grebastica: 'Grebaštica', primosten: 'Primošten', rogoznica: 'Rogoznica', tisno: 'Tisno' };
+const AREA_NAMES = { vodice: 'Vodice', srima: 'Srima', sibenik: 'Šibenik', brodarica: 'Brodarica', zaboric: 'Žaborić', grebastica: 'Grebaštica', primosten: 'Primošten', rogoznica: 'Rogoznica', murter: 'Murter', prvic: 'Prvić' };
 const COAST = ['vodice', 'srima', 'sibenik', 'brodarica', 'zaboric', 'grebastica', 'primosten', 'rogoznica'];
 const TYPES = { house: 'House', apartment: 'Apartment', villa: 'Villa', land: 'Land', 'new-build': 'New build' };
 
@@ -35,7 +35,7 @@ function gallery(l) {
 function facts(l) {
   const rows = [];
   const land = l.type === 'land';
-  rows.push(['Price', l.price ? euro.format(l.price) : 'On request']);
+  rows.push(['Price', l.price ? (l.units ? 'From ' : '') + euro.format(l.price) : 'On request']);
   rows.push(['Type', TYPES[l.type]]);
   rows.push(['Place', areaName(l.area)]);
   if (l.size) rows.push([land ? 'Plot' : 'Living area', num.format(l.size) + ' m²']);
@@ -53,13 +53,16 @@ function facts(l) {
 function units(l) {
   if (!l.units) return '';
   const hasGarden = l.units.some((u) => u[4]);
+  const hasBeds = l.units.some((u) => u[5]);
   const rows = l.units.map((u) => {
-    const [name, size, price, status, garden] = u;
-    return `<tr><th scope="row">${esc(name)}</th><td>${num.format(size)} m²</td>${hasGarden ? `<td>${garden ? num.format(garden) + ' m²' : ''}</td>` : ''}<td>${status ? `<span class="u-sold">${esc(status)}</span>` : euro.format(price)}</td></tr>`;
+    const [name, size, price, status, garden, beds] = u;
+    const cell = status ? `<span class="u-sold">${esc(status)}</span>` : price ? euro.format(price) : 'On request';
+    return `<tr><th scope="row">${esc(name)}</th><td>${size ? num.format(size) + ' m²' : ''}</td>${hasBeds ? `<td>${beds || ''}</td>` : ''}${hasGarden ? `<td>${garden ? num.format(garden) + ' m²' : ''}</td>` : ''}<td>${cell}</td></tr>`;
   }).join('\n            ');
-  return `<h2>Units and prices</h2>
+  const land = l.type === 'land';
+  return `<h2>${land ? 'Plots and prices' : 'Units and prices'}</h2>
       <div class="units-wrap"><table class="units">
-        <thead><tr><th scope="col">Unit</th><th scope="col">Size</th>${hasGarden ? '<th scope="col">Garden</th>' : ''}<th scope="col">Price</th></tr></thead>
+        <thead><tr><th scope="col">${land ? 'Plot' : 'Unit'}</th><th scope="col">Size</th>${hasBeds ? '<th scope="col">Bedrooms</th>' : ''}${hasGarden ? '<th scope="col">Garden</th>' : ''}<th scope="col">Price</th></tr></thead>
         <tbody>
             ${rows}
         </tbody>
@@ -89,7 +92,7 @@ export function staticCard(l) {
   if (l.beds && !land) f.push(l.beds + ' bed');
   if (l.baths && !land) f.push(l.baths + ' bath');
   if (!f.length && l.status) f.push(l.status);
-  const price = l.price ? `<span class="price">${euro.format(l.price)}</span>` : '<span class="price ask">Price on request</span>';
+  const price = l.price ? `<span class="price">${(l.units ? 'From ' : '') + euro.format(l.price)}</span>` : '<span class="price ask">Price on request</span>';
   return `<li class="card"><a href="${listingPath(l)}"><div class="ph">${ph}${tag}</div><p class="meta"><span>${areaName(l.area)}</span><span>${TYPES[l.type]}</span></p><h3>${esc(l.title)}</h3><div class="row"><span class="facts-line">${f.join(' · ')}</span>${price}</div></a></li>`;
 }
 
@@ -110,13 +113,14 @@ export function listingPages(all) {
           <h1 id="page-title">${esc(l.title)}</h1>
           <p class="ph-meta">${place} · ${TYPES[l.type]} · Ref. ${ref}</p>
         </div>
-        <p class="ph-price">${l.price ? euro.format(l.price) : 'Price on request'}</p>
+        <p class="ph-price">${l.price ? (l.units ? 'From ' : '') + euro.format(l.price) : 'Price on request'}</p>
       </div>
     </div>
   </section>
 
   <div class="wrap property-gallery">
     ${gallery(l)}
+    ${l.renders ? '<p class="render-note">Some images are visualisations. The finished property may differ.</p>' : ''}
   </div>
 
   <div class="wrap property-body">
@@ -165,7 +169,7 @@ export function listingPages(all) {
     return {
       html, listing: l, out: `property/${l.id}-${l.slug}/index.html`, path: listingPath(l), nav: onCoast ? `area-${l.area}` : 'buy',
       bodyClass: 'has-band-hero', scripts: ['/assets/js/property.js'],
-      title: `${l.title}, ${place} | ${l.price ? euro.format(l.price) : 'Price on request'} | N24`,
+      title: `${l.title}, ${place} | ${l.price ? (l.units ? 'From ' : '') + euro.format(l.price) : 'Price on request'} | N24`,
       description: desc.length < ((l.description || [])[0] || '').length ? desc.replace(/\s+\S*$/, '') + '...' : desc,
       head: ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n'),
       similarFor: (cardFn) => similar(l, all, cardFn),

@@ -13,7 +13,7 @@ window.N24 = (function () {
     { id: 'primosten', name: 'Primošten', km: 33, y: 45 },
     { id: 'rogoznica', name: 'Rogoznica', km: 45, y: 24 }
   ];
-  var OTHER_AREAS = { tisno: 'Tisno' };
+  var OTHER_AREAS = { murter: 'Murter', prvic: 'Prvić' };
   var TYPES = { house: 'House', apartment: 'Apartment', villa: 'Villa', land: 'Land', 'new-build': 'New build' };
   var TYPE_PLURAL = { all: 'properties', house: 'houses', apartment: 'apartments', villa: 'villas', land: 'plots of land', 'new-build': 'new builds' };
 
@@ -48,7 +48,7 @@ window.N24 = (function () {
     if (l.beds && !land) facts.push(l.beds + ' bed');
     if (l.baths && !land) facts.push(l.baths + ' bath');
     if (!facts.length && l.note) facts.push(l.note);
-    var price = l.price ? '<span class="price">' + euro.format(l.price) + '</span>' : '<span class="price ask">Price on request</span>';
+    var price = l.price ? '<span class="price">' + (l.units ? 'From ' : '') + euro.format(l.price) + '</span>' : '<span class="price ask">Price on request</span>';
     return '<li class="card"><a href="' + href + '"' + (l.sample ? ' aria-disabled="true"' : '') + '>' +
       '<div class="ph">' + ph + tag + '</div>' +
       '<p class="meta"><span>' + areaName(l.area) + '</span><span>' + TYPES[l.type] + '</span></p>' +
