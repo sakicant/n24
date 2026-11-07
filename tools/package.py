@@ -23,7 +23,9 @@ args = [a for a in sys.argv[1:] if not a.startswith('--')]
 OUT = Path(args[0]) if args else Path.home() / 'Desktop' / ('n24-website-update.zip' if UPDATE else 'n24-website.zip')
 SKIP_DIRS = {'src', 'tools', 'content', '.git', '.claude', '.impeccable', '.vercel', 'node_modules', '__pycache__'}
 ROOT_FILES = {'.htaccess', 'index.html', '404.html', 'robots.txt'}
-API_FILES = {'api/contact.php', 'api/property.php', 'api/sitemap.php', 'api/data/.htaccess'}
+API_FILES = {'api/contact.php', 'api/property.php', 'api/sitemap.php', 'api/notfound.php', 'api/data/.htaccess'}
+# Static property pages of every language: PHP makes these on the server.
+PROPERTY_DIRS = ('nekretnina/', 'en/property/', 'de/immobilie/', 'pl/oferta/', 'cs/nemovitost/', 'sk/nehnutelnost/', 'property/')
 
 def wanted(rel: Path) -> bool:
     parts = rel.parts
@@ -36,7 +38,7 @@ def wanted(rel: Path) -> bool:
         return False
     if path == 'assets/data/listings.json':
         return WITH_DATA
-    if parts[0] == 'property':
+    if path.startswith(PROPERTY_DIRS):
         return False
     if parts[0] == 'api':
         return path in API_FILES or (len(parts) == 3 and parts[1] in ('lib', 'views'))

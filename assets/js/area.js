@@ -8,10 +8,11 @@
   var empty = document.getElementById('area-empty');
   var chipsBox = document.getElementById('area-chips');
   var title = document.getElementById('area-listings-title');
-  var place = N24.areaName(area);
+  // "in Primošten" in this language, as the page itself says it (some languages decline the name).
+  var inName = section.getAttribute('data-in-name') || N24.fill(N24.T.in_place, { name: N24.areaName(area) });
 
   var ORDER = ['house', 'apartment', 'villa', 'land', 'new-build'];
-  var LABEL = { all: 'All', house: 'Houses', apartment: 'Apartments', villa: 'Villas', land: 'Land', 'new-build': 'New builds' };
+  var LABEL = N24.T.area.chips;
   var type = 'all';
   var listings = [];
 
@@ -77,8 +78,8 @@
   function render() {
     var f = current();
     var hits = sorted(listings.filter(function (l) { return visible(l, f); }), f.sort);
-    var what = type === 'all' ? 'Property' : LABEL[type];
-    title.textContent = what + ' for sale in ' + place + (hits.length ? ' (' + hits.length + ')' : '');
+    var what = type === 'all' ? N24.T.area.property : LABEL[type];
+    title.textContent = N24.fill(N24.T.area.heading, { what: what, in_name: inName }) + (hits.length ? ' (' + hits.length + ')' : '');
     grid.innerHTML = hits.map(N24.card).join('');
     grid.hidden = hits.length === 0;
     empty.hidden = hits.length !== 0;

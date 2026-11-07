@@ -12,14 +12,12 @@
   // Each topic gets its own example, so people know what to write.
   var msg = document.getElementById('f-msg');
   var hint = document.getElementById('topic-hint');
+  var C = window.N24_I18N.t.contact;
   var TOPICS = {
-    buy: { ph: 'For example: a house with a sea view in Primošten or Rogoznica, up to €600,000.' },
-    sell: {
-      ph: 'For example: 3-bedroom house in Vodice, 140 m² on a 500 m² plot, 300 m from the sea. Asking about €400,000.',
-      hint: 'Selling? Tell Tomislav the place, type, size, plot size and your asking price if you have one. Photos are easiest by WhatsApp on +385 95 700 7001.'
-    },
-    land: { ph: 'For example: building plot of about 1,000 m² near Grebaštica or Žaborić, for a holiday house.' },
-    other: { ph: 'How can Tomislav help?' }
+    buy: { ph: C.ph_buy },
+    sell: { ph: C.ph_sell, hint: C.hint_sell },
+    land: { ph: C.ph_land },
+    other: { ph: C.ph_other }
   };
   function applyTopic() {
     var t = form.querySelector('input[name="topic"]:checked').value;
@@ -37,7 +35,7 @@
   // Coming from a property page: start the message with the property and its reference.
   var params = new URLSearchParams(location.search);
   if (params.get('ref') && !msg.value) {
-    msg.value = 'I am interested in ' + (params.get('title') ? '"' + params.get('title') + '" ' : '') + '(' + params.get('ref') + '). ';
+    msg.value = C.interested.replace('{title}', params.get('title') ? '"' + params.get('title') + '" ' : '').replace('{ref}', params.get('ref'));
   }
 
   // Without JavaScript the form posts normally and comes back with ?sent=1 or ?error=1.
@@ -46,8 +44,8 @@
     back.hidden = false;
     back.className = 'form-status ' + (params.get('sent') ? 'is-ok' : 'is-error');
     back.textContent = params.get('sent')
-      ? 'Thank you, your enquiry has been sent. Tomislav will reply by email.'
-      : 'Sending failed. Please call or WhatsApp Tomislav on +385 95 700 7001.';
+      ? C.sent
+      : C.failed;
   }
 
   var checks = [
@@ -87,8 +85,10 @@
     button.disabled = true;
     status.hidden = false;
     status.className = 'form-status';
-    status.textContent = 'Sending...';
-    fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+    status.textContent = C.sending;
+    var data = new FormData(form);
+    data.append('lang', window.N24_I18N.lang);
+    fetch(form.action, { method: 'POST', body: data, headers: { Accept: 'application/json' } })
       .then(function (r) { return r.json(); })
       .then(function (res) {
         status.textContent = res.message;
@@ -97,7 +97,7 @@
         if (res.ok) applyTopic();
       })
       .catch(function () {
-        status.textContent = 'Sending failed. Please call or WhatsApp Tomislav on +385 95 700 7001.';
+        status.textContent = C.failed;
         status.className = 'form-status is-error';
         button.disabled = false;
       });

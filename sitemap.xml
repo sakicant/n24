@@ -1,36 +1,2181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://n24.hr/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/properties/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/services/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/about/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/contact/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/privacy-policy/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/terms/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/real-estate-vodice/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/real-estate-srima/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/real-estate-sibenik/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/real-estate-brodarica/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/real-estate-zaboric/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/real-estate-grebastica/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/real-estate-primosten/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/real-estate-rogoznica/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/primosten-resort/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-309-furnished-apartment-100m-sea-srima/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-308-building-plots-vrpolje/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-307-apartment-stone-house-main-square-sibenik/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-305-semi-detached-duplex-pool-brodarica/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-304-renovated-stone-house-prvic-sepurina/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-303-building-plot-permit-sea-view-rogoznica/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-302-g-home-new-apartments-grebastica/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-301-new-semi-detached-house-zaboric/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-276-villa-project-plot-primosten/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-231-sun-hill-primosten-resort/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-251-house-first-line-to-sea-tisno/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-261-new-apartments-primosten-centre/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-169-modern-new-building-sea-view/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-107-primosten-apartment-with-pool/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-70-new-4-bedroom-villa/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://n24.hr/property/n24-92-modern-villa-sea-view-primosten/</loc><lastmod>2026-11-04</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://n24.hr/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/properties/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/properties/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/usluge/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/usluge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/uslugi/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/services/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/o-nama/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/o-nama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/about/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/kontakt/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/contact/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/politika-privatnosti/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/politika-privatnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/polityka-prywatnosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/ochrana-osobnich-udaju/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/ochrana-osobnych-udajov/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/uvjeti-koristenja/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/uvjeti-koristenja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/regulamin/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/podminky-uzivani/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/podmienky-pouzivania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine-vodice/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-vodice/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-srima/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-srima/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnine-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-309-namjesten-stan-100-m-od-mora/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-309-namjesten-stan-100-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-309-moblierte-wohnung-100-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-308-gradevinske-cestice-u-vrpolju-2-km-od-mora/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-308-gradevinske-cestice-u-vrpolju-2-km-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-308-baugrundstucke-in-vrpolje-2-km-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-307-renoviran-stan-na-glavnom-trgu-pogled-na-more/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-307-renoviran-stan-na-glavnom-trgu-pogled-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-307-renovierte-wohnung-am-hauptplatz-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-306-sunset-homes-novi-stanovi-s-otvorenim-pogledom-na-more/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-306-sunset-homes-novi-stanovi-s-otvorenim-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-306-sunset-homes-neue-wohnungen-mit-freiem-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-305-moderna-dvojna-duplex-kuca-s-mogucnoscu-bazena/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-305-moderna-dvojna-duplex-kuca-s-mogucnoscu-bazena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-305-moderne-doppelhaushalfte-als-duplex-pool-moglich/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-304-renovirana-kamena-kuca-30-m-od-mora/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-304-renovirana-kamena-kuca-30-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-304-renoviertes-steinhaus-30-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-303-gradevinska-cestica-s-dozvolom-i-pogledom-na-more/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-303-gradevinska-cestica-s-dozvolom-i-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-303-baugrundstuck-mit-genehmigung-und-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-302-g-home-novi-stanovi-100-m-od-plaze/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-302-g-home-novi-stanovi-100-m-od-plaze/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-302-g-home-neue-wohnungen-100-m-vom-strand/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-301-nova-dvojna-kuca-70-m-od-mora/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-301-nova-dvojna-kuca-70-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-301-neue-doppelhaushalfte-70-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-276-olive-grove-cestica-za-vilu-s-gradevinskom-dozvolom/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-276-olive-grove-cestica-za-vilu-s-gradevinskom-dozvolom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-276-olive-grove-villengrundstuck-mit-baugenehmigung/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-231-sun-hill-primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-251-kuca-u-prvom-redu-do-mora-tisno/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-251-kuca-u-prvom-redu-do-mora-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-251-haus-in-erster-reihe-am-meer-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-261-novi-stanovi-u-centru-primostena/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-261-novi-stanovi-u-centru-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-261-neue-wohnungen-im-zentrum-von-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-169-moderna-novogradnja-s-pogledom-na-more/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-169-moderna-novogradnja-s-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-169-moderner-neubau-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-107-moderan-stan-s-bazenom/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-107-moderan-stan-s-bazenom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-107-moderne-wohnung-mit-pool/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-70-nova-vila-s-4-spavace-sobe-kod-vodica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-70-nova-vila-s-4-spavace-sobe-kod-vodica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-70-neue-villa-mit-4-schlafzimmern-bei-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/nekretnina/n24-92-moderna-vila-na-brdu-iznad-primostena/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-92-moderna-vila-na-brdu-iznad-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-92-moderne-villa-auf-dem-hugel-uber-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/properties/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/properties/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/properties/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/services/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/usluge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/uslugi/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/services/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/about/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/o-nama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/about/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/contact/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/contact/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/privacy-policy/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/politika-privatnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/polityka-prywatnosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/ochrana-osobnich-udaju/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/ochrana-osobnych-udajov/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/terms/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/uvjeti-koristenja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/regulamin/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/podminky-uzivani/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/podmienky-pouzivania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/real-estate-vodice/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-vodice/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/real-estate-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-srima/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-srima/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/real-estate-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/real-estate-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/real-estate-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/real-estate-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/real-estate-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/real-estate-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-309-namjesten-stan-100-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-309-moblierte-wohnung-100-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-308-building-plots-vrpolje/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-308-gradevinske-cestice-u-vrpolju-2-km-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-308-baugrundstucke-in-vrpolje-2-km-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-307-renoviran-stan-na-glavnom-trgu-pogled-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-307-renovierte-wohnung-am-hauptplatz-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-306-sunset-homes-novi-stanovi-s-otvorenim-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-306-sunset-homes-neue-wohnungen-mit-freiem-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-305-moderna-dvojna-duplex-kuca-s-mogucnoscu-bazena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-305-moderne-doppelhaushalfte-als-duplex-pool-moglich/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-304-renovirana-kamena-kuca-30-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-304-renoviertes-steinhaus-30-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-303-gradevinska-cestica-s-dozvolom-i-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-303-baugrundstuck-mit-genehmigung-und-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-302-g-home-novi-stanovi-100-m-od-plaze/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-302-g-home-neue-wohnungen-100-m-vom-strand/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-301-nova-dvojna-kuca-70-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-301-neue-doppelhaushalfte-70-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-276-villa-project-plot-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-276-olive-grove-cestica-za-vilu-s-gradevinskom-dozvolom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-276-olive-grove-villengrundstuck-mit-baugenehmigung/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-251-kuca-u-prvom-redu-do-mora-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-251-haus-in-erster-reihe-am-meer-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-261-novi-stanovi-u-centru-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-261-neue-wohnungen-im-zentrum-von-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-169-modern-new-building-sea-view/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-169-moderna-novogradnja-s-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-169-moderner-neubau-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-107-moderan-stan-s-bazenom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-107-moderne-wohnung-mit-pool/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-70-new-4-bedroom-villa/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-70-nova-vila-s-4-spavace-sobe-kod-vodica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-70-neue-villa-mit-4-schlafzimmern-bei-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-92-moderna-vila-na-brdu-iznad-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-92-moderne-villa-auf-dem-hugel-uber-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/properties/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/properties/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/leistungen/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/usluge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/uslugi/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/services/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/ueber-uns/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/o-nama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/about/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/kontakt/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/contact/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/datenschutz/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/politika-privatnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/polityka-prywatnosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/ochrana-osobnich-udaju/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/ochrana-osobnych-udajov/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/nutzungsbedingungen/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/uvjeti-koristenja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/regulamin/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/podminky-uzivani/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/podmienky-pouzivania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien-vodice/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-vodice/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-srima/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-srima/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilien-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-309-moblierte-wohnung-100-m-vom-meer/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-309-namjesten-stan-100-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-309-moblierte-wohnung-100-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-308-baugrundstucke-in-vrpolje-2-km-vom-meer/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-308-gradevinske-cestice-u-vrpolju-2-km-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-308-baugrundstucke-in-vrpolje-2-km-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-307-renovierte-wohnung-am-hauptplatz-mit-meerblick/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-307-renoviran-stan-na-glavnom-trgu-pogled-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-307-renovierte-wohnung-am-hauptplatz-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-306-sunset-homes-neue-wohnungen-mit-freiem-meerblick/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-306-sunset-homes-novi-stanovi-s-otvorenim-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-306-sunset-homes-neue-wohnungen-mit-freiem-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-305-moderne-doppelhaushalfte-als-duplex-pool-moglich/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-305-moderna-dvojna-duplex-kuca-s-mogucnoscu-bazena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-305-moderne-doppelhaushalfte-als-duplex-pool-moglich/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-304-renoviertes-steinhaus-30-m-vom-meer/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-304-renovirana-kamena-kuca-30-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-304-renoviertes-steinhaus-30-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-303-baugrundstuck-mit-genehmigung-und-meerblick/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-303-gradevinska-cestica-s-dozvolom-i-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-303-baugrundstuck-mit-genehmigung-und-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-302-g-home-neue-wohnungen-100-m-vom-strand/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-302-g-home-novi-stanovi-100-m-od-plaze/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-302-g-home-neue-wohnungen-100-m-vom-strand/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-301-neue-doppelhaushalfte-70-m-vom-meer/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-301-nova-dvojna-kuca-70-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-301-neue-doppelhaushalfte-70-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-276-olive-grove-villengrundstuck-mit-baugenehmigung/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-276-olive-grove-cestica-za-vilu-s-gradevinskom-dozvolom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-276-olive-grove-villengrundstuck-mit-baugenehmigung/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-231-sun-hill-primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-251-haus-in-erster-reihe-am-meer-tisno/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-251-kuca-u-prvom-redu-do-mora-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-251-haus-in-erster-reihe-am-meer-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-261-neue-wohnungen-im-zentrum-von-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-261-novi-stanovi-u-centru-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-261-neue-wohnungen-im-zentrum-von-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-169-moderner-neubau-mit-meerblick/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-169-moderna-novogradnja-s-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-169-moderner-neubau-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-107-moderne-wohnung-mit-pool/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-107-moderan-stan-s-bazenom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-107-moderne-wohnung-mit-pool/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-70-neue-villa-mit-4-schlafzimmern-bei-vodice/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-70-nova-vila-s-4-spavace-sobe-kod-vodica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-70-neue-villa-mit-4-schlafzimmern-bei-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/de/immobilie/n24-92-moderne-villa-auf-dem-hugel-uber-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-92-moderna-vila-na-brdu-iznad-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-92-moderne-villa-auf-dem-hugel-uber-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/properties/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/properties/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/uslugi/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/usluge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/uslugi/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/services/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/o-nas/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/o-nama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/about/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/kontakt/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/contact/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/polityka-prywatnosci/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/politika-privatnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/polityka-prywatnosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/ochrana-osobnich-udaju/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/ochrana-osobnych-udajov/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/regulamin/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/uvjeti-koristenja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/regulamin/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/podminky-uzivani/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/podmienky-pouzivania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci-vodice/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-vodice/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-srima/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-srima/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/nieruchomosci-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-309-furnished-apartment-100m-sea-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-309-namjesten-stan-100-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-309-moblierte-wohnung-100-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-308-building-plots-vrpolje/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-308-gradevinske-cestice-u-vrpolju-2-km-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-308-baugrundstucke-in-vrpolje-2-km-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-307-apartment-stone-house-main-square-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-307-renoviran-stan-na-glavnom-trgu-pogled-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-307-renovierte-wohnung-am-hauptplatz-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-306-sunset-homes-new-apartments-sea-view-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-306-sunset-homes-novi-stanovi-s-otvorenim-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-306-sunset-homes-neue-wohnungen-mit-freiem-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-305-semi-detached-duplex-pool-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-305-moderna-dvojna-duplex-kuca-s-mogucnoscu-bazena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-305-moderne-doppelhaushalfte-als-duplex-pool-moglich/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-304-renovated-stone-house-prvic-sepurina/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-304-renovirana-kamena-kuca-30-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-304-renoviertes-steinhaus-30-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-303-building-plot-permit-sea-view-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-303-gradevinska-cestica-s-dozvolom-i-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-303-baugrundstuck-mit-genehmigung-und-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-302-g-home-new-apartments-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-302-g-home-novi-stanovi-100-m-od-plaze/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-302-g-home-neue-wohnungen-100-m-vom-strand/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-301-new-semi-detached-house-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-301-nova-dvojna-kuca-70-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-301-neue-doppelhaushalfte-70-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-276-villa-project-plot-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-276-olive-grove-cestica-za-vilu-s-gradevinskom-dozvolom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-276-olive-grove-villengrundstuck-mit-baugenehmigung/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-231-sun-hill-primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-251-house-first-line-to-sea-tisno/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-251-kuca-u-prvom-redu-do-mora-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-251-haus-in-erster-reihe-am-meer-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-261-new-apartments-primosten-centre/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-261-novi-stanovi-u-centru-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-261-neue-wohnungen-im-zentrum-von-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-169-modern-new-building-sea-view/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-169-moderna-novogradnja-s-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-169-moderner-neubau-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-107-primosten-apartment-with-pool/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-107-moderan-stan-s-bazenom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-107-moderne-wohnung-mit-pool/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-70-new-4-bedroom-villa/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-70-nova-vila-s-4-spavace-sobe-kod-vodica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-70-neue-villa-mit-4-schlafzimmern-bei-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/pl/oferta/n24-92-modern-villa-sea-view-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-92-moderna-vila-na-brdu-iznad-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-92-moderne-villa-auf-dem-hugel-uber-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/properties/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/properties/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/sluzby/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/usluge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/uslugi/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/services/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/o-nas/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/o-nama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/about/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/kontakt/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/contact/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/ochrana-osobnich-udaju/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/politika-privatnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/polityka-prywatnosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/ochrana-osobnich-udaju/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/ochrana-osobnych-udajov/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/podminky-uzivani/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/uvjeti-koristenja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/regulamin/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/podminky-uzivani/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/podmienky-pouzivania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti-vodice/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-vodice/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-srima/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-srima/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitosti-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-309-furnished-apartment-100m-sea-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-309-namjesten-stan-100-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-309-moblierte-wohnung-100-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-308-building-plots-vrpolje/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-308-gradevinske-cestice-u-vrpolju-2-km-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-308-baugrundstucke-in-vrpolje-2-km-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-307-apartment-stone-house-main-square-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-307-renoviran-stan-na-glavnom-trgu-pogled-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-307-renovierte-wohnung-am-hauptplatz-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-306-sunset-homes-new-apartments-sea-view-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-306-sunset-homes-novi-stanovi-s-otvorenim-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-306-sunset-homes-neue-wohnungen-mit-freiem-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-305-semi-detached-duplex-pool-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-305-moderna-dvojna-duplex-kuca-s-mogucnoscu-bazena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-305-moderne-doppelhaushalfte-als-duplex-pool-moglich/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-304-renovated-stone-house-prvic-sepurina/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-304-renovirana-kamena-kuca-30-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-304-renoviertes-steinhaus-30-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-303-building-plot-permit-sea-view-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-303-gradevinska-cestica-s-dozvolom-i-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-303-baugrundstuck-mit-genehmigung-und-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-302-g-home-new-apartments-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-302-g-home-novi-stanovi-100-m-od-plaze/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-302-g-home-neue-wohnungen-100-m-vom-strand/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-301-new-semi-detached-house-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-301-nova-dvojna-kuca-70-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-301-neue-doppelhaushalfte-70-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-276-villa-project-plot-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-276-olive-grove-cestica-za-vilu-s-gradevinskom-dozvolom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-276-olive-grove-villengrundstuck-mit-baugenehmigung/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-231-sun-hill-primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-251-house-first-line-to-sea-tisno/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-251-kuca-u-prvom-redu-do-mora-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-251-haus-in-erster-reihe-am-meer-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-261-new-apartments-primosten-centre/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-261-novi-stanovi-u-centru-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-261-neue-wohnungen-im-zentrum-von-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-169-modern-new-building-sea-view/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-169-moderna-novogradnja-s-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-169-moderner-neubau-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-107-primosten-apartment-with-pool/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-107-moderan-stan-s-bazenom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-107-moderne-wohnung-mit-pool/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-70-new-4-bedroom-villa/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-70-nova-vila-s-4-spavace-sobe-kod-vodica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-70-neue-villa-mit-4-schlafzimmern-bei-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/cs/nemovitost/n24-92-modern-villa-sea-view-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-92-moderna-vila-na-brdu-iznad-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-92-moderne-villa-auf-dem-hugel-uber-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/properties/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/properties/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/sluzby/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/usluge/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/leistungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/uslugi/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/sluzby/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/services/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/o-nas/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/o-nama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/ueber-uns/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/o-nas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/about/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/kontakt/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/contact/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/ochrana-osobnych-udajov/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/politika-privatnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/polityka-prywatnosci/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/ochrana-osobnich-udaju/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/ochrana-osobnych-udajov/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/privacy-policy/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/podmienky-pouzivania/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/uvjeti-koristenja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/nutzungsbedingungen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/regulamin/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/podminky-uzivani/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/podmienky-pouzivania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti-vodice/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-vodice/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-srima/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-srima/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnosti-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnine-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/real-estate-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilien-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/nieruchomosci-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnosti-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/real-estate-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-309-furnished-apartment-100m-sea-srima/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-309-namjesten-stan-100-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-309-moblierte-wohnung-100-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-309-furnished-apartment-100m-sea-srima/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-309-furnished-apartment-100m-sea-srima/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-308-building-plots-vrpolje/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-308-gradevinske-cestice-u-vrpolju-2-km-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-308-baugrundstucke-in-vrpolje-2-km-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-308-building-plots-vrpolje/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-308-building-plots-vrpolje/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-307-apartment-stone-house-main-square-sibenik/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-307-renoviran-stan-na-glavnom-trgu-pogled-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-307-renovierte-wohnung-am-hauptplatz-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-307-apartment-stone-house-main-square-sibenik/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-307-apartment-stone-house-main-square-sibenik/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-306-sunset-homes-new-apartments-sea-view-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-306-sunset-homes-novi-stanovi-s-otvorenim-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-306-sunset-homes-neue-wohnungen-mit-freiem-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-306-sunset-homes-new-apartments-sea-view-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-305-semi-detached-duplex-pool-brodarica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-305-moderna-dvojna-duplex-kuca-s-mogucnoscu-bazena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-305-moderne-doppelhaushalfte-als-duplex-pool-moglich/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-305-semi-detached-duplex-pool-brodarica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-305-semi-detached-duplex-pool-brodarica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-304-renovated-stone-house-prvic-sepurina/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-304-renovirana-kamena-kuca-30-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-304-renoviertes-steinhaus-30-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-304-renovated-stone-house-prvic-sepurina/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-304-renovated-stone-house-prvic-sepurina/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-303-building-plot-permit-sea-view-rogoznica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-303-gradevinska-cestica-s-dozvolom-i-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-303-baugrundstuck-mit-genehmigung-und-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-303-building-plot-permit-sea-view-rogoznica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-302-g-home-new-apartments-grebastica/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-302-g-home-novi-stanovi-100-m-od-plaze/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-302-g-home-neue-wohnungen-100-m-vom-strand/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-302-g-home-new-apartments-grebastica/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-302-g-home-new-apartments-grebastica/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-301-new-semi-detached-house-zaboric/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-301-nova-dvojna-kuca-70-m-od-mora/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-301-neue-doppelhaushalfte-70-m-vom-meer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-301-new-semi-detached-house-zaboric/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-301-new-semi-detached-house-zaboric/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-276-villa-project-plot-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-276-olive-grove-cestica-za-vilu-s-gradevinskom-dozvolom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-276-olive-grove-villengrundstuck-mit-baugenehmigung/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-276-villa-project-plot-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-276-villa-project-plot-primosten/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-231-sun-hill-primosten-resort/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-231-sun-hill-primosten-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-231-sun-hill-primosten-resort/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-251-house-first-line-to-sea-tisno/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-251-kuca-u-prvom-redu-do-mora-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-251-haus-in-erster-reihe-am-meer-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-251-house-first-line-to-sea-tisno/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-251-house-first-line-to-sea-tisno/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-261-new-apartments-primosten-centre/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-261-novi-stanovi-u-centru-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-261-neue-wohnungen-im-zentrum-von-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-261-new-apartments-primosten-centre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-261-new-apartments-primosten-centre/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-169-modern-new-building-sea-view/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-169-moderna-novogradnja-s-pogledom-na-more/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-169-moderner-neubau-mit-meerblick/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-169-modern-new-building-sea-view/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-169-modern-new-building-sea-view/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-107-primosten-apartment-with-pool/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-107-moderan-stan-s-bazenom/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-107-moderne-wohnung-mit-pool/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-107-primosten-apartment-with-pool/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-107-primosten-apartment-with-pool/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-70-new-4-bedroom-villa/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-70-nova-vila-s-4-spavace-sobe-kod-vodica/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-70-neue-villa-mit-4-schlafzimmern-bei-vodice/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-70-new-4-bedroom-villa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-70-new-4-bedroom-villa/"/>
+  </url>
+  <url>
+    <loc>https://n24.hr/sk/nehnutelnost/n24-92-modern-villa-sea-view-primosten/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://n24.hr/nekretnina/n24-92-moderna-vila-na-brdu-iznad-primostena/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://n24.hr/de/immobilie/n24-92-moderne-villa-auf-dem-hugel-uber-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://n24.hr/pl/oferta/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://n24.hr/cs/nemovitost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://n24.hr/sk/nehnutelnost/n24-92-modern-villa-sea-view-primosten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://n24.hr/en/property/n24-92-modern-villa-sea-view-primosten/"/>
+  </url>
 </urlset>

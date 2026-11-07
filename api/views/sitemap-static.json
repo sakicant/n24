@@ -1,18 +1,130 @@
 [
- "/",
- "/properties/",
- "/services/",
- "/about/",
- "/contact/",
- "/privacy-policy/",
- "/terms/",
- "/real-estate-vodice/",
- "/real-estate-srima/",
- "/real-estate-sibenik/",
- "/real-estate-brodarica/",
- "/real-estate-zaboric/",
- "/real-estate-grebastica/",
- "/real-estate-primosten/",
- "/real-estate-rogoznica/",
- "/primosten-resort/"
+ {
+  "hr": "/",
+  "en": "/en/",
+  "de": "/de/",
+  "pl": "/pl/",
+  "cs": "/cs/",
+  "sk": "/sk/"
+ },
+ {
+  "hr": "/nekretnine/",
+  "en": "/en/properties/",
+  "de": "/de/immobilien/",
+  "pl": "/pl/nieruchomosci/",
+  "cs": "/cs/nemovitosti/",
+  "sk": "/sk/nehnutelnosti/"
+ },
+ {
+  "hr": "/usluge/",
+  "en": "/en/services/",
+  "de": "/de/leistungen/",
+  "pl": "/pl/uslugi/",
+  "cs": "/cs/sluzby/",
+  "sk": "/sk/sluzby/"
+ },
+ {
+  "hr": "/o-nama/",
+  "en": "/en/about/",
+  "de": "/de/ueber-uns/",
+  "pl": "/pl/o-nas/",
+  "cs": "/cs/o-nas/",
+  "sk": "/sk/o-nas/"
+ },
+ {
+  "hr": "/kontakt/",
+  "en": "/en/contact/",
+  "de": "/de/kontakt/",
+  "pl": "/pl/kontakt/",
+  "cs": "/cs/kontakt/",
+  "sk": "/sk/kontakt/"
+ },
+ {
+  "hr": "/politika-privatnosti/",
+  "en": "/en/privacy-policy/",
+  "de": "/de/datenschutz/",
+  "pl": "/pl/polityka-prywatnosci/",
+  "cs": "/cs/ochrana-osobnich-udaju/",
+  "sk": "/sk/ochrana-osobnych-udajov/"
+ },
+ {
+  "hr": "/uvjeti-koristenja/",
+  "en": "/en/terms/",
+  "de": "/de/nutzungsbedingungen/",
+  "pl": "/pl/regulamin/",
+  "cs": "/cs/podminky-uzivani/",
+  "sk": "/sk/podmienky-pouzivania/"
+ },
+ {
+  "hr": "/primosten-resort/",
+  "en": "/en/primosten-resort/",
+  "de": "/de/primosten-resort/",
+  "pl": "/pl/primosten-resort/",
+  "cs": "/cs/primosten-resort/",
+  "sk": "/sk/primosten-resort/"
+ },
+ {
+  "hr": "/nekretnine-vodice/",
+  "en": "/en/real-estate-vodice/",
+  "de": "/de/immobilien-vodice/",
+  "pl": "/pl/nieruchomosci-vodice/",
+  "cs": "/cs/nemovitosti-vodice/",
+  "sk": "/sk/nehnutelnosti-vodice/"
+ },
+ {
+  "hr": "/nekretnine-srima/",
+  "en": "/en/real-estate-srima/",
+  "de": "/de/immobilien-srima/",
+  "pl": "/pl/nieruchomosci-srima/",
+  "cs": "/cs/nemovitosti-srima/",
+  "sk": "/sk/nehnutelnosti-srima/"
+ },
+ {
+  "hr": "/nekretnine-sibenik/",
+  "en": "/en/real-estate-sibenik/",
+  "de": "/de/immobilien-sibenik/",
+  "pl": "/pl/nieruchomosci-sibenik/",
+  "cs": "/cs/nemovitosti-sibenik/",
+  "sk": "/sk/nehnutelnosti-sibenik/"
+ },
+ {
+  "hr": "/nekretnine-brodarica/",
+  "en": "/en/real-estate-brodarica/",
+  "de": "/de/immobilien-brodarica/",
+  "pl": "/pl/nieruchomosci-brodarica/",
+  "cs": "/cs/nemovitosti-brodarica/",
+  "sk": "/sk/nehnutelnosti-brodarica/"
+ },
+ {
+  "hr": "/nekretnine-zaboric/",
+  "en": "/en/real-estate-zaboric/",
+  "de": "/de/immobilien-zaboric/",
+  "pl": "/pl/nieruchomosci-zaboric/",
+  "cs": "/cs/nemovitosti-zaboric/",
+  "sk": "/sk/nehnutelnosti-zaboric/"
+ },
+ {
+  "hr": "/nekretnine-grebastica/",
+  "en": "/en/real-estate-grebastica/",
+  "de": "/de/immobilien-grebastica/",
+  "pl": "/pl/nieruchomosci-grebastica/",
+  "cs": "/cs/nemovitosti-grebastica/",
+  "sk": "/sk/nehnutelnosti-grebastica/"
+ },
+ {
+  "hr": "/nekretnine-primosten/",
+  "en": "/en/real-estate-primosten/",
+  "de": "/de/immobilien-primosten/",
+  "pl": "/pl/nieruchomosci-primosten/",
+  "cs": "/cs/nemovitosti-primosten/",
+  "sk": "/sk/nehnutelnosti-primosten/"
+ },
+ {
+  "hr": "/nekretnine-rogoznica/",
+  "en": "/en/real-estate-rogoznica/",
+  "de": "/de/immobilien-rogoznica/",
+  "pl": "/pl/nieruchomosci-rogoznica/",
+  "cs": "/cs/nemovitosti-rogoznica/",
+  "sk": "/sk/nehnutelnosti-rogoznica/"
+ }
 ]

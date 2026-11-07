@@ -1,3 +1,19 @@
+# IN PROGRESS (paused 2026-11-07): 6 languages
+
+Done: language system (tools/i18n.mjs, tools/build.mjs), hreflang + x-default + sitemap alternates,
+flag language menu (desktop between Kontakt and WhatsApp, mobile in the menu under Kontakt),
+PHP property pages / sitemap / contact form / 404 in all languages (tested identical to static),
+old English root URLs 301 to /en/. Translations complete: HR (default, at /), EN, DE.
+
+Still to do, in this order:
+1. Polish: src/i18n/pl.json (all ids of src/i18n/catalog.json), ui.pl.json, src/data/areas.pl.json
+   (with "in" per place, e.g. "w miejscowości Vodice"), src/i18n/listings.pl.json; then
+   python tools/listing_tr.py and node tools/build.mjs (it lists untranslated texts).
+2. Czech (cs) and Slovak (sk): the same four files each.
+3. Admin (manage/index.php): field "Text language" (lang) and a "Needs translation" badge
+   when tr is missing or tr_src differs (add n24_source_hash() to api/lib/store.php, same as tools/listing_tr.py).
+4. Browser check of all languages, PHP parity test, then zip with --update --with-data.
+
 # N24 to do
 
 Open items for the website. Tick them off as they are done.

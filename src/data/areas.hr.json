@@ -1,0 +1,82 @@
+[
+ {
+  "slug": "vodice", "in": "u Vodicama",
+  "lede": "Kuće, vile, stanovi i građevinsko zemljište na prodaju u Vodicama, najživljem primorskom mjestu šibenske rivijere.",
+  "intro": ["Vodice su živo primorsko mjesto oko 12 km sjeverozapadno od Šibenika. Ljeti su jedno od najpopularnijih mjesta na rivijeri, s dugom šetnicom, plažama, kafićima i ACI marinom. Izvan sezone to je mjesto koje živi cijelu godinu, s trgovinama, školama i domom zdravlja, pa odgovara i vlasnicima kuća za odmor i onima koji ovdje žive stalno.", "Trajekt i brodovi iz Vodica voze do otoka Prvića i Tijata, a Kornati su omiljen jednodnevni izlet iz luke."],
+  "homes": "Većina nekretnina u Vodicama su stanovi u manjim stambenim zgradama, obiteljske kuće sa stanom za najam i novogradnja blizu mora. Stanovi su čest izbor kupaca koji žele prihod od ljetnog najma.",
+  "land": "Građevinske čestice u Vodicama uglavnom su na rubovima mjesta i na brežuljcima iza njega, mnoge s pogledom na more. Prije kupnje ključno je provjeriti je li čestica unutar građevinskog područja prema prostornom planu te ima li pristup cesti i komunalne priključke.",
+  "highlights": ["ACI marina i duga šetnica uz more", "Trgovine, škole i dom zdravlja otvoreni cijele godine", "Brodovi do Prvića i Kornata"],
+  "local_q": "Jesu li Vodice dobre za prihod od najma?",
+  "local_a": "Vodice imaju jednu od najduljih turističkih sezona na šibenskoj rivijeri, pa se stanovi blizu mora i centra ljeti obično dobro iznajmljuju. Tomislav vam može reći koliko zarađuju slične nekretnine i na što treba paziti."
+ },
+ {
+  "slug": "srima", "in": "u Srimi",
+  "lede": "Kuće, stanovi i zemljišta na prodaju u Srimi, mirnom primorskom naselju između Vodica i Šibenika.",
+  "intro": ["Srima se nalazi odmah uz Vodice, oko 11 km od Šibenika, uz dugu uvalu sa šljunčanim plažama i šetnicom uz more. Mirnija je od Vodica, s uglavnom obiteljskim kućama i kućama za odmor, a trgovine i restorani u Vodicama udaljeni su samo nekoliko minuta.", "Zbog dugih, plitkih plaža Srima je omiljen izbor obitelji."],
+  "homes": "U Srimi ćete uglavnom naći samostojeće obiteljske kuće, kuće za odmor sa stanovima i novije stambene zgrade nadomak plaže.",
+  "land": "Građevinskih čestica u Srimi je malo, što je jedan od razloga zašto je zemljište ovdje traženo. N24 provjerava prostorni plan, vlasništvo i pristup prije nego što ponudi česticu na prodaju.",
+  "highlights": ["Duge šljunčane plaže i šetnica uz more", "Mirnije od Vodica, a Vodice su na par minuta", "Omiljeno među obiteljima"],
+  "local_q": "Koja je razlika između Srime i Vodica?",
+  "local_a": "Srima je mirniji susjed Vodica: uglavnom kuće i kuće za odmor uz plažu, s manje prometa i noćnog života. Vodice imaju više trgovina, restorana i usluga tijekom cijele godine, a udaljene su samo nekoliko minuta."
+ },
+ {
+  "slug": "sibenik", "in": "u Šibeniku",
+  "lede": "Stanovi, kuće, vile i građevinsko zemljište na prodaju u Šibeniku, povijesnom gradu na moru koji živi cijele godine.",
+  "intro": ["Šibenik je središte županije i najveći grad između Splita i Zadra. Njegov stari grad kamenih ulica penje se od rive do tvrđava, a katedrala sv. Jakova i tvrđava sv. Nikole upisane su na UNESCO-ov popis svjetske baštine.", "Kao pravi grad, Šibenik ima sve otvoreno cijele godine: bolnicu, škole, trgovine i usluge. Nacionalni park Krka udaljen je kratku vožnju u unutrašnjost."],
+  "homes": "Šibenik nudi najveći izbor nekretnina na ovoj obali: stanove u starom gradu i u novijim kvartovima, obiteljske kuće, vile na rubu grada i novogradnju blizu mora.",
+  "land": "Građevinsko zemljište u Šibeniku i okolici kreće se od malih čestica u stambenim zonama do većih čestica za razvoj projekata. Vlasnički odnosi ovdje su često složeni, pa su provjere katastra i zemljišnih knjiga posebno važne.",
+  "highlights": ["Dva lokaliteta UNESCO-ove svjetske baštine", "Bolnica, škole i usluge cijele godine", "Nacionalni park Krka u blizini"],
+  "local_q": "Je li Šibenik dobro mjesto za život cijele godine?",
+  "local_a": "Da. Šibenik je grad koji živi cijele godine, s bolnicom, školama, trgovinama i uslugama, što ga čini najpraktičnijim izborom na ovoj obali za one koji ovdje žele živjeti stalno."
+ },
+ {
+  "slug": "brodarica", "in": "u Brodarici",
+  "lede": "Kuće, stanovi i zemljišta na prodaju u Brodarici, primorskom mjestu južno od Šibenika, nasuprot otoka Krapnja.",
+  "intro": ["Brodarica je primorsko mjesto oko 7 km južno od Šibenika. Gleda preko uskog kanala na Krapanj, mali otok poznat po tradiciji vađenja spužvi, do kojeg se stiže kratkom vožnjom brodom.", "S malom lukom, plažama i šetnicom Brodarica je mirna, a Šibenik je udaljen samo desetak minuta autom."],
+  "homes": "Nekretnine u Brodarici uglavnom su obiteljske kuće, kuće za odmor sa stanovima i nekoliko novijih stambenih zgrada, mnoge s pogledom na Krapanj i more.",
+  "land": "Građevinske čestice u Brodarici obično su na padinama iznad mjesta. Pogled na more je čest, pa se isplati rano provjeriti pristup, priključke i građevinsko područje.",
+  "highlights": ["Pogled na otok Krapanj", "Mala luka i šetnica uz more", "Desetak minuta od Šibenika"],
+  "local_q": "Mogu li preko N24 kupiti nekretninu na Krapnju?",
+  "local_a": "Krapanj je odmah preko kanala od Brodarice, a Tomislav dobro poznaje otok. Pitajte ga za trenutne nekretnine ondje."
+ },
+ {
+  "slug": "zaboric", "in": "u Žaboriću",
+  "lede": "Kuće, vile, stanovi i građevinsko zemljište na prodaju u Žaboriću, mirnom mjestu uz more južno od Šibenika.",
+  "intro": ["Žaborić je malo mjesto oko 10 km južno od Šibenika, na glavnoj obalnoj cesti prema Primoštenu. Poznat je po plažama i opuštenom ritmu, s uglavnom obiteljskim kućama i kućama za odmor.", "Dovoljno je blizu Šibenika za kupovinu i usluge, a do zračne luke Split ima nešto manje od sat vremena vožnje."],
+  "homes": "Većina nekretnina u Žaboriću su samostojeće kuće i kuće za odmor sa stanovima te novije vile s bazenima na padinama iznad mora.",
+  "land": "Žaborić još ima građevinskih čestica s pogledom na more, uglavnom iznad mjesta. N24 provjerava je li svaka čestica unutar građevinskog područja i ima li pristup prije nego što je ponudi.",
+  "highlights": ["Plaže i miran ritam malog mjesta", "Na obalnoj cesti između Šibenika i Primoštena", "Oko 53 km od zračne luke Split"],
+  "local_q": "Je li Žaborić ljeti gužva?",
+  "local_a": "Žaborić u srpnju i kolovozu oživi, ali ostaje malo mjesto: nema velikih hotela, a obalom se nižu obiteljske kuće i kuće za odmor."
+ },
+ {
+  "slug": "grebastica", "in": "u Grebaštici",
+  "lede": "Kuće, vile i zemljišta na prodaju u Grebaštici, mjestu na dugoj, zaštićenoj uvali između Šibenika i Primoštena.",
+  "intro": ["Grebaštica je mjesto oko 19 km južno od Šibenika, smješteno oko duge, zaštićene uvale. Uvala drži more mirnim, zbog čega je omiljena među kupačima i vlasnicima malih brodica.", "Mirno je to mjesto, a Primošten i Šibenik udaljeni su kratku vožnju obalnom cestom."],
+  "homes": "U Grebaštici ćete uglavnom naći obiteljske kuće i kuće za odmor, mnoge blizu uvale, te manji broj vila.",
+  "land": "Građevinske čestice oko uvale i na padinama iznad nje pojavljuju se s vremena na vrijeme. Mnoge se sastoje od više starih katastarskih čestica, i tu pomaže N24 svojim okrupnjavanjem zemljišta.",
+  "highlights": ["Duga, zaštićena uvala s mirnim morem", "Mirno mjesto između Šibenika i Primoštena", "Oko 47 km od zračne luke Split"],
+  "local_q": "Je li Grebaštica dobra za vlasnike broda?",
+  "local_a": "Zbog zaštićene uvale Grebaštica je jedno od mirnijih mjesta na ovoj obali za male brodove. Pitajte Tomislava za nekretnine blizu mora i za vezove u okolici."
+ },
+ {
+  "slug": "primosten", "in": "u Primoštenu",
+  "lede": "Kuće, vile, stanovi, novogradnja i građevinsko zemljište na prodaju u Primoštenu, jednom od najljepših malih mjesta na hrvatskoj obali.",
+  "intro": ["Primošten je malo mjesto oko 28 km južno od Šibenika. Stari grad smjestio se na malom poluotoku s crkvom na vrhu, a brežuljke oko njega prekrivaju poznati vinogradi u kamenim gromačama u kojima raste babić.", "S plažama u hladu borova, živim ljetom i zračnom lukom Split na oko 40 km, Primošten je jedno od najtraženijih mjesta za kupnju na ovoj obali."],
+  "homes": "Primošten ima raznolike nekretnine: kamene kuće u starom gradu i oko njega, moderne vile s bazenima i pogledom na more, stanove te nove projekte poput Primošten Resorta.",
+  "land": "Građevinsko zemljište u Primoštenu vrlo je traženo, a ponuda je ograničena, posebno s pogledom na more. Pažljive provjere prostornog plana, vlasništva i pristupa nužne su prije kupnje.",
+  "highlights": ["Stari grad na malom poluotoku", "Vinogradi babića u kamenim gromačama", "Oko 39 km od zračne luke Split"],
+  "local_q": "Što je Primošten Resort?",
+  "local_a": "Primošten Resort je projekt s više od 100 novih stanova i vila iznad Primoštena. N24 je prodajni kanal resorta, a sve njegove jedinice navedene su na stranici Primošten Resort."
+ },
+ {
+  "slug": "rogoznica", "in": "u Rogoznici",
+  "lede": "Kuće, vile, stanovi i građevinsko zemljište na prodaju u Rogoznici, primorskom mjestu s velikom marinom, najbližem zračnoj luci Split.",
+  "intro": ["Rogoznica je primorsko mjesto oko 34 km jugoistočno od Šibenika, djelomično izgrađeno na malom otoku spojenom s kopnom. Ondje su Marina Frapa i Zmajevo oko, neobično slano jezero tik uz more.", "Od osam mjesta na kojima radi N24, Rogoznica je najbliža zračnoj luci Split, udaljenoj oko 35 km."],
+  "homes": "Nekretnine u Rogoznici kreću se od kuća u starom dijelu mjesta do kuća za odmor, stanova i modernih vila oko brojnih uvala.",
+  "land": "Zbog razvedene obale mnoge čestice u Rogoznici imaju pogled na more. Kao i drugdje, prije kupnje provjerite građevinsko područje, vlasništvo i pristup cesti.",
+  "highlights": ["Marina Frapa", "Slano jezero Zmajevo oko", "Oko 34 km od zračne luke Split"],
+  "local_q": "Je li Rogoznica dobar izbor za vlasnike broda?",
+  "local_a": "S Marinom Frapa i mnogo zaštićenih uvala Rogoznica je jedno od najboljih mjesta na ovoj obali za vlasnike brodova. Pitajte Tomislava za nekretnine blizu marine."
+ }
+]

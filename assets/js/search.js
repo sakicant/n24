@@ -70,12 +70,10 @@
     return by ? hits.slice().sort(by) : hits;
   }
 
-  var SINGULAR = { properties: 'property', houses: 'house', apartments: 'apartment', villas: 'villa', 'plots of land': 'plot of land', 'new builds': 'new build' };
-
   function heading(f, n) {
-    var what = f.type.length === 1 ? N24.TYPE_PLURAL[f.type[0]] : 'properties';
-    var where = f.area.length === 1 ? ' in ' + N24.areaName(f.area[0]) : '';
-    return n + ' ' + (n === 1 ? SINGULAR[what] : what) + ' for sale' + where;
+    var what = f.type.length === 1 ? N24.TYPE_PLURAL[f.type[0]] : N24.TYPE_PLURAL.all;
+    var place = f.area.length === 1 ? N24.fill(N24.T.search.place, { name: N24.areaName(f.area[0]) }) : '';
+    return N24.fill(N24.T.search.heading, { count: n + ' ' + N24.plural(n, what), place: place });
   }
 
   function activeCount(f) {
@@ -104,10 +102,10 @@
     results.hidden = hits.length === 0;
     empty.hidden = hits.length !== 0;
     more.hidden = hits.length <= shown;
-    more.textContent = 'Show more (' + (hits.length - Math.min(shown, hits.length)) + ' left)';
+    more.textContent = N24.fill(N24.T.search.more, { n: hits.length - Math.min(shown, hits.length) });
     var n = activeCount(f);
     countBadge.textContent = n ? '(' + n + ')' : '';
-    apply.textContent = hits.length === 1 ? 'Show 1 property' : 'Show ' + hits.length + ' properties';
+    apply.textContent = N24.fill(N24.plural(hits.length, N24.T.search.apply), { n: hits.length });
     syncUrl(f);
   }
 

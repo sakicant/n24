@@ -9,19 +9,42 @@ RewriteCond %{HTTP_HOST} !^n24\.hr$ [NC,OR]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://n24.hr/$1 [R=301,L]
 
-# Old search URL from the first preview of this site
-RewriteRule ^properties-for-sale(/.*)?$ /properties/ [R=301,L]
+# ---------------------------------------------------------------- languages
+# Croatian is at the root, the other languages under /en/, /de/, /pl/, /cs/, /sk/,
+# each with translated addresses (made by tools/build.mjs).
+#
+# The English site was at the root until November 2026: its addresses move to /en/.
+RewriteRule ^properties-for-sale(/.*)?$ /en/properties/ [R=301,L]
+RewriteRule ^(properties|services|about|contact|privacy-policy|terms)/?$ /en/$1/ [R=301,L]
+RewriteRule ^real-estate-(vodice|srima|sibenik|brodarica|zaboric|grebastica|primosten|rogoznica)/?$ /en/real-estate-$1/ [R=301,L]
+RewriteRule ^property/(.*)$ /en/property/$1 [R=301,L]
+# The empty /hr/ and /de/ placeholders of the first version.
+RewriteRule ^hr(/.*)?$ / [R=301,L]
+RewriteRule ^de/about/?$ /de/ueber-uns/ [R=301,L]
+RewriteRule ^de/services/?$ /de/leistungen/ [R=301,L]
+RewriteRule ^de/properties/?$ /de/immobilien/ [R=301,L]
+RewriteRule ^de/contact/?$ /de/kontakt/ [R=301,L]
+RewriteRule ^de/privacy-policy/?$ /de/datenschutz/ [R=301,L]
+RewriteRule ^de/terms/?$ /de/nutzungsbedingungen/ [R=301,L]
+RewriteRule ^de/real-estate-([a-z]+)/?$ /de/immobilien-$1/ [R=301,L]
+RewriteRule ^de/property/(.*)$ /de/immobilie/$1 [R=301,L]
 
-# Property pages and the sitemap are made by PHP from the listings saved in the admin.
-RewriteRule ^property/([a-z0-9-]+)$ /property/$1/ [R=301,L]
-RewriteRule ^property/([a-z0-9-]+)/$ api/property.php?slug=$1 [L,QSA]
+# Property pages are made by PHP from the listings saved in the admin, in every language.
+RewriteRule ^((?:nekretnina|en/property|de/immobilie|pl/oferta|cs/nemovitost|sk/nehnutelnost)/[a-z0-9-]+)$ /$1/ [R=301,L]
+RewriteRule ^nekretnina/([a-z0-9-]+)/$ api/property.php?lang=hr&slug=$1 [L,QSA]
+RewriteRule ^en/property/([a-z0-9-]+)/$ api/property.php?lang=en&slug=$1 [L,QSA]
+RewriteRule ^de/immobilie/([a-z0-9-]+)/$ api/property.php?lang=de&slug=$1 [L,QSA]
+RewriteRule ^pl/oferta/([a-z0-9-]+)/$ api/property.php?lang=pl&slug=$1 [L,QSA]
+RewriteRule ^cs/nemovitost/([a-z0-9-]+)/$ api/property.php?lang=cs&slug=$1 [L,QSA]
+RewriteRule ^sk/nehnutelnost/([a-z0-9-]+)/$ api/property.php?lang=sk&slug=$1 [L,QSA]
 RewriteRule ^sitemap\.xml$ api/sitemap.php [L]
 
 # ---------------------------------------------------------------- pages
 DirectoryIndex index.html index.php
 # Never show a list of a folder's files.
 Options -Indexes
-ErrorDocument 404 /404.html
+# The 404 page in the language of the address.
+ErrorDocument 404 /api/notfound.php
 
 # Nothing outside the website itself should be reachable. The admin lives at
 # /manage/ (not listed anywhere); the old /admin/ address is dead.

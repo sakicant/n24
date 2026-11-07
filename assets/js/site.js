@@ -123,7 +123,8 @@
     });
     var sync = function () {
       heroPause.setAttribute('aria-pressed', String(heroVideo.paused));
-      heroPause.setAttribute('aria-label', heroVideo.paused ? 'Play the background video' : 'Pause the background video');
+      var V = window.N24_I18N.t.video;
+      heroPause.setAttribute('aria-label', heroVideo.paused ? V.play : V.pause);
     };
     heroVideo.addEventListener('play', sync);
     heroVideo.addEventListener('pause', sync);

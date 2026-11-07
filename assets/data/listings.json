@@ -58,7 +58,47 @@
    "n24-309-31",
    "n24-309-32",
    "n24-309-33"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Namješten stan 100 m od mora",
+    "status": "Namješten",
+    "description": [
+     "Potpuno opremljen i namješten stan od 51 m² na jednoj od najatraktivnijih lokacija u Srimi, 100 m od mora, u mirnoj ulici nekoliko minuta hoda od jedne od najljepših plaža na ovom dijelu obale.",
+     "Dnevni boravak s kuhinjom i blagovaonicom u otvorenom prostoru, spavaća soba s izlazom na balkon, kupaonica, odvojeni WC i natkriveni balkon s vanjskim stolom za objedovanje.",
+     "Stan je odmah useljiv i prodaje se sa svim namještajem i opremom prikazanom na fotografijama. Srima je poznata po plažama, čistom moru i šetnici do Vodica; centar i trgovina udaljeni su 500 m."
+    ],
+    "features": [
+     "100 m do mora",
+     "Potpuno namješten",
+     "Natkriveni balkon",
+     "Klima uređaji",
+     "Odvojeni WC",
+     "Mirna ulica"
+    ],
+    "slug": "namjesten-stan-100-m-od-mora"
+   },
+   "de": {
+    "title": "Möblierte Wohnung 100 m vom Meer",
+    "status": "Möbliert",
+    "description": [
+     "Eine voll ausgestattete und möblierte Wohnung von 51 m² in einer der attraktivsten Lagen von Srima, 100 m vom Meer, in einer ruhigen Straße wenige Gehminuten von einem der schönsten Strände dieses Küstenabschnitts.",
+     "Offener Wohnbereich mit Küche und Essplatz, ein Schlafzimmer mit Zugang zum Balkon, ein Badezimmer, ein separates WC und ein überdachter Balkon mit Esstisch im Freien.",
+     "Die Wohnung ist bezugsfertig und wird mit allen auf den Fotos gezeigten Möbeln und der Ausstattung verkauft. Srima ist bekannt für seine Strände, das klare Meer und die Promenade nach Vodice; Zentrum und Geschäft sind 500 m entfernt."
+    ],
+    "features": [
+     "100 m zum Meer",
+     "Komplett möbliert",
+     "Überdachter Balkon",
+     "Klimaanlage",
+     "Separates WC",
+     "Ruhige Straße"
+    ],
+    "slug": "moblierte-wohnung-100-m-vom-meer"
+   }
+  },
+  "tr_src": "d7756a9b02ab"
  },
  {
   "id": "n24-308",
@@ -110,7 +150,51 @@
    "n24-308-5",
    "n24-308-6",
    "n24-308-7"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Građevinske čestice u Vrpolju, 2 km od mora",
+    "status": "Građevinsko zemljište",
+    "description": [
+     "Više građevinskih čestica stambene namjene u Vrpolju kod Šibenika, na mirnoj lokaciji 2 km od mora. Sve čestice su stambene namjene."
+    ],
+    "features": [
+     "Građevinsko zemljište stambene namjene",
+     "2 km do mora",
+     "Mirna lokacija",
+     "Blizu Šibenika"
+    ],
+    "units": [
+     "Čestica 1",
+     "Čestica 2",
+     "Čestica 3",
+     "Čestica 4"
+    ],
+    "slug": "gradevinske-cestice-u-vrpolju-2-km-od-mora"
+   },
+   "de": {
+    "title": "Baugrundstücke in Vrpolje, 2 km vom Meer",
+    "status": "Bauland",
+    "description": [
+     "Mehrere Baugrundstücke für Wohnbebauung in Vrpolje bei Šibenik, in ruhiger Lage 2 km vom Meer. Alle Grundstücke sind als Wohngebiet ausgewiesen."
+    ],
+    "features": [
+     "Bauland für Wohnbebauung",
+     "2 km zum Meer",
+     "Ruhige Lage",
+     "Nahe Šibenik"
+    ],
+    "units": [
+     "Grundstück 1",
+     "Grundstück 2",
+     "Grundstück 3",
+     "Grundstück 4"
+    ],
+    "slug": "baugrundstucke-in-vrpolje-2-km-vom-meer"
+   }
+  },
+  "tr_src": "1c2091b2ac99"
  },
  {
   "id": "n24-307",
@@ -178,7 +262,47 @@
    "n24-307-38",
    "n24-307-39",
    "n24-307-40"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Renoviran stan na glavnom trgu, pogled na more",
+    "status": "Renoviran, namješten",
+    "description": [
+     "Potpuno renoviran i moderno namješten stan u samom srcu Šibenika, u autentičnoj kamenoj kući na glavnom trgu Medulić, s pogledom na more.",
+     "Stan ima 75,12 m²: dvije spavaće sobe, dnevni boravak, kuhinju, dvije kupaonice i hodnik. Etažirano vlasništvo.",
+     "Nekoliko koraka od rive, restorana i trgovina. Zahvaljujući kvalitetnoj adaptaciji i pažljivo biranom namještaju spreman je za useljenje bez dodatnih ulaganja. Idealan za stanovanje, odmor ili turistički najam."
+    ],
+    "features": [
+     "Pogled na more",
+     "Centar starog grada",
+     "Potpuno renoviran",
+     "Namješten",
+     "Klima uređaji",
+     "Etažirano vlasništvo"
+    ],
+    "slug": "renoviran-stan-na-glavnom-trgu-pogled-na-more"
+   },
+   "de": {
+    "title": "Renovierte Wohnung am Hauptplatz mit Meerblick",
+    "status": "Renoviert, möbliert",
+    "description": [
+     "Eine komplett renovierte und modern möblierte Wohnung im Herzen von Šibenik, in einem authentischen Steinhaus am Hauptplatz Medulić, mit Blick aufs Meer.",
+     "Die Wohnung hat 75,12 m²: zwei Schlafzimmer, ein Wohnzimmer, eine Küche, zwei Badezimmer und einen Flur. Sie ist als eigene Einheit im Grundbuch eingetragen (Wohnungseigentum).",
+     "Wenige Schritte von der Uferpromenade, Restaurants und Geschäften. Dank hochwertiger Renovierung und sorgfältig ausgewählter Möbel ist sie ohne weitere Investitionen bezugsfertig. Ideal zum Wohnen, für den Urlaub oder zur Ferienvermietung."
+    ],
+    "features": [
+     "Meerblick",
+     "Altstadtzentrum",
+     "Komplett renoviert",
+     "Möbliert",
+     "Klimaanlage",
+     "Eigenes Grundbuchblatt"
+    ],
+    "slug": "renovierte-wohnung-am-hauptplatz-mit-meerblick"
+   }
+  },
+  "tr_src": "cbd0b1bcc70a"
  },
  {
   "id": "n24-306",
@@ -284,7 +408,63 @@
    "n24-306-23",
    "n24-306-24",
    "n24-306-25"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Sunset Homes: novi stanovi s otvorenim pogledom na more",
+    "status": "Završetak 2026.",
+    "description": [
+     "Moderni stanovi u novogradnji u Primoštenu sa širokim, otvorenim pogledom na more. Zgrada je na mirnoj i sunčanoj lokaciji, oko 1.500 m od mora i plaže te 2.000 m od centra Primoštena.",
+     "Moderna arhitektura, visokokvalitetni materijali, velike staklene stijene i prostrane terase. Svaki stan ima parkirno ili garažno mjesto. Prizemni stan S1 ima vlastiti vrt i jacuzzi na terasi.",
+     "Završetak gradnje planiran je za 2026. godinu. Idealno za odmor ili kao investicija u najam."
+    ],
+    "features": [
+     "Otvoren pogled na more",
+     "Parkirno ili garažno mjesto",
+     "Velike terase",
+     "Mirna i sunčana lokacija",
+     "Završetak 2026."
+    ],
+    "units": [
+     "S1 (prizemlje, vrt)",
+     "S2 (prizemlje)",
+     "S3",
+     "S4",
+     "S5 (2. kat)",
+     "S6 (2. kat)",
+     "S7 (penthouse)"
+    ],
+    "slug": "sunset-homes-novi-stanovi-s-otvorenim-pogledom-na-more"
+   },
+   "de": {
+    "title": "Sunset Homes: neue Wohnungen mit freiem Meerblick",
+    "status": "Fertigstellung 2026",
+    "description": [
+     "Moderne Wohnungen in einem Neubau in Primošten mit weitem, freiem Blick aufs Meer. Das Gebäude liegt ruhig und sonnig, etwa 1.500 m vom Meer und Strand und 2.000 m vom Zentrum von Primošten.",
+     "Moderne Architektur, hochwertige Materialien, große Glasfronten und geräumige Terrassen. Zu jeder Wohnung gehört ein Stellplatz oder Garagenplatz. Die Erdgeschosswohnung S1 hat einen eigenen Garten und einen Whirlpool auf der Terrasse.",
+     "Die Fertigstellung ist für 2026 geplant. Ideal als Ferienwohnung oder als Investition in die Vermietung."
+    ],
+    "features": [
+     "Freier Meerblick",
+     "Stellplatz oder Garage",
+     "Große Terrassen",
+     "Ruhige, sonnige Lage",
+     "Fertigstellung 2026"
+    ],
+    "units": [
+     "S1 (Erdgeschoss, Garten)",
+     "S2 (Erdgeschoss)",
+     "S3",
+     "S4",
+     "S5 (2. Stock)",
+     "S6 (2. Stock)",
+     "S7 (Penthouse)"
+    ],
+    "slug": "sunset-homes-neue-wohnungen-mit-freiem-meerblick"
+   }
+  },
+  "tr_src": "3426e477d27c"
  },
  {
   "id": "n24-305",
@@ -320,7 +500,49 @@
    "n24-305-3",
    "n24-305-4",
    "n24-305-5"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Moderna dvojna duplex kuća s mogućnošću bazena",
+    "status": "Idejni projekt",
+    "description": [
+     "Moderna dvojna duplex kuća u Brodarici kod Šibenika, 500 m od mora. Svaka jedinica ima oko 120 m² stambenog prostora na dvije etaže i vlastiti vrt od oko 200 m².",
+     "Prizemlje (oko 60 m²) je otvorenog koncepta: veliki dnevni boravak, kuhinja s otokom, blagovaonica, kupaonica i spremište, s velikim staklenim stijenama prema vrtu i terasi s pergolom. Moguće je dodati bazen 3 × 6 m ili jacuzzi.",
+     "Kat (oko 60 m²) je spavaći dio: glavna spavaća soba s vlastitom kupaonicom i velikom terasom s pogledom na more, još dvije spavaće sobe i dodatna kupaonica.",
+     "Projekt je idejnog karaktera, pa kupac prije gradnje još može mijenjati raspored, terase, bazen, fasadu i interijer, u skladu s propisima. Slike su vizualizacije."
+    ],
+    "features": [
+     "500 m do mora",
+     "Vrt oko 200 m²",
+     "Bazen 3 × 6 m ili jacuzzi",
+     "Terasa s pogledom na more",
+     "Parking",
+     "Projekt se može prilagoditi"
+    ],
+    "slug": "moderna-dvojna-duplex-kuca-s-mogucnoscu-bazena"
+   },
+   "de": {
+    "title": "Moderne Doppelhaushälfte als Duplex, Pool möglich",
+    "status": "Vorentwurf",
+    "description": [
+     "Eine moderne Doppelhaushälfte als Duplex in Brodarica bei Šibenik, 500 m vom Meer. Jede Einheit hat etwa 120 m² Wohnfläche auf zwei Etagen und einen eigenen Garten von etwa 200 m².",
+     "Das Erdgeschoss (etwa 60 m²) ist offen gestaltet: großes Wohnzimmer, Küche mit Kochinsel, Essbereich, Badezimmer und Abstellraum, mit großen Glasfronten zum Garten und einer Terrasse mit Pergola. Ein Pool von 3 × 6 m oder ein Whirlpool kann hinzugefügt werden.",
+     "Das Obergeschoss (etwa 60 m²) ist der Schlafbereich: ein Hauptschlafzimmer mit eigenem Bad und großer Terrasse mit Meerblick, zwei weitere Schlafzimmer und ein weiteres Bad.",
+     "Das Projekt ist ein Vorentwurf, daher kann der Käufer Grundriss, Terrassen, Pool, Fassade und Innenausbau vor dem Bau im Rahmen der Vorschriften noch ändern. Die Bilder sind Visualisierungen."
+    ],
+    "features": [
+     "500 m zum Meer",
+     "Garten etwa 200 m²",
+     "Pool 3 × 6 m oder Whirlpool möglich",
+     "Terrasse mit Meerblick",
+     "Parkplatz",
+     "Entwurf anpassbar"
+    ],
+    "slug": "moderne-doppelhaushalfte-als-duplex-pool-moglich"
+   }
+  },
+  "tr_src": "e1ac2c2a0d2b"
  },
  {
   "id": "n24-304",
@@ -379,7 +601,47 @@
    "n24-304-30",
    "n24-304-31",
    "n24-304-32"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Renovirana kamena kuća 30 m od mora",
+    "status": "Renovirana",
+    "description": [
+     "Potpuno renovirana autohtona dalmatinska kamena kuća u samom srcu Šepurine na otoku Prviću, oko 30 m od mora.",
+     "Kuća ima prizemlje i dva kata (tlocrt 3,5 × 5 m), s dvije spavaće sobe i dvije kupaonice. Obnovljeni su kameni zidovi i krov, uz očuvanje autentičnog izgleda: vidljivi kamen i drvena konstrukcija krova.",
+     "Nalazi se u mirnoj kamenoj ulici stare jezgre mjesta. Idealna za odmor, turistički najam ili kao investicija na atraktivnom otoku."
+    ],
+    "features": [
+     "30 m do mora",
+     "Potpuno renovirana",
+     "Novo krovište",
+     "Tri etaže",
+     "Stara jezgra Šepurine",
+     "Spremna za korištenje"
+    ],
+    "slug": "renovirana-kamena-kuca-30-m-od-mora"
+   },
+   "de": {
+    "title": "Renoviertes Steinhaus 30 m vom Meer",
+    "status": "Renoviert",
+    "description": [
+     "Ein komplett renoviertes traditionelles dalmatinisches Steinhaus im Herzen von Šepurina auf der Insel Prvić, etwa 30 m vom Meer.",
+     "Das Haus hat ein Erdgeschoss und zwei Obergeschosse (Grundfläche 3,5 × 5 m), mit zwei Schlafzimmern und zwei Badezimmern. Steinmauern und Dach wurden erneuert, das authentische Aussehen blieb erhalten: sichtbarer Stein und Dachkonstruktion aus Holz.",
+     "Es steht in einer ruhigen Steingasse des alten Ortskerns. Ideal für den Urlaub, zur Ferienvermietung oder als Investition auf einer attraktiven Insel."
+    ],
+    "features": [
+     "30 m zum Meer",
+     "Komplett renoviert",
+     "Neues Dach",
+     "Drei Etagen",
+     "Alter Ortskern von Šepurina",
+     "Sofort nutzbar"
+    ],
+    "slug": "renoviertes-steinhaus-30-m-vom-meer"
+   }
+  },
+  "tr_src": "60644b1079e8"
  },
  {
   "id": "n24-303",
@@ -425,7 +687,41 @@
    "n24-303-19",
    "n24-303-20",
    "n24-303-21"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Građevinska čestica s dozvolom i pogledom na more",
+    "status": "Građevinska dozvola",
+    "description": [
+     "Građevinska čestica od 712 m² u Rogoznici s prekrasnim pogledom na more, prodaje se s projektom kuće od 150 m² i važećom građevinskom dozvolom.",
+     "Slike uključuju vizualizacije odobrene kuće s bazenom. Zatražite projektnu dokumentaciju."
+    ],
+    "features": [
+     "Građevinska dozvola",
+     "Projekt kuće 150 m²",
+     "Pogled na more",
+     "Bazen u projektu"
+    ],
+    "slug": "gradevinska-cestica-s-dozvolom-i-pogledom-na-more"
+   },
+   "de": {
+    "title": "Baugrundstück mit Genehmigung und Meerblick",
+    "status": "Baugenehmigung",
+    "description": [
+     "Ein Baugrundstück von 712 m² in Rogoznica mit herrlichem Meerblick, verkauft mit dem Entwurf für ein Haus von 150 m² und gültiger Baugenehmigung.",
+     "Die Bilder zeigen Visualisierungen des genehmigten Hauses mit Pool. Fragen Sie uns nach den Projektunterlagen."
+    ],
+    "features": [
+     "Baugenehmigung",
+     "Hausentwurf 150 m²",
+     "Meerblick",
+     "Pool im Entwurf"
+    ],
+    "slug": "baugrundstuck-mit-genehmigung-und-meerblick"
+   }
+  },
+  "tr_src": "5496bf85329e"
  },
  {
   "id": "n24-302",
@@ -512,7 +808,63 @@
    "n24-302-7",
    "n24-302-8",
    "n24-302-9"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "G Home: novi stanovi 100 m od plaže",
+    "status": "Završetak 2027.",
+    "description": [
+     "Posljednji stanovi u projektu G Home, novogradnji u Grebaštici samo 100 m od mora i plaže. Dvije manje zgrade sa samo šest stanova ukupno jamče mir i privatnost tijekom cijele godine.",
+     "Cijena u pretprodaji prije početka gradnje: 3.200 € po m². Uz svaki stan idu dva parkirna mjesta, velike terase i funkcionalan raspored. Završetak gradnje planiran je za 2027. godinu.",
+     "Grebaštica je jedno od najtraženijih mjesta šibenske rivijere, poznato po čistom moru, lijepim plažama i mirnom okruženju, nekoliko minuta vožnje od Šibenika i Primoštena. Zatražite tlocrte i rezervirajte stan."
+    ],
+    "features": [
+     "100 m do plaže",
+     "Samo 6 stanova",
+     "2 parkirna mjesta po stanu",
+     "Velike terase",
+     "Cijena u pretprodaji",
+     "Završetak 2027."
+    ],
+    "units": [
+     "Stan 1 (A)",
+     "Stan 2 (A)",
+     "Stan 3 (A)",
+     "Stan 4 (B, prizemlje)",
+     "Stan 5 (B, 1. kat)",
+     "Stan 6 (B, 2. kat)"
+    ],
+    "slug": "g-home-novi-stanovi-100-m-od-plaze"
+   },
+   "de": {
+    "title": "G Home: neue Wohnungen 100 m vom Strand",
+    "status": "Fertigstellung 2027",
+    "description": [
+     "Die letzten Wohnungen in G Home, einem Neubauprojekt in Grebaštica nur 100 m vom Meer und Strand. Zwei kleine Gebäude mit insgesamt nur sechs Wohnungen bedeuten Ruhe und Privatsphäre das ganze Jahr.",
+     "Vorverkaufspreis vor Baubeginn: 3.200 € pro m². Zu jeder Wohnung gehören zwei Stellplätze, große Terrassen und ein praktischer Grundriss. Die Fertigstellung ist für 2027 geplant.",
+     "Grebaštica ist einer der begehrtesten Orte der Riviera von Šibenik, bekannt für klares Meer, schöne Strände und ruhige Umgebung, wenige Autominuten von Šibenik und Primošten. Fragen Sie nach Grundrissen und reservieren Sie eine Wohnung."
+    ],
+    "features": [
+     "100 m zum Strand",
+     "Nur 6 Wohnungen",
+     "2 Stellplätze pro Wohnung",
+     "Große Terrassen",
+     "Vorverkaufspreis",
+     "Fertigstellung 2027"
+    ],
+    "units": [
+     "Wohnung 1 (A)",
+     "Wohnung 2 (A)",
+     "Wohnung 3 (A)",
+     "Wohnung 4 (B, Erdgeschoss)",
+     "Wohnung 5 (B, 1. Stock)",
+     "Wohnung 6 (B, 2. Stock)"
+    ],
+    "slug": "g-home-neue-wohnungen-100-m-vom-strand"
+   }
+  },
+  "tr_src": "65b37891e076"
  },
  {
   "id": "n24-301",
@@ -575,7 +927,67 @@
    "n24-301-20",
    "n24-301-21",
    "n24-301-22"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Nova dvojna kuća 70 m od mora",
+    "status": "Novogradnja",
+    "description": [
+     "Moderna dvojna kuća u Žaboriću, mirnom mediteranskom mjestu kod Šibenika, samo 70 m od mora i plaže. U prodaji je jedinica S2 nove kuće s dvije jedinice: 99,71 m² na dvije etaže, s privatnim vrtom od 135 m² i dva parkirna mjesta.",
+     "U prizemlju su ulazni prostor, spavaća soba, kupaonica, moderna kuhinja s blagovaonicom i prostrani dnevni boravak s izlazom na vrt i terasu. Na katu su dvije spavaće sobe, dvije kupaonice i balkon s pogledom na okolicu i more.",
+     "Velike staklene površine donose obilje dnevnog svjetla. Kuća se prodaje nenamještena; neke slike su vizualizacije.",
+     "U blizini su plaže, šetnica uz more, restorani, trgovine i marina. Šibenik, nacionalni parkovi Krka i Kornati te zračna luka Split na kratkoj su vožnji."
+    ],
+    "features": [
+     "70 m do mora i plaže",
+     "Privatni vrt 135 m²",
+     "2 parkirna mjesta",
+     "Pogled na more s balkona",
+     "Podno grijanje",
+     "Klima uređaji",
+     "Novogradnja 2026."
+    ],
+    "standards": [
+     "Visokokvalitetna talijanska keramika",
+     "Podno grijanje u dnevnom boravku i kupaonicama",
+     "Klima uređaji u dnevnom boravku i svim spavaćim sobama",
+     "PVC stolarija s dobrom toplinskom izolacijom",
+     "Staklene ograde balkona",
+     "Laminat u spavaćim sobama"
+    ],
+    "slug": "nova-dvojna-kuca-70-m-od-mora"
+   },
+   "de": {
+    "title": "Neue Doppelhaushälfte 70 m vom Meer",
+    "status": "Neubau",
+    "description": [
+     "Eine moderne Doppelhaushälfte in Žaborić, einem ruhigen mediterranen Ort bei Šibenik, nur 70 m vom Meer und einem Strand. Zum Verkauf steht die Einheit S2 eines neuen Hauses mit zwei Einheiten: 99,71 m² auf zwei Etagen, mit eigenem Garten von 135 m² und zwei Stellplätzen.",
+     "Im Erdgeschoss liegen Eingangsbereich, ein Schlafzimmer, ein Bad, eine moderne Küche mit Essbereich und ein großes Wohnzimmer mit Zugang zu Garten und Terrasse. Oben befinden sich zwei Schlafzimmer, zwei Bäder und ein Balkon mit Blick auf die Umgebung und das Meer.",
+     "Große Glasflächen bringen viel Tageslicht. Das Haus wird unmöbliert verkauft; einige Bilder sind Visualisierungen.",
+     "Strände, Uferpromenade, Restaurants, Geschäfte und eine Marina sind in der Nähe. Šibenik, die Nationalparks Krka und Kornaten und der Flughafen Split sind schnell erreicht."
+    ],
+    "features": [
+     "70 m zum Meer und Strand",
+     "Eigener Garten 135 m²",
+     "2 Stellplätze",
+     "Meerblick vom Balkon",
+     "Fußbodenheizung",
+     "Klimaanlage",
+     "Neubau 2026"
+    ],
+    "standards": [
+     "Hochwertige italienische Keramikfliesen",
+     "Fußbodenheizung im Wohnzimmer und in den Bädern",
+     "Klimaanlage im Wohnzimmer und in allen Schlafzimmern",
+     "PVC-Fenster mit guter Wärmedämmung",
+     "Balkongeländer aus Glas",
+     "Laminat in den Schlafzimmern"
+    ],
+    "slug": "neue-doppelhaushalfte-70-m-vom-meer"
+   }
+  },
+  "tr_src": "d3ec679351a8"
  },
  {
   "id": "n24-276",
@@ -629,7 +1041,51 @@
    "n24-276-20",
    "n24-276-21",
    "n24-276-22"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Olive Grove: čestica za vilu s građevinskom dozvolom",
+    "status": "Građevinska dozvola",
+    "description": [
+     "Građevinska čestica od 1.523 m² na padini među maslinama iznad Primoštena, prodaje se s građevinskom dozvolom za modernu kamenu vilu bruto površine oko 330 m².",
+     "Projekt spaja modernu arhitekturu s mediteranskim duhom: više razina koje prate teren, velike staklene stijene, prostrane terase i vanjski prostor s bazenom, sunčalištem i zonom za opuštanje.",
+     "Čestica je mirna i okružena prirodom, s otvorenim pogledom na more. Zračna luka Split udaljena je oko 40 km. Slike su vizualizacije odobrene vile."
+    ],
+    "features": [
+     "Građevinska dozvola",
+     "Projekt vile oko 330 m²",
+     "Bazen u projektu",
+     "Smještaj u maslinicima",
+     "Otvoren pogled na more",
+     "Oko 1,6 km do mora",
+     "Oko 3 km do centra Primoštena",
+     "Privatni parking"
+    ],
+    "slug": "olive-grove-cestica-za-vilu-s-gradevinskom-dozvolom"
+   },
+   "de": {
+    "title": "Olive Grove: Villengrundstück mit Baugenehmigung",
+    "status": "Baugenehmigung",
+    "description": [
+     "Ein Baugrundstück von 1.523 m² an einem Hang zwischen Olivenbäumen oberhalb von Primošten, verkauft mit Baugenehmigung für eine moderne Steinvilla mit etwa 330 m² Bruttofläche.",
+     "Der Entwurf verbindet moderne Architektur mit mediterranem Flair: mehrere Ebenen, die dem Gelände folgen, große Glasfronten, geräumige Terrassen und ein Außenbereich mit Pool, Sonnendeck und Lounge.",
+     "Das Grundstück ist ruhig und von Natur umgeben, mit freiem Meerblick. Der Flughafen Split ist etwa 40 km entfernt. Die Bilder sind Visualisierungen der genehmigten Villa."
+    ],
+    "features": [
+     "Baugenehmigung",
+     "Villenentwurf etwa 330 m²",
+     "Pool im Entwurf",
+     "Lage im Olivenhain",
+     "Freier Meerblick",
+     "Etwa 1,6 km zum Meer",
+     "Etwa 3 km zum Zentrum von Primošten",
+     "Eigener Parkplatz"
+    ],
+    "slug": "olive-grove-villengrundstuck-mit-baugenehmigung"
+   }
+  },
+  "tr_src": "9faa2f11b60b"
  },
  {
   "id": "n24-231",
@@ -662,7 +1118,29 @@
    "n24-231-9",
    "n24-231-10",
    "n24-231-11"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Sun Hill, Primošten Resort",
+    "status": "U izgradnji",
+    "description": [
+     "Sun Hill je jedno od naselja Primošten Resorta, projekta novih stanova i vila iznad Primoštena.",
+     "Cijene, tlocrti i dostupnost pojedinih jedinica dostupni su na upit. Sve jedinice pogledajte na stranici Primošten Resort."
+    ],
+    "slug": "sun-hill-primosten-resort"
+   },
+   "de": {
+    "title": "Sun Hill, Primošten Resort",
+    "status": "Im Bau",
+    "description": [
+     "Sun Hill ist eine der Siedlungen des Primošten Resort, einer Anlage mit neuen Wohnungen und Villen oberhalb von Primošten.",
+     "Preise, Grundrisse und Verfügbarkeit der einzelnen Einheiten auf Anfrage. Alle Einheiten finden Sie auf der Seite Primošten Resort."
+    ],
+    "slug": "sun-hill-primosten-resort"
+   }
+  },
+  "tr_src": "fe575ac9ac82"
  },
  {
   "id": "n24-251",
@@ -733,7 +1211,45 @@
    "n24-251-40",
    "n24-251-41",
    "n24-251-42"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Kuća u prvom redu do mora, Tisno",
+    "status": "U prodaji",
+    "description": [
+     "Kuća u samom centru Tisnog, u prvom redu do mora, s otvorenim pogledom.",
+     "U suterenu su manja garaža i soba s kupaonicom i kuhinjom. U prizemlju su dnevni boravak s kuhinjom, kupaonica, soba i predsoblje te velike terase s prednje i stražnje strane kuće. Na katu je nedovršen stan sa spavaćom sobom, kupaonicom i WC-om.",
+     "Kuću je potrebno renovirati. Orijentirana je prema jugoistoku."
+    ],
+    "features": [
+     "Prvi red do mora",
+     "Centar Tisnog",
+     "Garaža",
+     "Terase s prednje i stražnje strane",
+     "Potrebna renovacija"
+    ],
+    "slug": "kuca-u-prvom-redu-do-mora-tisno"
+   },
+   "de": {
+    "title": "Haus in erster Reihe am Meer, Tisno",
+    "status": "Verfügbar",
+    "description": [
+     "Ein Haus im Zentrum von Tisno, in erster Reihe am Meer, mit freiem Blick.",
+     "Im Untergeschoss liegen eine kleine Garage und ein Zimmer mit Bad und Küche. Im Erdgeschoss befinden sich ein Wohnzimmer mit Küche, ein Bad, ein Ankleidezimmer und große Terrassen vorne und hinten. Das Obergeschoss ist eine unfertige Wohnung mit einem Schlafzimmer, einem Bad und einem WC.",
+     "Das Haus muss renoviert werden. Es ist nach Südosten ausgerichtet."
+    ],
+    "features": [
+     "Erste Reihe am Meer",
+     "Zentrum von Tisno",
+     "Garage",
+     "Terrassen vorne und hinten",
+     "Renovierungsbedürftig"
+    ],
+    "slug": "haus-in-erster-reihe-am-meer-tisno"
+   }
+  },
+  "tr_src": "10c985ad803e"
  },
  {
   "id": "n24-261",
@@ -855,7 +1371,65 @@
    "n24-261-8",
    "n24-261-9",
    "n24-261-10"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Novi stanovi u centru Primoštena",
+    "status": "U prodaji",
+    "description": [
+     "Nova stambena zgrada u centru Primoštena, s dizalom, garažama i terasama sa staklenim ogradama. Cijene stanova uključuju PDV."
+    ],
+    "features": [
+     "Dizalo",
+     "Garaža",
+     "Klima uređaji",
+     "Terase sa staklenim ogradama",
+     "Centar Primoštena"
+    ],
+    "standards": [
+     "Armiranobetonska konstrukcija na temeljnoj ploči od 40 cm; nosivi zidovi od 25 cm",
+     "Fasada izolirana kamenom vunom debljine 10 cm (ETICS)",
+     "Antracit aluminijska stolarija s troslojnim staklom, motoriziranim izoliranim roletama i ugrađenim komarnicima",
+     "Protuprovalna, protupožarna ulazna vrata",
+     "Samsung multi-split inverter klima uređaji ugrađeni u stropove",
+     "Električno podno grijanje u kupaonicama, Geberit ugradbeni vodokotlići",
+     "Keramika po izboru kupca prema dogovoru; epoksidni podovi u garažama i spremištima",
+     "Priprema za punjač električnog automobila na svakom garažnom mjestu",
+     "Dvostruko hidroizolirane terase sa skrivenom odvodnjom; krov izoliran XPS-om od 15 cm",
+     "Dizalo; ulaz i stubište obloženi kamenom"
+    ],
+    "slug": "novi-stanovi-u-centru-primostena"
+   },
+   "de": {
+    "title": "Neue Wohnungen im Zentrum von Primošten",
+    "status": "Verfügbar",
+    "description": [
+     "Ein neues Wohnhaus im Zentrum von Primošten, mit Aufzug, Garagen und Terrassen mit Glasgeländern. Die Wohnungspreise enthalten die Mehrwertsteuer."
+    ],
+    "features": [
+     "Aufzug",
+     "Garage",
+     "Klimaanlage",
+     "Terrassen mit Glasgeländern",
+     "Zentrum von Primošten"
+    ],
+    "standards": [
+     "Stahlbetonkonstruktion auf 40 cm Fundamentplatte; 25 cm tragende Wände",
+     "Fassade mit 10 cm Steinwolle gedämmt (WDVS)",
+     "Anthrazitfarbene Aluminiumfenster mit Dreifachverglasung, motorisierte gedämmte Rollläden und integrierte Insektenschutzgitter",
+     "Einbruchhemmende, feuerbeständige Eingangstüren",
+     "Samsung Multisplit-Inverter-Klimaanlage in den Decken integriert",
+     "Elektrische Fußbodenheizung in den Bädern, Geberit-Unterputzspülkästen",
+     "Keramikböden nach Wahl des Käufers nach Absprache; Epoxidböden in Garagen und Abstellräumen",
+     "Vorbereitung für ein Elektroauto-Ladegerät an jedem Garagenplatz",
+     "Doppelt abgedichtete Terrassen mit verdeckter Entwässerung; Dach mit 15 cm XPS gedämmt",
+     "Aufzug; Eingang und Treppenhaus mit Stein verkleidet"
+    ],
+    "slug": "neue-wohnungen-im-zentrum-von-primosten"
+   }
+  },
+  "tr_src": "6e5b8cc738f6"
  },
  {
   "id": "n24-169",
@@ -922,7 +1496,47 @@
    "n24-169-11",
    "n24-169-12",
    "n24-169-13"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Moderna novogradnja s pogledom na more",
+    "status": "U prodaji",
+    "description": [
+     "Nova urbana vila u Brodarici s tri stambene jedinice u nizu, moderne arhitekture i s pogledom na more.",
+     "Svaka jedinica ima vlastiti vrt s prostorom za bazen (nije uključen u cijenu)."
+    ],
+    "features": [
+     "Garaža",
+     "Klima uređaji",
+     "Balkon",
+     "Pogled na more",
+     "Vrt",
+     "Krovna terasa",
+     "Prostor za bazen"
+    ],
+    "slug": "moderna-novogradnja-s-pogledom-na-more"
+   },
+   "de": {
+    "title": "Moderner Neubau mit Meerblick",
+    "status": "Verfügbar",
+    "description": [
+     "Eine neue Stadtvilla in Brodarica mit drei Wohneinheiten in Reihe, moderner Architektur und Blick aufs Meer.",
+     "Jede Einheit hat einen eigenen Garten mit Platz für einen Pool (nicht im Preis enthalten)."
+    ],
+    "features": [
+     "Garage",
+     "Klimaanlage",
+     "Balkon",
+     "Meerblick",
+     "Garten",
+     "Dachterrasse",
+     "Platz für einen Pool"
+    ],
+    "slug": "moderner-neubau-mit-meerblick"
+   }
+  },
+  "tr_src": "ae5055f1e0c7"
  },
  {
   "id": "n24-107",
@@ -959,7 +1573,47 @@
    "n24-107-6",
    "n24-107-7",
    "n24-107-8"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Moderan stan s bazenom",
+    "status": "U prodaji",
+    "description": [
+     "Moderan stan u novoj zgradi s četiri jedinice u Primoštenu. Velike staklene stijene svakom stanu daju otvoren pogled na stari grad na poluotoku.",
+     "Stan 3 ima vlastiti bazen i ukupnu površinu od 136,39 m². Zgrada ima odličan pristupni put s glavne ulice.",
+     "Garažno mjesto dostupno je po cijeni od 1.500 € po m², a vanjsko parkirno mjesto za 5.000 €."
+    ],
+    "features": [
+     "Bazen",
+     "Pogled na stari grad",
+     "Blizu mora",
+     "Klima uređaji",
+     "Balkon",
+     "Vrt"
+    ],
+    "slug": "moderan-stan-s-bazenom"
+   },
+   "de": {
+    "title": "Moderne Wohnung mit Pool",
+    "status": "Verfügbar",
+    "description": [
+     "Eine moderne Wohnung in einem neuen Gebäude mit vier Einheiten in Primošten. Große Glasfronten geben jeder Wohnung einen freien Blick auf die Altstadt auf ihrer Halbinsel.",
+     "Wohnung 3 hat einen eigenen Pool und eine Gesamtfläche von 136,39 m². Das Gebäude hat eine sehr gute Zufahrt von der Hauptstraße.",
+     "Ein Garagenplatz ist für 1.500 € pro m² erhältlich, ein Außenstellplatz für 5.000 €."
+    ],
+    "features": [
+     "Pool",
+     "Blick auf die Altstadt",
+     "Nahe am Meer",
+     "Klimaanlage",
+     "Balkon",
+     "Garten"
+    ],
+    "slug": "moderne-wohnung-mit-pool"
+   }
+  },
+  "tr_src": "573746e511b8"
  },
  {
   "id": "n24-70",
@@ -1003,7 +1657,51 @@
    "n24-70-8",
    "n24-70-9",
    "n24-70-10"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Nova vila s 4 spavaće sobe kod Vodica",
+    "status": "U prodaji",
+    "description": [
+     "Nova vila od 330 m² na okućnici od 460 m² kod Vodica, izgrađena s pažnjom prema svakom detalju i privatnosti.",
+     "Ima četiri spavaće sobe, svaku s vlastitom kupaonicom, WC za goste, fitness sobu i bazen od 40 m². Schüco stolarija, podno grijanje, potpuno opremljena i namještena.",
+     "Centar i restorani udaljeni su 1 km, uz šetnje u prirodi odmah oko kuće i prekrasan pogled."
+    ],
+    "features": [
+     "Bazen 40 m²",
+     "Fitness soba",
+     "Četiri spavaće sobe s kupaonicom",
+     "Podno grijanje",
+     "Namještena",
+     "Pogled na more",
+     "Krovna terasa",
+     "Garaža"
+    ],
+    "slug": "nova-vila-s-4-spavace-sobe-kod-vodica"
+   },
+   "de": {
+    "title": "Neue Villa mit 4 Schlafzimmern bei Vodice",
+    "status": "Verfügbar",
+    "description": [
+     "Eine neue Villa mit 330 m² auf einem 460 m² großen Gartengrundstück bei Vodice, mit Liebe zum Detail und viel Privatsphäre gebaut.",
+     "Sie hat vier Schlafzimmer mit jeweils eigenem Bad, ein Gäste-WC, einen Fitnessraum und einen 40 m² großen Pool. Schüco-Fenster, Fußbodenheizung, voll ausgestattet und möbliert.",
+     "Zentrum und Restaurants sind 1 km entfernt, mit Spaziergängen in der Natur direkt am Haus und einer herrlichen Aussicht."
+    ],
+    "features": [
+     "Pool 40 m²",
+     "Fitnessraum",
+     "Vier Schlafzimmer mit eigenem Bad",
+     "Fußbodenheizung",
+     "Möbliert",
+     "Meerblick",
+     "Dachterrasse",
+     "Garage"
+    ],
+    "slug": "neue-villa-mit-4-schlafzimmern-bei-vodice"
+   }
+  },
+  "tr_src": "081d4dbdfaf4"
  },
  {
   "id": "n24-92",
@@ -1047,6 +1745,54 @@
    "n24-92-7",
    "n24-92-8",
    "n24-92-9"
-  ]
+  ],
+  "lang": "en",
+  "tr": {
+   "hr": {
+    "title": "Moderna vila na brdu iznad Primoštena",
+    "status": "U prodaji",
+    "description": [
+     "Moderna vila od 343 m² na čestici od 1.038 m² na brdu iznad Primoštena, s privatnošću i pogledom na more.",
+     "Četiri spavaće sobe, četiri kupaonice i dva WC-a te bazen od 40 m². Podno grijanje, dizalica topline i centralno hlađenje.",
+     "Cijena je za potpuno opremljenu vilu."
+    ],
+    "features": [
+     "Bazen 40 m²",
+     "Pogled na more",
+     "Blizu mora",
+     "Podno grijanje",
+     "Dizalica topline i centralno hlađenje",
+     "Teretana",
+     "Bar",
+     "Krovna terasa",
+     "Namještena",
+     "Garaža"
+    ],
+    "slug": "moderna-vila-na-brdu-iznad-primostena"
+   },
+   "de": {
+    "title": "Moderne Villa auf dem Hügel über Primošten",
+    "status": "Verfügbar",
+    "description": [
+     "Eine moderne Villa mit 343 m² auf einem 1.038 m² großen Grundstück auf dem Hügel über Primošten, mit Privatsphäre und Meerblick.",
+     "Vier Schlafzimmer, vier Bäder und zwei WCs sowie ein 40 m² großer Pool. Fußbodenheizung, Wärmepumpe und zentrale Kühlung.",
+     "Der Preis gilt für die komplett ausgestattete Villa."
+    ],
+    "features": [
+     "Pool 40 m²",
+     "Meerblick",
+     "Nahe am Meer",
+     "Fußbodenheizung",
+     "Wärmepumpe und zentrale Kühlung",
+     "Fitnessraum",
+     "Bar",
+     "Dachterrasse",
+     "Möbliert",
+     "Garage"
+    ],
+    "slug": "moderne-villa-auf-dem-hugel-uber-primosten"
+   }
+  },
+  "tr_src": "a889042dffea"
  }
 ]

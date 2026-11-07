@@ -1,7 +1,9 @@
 <?php
-// Contact form on /contact/: sends the enquiry by email to info@n24.hr
-// (info@ forwards to Tomislav). Reply-To is the visitor, so "Reply" answers them.
-// Answers JSON to the page's script; without JavaScript it redirects back to the form.
+// Contact form on the contact page of every language: sends the enquiry by email to
+// info@n24.hr (info@ forwards to Tomislav). Reply-To is the visitor, so "Reply"
+// answers them. The visitor's language is in the email, and the answers on the page
+// are in that language. Answers JSON to the page's script; without JavaScript it
+// redirects back to the form.
 
 declare(strict_types=1);
 
@@ -14,20 +16,33 @@ const TOPICS = ['buy' => 'Buy', 'sell' => 'Sell', 'land' => 'Land and investment
 
 $wantsJson = strpos($_SERVER['HTTP_ACCEPT'] ?? '', 'application/json') !== false;
 
+// Texts of the visitor's language (api/views/i18n.json, written by the build).
+$i18n = json_decode((string) @file_get_contents(__DIR__ . '/views/i18n.json'), true) ?: [];
+$lang = (string) ($_POST['lang'] ?? '');
+if (!isset($i18n['ui'][$lang])) {
+    $lang = $i18n['default'] ?? 'hr';
+}
+$ui = $i18n['ui'][$lang] ?? [];
+$t = $ui['contact'] ?? [];
+$contactUrl = $ui['contact_url'] ?? '/kontakt/';
+$msg = static function (string $key, string $fallback) use ($t): string {
+    return (string) ($t[$key] ?? $fallback);
+};
+
 function done(bool $ok, string $msg, int $code = 200): void {
-    global $wantsJson;
+    global $wantsJson, $contactUrl;
     if ($wantsJson) {
         http_response_code($code);
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode(['ok' => $ok, 'message' => $msg], JSON_UNESCAPED_UNICODE);
     } else {
-        header('Location: /contact/?' . ($ok ? 'sent=1' : 'error=1') . '#enquiry', true, 303);
+        header('Location: ' . $contactUrl . '?' . ($ok ? 'sent=1' : 'error=1') . '#enquiry', true, 303);
     }
     exit;
 }
 
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
-    header('Location: /contact/', true, 303);
+    header('Location: ' . $contactUrl, true, 303);
     exit;
 }
 
@@ -36,7 +51,7 @@ $field = static fn(string $k, int $max): string =>
 
 // Spam trap: a hidden field people never see or fill in. Bots get a fake "sent".
 if ($field('website', 200) !== '') {
-    done(true, 'Thank you.');
+    done(true, $msg('sent', 'Thank you.'));
 }
 
 $name    = preg_replace('/[\n\t]+/', ' ', $field('name', 120));
@@ -47,7 +62,7 @@ $topic   = TOPICS[$field('topic', 20)] ?? 'Something else';
 $consent = !empty($_POST['consent']);
 
 if (mb_strlen($name) < 2 || !filter_var($email, FILTER_VALIDATE_EMAIL) || mb_strlen($message) < 5 || !$consent) {
-    done(false, 'Please fill in your name, email and message, and tick the box.', 422);
+    done(false, $msg('invalid', 'Please fill in your name, email and message, and tick the box.'), 422);
 }
 
 // At most 5 enquiries per visitor (IP) per hour.
@@ -59,15 +74,16 @@ $times = array_filter(
     static fn(int $t): bool => $t > time() - 3600
 );
 if (count($times) >= 5) {
-    done(false, 'Too many messages. Please call or WhatsApp +385 95 700 7001.', 429);
+    done(false, $msg('too_many', 'Too many messages. Please call or WhatsApp +385 95 700 7001.'), 429);
 }
 $times[] = time();
 @file_put_contents($stamp, implode("\n", $times));
 
 $subject = 'Website enquiry: ' . $topic . ' - ' . $name;
 $body = implode("\n", [
-    'New enquiry from ' . SITE . '/contact/',
+    'New enquiry from ' . SITE . $contactUrl,
     '',
+    'Language: ' . ($ui['name'] ?? $lang),
     'Topic:   ' . $topic,
     'Name:    ' . $name,
     'Email:   ' . $email,
@@ -90,5 +106,5 @@ $headers = implode("\r\n", [
 $sent = @mail(TO, mb_encode_mimeheader($subject, 'UTF-8'), $body, $headers, '-f' . FROM);
 
 $sent
-    ? done(true, 'Thank you, your enquiry has been sent. Tomislav will reply by email.')
-    : done(false, 'Sending failed. Please call or WhatsApp +385 95 700 7001.', 500);
+    ? done(true, $msg('sent', 'Thank you, your enquiry has been sent. Tomislav will reply by email.'))
+    : done(false, $msg('failed', 'Sending failed. Please call or WhatsApp +385 95 700 7001.'), 500);

@@ -104,6 +104,21 @@ svg text { font-variant-numeric: normal; }
 .m-sub[hidden] { display: none; }
 .mobile-nav .m-sub a { display: block; padding: 10px 0; border: 0; font-family: var(--sans); font-size: 1rem; font-weight: 600; color: var(--navy); text-decoration: none; }
 .header-icons { display: none; align-items: center; gap: 4px; margin-left: auto; }
+/* Language menu, as on taxisibenik.hr: after a thin divider, flag and code; the
+   list shows flag and code too. On phones it sits in the menu under Contact. */
+.lang-switch { flex: none; padding-left: 16px; border-left: 1px solid currentColor; border-left-color: color-mix(in srgb, currentColor 30%, transparent); }
+.lang-toggle { gap: 6px; font-weight: 700; }
+.lang-flag { width: 20px; height: 15px; object-fit: cover; border-radius: 2px; flex: none; box-shadow: 0 0 0 1px rgba(0, 0, 0, .12); }
+.lang-menu { position: absolute; top: calc(100% + 14px); left: 50%; z-index: 60; display: grid; gap: 2px; list-style: none; margin: 0; padding: 8px; min-width: 120px; background: var(--sand); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 18px 40px -18px rgba(19, 38, 75, .45); opacity: 0; visibility: hidden; transform: translate(-50%, -6px); transition: opacity .2s var(--ease), transform .2s var(--ease), visibility .2s; }
+.lang-menu::before { content: ""; position: absolute; left: 0; right: 0; top: -16px; height: 16px; }
+.lang-switch:hover .lang-menu, .lang-switch:focus-within .lang-menu, .lang-toggle[aria-expanded="true"] + .lang-menu { opacity: 1; visibility: visible; transform: translate(-50%, 0); }
+.lang-menu a { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-radius: var(--radius-sm); color: var(--navy); text-decoration: none; font-weight: 600; font-size: .9375rem; }
+.lang-menu a:hover, .lang-menu a[aria-current="true"] { background: #fff; color: var(--red); }
+.lang-menu a[aria-current="true"] { font-weight: 700; }
+.m-lang .m-toggle { gap: 8px; }
+.m-lang .m-toggle .chev { margin-left: auto; }
+.m-lang .m-sub a { display: flex; align-items: center; gap: 10px; }
+.m-lang .m-sub a[aria-current="true"] { color: var(--red); font-weight: 700; }
 .icon-link { display: grid; place-items: center; width: 46px; height: 46px; color: inherit; }
 .icon-link .ico { width: 27px; height: 27px; stroke-width: 1.5; stroke-linecap: round; }
 .menu-btn { width: 46px; height: 46px; margin-left: 6px; background: none; border: 1px solid currentColor; border-radius: var(--radius); color: inherit; cursor: pointer; }
@@ -478,6 +493,7 @@ body.menu-open { overflow: hidden; }
   :root { --header-h: 72px; }
   .main-nav, .header-wa { display: none; }
   .header-icons { display: flex; }
+  .lang-switch { display: none; }
   .header-row { min-height: 72px; }
   .logo svg { width: 101px; height: 52px; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }

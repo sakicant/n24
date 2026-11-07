@@ -13,12 +13,35 @@ window.N24 = (function () {
     { id: 'primosten', name: 'Primošten', km: 33, y: 45 },
     { id: 'rogoznica', name: 'Rogoznica', km: 45, y: 24 }
   ];
-  var OTHER_AREAS = { murter: 'Murter', prvic: 'Prvić' };
-  var TYPES = { house: 'House', apartment: 'Apartment', villa: 'Villa', land: 'Land', 'new-build': 'New build' };
-  var TYPE_PLURAL = { all: 'properties', house: 'houses', apartment: 'apartments', villa: 'villas', land: 'plots of land', 'new-build': 'new builds' };
+  // Texts and addresses of the page's language (assets/js/i18n/<lang>.js, made by the build).
+  var I = window.N24_I18N;
+  var T = I.t;
+  var OTHER_AREAS = T.places_other;
+  var TYPES = T.types;
+  var TYPE_PLURAL = T.type_plural;
 
-  var euro = new Intl.NumberFormat('en-IE', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
-  var num = new Intl.NumberFormat('en-GB');
+  var euro = new Intl.NumberFormat(I.locale, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
+  var num = new Intl.NumberFormat(I.locale, { maximumFractionDigits: 2 });
+  var plurals = new Intl.PluralRules(I.lang);
+
+  /** "{n} houses" style text: the right plural form for n in this language. */
+  function plural(n, forms) {
+    return forms[plurals.select(n)] || forms.other;
+  }
+
+  function fill(s, vars) {
+    return String(s).replace(/\{(\w+)\}/g, function (m, k) { return vars[k] !== undefined ? vars[k] : m; });
+  }
+
+  /** A listing's texts in this language: its translation if there is one, else as entered. */
+  function text(l) {
+    var t = (l.tr && l.tr[I.lang]) || {};
+    return { title: t.title || l.title, slug: t.slug || l.slug, status: t.status || l.status || '' };
+  }
+
+  function url(l) {
+    return I.paths.property + l.id + '-' + text(l).slug + '/';
+  }
 
   function isArea(id) {
     return AREAS.some(function (a) { return a.id === id; });
@@ -26,7 +49,7 @@ window.N24 = (function () {
 
   function areaName(id) {
     var a = AREAS.filter(function (x) { return x.id === id; })[0];
-    return a ? a.name : (OTHER_AREAS[id] || 'Location to confirm');
+    return a ? a.name : (OTHER_AREAS[id] || T.place_unknown);
   }
 
   function planPlaceholder() {
@@ -40,23 +63,22 @@ window.N24 = (function () {
   }
 
   function card(l) {
-    var href = l.sample ? '#' : '/property/' + l.id + '-' + l.slug + '/';
+    var t = text(l);
     var ph = l.img
-      ? '<img src="/assets/img/listings/' + l.img + '-640.webp" srcset="/assets/img/listings/' + l.img + '-640.webp 640w, /assets/img/listings/' + l.img + '-1200.webp 1200w" sizes="(min-width: 1080px) 400px, (min-width: 600px) 50vw, 100vw" alt="' + esc(l.title) + '" loading="lazy" width="640" height="480">'
+      ? '<img src="/assets/img/listings/' + l.img + '-640.webp" srcset="/assets/img/listings/' + l.img + '-640.webp 640w, /assets/img/listings/' + l.img + '-1200.webp 1200w" sizes="(min-width: 1080px) 400px, (min-width: 600px) 50vw, 100vw" alt="' + esc(t.title) + '" loading="lazy" width="640" height="480">'
       : planPlaceholder();
-    var tag = l.sample ? '<span class="tag sample">Sample listing</span>'
-      : (l.project === 'primosten-resort' ? '<span class="tag">Primošten Resort</span>' : '');
+    var tag = l.project === 'primosten-resort' ? '<span class="tag">Primošten Resort</span>' : '';
     var facts = [];
     var land = l.type === 'land';
-    if (l.size) facts.push(num.format(l.size) + ' m²' + (land ? ' plot' : ''));
-    if (l.beds && !land) facts.push(l.beds + ' bed');
-    if (l.baths && !land) facts.push(l.baths + ' bath');
-    if (!facts.length && l.note) facts.push(esc(l.note));
-    var price = l.price ? '<span class="price">' + (l.units ? 'From ' : '') + euro.format(l.price) + '</span>' : '<span class="price ask">Price on request</span>';
-    return '<li class="card"><a href="' + href + '"' + (l.sample ? ' aria-disabled="true"' : '') + '>' +
+    if (l.size) facts.push(num.format(l.size) + ' m²' + (land ? ' ' + T.card.plot : ''));
+    if (l.beds && !land) facts.push(l.beds + ' ' + T.card.bed);
+    if (l.baths && !land) facts.push(l.baths + ' ' + T.card.bath);
+    if (!facts.length && t.status) facts.push(esc(t.status));
+    var price = l.price ? '<span class="price">' + (l.units ? T.card.from + ' ' : '') + euro.format(l.price) + '</span>' : '<span class="price ask">' + T.card.price_request + '</span>';
+    return '<li class="card"><a href="' + url(l) + '">' +
       '<div class="ph">' + ph + tag + '</div>' +
       '<p class="meta"><span>' + areaName(l.area) + '</span><span>' + TYPES[l.type] + '</span></p>' +
-      '<h3>' + esc(l.title) + '</h3>' +
+      '<h3>' + esc(t.title) + '</h3>' +
       '<div class="row"><span class="facts-line">' + facts.join(' · ') + '</span>' + price + '</div>' +
       '</a></li>';
   }
@@ -94,9 +116,9 @@ window.N24 = (function () {
       [wanted.min, wanted.max].forEach(function (v) {
         if (v && steps.indexOf(+v) === -1) steps = steps.concat(+v).sort(function (a, b) { return a - b; });
       });
-      lo.innerHTML = opt('', nums.length ? r.fmt(low) + ' (min)' : 'Any') + steps.map(function (v) { return opt(v, r.fmt(v)); }).join('');
+      lo.innerHTML = opt('', nums.length ? r.fmt(low) + ' ' + T.range.min : T.range.any) + steps.map(function (v) { return opt(v, r.fmt(v)); }).join('');
       // The "To" list ends with the highest value, so it reads low to high like "From".
-      hi.innerHTML = steps.map(function (v) { return opt(v, r.fmt(v)); }).join('') + opt('', nums.length ? r.fmt(high) + ' (max)' : 'Any');
+      hi.innerHTML = steps.map(function (v) { return opt(v, r.fmt(v)); }).join('') + opt('', nums.length ? r.fmt(high) + ' ' + T.range.max : T.range.any);
       lo.value = wanted.min;
       hi.value = wanted.max;
       fix();
@@ -133,6 +155,7 @@ window.N24 = (function () {
   }
 
   return {
+    I: I, T: T, plural: plural, fill: fill, text: text, url: url,
     AREAS: AREAS, TYPES: TYPES, TYPE_PLURAL: TYPE_PLURAL,
     isArea: isArea, areaName: areaName, card: card, blockSampleLinks: blockSampleLinks, load: load,
     setupRange: setupRange, inRange: inRange,

@@ -7,6 +7,7 @@
   var photos = (g.getAttribute('data-photos') || '').split(',');
   var count = photos.length;
   var title = g.getAttribute('data-title');
+  var P = window.N24_I18N.t.photos;
   var current = 1;
   var box, imgEl, counter, lastFocus;
 
@@ -17,12 +18,12 @@
     box.className = 'lightbox';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', 'Photos: ' + title);
+    box.setAttribute('aria-label', P.dialog.replace('{title}', title));
     box.innerHTML =
-      '<button type="button" class="lb-close" aria-label="Close photos">&times;</button>' +
-      '<button type="button" class="lb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>' +
+      '<button type="button" class="lb-close" aria-label="' + P.close + '">&times;</button>' +
+      '<button type="button" class="lb-prev" aria-label="' + P.prev + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>' +
       '<figure class="lb-figure"><img alt=""><figcaption class="lb-count"></figcaption></figure>' +
-      '<button type="button" class="lb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>';
+      '<button type="button" class="lb-next" aria-label="' + P.next + '"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>';
     document.body.appendChild(box);
     imgEl = box.querySelector('img');
     counter = box.querySelector('.lb-count');
@@ -45,7 +46,7 @@
     imgEl.src = src(current, 1920);
     imgEl.srcset = src(current, 1200) + ' 1200w, ' + src(current, 1920) + ' 1920w';
     imgEl.sizes = '100vw';
-    imgEl.alt = title + ', photo ' + current + ' of ' + count;
+    imgEl.alt = P.alt.replace('{title}', title).replace('{n}', current).replace('{total}', count);
     counter.textContent = current + ' / ' + count;
     // Load the neighbours early so moving feels instant.
     [current % count + 1, (current - 2 + count) % count + 1].forEach(function (k) { new Image().src = src(k, 1920); });

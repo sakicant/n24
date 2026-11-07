@@ -4,6 +4,7 @@
   var AREAS = N24.AREAS;
   var TYPE_PLURAL = N24.TYPE_PLURAL;
   var areaName = N24.areaName;
+  var T = N24.T;
   var LATEST = 3;
 
   var areaGrid = document.querySelector('.area-grid');
@@ -15,8 +16,6 @@
   var state = { area: null, type: 'all' };
   var listings = [];
 
-  var SINGULAR = { properties: 'property', houses: 'house', apartments: 'apartment', villas: 'villa', 'plots of land': 'plot of land', 'new builds': 'new build' };
-
   function matches(l, area, type) {
     return (!area || l.area === area) && (type === 'all' || l.type === type);
   }
@@ -26,7 +25,7 @@
 
   function buildPlaces() {
     GRID_ORDER.map(function (id) { return AREAS.filter(function (a) { return a.id === id; })[0]; })
-      .concat([{ id: null, name: 'All properties' }]).forEach(function (a) {
+      .concat([{ id: null, name: T.home.all }]).forEach(function (a) {
         var b = document.createElement('button');
         b.type = 'button';
         b.className = 'area-btn' + (a.id ? '' : ' area-all');
@@ -45,23 +44,23 @@
       b.querySelector('.a-n').textContent = n;
       b.classList.toggle('is-empty', n === 0);
       b.setAttribute('aria-pressed', String(state.area === id));
-      b.setAttribute('aria-label', (id ? areaName(id) : 'All properties') + ', ' + n + (n === 1 ? ' listing' : ' listings'));
+      b.setAttribute('aria-label', (id ? areaName(id) : T.home.all) + ', ' + n + ' ' + N24.plural(n, T.home.listings));
     });
     chips.forEach(function (c) { c.setAttribute('aria-pressed', String(c.dataset.type === state.type)); });
 
     var n = listings.filter(function (l) { return matches(l, state.area, state.type); }).length;
     var what = TYPE_PLURAL[state.type];
-    var place = state.area ? ' in ' + areaName(state.area) : '';
+    var place = state.area ? N24.fill(T.home.place, { name: areaName(state.area) }) : '';
     if (n === 0) {
-      go.href = '/contact/?topic=buy';
-      goLabel.textContent = 'Nothing yet' + place + ', ask Tomislav';
+      go.href = N24.I.paths.contact + '?topic=buy';
+      goLabel.textContent = N24.fill(T.home.nothing, { place: place });
       return;
     }
     var p = new URLSearchParams();
     if (state.area) p.set('area', state.area);
     if (state.type !== 'all') p.set('type', state.type);
-    go.href = '/properties/' + (p.toString() ? '?' + p.toString() : '');
-    goLabel.textContent = 'Show ' + n + ' ' + (n === 1 ? SINGULAR[what] : what) + place;
+    go.href = N24.I.paths.properties + (p.toString() ? '?' + p.toString() : '');
+    goLabel.textContent = N24.fill(T.home.show, { count: n + ' ' + N24.plural(n, what), place: place });
   }
 
   chips.forEach(function (c) {
@@ -76,7 +75,7 @@
       listings = data.filter(function (l) { return N24.isArea(l.area); });
       paint();
       // Newest real listings first (the data is in newest-first order).
-      latest.innerHTML = data.filter(function (l) { return !l.sample && N24.isArea(l.area); })
+      latest.innerHTML = data.filter(function (l) { return N24.isArea(l.area); })
         .slice(0, LATEST).map(N24.card).join('');
     })
     .catch(function () { latest.closest('section').hidden = true; });
