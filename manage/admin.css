@@ -44,6 +44,8 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--navy); outl
 .msg { padding: 12px 16px; border-radius: 8px; margin: 0 0 16px; }
 .msg-ok { background: var(--ok-bg); color: var(--ok); }
 .msg-error { background: var(--err-bg); color: var(--err); }
+.msg-warn { background: #FFF4D6; color: #6B4E00; font-weight: 500; }
+.badge-warn { background: #FFF4D6; color: #6B4E00; }
 
 /* Listing overview */
 .list-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 12px; }
@@ -59,7 +61,7 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--navy); outl
 .info strong { color: var(--navy); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .info span { color: var(--ink-2); font-size: .85rem; }
 .row .price { font-weight: 700; color: var(--red); white-space: nowrap; }
-.badge { grid-column: 2 / -1; justify-self: start; background: var(--navy); color: #fff; font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; }
+.badge { grid-column: 2 / -1; justify-self: start; margin-right: 6px; background: var(--navy); color: #fff; font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; }
 @media (max-width: 560px) { .row { grid-template-columns: 64px 1fr; } .row .price { grid-column: 2; } .thumb { width: 64px; height: 48px; } }
 
 /* Edit form */

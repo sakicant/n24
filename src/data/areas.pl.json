@@ -1,0 +1,82 @@
+[
+ {
+  "slug": "vodice",
+  "lede": "Domy, wille, apartamenty i działki budowlane na sprzedaż w miejscowości Vodice, najbardziej tętniącym życiem kurorcie riwiery Szybenika.",
+  "intro": ["Vodice to ruchliwa nadmorska miejscowość około 12 km na północny zachód od Szybenika. Latem jest jednym z najpopularniejszych miejsc na riwierze, z długą promenadą, plażami, kawiarniami i mariną ACI. Poza sezonem to miejscowość żyjąca przez cały rok, ze sklepami, szkołami i przychodnią, dlatego pasuje zarówno właścicielom domów wakacyjnych, jak i osobom mieszkającym tu na stałe.", "Prom i łodzie z Vodic docierają na wyspy Prvić i Tijat, a Kornati to popularna jednodniowa wycieczka z portu."],
+  "homes": "Większość nieruchomości w Vodicach to apartamenty w małych budynkach mieszkalnych, domy rodzinne z apartamentem na wynajem oraz nowe inwestycje blisko morza. Apartamenty często wybierają kupujący, którzy chcą mieć dochód z letniego wynajmu.",
+  "land": "Działki budowlane w Vodicach leżą głównie na obrzeżach miejscowości i na wzgórzach za nią, wiele z widokiem na morze. Przed zakupem trzeba koniecznie sprawdzić, czy działka leży w strefie zabudowy według planu zagospodarowania oraz czy ma dojazd i media.",
+  "highlights": ["Marina ACI i długa promenada nad morzem", "Sklepy, szkoły i przychodnia czynne cały rok", "Łodzie na Prvić i Kornati"],
+  "local_q": "Czy Vodice nadają się pod wynajem?",
+  "local_a": "Vodice mają jeden z najdłuższych sezonów turystycznych na riwierze Szybenika, dlatego apartamenty blisko morza i centrum zwykle dobrze się latem wynajmują. Tomislav powie, ile zarabiają podobne nieruchomości i na co zwrócić uwagę."
+ },
+ {
+  "slug": "srima",
+  "lede": "Domy, apartamenty i działki na sprzedaż w miejscowości Srima, spokojnej nadmorskiej osadzie między Vodicami a Szybenikiem.",
+  "intro": ["Srima leży tuż obok Vodic, około 11 km od Szybenika, nad długą zatoką z kamienistymi plażami i promenadą. Jest spokojniejsza niż Vodice, z głównie domami rodzinnymi i wakacyjnymi, a sklepy i restauracje Vodic są kilka minut dalej.", "Długie, płytkie plaże sprawiają, że Srimę szczególnie lubią rodziny."],
+  "homes": "W Srimie znajdziesz głównie wolnostojące domy rodzinne, domy wakacyjne z apartamentami i nowsze budynki mieszkalne kilka minut spacerem od plaży.",
+  "land": "Działek budowlanych w Srimie jest niewiele, co jest jednym z powodów, dla których grunt jest tu poszukiwany. N24 sprawdza plan zagospodarowania, własność i dojazd, zanim zaproponuje działkę na sprzedaż.",
+  "highlights": ["Długie kamieniste plaże i promenada", "Spokojniej niż w Vodicach, a Vodice kilka minut dalej", "Popularna wśród rodzin"],
+  "local_q": "Czym Srima różni się od Vodic?",
+  "local_a": "Srima to spokojniejszy sąsiad Vodic: głównie domy i domy wakacyjne przy plaży, mniej ruchu i nocnego życia. Vodice mają więcej sklepów, restauracji i usług przez cały rok, a są tylko kilka minut dalej."
+ },
+ {
+  "slug": "sibenik", "in": "w Szybeniku",
+  "lede": "Apartamenty, domy, wille i działki budowlane na sprzedaż w Szybeniku, historycznym mieście nad morzem, które żyje przez cały rok.",
+  "intro": ["Szybenik jest stolicą żupanii i największym miastem między Splitem a Zadarem. Stare miasto z kamiennymi uliczkami wspina się od nabrzeża do twierdz, a katedra św. Jakuba i twierdza św. Mikołaja są wpisane na Listę światowego dziedzictwa UNESCO.", "Jako prawdziwe miasto Szybenik ma wszystko czynne przez cały rok: szpital, szkoły, sklepy i usługi. Park Narodowy Krka leży niedaleko w głębi lądu."],
+  "homes": "Szybenik oferuje największy wybór nieruchomości na tym wybrzeżu: apartamenty na starym mieście i w nowszych dzielnicach, domy rodzinne, wille na obrzeżach i nowe inwestycje blisko morza.",
+  "land": "Grunty budowlane w Szybeniku i okolicy to zarówno małe działki w strefach mieszkaniowych, jak i większe tereny pod inwestycje. Stan prawny bywa tu złożony, dlatego sprawdzenie katastru i księgi wieczystej jest szczególnie ważne.",
+  "highlights": ["Dwa obiekty światowego dziedzictwa UNESCO", "Szpital, szkoły i usługi przez cały rok", "Park Narodowy Krka w pobliżu"],
+  "local_q": "Czy w Szybeniku dobrze się mieszka przez cały rok?",
+  "local_a": "Tak. Szybenik to miasto żyjące przez cały rok, ze szpitalem, szkołami, sklepami i usługami, co czyni go najpraktyczniejszym wyborem na tym wybrzeżu dla osób, które chcą tu mieszkać na stałe."
+ },
+ {
+  "slug": "brodarica",
+  "lede": "Domy, apartamenty i działki na sprzedaż w miejscowości Brodarica, nadmorskiej wsi na południe od Szybenika, naprzeciw wyspy Krapanj.",
+  "intro": ["Brodarica to nadmorska miejscowość około 7 km na południe od Szybenika. Patrzy przez wąski kanał na Krapanj, małą wyspę słynącą z tradycji poławiania gąbek, do której dopływa się krótkim rejsem łodzią.", "Z małym portem, plażami i promenadą Brodarica jest spokojna, a do Szybenika jest tylko około dziesięciu minut samochodem."],
+  "homes": "Nieruchomości w Brodaricy to głównie domy rodzinne, domy wakacyjne z apartamentami i kilka nowszych budynków mieszkalnych, wiele z widokiem na Krapanj i morze.",
+  "land": "Działki budowlane w Brodaricy leżą zwykle na zboczach nad miejscowością. Widok na morze jest częsty, warto więc wcześnie sprawdzić dojazd, media i strefę zabudowy.",
+  "highlights": ["Widok na wyspę Krapanj", "Mały port i promenada nad morzem", "Około 10 minut od Szybenika"],
+  "local_q": "Czy przez N24 mogę kupić nieruchomość na Krapanju?",
+  "local_a": "Krapanj leży tuż po drugiej stronie kanału, a Tomislav dobrze zna wyspę. Zapytaj go o aktualne oferty."
+ },
+ {
+  "slug": "zaboric",
+  "lede": "Domy, wille, apartamenty i działki budowlane na sprzedaż w miejscowości Žaborić, spokojnej wsi nad morzem na południe od Szybenika.",
+  "intro": ["Žaborić to mała miejscowość około 10 km na południe od Szybenika, przy głównej drodze nadmorskiej w stronę Primoštena. Słynie z plaż i spokojnego rytmu, z głównie domami rodzinnymi i wakacyjnymi.", "Jest wystarczająco blisko Szybenika na zakupy i sprawy urzędowe, a do lotniska w Splicie jest niecała godzina jazdy."],
+  "homes": "Większość nieruchomości w Žaboriću to domy wolnostojące i domy wakacyjne z apartamentami, a także nowsze wille z basenami na zboczach nad morzem.",
+  "land": "W Žaboriću wciąż są działki budowlane z widokiem na morze, głównie powyżej miejscowości. N24 sprawdza, czy każda działka leży w strefie zabudowy i ma dojazd, zanim ją zaproponuje.",
+  "highlights": ["Plaże i spokojny rytm wsi", "Przy drodze nadmorskiej między Szybenikiem a Primoštenem", "Około 53 km od lotniska w Splicie"],
+  "local_q": "Czy latem w Žaboriću jest tłoczno?",
+  "local_a": "W lipcu i sierpniu w Žaboriću jest więcej ruchu, ale to nadal wieś: nie ma tu dużych hoteli, a wybrzeże zajmują głównie domy rodzinne i wakacyjne."
+ },
+ {
+  "slug": "grebastica",
+  "lede": "Domy, wille i działki na sprzedaż w miejscowości Grebaštica, nad długą, osłoniętą zatoką między Szybenikiem a Primoštenem.",
+  "intro": ["Grebaštica leży około 19 km na południe od Szybenika, wokół długiej, osłoniętej zatoki. Zatoka utrzymuje spokojne morze, dlatego lubią ją pływacy i właściciele małych łodzi.", "To spokojne miejsce, a Primošten i Szybenik są niedaleko drogą nadmorską."],
+  "homes": "W Grebašticy znajdziesz głównie domy rodzinne i wakacyjne, wiele z nich blisko zatoki, oraz kilka willi.",
+  "land": "Działki budowlane wokół zatoki i na zboczach nad nią pojawiają się od czasu do czasu. Wiele z nich składa się z kilku starych działek ewidencyjnych i właśnie tu pomaga scalanie gruntów przez N24.",
+  "highlights": ["Długa, osłonięta zatoka ze spokojnym morzem", "Spokojna miejscowość między Szybenikiem a Primoštenem", "Około 47 km od lotniska w Splicie"],
+  "local_q": "Czy Grebaštica jest dobra dla właścicieli łodzi?",
+  "local_a": "Osłonięta zatoka sprawia, że Grebaštica jest jednym ze spokojniejszych miejsc na tym wybrzeżu dla małych łodzi. Zapytaj Tomislava o nieruchomości blisko wody i o miejsca do cumowania."
+ },
+ {
+  "slug": "primosten",
+  "lede": "Domy, wille, apartamenty, nowe inwestycje i działki budowlane na sprzedaż w miejscowości Primošten, jednej z najpiękniejszych małych miejscowości chorwackiego wybrzeża.",
+  "intro": ["Primošten to mała miejscowość około 28 km na południe od Szybenika. Stare miasto leży na małym półwyspie zwieńczonym kościołem, a okoliczne wzgórza pokrywają słynne winnice otoczone kamiennymi murkami, w których rośnie wino Babić.", "Z plażami w cieniu sosen, żywym latem i lotniskiem w Splicie oddalonym o około 40 km, Primošten jest jednym z najbardziej poszukiwanych miejsc do zakupu na tym wybrzeżu."],
+  "homes": "Primošten oferuje różnorodne nieruchomości: kamienne domy na starym mieście i w jego pobliżu, nowoczesne wille z basenami i widokiem na morze, apartamenty oraz nowe inwestycje, takie jak Primošten Resort.",
+  "land": "Grunty budowlane w Primoštenie są bardzo poszukiwane, a podaż jest ograniczona, zwłaszcza z widokiem na morze. Przed zakupem niezbędne jest staranne sprawdzenie planu zagospodarowania, własności i dojazdu.",
+  "highlights": ["Stare miasto na małym półwyspie", "Winnice Babić otoczone kamiennymi murkami", "Około 39 km od lotniska w Splicie"],
+  "local_q": "Czym jest Primošten Resort?",
+  "local_a": "Primošten Resort to inwestycja z ponad 100 nowymi apartamentami i willami nad Primoštenem. N24 jest kanałem sprzedaży resortu, a wszystkie lokale są na stronie Primošten Resort."
+ },
+ {
+  "slug": "rogoznica",
+  "lede": "Domy, wille, apartamenty i działki budowlane na sprzedaż w miejscowości Rogoznica, nadmorskim miasteczku z dużą mariną, najbliżej lotniska w Splicie.",
+  "intro": ["Rogoznica to nadmorska miejscowość około 34 km na południowy wschód od Szybenika, częściowo zbudowana na małej wyspie połączonej z lądem. Znajduje się tu Marina Frapa i Smocze Oko, niezwykłe słone jezioro tuż przy morzu.", "Z ośmiu miejscowości, w których działa N24, Rogoznica leży najbliżej lotniska w Splicie, około 35 km."],
+  "homes": "Nieruchomości w Rogoznicy to zarówno domy w starej części miejscowości, jak i domy wakacyjne, apartamenty oraz nowoczesne wille wokół licznych zatok.",
+  "land": "Dzięki urozmaiconej linii brzegowej wiele działek w Rogoznicy ma widok na morze. Jak wszędzie, przed zakupem sprawdź strefę zabudowy, własność i dojazd.",
+  "highlights": ["Marina Frapa", "Słone jezioro Smocze Oko", "Około 34 km od lotniska w Splicie"],
+  "local_q": "Czy Rogoznica to dobry wybór dla właścicieli łodzi?",
+  "local_a": "Dzięki Marinie Frapa i wielu osłoniętym zatokom Rogoznica jest jednym z najlepszych miejsc na tym wybrzeżu dla właścicieli łodzi. Zapytaj Tomislava o nieruchomości w pobliżu mariny."
+ }
+]

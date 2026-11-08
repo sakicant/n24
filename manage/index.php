@@ -306,6 +306,14 @@ if ($a === 'edit' || $a === 'new') {
         <section class="card">
           <h2>Basics</h2>
           <label>Title <?= $err('title') ?><input name="title" required maxlength="140" value="<?= $f('title') ?>" placeholder="For example: Stone house with sea view"></label>
+          <label>Language of the text <small>(the language you type the title, description and features in)</small>
+            <select name="lang">
+              <?php foreach (N24_LANGS as $k => $name) echo '<option value="' . $k . '"' . ($v['lang'] === $k ? ' selected' : '') . '>' . $name . '</option>'; ?>
+            </select>
+          </label>
+          <?php $todo = $isNew ? [] : n24_translation_todo($l); if ($todo): ?>
+          <p class="msg msg-warn">Needs translation: <?= n24_e(implode(', ', $todo)) ?>. Until it is translated, these language versions of the website show the text as entered. To get it translated: Download backup (top of the page) and send the file to the website developer.</p>
+          <?php endif; ?>
           <div class="grid3">
             <label>Place <?= $err('area') ?>
               <select name="area" required>
@@ -421,6 +429,7 @@ page('Listings', function () use ($list) { ?>
           </span>
           <span class="price"><?= !empty($l['price']) ? (!empty($l['units']) ? 'from ' : '') . n24_euro($l['price']) : 'on request' ?></span>
           <?php if (!empty($l['hidden'])): ?><span class="badge">Hidden</span><?php endif; ?>
+          <?php if (n24_translation_todo($l)): ?><span class="badge badge-warn">Needs translation</span><?php endif; ?>
         </a>
       </li>
     <?php endforeach; ?>

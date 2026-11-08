@@ -89,6 +89,9 @@ function n24_listing_from_post(array $p, array $old): array
     $l['type'] = (string) ($p['type'] ?? '');
     if (!isset(N24_TYPES[$l['type']])) $errors['type'] = 'Choose the type.';
 
+    $lang = (string) ($p['lang'] ?? '');
+    $l['lang'] = isset(N24_LANGS[$lang]) ? $lang : ($old['lang'] ?? 'hr');
+
     $slug = n24_slugify(n24_text($p['slug'] ?? '', 120) ?: $l['title']);
     $l['slug'] = $slug;
 
@@ -158,6 +161,7 @@ function n24_form_values(array $l): array
     };
     return [
         'title' => $l['title'] ?? '', 'slug' => $l['slug'] ?? '', 'area' => $l['area'] ?? '', 'type' => $l['type'] ?? '',
+        'lang' => $l['lang'] ?? 'hr',
         'price' => $num($l['price'] ?? null), 'size' => $num($l['size'] ?? null), 'plot' => $num($l['plot'] ?? null),
         'beds' => $num($l['beds'] ?? null), 'baths' => $num($l['baths'] ?? null), 'year' => $num($l['year'] ?? null),
         'parking' => $num($l['parking'] ?? null), 'garage' => $num($l['garage'] ?? null),

@@ -96,6 +96,60 @@
      "Ruhige Straße"
     ],
     "slug": "moblierte-wohnung-100-m-vom-meer"
+   },
+   "pl": {
+    "title": "Umeblowany apartament 100 m od morza",
+    "status": "Umeblowany",
+    "description": [
+     "W pełni wyposażony i umeblowany apartament o powierzchni 51 m² w jednej z najatrakcyjniejszych lokalizacji w Srimie, 100 m od morza, przy spokojnej ulicy kilka minut spacerem od jednej z najlepszych plaż na tym odcinku wybrzeża.",
+     "Otwarty salon z kuchnią i jadalnią, sypialnia z wyjściem na balkon, łazienka, osobne WC oraz zadaszony balkon ze stołem do posiłków na zewnątrz.",
+     "Apartament jest gotowy do zamieszkania i sprzedawany ze wszystkimi meblami i wyposażeniem widocznym na zdjęciach. Srima słynie z plaż, czystego morza i promenady do Vodic; centrum i sklep są 500 m dalej."
+    ],
+    "features": [
+     "100 m do morza",
+     "W pełni umeblowany",
+     "Zadaszony balkon",
+     "Klimatyzacja",
+     "Osobne WC",
+     "Spokojna ulica"
+    ],
+    "slug": "umeblowany-apartament-100-m-od-morza"
+   },
+   "cs": {
+    "title": "Zařízený apartmán 100 m od moře",
+    "status": "Zařízený",
+    "description": [
+     "Plně vybavený a zařízený apartmán o ploše 51 m² v jedné z nejatraktivnějších lokalit Srimy, 100 m od moře, v klidné ulici pár minut chůze od jedné z nejlepších pláží na této části pobřeží.",
+     "Otevřený obývací pokoj s kuchyní a jídelnou, ložnice s výstupem na balkon, koupelna, samostatné WC a krytý balkon s venkovním jídelním stolem.",
+     "Apartmán je ihned k nastěhování a prodává se se vším nábytkem a vybavením na fotkách. Srima je známá plážemi, čistým mořem a promenádou do Vodic; centrum a obchod jsou 500 m daleko."
+    ],
+    "features": [
+     "100 m k moři",
+     "Plně zařízený",
+     "Krytý balkon",
+     "Klimatizace",
+     "Samostatné WC",
+     "Klidná ulice"
+    ],
+    "slug": "zarizeny-apartman-100-m-od-more"
+   },
+   "sk": {
+    "title": "Zariadený apartmán 100 m od mora",
+    "status": "Zariadený",
+    "description": [
+     "Plne vybavený a zariadený apartmán s plochou 51 m² v jednej z najatraktívnejších lokalít Srimy, 100 m od mora, v pokojnej ulici pár minút chôdze od jednej z najlepších pláží na tejto časti pobrežia.",
+     "Otvorená obývačka s kuchyňou a jedálňou, spálňa s výstupom na balkón, kúpeľňa, samostatné WC a krytý balkón s vonkajším jedálenským stolom.",
+     "Apartmán je ihneď na nasťahovanie a predáva sa so všetkým nábytkom a vybavením z fotiek. Srima je známa plážami, čistým morom a promenádou do Vodíc; centrum a obchod sú 500 m ďaleko."
+    ],
+    "features": [
+     "100 m k moru",
+     "Plne zariadený",
+     "Krytý balkón",
+     "Klimatizácia",
+     "Samostatné WC",
+     "Pokojná ulica"
+    ],
+    "slug": "zariadeny-apartman-100-m-od-mora"
    }
   },
   "tr_src": "d7756a9b02ab"
@@ -192,6 +246,66 @@
      "Grundstück 4"
     ],
     "slug": "baugrundstucke-in-vrpolje-2-km-vom-meer"
+   },
+   "pl": {
+    "title": "Działki budowlane w Vrpolju, 2 km od morza",
+    "status": "Grunt budowlany",
+    "description": [
+     "Kilka działek budowlanych pod zabudowę mieszkaniową w Vrpolju koło Szybenika, w spokojnej okolicy 2 km od morza. Wszystkie działki są przeznaczone pod zabudowę mieszkaniową."
+    ],
+    "features": [
+     "Grunt pod zabudowę mieszkaniową",
+     "2 km do morza",
+     "Spokojna okolica",
+     "Blisko Szybenika"
+    ],
+    "units": [
+     "Działka 1",
+     "Działka 2",
+     "Działka 3",
+     "Działka 4"
+    ],
+    "slug": "dziaki-budowlane-w-vrpolju-2-km-od-morza"
+   },
+   "cs": {
+    "title": "Stavební pozemky ve Vrpolje, 2 km od moře",
+    "status": "Stavební pozemek",
+    "description": [
+     "Několik stavebních pozemků pro bydlení ve Vrpolje u Šibeniku, v klidné lokalitě 2 km od moře. Všechny pozemky jsou určeny k bytové výstavbě."
+    ],
+    "features": [
+     "Pozemky pro bydlení",
+     "2 km k moři",
+     "Klidná lokalita",
+     "Blízko Šibeniku"
+    ],
+    "units": [
+     "Pozemek 1",
+     "Pozemek 2",
+     "Pozemek 3",
+     "Pozemek 4"
+    ],
+    "slug": "stavebni-pozemky-ve-vrpolje-2-km-od-more"
+   },
+   "sk": {
+    "title": "Stavebné pozemky vo Vrpolji, 2 km od mora",
+    "status": "Stavebný pozemok",
+    "description": [
+     "Niekoľko stavebných pozemkov na bývanie vo Vrpolji pri Šibeniku, v pokojnej lokalite 2 km od mora. Všetky pozemky sú určené na bytovú výstavbu."
+    ],
+    "features": [
+     "Pozemky na bývanie",
+     "2 km k moru",
+     "Pokojná lokalita",
+     "Blízko Šibeniku"
+    ],
+    "units": [
+     "Pozemok 1",
+     "Pozemok 2",
+     "Pozemok 3",
+     "Pozemok 4"
+    ],
+    "slug": "stavebne-pozemky-vo-vrpolji-2-km-od-mora"
    }
   },
   "tr_src": "1c2091b2ac99"
@@ -300,6 +414,60 @@
      "Eigenes Grundbuchblatt"
     ],
     "slug": "renovierte-wohnung-am-hauptplatz-mit-meerblick"
+   },
+   "pl": {
+    "title": "Odnowiony apartament przy głównym placu, widok na morze",
+    "status": "Odnowiony, umeblowany",
+    "description": [
+     "W pełni odnowiony i nowocześnie umeblowany apartament w samym sercu Szybenika, w autentycznym kamiennym domu przy głównym placu Medulić, z widokiem na morze.",
+     "Apartament ma 75,12 m²: dwie sypialnie, salon, kuchnię, dwie łazienki i korytarz. Jest wyodrębnionym lokalem z własną księgą wieczystą.",
+     "Kilka kroków od nabrzeża, restauracji i sklepów. Dzięki starannemu remontowi i dobrze dobranym meblom jest gotowy do zamieszkania bez dodatkowych nakładów. Idealny do mieszkania, na wakacje lub pod wynajem turystyczny."
+    ],
+    "features": [
+     "Widok na morze",
+     "Centrum starego miasta",
+     "W pełni odnowiony",
+     "Umeblowany",
+     "Klimatyzacja",
+     "Własna księga wieczysta"
+    ],
+    "slug": "odnowiony-apartament-przy-gownym-placu-widok-na-morze"
+   },
+   "cs": {
+    "title": "Zrekonstruovaný apartmán na hlavním náměstí s výhledem na moře",
+    "status": "Zrekonstruovaný, zařízený",
+    "description": [
+     "Kompletně zrekonstruovaný a moderně zařízený apartmán v samém srdci Šibeniku, v autentickém kamenném domě na hlavním náměstí Medulić, s výhledem na moře.",
+     "Apartmán má 75,12 m²: dvě ložnice, obývací pokoj, kuchyň, dvě koupelny a chodbu. Je to samostatná jednotka zapsaná v pozemkové knize.",
+     "Pár kroků od nábřeží, restaurací a obchodů. Díky kvalitní rekonstrukci a pečlivě vybranému nábytku je připraven k nastěhování bez dalších investic. Ideální k bydlení, na dovolenou nebo k rekreačnímu pronájmu."
+    ],
+    "features": [
+     "Výhled na moře",
+     "Centrum starého města",
+     "Kompletně zrekonstruovaný",
+     "Zařízený",
+     "Klimatizace",
+     "Samostatná jednotka"
+    ],
+    "slug": "zrekonstruovany-apartman-na-hlavnim-namesti-s-vyhledem-na-more"
+   },
+   "sk": {
+    "title": "Zrekonštruovaný apartmán na hlavnom námestí s výhľadom na more",
+    "status": "Zrekonštruovaný, zariadený",
+    "description": [
+     "Kompletne zrekonštruovaný a moderne zariadený apartmán v samom srdci Šibeniku, v autentickom kamennom dome na hlavnom námestí Medulić, s výhľadom na more.",
+     "Apartmán má 75,12 m²: dve spálne, obývačku, kuchyňu, dve kúpeľne a chodbu. Je to samostatná jednotka zapísaná v pozemkovej knihe.",
+     "Pár krokov od nábrežia, reštaurácií a obchodov. Vďaka kvalitnej rekonštrukcii a starostlivo vybranému nábytku je pripravený na nasťahovanie bez ďalších investícií. Ideálny na bývanie, dovolenku alebo rekreačný prenájom."
+    ],
+    "features": [
+     "Výhľad na more",
+     "Centrum starého mesta",
+     "Kompletne zrekonštruovaný",
+     "Zariadený",
+     "Klimatizácia",
+     "Samostatná jednotka"
+    ],
+    "slug": "zrekonstruovany-apartman-na-hlavnom-namesti-s-vyhladom-na-more"
    }
   },
   "tr_src": "cbd0b1bcc70a"
@@ -462,6 +630,84 @@
      "S7 (Penthouse)"
     ],
     "slug": "sunset-homes-neue-wohnungen-mit-freiem-meerblick"
+   },
+   "pl": {
+    "title": "Sunset Homes: nowe apartamenty z otwartym widokiem na morze",
+    "status": "Ukończenie 2026",
+    "description": [
+     "Nowoczesne apartamenty w nowym budynku w Primoštenie z szerokim, otwartym widokiem na morze. Budynek stoi w spokojnym, słonecznym miejscu, około 1500 m od morza i plaży oraz 2000 m od centrum Primoštena.",
+     "Nowoczesna architektura, wysokiej jakości materiały, duże przeszklenia i przestronne tarasy. Każdy apartament ma miejsce parkingowe lub garażowe. Apartament S1 na parterze ma własny ogród i jacuzzi na tarasie.",
+     "Ukończenie budowy planowane jest na 2026 rok. Idealne jako dom wakacyjny lub inwestycja pod wynajem."
+    ],
+    "features": [
+     "Otwarty widok na morze",
+     "Miejsce parkingowe lub garaż",
+     "Duże tarasy",
+     "Spokojna, słoneczna okolica",
+     "Ukończenie 2026"
+    ],
+    "units": [
+     "S1 (parter, ogród)",
+     "S2 (parter)",
+     "S3",
+     "S4",
+     "S5 (2. piętro)",
+     "S6 (2. piętro)",
+     "S7 (penthouse)"
+    ],
+    "slug": "sunset-homes-nowe-apartamenty-z-otwartym-widokiem-na-morze"
+   },
+   "cs": {
+    "title": "Sunset Homes: nové apartmány s otevřeným výhledem na moře",
+    "status": "Dokončení 2026",
+    "description": [
+     "Moderní apartmány v novostavbě v Primoštenu se širokým otevřeným výhledem na moře. Budova stojí na klidném a slunném místě, asi 1 500 m od moře a pláže a 2 000 m od centra Primoštenu.",
+     "Moderní architektura, kvalitní materiály, velké prosklené stěny a prostorné terasy. Ke každému apartmánu patří parkovací nebo garážové stání. Přízemní apartmán S1 má vlastní zahradu a vířivku na terase.",
+     "Dokončení je plánováno na rok 2026. Ideální na dovolenou nebo jako investice do pronájmu."
+    ],
+    "features": [
+     "Otevřený výhled na moře",
+     "Parkovací nebo garážové stání",
+     "Velké terasy",
+     "Klidná a slunná lokalita",
+     "Dokončení 2026"
+    ],
+    "units": [
+     "S1 (přízemí, zahrada)",
+     "S2 (přízemí)",
+     "S3",
+     "S4",
+     "S5 (2. patro)",
+     "S6 (2. patro)",
+     "S7 (penthouse)"
+    ],
+    "slug": "sunset-homes-nove-apartmany-s-otevrenym-vyhledem-na-more"
+   },
+   "sk": {
+    "title": "Sunset Homes: nové apartmány s otvoreným výhľadom na more",
+    "status": "Dokončenie 2026",
+    "description": [
+     "Moderné apartmány v novostavbe v Primoštene so širokým otvoreným výhľadom na more. Budova stojí na pokojnom a slnečnom mieste, asi 1 500 m od mora a pláže a 2 000 m od centra Primoštenu.",
+     "Moderná architektúra, kvalitné materiály, veľké presklené steny a priestranné terasy. Ku každému apartmánu patrí parkovacie alebo garážové státie. Prízemný apartmán S1 má vlastnú záhradu a vírivku na terase.",
+     "Dokončenie je plánované na rok 2026. Ideálne na dovolenku alebo ako investícia do prenájmu."
+    ],
+    "features": [
+     "Otvorený výhľad na more",
+     "Parkovacie alebo garážové státie",
+     "Veľké terasy",
+     "Pokojná a slnečná lokalita",
+     "Dokončenie 2026"
+    ],
+    "units": [
+     "S1 (prízemie, záhrada)",
+     "S2 (prízemie)",
+     "S3",
+     "S4",
+     "S5 (2. poschodie)",
+     "S6 (2. poschodie)",
+     "S7 (penthouse)"
+    ],
+    "slug": "sunset-homes-nove-apartmany-s-otvorenym-vyhladom-na-more"
    }
   },
   "tr_src": "3426e477d27c"
@@ -540,6 +786,63 @@
      "Entwurf anpassbar"
     ],
     "slug": "moderne-doppelhaushalfte-als-duplex-pool-moglich"
+   },
+   "pl": {
+    "title": "Nowoczesny dom w zabudowie bliźniaczej z opcją basenu",
+    "status": "Projekt koncepcyjny",
+    "description": [
+     "Nowoczesny dwupoziomowy dom w zabudowie bliźniaczej w Brodaricy koło Szybenika, 500 m od morza. Każda część ma około 120 m² powierzchni mieszkalnej na dwóch kondygnacjach i własny ogród o powierzchni około 200 m².",
+     "Parter (około 60 m²) ma otwarty układ: duży salon, kuchnię z wyspą, jadalnię, łazienkę i schowek, z dużymi przeszkleniami do ogrodu i tarasem z pergolą. Można dodać basen 3 × 6 m lub jacuzzi.",
+     "Piętro (około 60 m²) to część sypialna: główna sypialnia z własną łazienką i dużym tarasem z widokiem na morze, dwie kolejne sypialnie i dodatkowa łazienka.",
+     "Projekt ma charakter koncepcyjny, więc kupujący może jeszcze przed budową zmienić układ, tarasy, basen, elewację i wnętrza, zgodnie z przepisami. Obrazy są wizualizacjami."
+    ],
+    "features": [
+     "500 m do morza",
+     "Ogród około 200 m²",
+     "Basen 3 × 6 m lub jacuzzi",
+     "Taras z widokiem na morze",
+     "Parking",
+     "Projekt można dostosować"
+    ],
+    "slug": "nowoczesny-dom-w-zabudowie-blizniaczej-z-opcja-basenu"
+   },
+   "cs": {
+    "title": "Moderní dvojdům typu duplex s možností bazénu",
+    "status": "Studie",
+    "description": [
+     "Moderní dvojdům typu duplex v Brodarici u Šibeniku, 500 m od moře. Každá jednotka má asi 120 m² obytné plochy ve dvou podlažích a vlastní zahradu o ploše asi 200 m².",
+     "Přízemí (asi 60 m²) je otevřené: velký obývací pokoj, kuchyň s ostrůvkem, jídelna, koupelna a komora, s velkými prosklenými stěnami do zahrady a terasou s pergolou. Lze přidat bazén 3 × 6 m nebo vířivku.",
+     "Patro (asi 60 m²) je ložnicová část: hlavní ložnice s vlastní koupelnou a velkou terasou s výhledem na moře, další dvě ložnice a další koupelna.",
+     "Projekt je ve fázi studie, takže kupující může ještě před stavbou v rámci předpisů změnit dispozici, terasy, bazén, fasádu i interiér. Obrázky jsou vizualizace."
+    ],
+    "features": [
+     "500 m k moři",
+     "Zahrada asi 200 m²",
+     "Bazén 3 × 6 m nebo vířivka",
+     "Terasa s výhledem na moře",
+     "Parkování",
+     "Projekt lze upravit"
+    ],
+    "slug": "moderni-dvojdum-typu-duplex-s-moznosti-bazenu"
+   },
+   "sk": {
+    "title": "Moderný dvojdom typu duplex s možnosťou bazéna",
+    "status": "Štúdia",
+    "description": [
+     "Moderný dvojdom typu duplex v Brodarici pri Šibeniku, 500 m od mora. Každá jednotka má asi 120 m² obytnej plochy na dvoch podlažiach a vlastnú záhradu s plochou asi 200 m².",
+     "Prízemie (asi 60 m²) je otvorené: veľká obývačka, kuchyňa s ostrovčekom, jedáleň, kúpeľňa a komora, s veľkými presklenými stenami do záhrady a terasou s pergolou. Dá sa pridať bazén 3 × 6 m alebo vírivka.",
+     "Poschodie (asi 60 m²) je spálňová časť: hlavná spálňa s vlastnou kúpeľňou a veľkou terasou s výhľadom na more, ďalšie dve spálne a ďalšia kúpeľňa.",
+     "Projekt je vo fáze štúdie, takže kupujúci môže ešte pred stavbou v rámci predpisov zmeniť dispozíciu, terasy, bazén, fasádu aj interiér. Obrázky sú vizualizácie."
+    ],
+    "features": [
+     "500 m k moru",
+     "Záhrada asi 200 m²",
+     "Bazén 3 × 6 m alebo vírivka",
+     "Terasa s výhľadom na more",
+     "Parkovanie",
+     "Projekt sa dá upraviť"
+    ],
+    "slug": "moderny-dvojdom-typu-duplex-s-moznostou-bazena"
    }
   },
   "tr_src": "e1ac2c2a0d2b"
@@ -639,6 +942,60 @@
      "Sofort nutzbar"
     ],
     "slug": "renoviertes-steinhaus-30-m-vom-meer"
+   },
+   "pl": {
+    "title": "Odnowiony kamienny dom 30 m od morza",
+    "status": "Odnowiony",
+    "description": [
+     "W pełni odnowiony tradycyjny dalmatyński kamienny dom w samym sercu miejscowości Šepurina na wyspie Prvić, około 30 m od morza.",
+     "Dom ma parter i dwa piętra (rzut 3,5 × 5 m), z dwiema sypialniami i dwiema łazienkami. Odnowiono kamienne mury i dach, zachowując autentyczny wygląd: odsłonięty kamień i drewnianą konstrukcję dachu.",
+     "Stoi przy spokojnej kamiennej uliczce w starej części miejscowości. Idealny na wakacje, pod wynajem turystyczny lub jako inwestycja na atrakcyjnej wyspie."
+    ],
+    "features": [
+     "30 m do morza",
+     "W pełni odnowiony",
+     "Nowy dach",
+     "Trzy kondygnacje",
+     "Stara część Šepuriny",
+     "Gotowy do użytku"
+    ],
+    "slug": "odnowiony-kamienny-dom-30-m-od-morza"
+   },
+   "cs": {
+    "title": "Zrekonstruovaný kamenný dům 30 m od moře",
+    "status": "Zrekonstruovaný",
+    "description": [
+     "Kompletně zrekonstruovaný tradiční dalmatský kamenný dům v samém srdci Šepuriny na ostrově Prvić, asi 30 m od moře.",
+     "Dům má přízemí a dvě patra (půdorys 3,5 × 5 m), dvě ložnice a dvě koupelny. Kamenné zdi i střecha byly obnoveny se zachováním autentického vzhledu: přiznaný kámen a dřevěná konstrukce střechy.",
+     "Stojí v klidné kamenné uličce starého jádra vesnice. Ideální na dovolenou, k rekreačnímu pronájmu nebo jako investice na atraktivním ostrově."
+    ],
+    "features": [
+     "30 m k moři",
+     "Kompletně zrekonstruovaný",
+     "Nová střecha",
+     "Tři podlaží",
+     "Staré jádro Šepuriny",
+     "Připravený k užívání"
+    ],
+    "slug": "zrekonstruovany-kamenny-dum-30-m-od-more"
+   },
+   "sk": {
+    "title": "Zrekonštruovaný kamenný dom 30 m od mora",
+    "status": "Zrekonštruovaný",
+    "description": [
+     "Kompletne zrekonštruovaný tradičný dalmátsky kamenný dom v samom srdci Šepuriny na ostrove Prvić, asi 30 m od mora.",
+     "Dom má prízemie a dve poschodia (pôdorys 3,5 × 5 m), dve spálne a dve kúpeľne. Kamenné múry aj strecha boli obnovené so zachovaním autentického vzhľadu: priznaný kameň a drevená konštrukcia strechy.",
+     "Stojí v pokojnej kamennej uličke starého jadra dediny. Ideálny na dovolenku, rekreačný prenájom alebo ako investícia na atraktívnom ostrove."
+    ],
+    "features": [
+     "30 m k moru",
+     "Kompletne zrekonštruovaný",
+     "Nová strecha",
+     "Tri podlažia",
+     "Staré jadro Šepuriny",
+     "Pripravený na užívanie"
+    ],
+    "slug": "zrekonstruovany-kamenny-dom-30-m-od-mora"
    }
   },
   "tr_src": "60644b1079e8"
@@ -719,6 +1076,51 @@
      "Pool im Entwurf"
     ],
     "slug": "baugrundstuck-mit-genehmigung-und-meerblick"
+   },
+   "pl": {
+    "title": "Działka budowlana z pozwoleniem i widokiem na morze",
+    "status": "Pozwolenie na budowę",
+    "description": [
+     "Działka budowlana o powierzchni 712 m² w Rogoznicy z pięknym widokiem na morze, sprzedawana z projektem domu o powierzchni 150 m² i ważnym pozwoleniem na budowę.",
+     "Obrazy obejmują wizualizacje zatwierdzonego domu z basenem. Zapytaj o dokumentację projektową."
+    ],
+    "features": [
+     "Pozwolenie na budowę",
+     "Projekt domu 150 m²",
+     "Widok na morze",
+     "Basen w projekcie"
+    ],
+    "slug": "dziaka-budowlana-z-pozwoleniem-i-widokiem-na-morze"
+   },
+   "cs": {
+    "title": "Stavební pozemek s povolením a výhledem na moře",
+    "status": "Stavební povolení",
+    "description": [
+     "Stavební pozemek o ploše 712 m² v Rogoznici s krásným výhledem na moře, prodává se s projektem domu o ploše 150 m² a platným stavebním povolením.",
+     "Obrázky zahrnují vizualizace povoleného domu s bazénem. Vyžádejte si projektovou dokumentaci."
+    ],
+    "features": [
+     "Stavební povolení",
+     "Projekt domu 150 m²",
+     "Výhled na moře",
+     "Bazén v projektu"
+    ],
+    "slug": "stavebni-pozemek-s-povolenim-a-vyhledem-na-more"
+   },
+   "sk": {
+    "title": "Stavebný pozemok s povolením a výhľadom na more",
+    "status": "Stavebné povolenie",
+    "description": [
+     "Stavebný pozemok s plochou 712 m² v Rogoznici s krásnym výhľadom na more, predáva sa s projektom domu s plochou 150 m² a platným stavebným povolením.",
+     "Obrázky zahŕňajú vizualizácie povoleného domu s bazénom. Vyžiadajte si projektovú dokumentáciu."
+    ],
+    "features": [
+     "Stavebné povolenie",
+     "Projekt domu 150 m²",
+     "Výhľad na more",
+     "Bazén v projekte"
+    ],
+    "slug": "stavebny-pozemok-s-povolenim-a-vyhladom-na-more"
    }
   },
   "tr_src": "5496bf85329e"
@@ -862,6 +1264,84 @@
      "Wohnung 6 (B, 2. Stock)"
     ],
     "slug": "g-home-neue-wohnungen-100-m-vom-strand"
+   },
+   "pl": {
+    "title": "G Home: nowe apartamenty 100 m od plaży",
+    "status": "Ukończenie 2027",
+    "description": [
+     "Ostatnie apartamenty w G Home, nowej inwestycji w Grebašticy zaledwie 100 m od morza i plaży. Dwa niewielkie budynki z łącznie sześcioma apartamentami zapewniają spokój i prywatność przez cały rok.",
+     "Cena w przedsprzedaży przed rozpoczęciem budowy: 3200 € za m². Do każdego apartamentu należą dwa miejsca parkingowe, duże tarasy i funkcjonalny układ. Ukończenie budowy planowane jest na 2027 rok.",
+     "Grebaštica to jedno z najbardziej poszukiwanych miejsc riwiery Szybenika, znane z czystego morza, pięknych plaż i spokojnego otoczenia, kilka minut samochodem od Szybenika i Primoštena. Zapytaj o plany i zarezerwuj apartament."
+    ],
+    "features": [
+     "100 m do plaży",
+     "Tylko 6 apartamentów",
+     "2 miejsca parkingowe na apartament",
+     "Duże tarasy",
+     "Cena w przedsprzedaży",
+     "Ukończenie 2027"
+    ],
+    "units": [
+     "Apartament 1 (A)",
+     "Apartament 2 (A)",
+     "Apartament 3 (A)",
+     "Apartament 4 (B, parter)",
+     "Apartament 5 (B, 1. piętro)",
+     "Apartament 6 (B, 2. piętro)"
+    ],
+    "slug": "g-home-nowe-apartamenty-100-m-od-plazy"
+   },
+   "cs": {
+    "title": "G Home: nové apartmány 100 m od pláže",
+    "status": "Dokončení 2027",
+    "description": [
+     "Poslední apartmány v projektu G Home, novostavbě v Grebaštici jen 100 m od moře a pláže. Dvě menší budovy s celkem jen šesti apartmány zaručují klid a soukromí po celý rok.",
+     "Předprodejní cena před zahájením stavby: 3 200 € za m². Ke každému apartmánu patří dvě parkovací místa, velké terasy a praktická dispozice. Dokončení je plánováno na rok 2027.",
+     "Grebaštica je jedním z nejžádanějších míst riviéry u Šibeniku, známým čistým mořem, krásnými plážemi a klidným okolím, pár minut jízdy od Šibeniku a Primoštenu. Vyžádejte si půdorysy a rezervujte apartmán."
+    ],
+    "features": [
+     "100 m k pláži",
+     "Jen 6 apartmánů",
+     "2 parkovací místa ke každému apartmánu",
+     "Velké terasy",
+     "Předprodejní cena",
+     "Dokončení 2027"
+    ],
+    "units": [
+     "Apartmán 1 (A)",
+     "Apartmán 2 (A)",
+     "Apartmán 3 (A)",
+     "Apartmán 4 (B, přízemí)",
+     "Apartmán 5 (B, 1. patro)",
+     "Apartmán 6 (B, 2. patro)"
+    ],
+    "slug": "g-home-nove-apartmany-100-m-od-plaze"
+   },
+   "sk": {
+    "title": "G Home: nové apartmány 100 m od pláže",
+    "status": "Dokončenie 2027",
+    "description": [
+     "Posledné apartmány v projekte G Home, novostavbe v Grebaštici len 100 m od mora a pláže. Dve menšie budovy s celkovo iba šiestimi apartmánmi zaručujú pokoj a súkromie po celý rok.",
+     "Predpredajná cena pred začatím stavby: 3 200 € za m². Ku každému apartmánu patria dve parkovacie miesta, veľké terasy a praktická dispozícia. Dokončenie je plánované na rok 2027.",
+     "Grebaštica je jedným z najžiadanejších miest riviéry pri Šibeniku, známym čistým morom, krásnymi plážami a pokojným okolím, pár minút jazdy od Šibeniku a Primoštenu. Vyžiadajte si pôdorysy a rezervujte apartmán."
+    ],
+    "features": [
+     "100 m k pláži",
+     "Iba 6 apartmánov",
+     "2 parkovacie miesta ku každému apartmánu",
+     "Veľké terasy",
+     "Predpredajná cena",
+     "Dokončenie 2027"
+    ],
+    "units": [
+     "Apartmán 1 (A)",
+     "Apartmán 2 (A)",
+     "Apartmán 3 (A)",
+     "Apartmán 4 (B, prízemie)",
+     "Apartmán 5 (B, 1. poschodie)",
+     "Apartmán 6 (B, 2. poschodie)"
+    ],
+    "slug": "g-home-nove-apartmany-100-m-od-plaze"
    }
   },
   "tr_src": "65b37891e076"
@@ -985,6 +1465,90 @@
      "Laminat in den Schlafzimmern"
     ],
     "slug": "neue-doppelhaushalfte-70-m-vom-meer"
+   },
+   "pl": {
+    "title": "Nowy dom w zabudowie bliźniaczej 70 m od morza",
+    "status": "Nowa inwestycja",
+    "description": [
+     "Nowoczesny dom w zabudowie bliźniaczej w Žaboriciu, spokojnej śródziemnomorskiej miejscowości koło Szybenika, zaledwie 70 m od morza i plaży. Na sprzedaż jest część S2 nowego domu z dwiema częściami: 99,71 m² na dwóch kondygnacjach, z prywatnym ogrodem o powierzchni 135 m² i dwoma miejscami parkingowymi.",
+     "Na parterze są przedpokój, sypialnia, łazienka, nowoczesna kuchnia z jadalnią i duży salon z wyjściem do ogrodu i na taras. Na piętrze znajdują się dwie sypialnie, dwie łazienki i balkon z widokiem na okolicę i morze.",
+     "Duże przeszklenia wpuszczają dużo światła dziennego. Dom jest sprzedawany bez umeblowania; niektóre obrazy są wizualizacjami.",
+     "W pobliżu są plaże, promenada, restauracje, sklepy i marina. Szybenik, parki narodowe Krka i Kornati oraz lotnisko w Splicie są niedaleko."
+    ],
+    "features": [
+     "70 m do morza i plaży",
+     "Prywatny ogród 135 m²",
+     "2 miejsca parkingowe",
+     "Widok na morze z balkonu",
+     "Ogrzewanie podłogowe",
+     "Klimatyzacja",
+     "Nowa inwestycja 2026"
+    ],
+    "standards": [
+     "Wysokiej jakości włoska ceramika",
+     "Ogrzewanie podłogowe w salonie i łazienkach",
+     "Klimatyzacja w salonie i we wszystkich sypialniach",
+     "Okna PVC o dobrej izolacji cieplnej",
+     "Szklane balustrady balkonów",
+     "Panele podłogowe w sypialniach"
+    ],
+    "slug": "nowy-dom-w-zabudowie-blizniaczej-70-m-od-morza"
+   },
+   "cs": {
+    "title": "Nový dvojdům 70 m od moře",
+    "status": "Novostavba",
+    "description": [
+     "Moderní dvojdům v Žaboriću, klidné středomořské vesnici u Šibeniku, jen 70 m od moře a pláže. Na prodej je jednotka S2 nového domu se dvěma jednotkami: 99,71 m² ve dvou podlažích, se soukromou zahradou o ploše 135 m² a dvěma parkovacími místy.",
+     "V přízemí je vstupní prostor, ložnice, koupelna, moderní kuchyň s jídelnou a velký obývací pokoj s výstupem do zahrady a na terasu. V patře jsou dvě ložnice, dvě koupelny a balkon s výhledem na okolí a moře.",
+     "Velké prosklené plochy přinášejí hodně denního světla. Dům se prodává nezařízený; některé obrázky jsou vizualizace.",
+     "Nedaleko jsou pláže, promenáda, restaurace, obchody a marina. Šibenik, národní parky Krka a Kornati i letiště Split jsou kousek autem."
+    ],
+    "features": [
+     "70 m k moři a pláži",
+     "Soukromá zahrada 135 m²",
+     "2 parkovací místa",
+     "Výhled na moře z balkonu",
+     "Podlahové topení",
+     "Klimatizace",
+     "Novostavba 2026"
+    ],
+    "standards": [
+     "Kvalitní italská keramika",
+     "Podlahové topení v obývacím pokoji a koupelnách",
+     "Klimatizace v obývacím pokoji a všech ložnicích",
+     "Plastová okna s dobrou tepelnou izolací",
+     "Skleněná zábradlí balkonů",
+     "Laminátové podlahy v ložnicích"
+    ],
+    "slug": "novy-dvojdum-70-m-od-more"
+   },
+   "sk": {
+    "title": "Nový dvojdom 70 m od mora",
+    "status": "Novostavba",
+    "description": [
+     "Moderný dvojdom v Žaboriću, pokojnej stredomorskej dedine pri Šibeniku, len 70 m od mora a pláže. Na predaj je jednotka S2 nového domu s dvoma jednotkami: 99,71 m² na dvoch podlažiach, so súkromnou záhradou s plochou 135 m² a dvoma parkovacími miestami.",
+     "Na prízemí je vstupný priestor, spálňa, kúpeľňa, moderná kuchyňa s jedálňou a veľká obývačka s výstupom do záhrady a na terasu. Na poschodí sú dve spálne, dve kúpeľne a balkón s výhľadom na okolie a more.",
+     "Veľké presklené plochy prinášajú veľa denného svetla. Dom sa predáva nezariadený; niektoré obrázky sú vizualizácie.",
+     "Neďaleko sú pláže, promenáda, reštaurácie, obchody a marína. Šibenik, národné parky Krka a Kornati aj letisko Split sú kúsok autom."
+    ],
+    "features": [
+     "70 m k moru a pláži",
+     "Súkromná záhrada 135 m²",
+     "2 parkovacie miesta",
+     "Výhľad na more z balkóna",
+     "Podlahové kúrenie",
+     "Klimatizácia",
+     "Novostavba 2026"
+    ],
+    "standards": [
+     "Kvalitná talianska keramika",
+     "Podlahové kúrenie v obývačke a kúpeľniach",
+     "Klimatizácia v obývačke a všetkých spálňach",
+     "Plastové okná s dobrou tepelnou izoláciou",
+     "Sklenené zábradlia balkónov",
+     "Laminátové podlahy v spálňach"
+    ],
+    "slug": "novy-dvojdom-70-m-od-mora"
    }
   },
   "tr_src": "d3ec679351a8"
@@ -1083,6 +1647,66 @@
      "Eigener Parkplatz"
     ],
     "slug": "olive-grove-villengrundstuck-mit-baugenehmigung"
+   },
+   "pl": {
+    "title": "Olive Grove: działka pod willę z pozwoleniem na budowę",
+    "status": "Pozwolenie na budowę",
+    "description": [
+     "Działka budowlana o powierzchni 1523 m² na zboczu wśród drzew oliwnych nad Primoštenem, sprzedawana z pozwoleniem na budowę nowoczesnej kamiennej willi o powierzchni brutto około 330 m².",
+     "Projekt łączy nowoczesną architekturę ze śródziemnomorskim klimatem: kilka poziomów dopasowanych do terenu, duże przeszklenia, przestronne tarasy i strefa zewnętrzna z basenem, tarasem do opalania i strefą relaksu.",
+     "Działka jest spokojna i otoczona przyrodą, z otwartym widokiem na morze. Lotnisko w Splicie jest oddalone o około 40 km. Obrazy są wizualizacjami zatwierdzonej willi."
+    ],
+    "features": [
+     "Pozwolenie na budowę",
+     "Projekt willi ok. 330 m²",
+     "Basen w projekcie",
+     "Położenie wśród oliwek",
+     "Otwarty widok na morze",
+     "Ok. 1,6 km do morza",
+     "Ok. 3 km do centrum Primoštena",
+     "Prywatny parking"
+    ],
+    "slug": "olive-grove-dziaka-pod-wille-z-pozwoleniem-na-budowe"
+   },
+   "cs": {
+    "title": "Olive Grove: pozemek pro vilu se stavebním povolením",
+    "status": "Stavební povolení",
+    "description": [
+     "Stavební pozemek o ploše 1 523 m² na svahu mezi olivovníky nad Primoštenem, prodává se se stavebním povolením na moderní kamennou vilu o hrubé ploše asi 330 m².",
+     "Projekt spojuje moderní architekturu se středomořskou atmosférou: několik úrovní kopírujících terén, velké prosklené stěny, prostorné terasy a venkovní prostor s bazénem, slunečním molem a odpočinkovou zónou.",
+     "Pozemek je klidný a obklopený přírodou, s otevřeným výhledem na moře. Letiště Split je asi 40 km daleko. Obrázky jsou vizualizace povolené vily."
+    ],
+    "features": [
+     "Stavební povolení",
+     "Projekt vily asi 330 m²",
+     "Bazén v projektu",
+     "Uprostřed olivového háje",
+     "Otevřený výhled na moře",
+     "Asi 1,6 km k moři",
+     "Asi 3 km do centra Primoštenu",
+     "Vlastní parkování"
+    ],
+    "slug": "olive-grove-pozemek-pro-vilu-se-stavebnim-povolenim"
+   },
+   "sk": {
+    "title": "Olive Grove: pozemok pre vilu so stavebným povolením",
+    "status": "Stavebné povolenie",
+    "description": [
+     "Stavebný pozemok s plochou 1 523 m² na svahu medzi olivovníkmi nad Primoštenom, predáva sa so stavebným povolením na modernú kamennú vilu s hrubou plochou asi 330 m².",
+     "Projekt spája modernú architektúru so stredomorskou atmosférou: niekoľko úrovní kopírujúcich terén, veľké presklené steny, priestranné terasy a vonkajší priestor s bazénom, slnečným mólom a oddychovou zónou.",
+     "Pozemok je pokojný a obklopený prírodou, s otvoreným výhľadom na more. Letisko Split je asi 40 km ďaleko. Obrázky sú vizualizácie povolenej vily."
+    ],
+    "features": [
+     "Stavebné povolenie",
+     "Projekt vily asi 330 m²",
+     "Bazén v projekte",
+     "Uprostred olivového hája",
+     "Otvorený výhľad na more",
+     "Asi 1,6 km k moru",
+     "Asi 3 km do centra Primoštenu",
+     "Vlastné parkovanie"
+    ],
+    "slug": "olive-grove-pozemok-pre-vilu-so-stavebnym-povolenim"
    }
   },
   "tr_src": "9faa2f11b60b"
@@ -1136,6 +1760,33 @@
     "description": [
      "Sun Hill ist eine der Siedlungen des Primošten Resort, einer Anlage mit neuen Wohnungen und Villen oberhalb von Primošten.",
      "Preise, Grundrisse und Verfügbarkeit der einzelnen Einheiten auf Anfrage. Alle Einheiten finden Sie auf der Seite Primošten Resort."
+    ],
+    "slug": "sun-hill-primosten-resort"
+   },
+   "pl": {
+    "title": "Sun Hill, Primošten Resort",
+    "status": "W budowie",
+    "description": [
+     "Sun Hill to jedno z osiedli Primošten Resort, inwestycji z nowymi apartamentami i willami nad Primoštenem.",
+     "Ceny, plany i dostępność poszczególnych lokali na zapytanie. Wszystkie lokale znajdziesz na stronie Primošten Resort."
+    ],
+    "slug": "sun-hill-primosten-resort"
+   },
+   "cs": {
+    "title": "Sun Hill, Primošten Resort",
+    "status": "Ve výstavbě",
+    "description": [
+     "Sun Hill je jednou z osad Primošten Resortu, projektu nových apartmánů a vil nad Primoštenem.",
+     "Ceny, půdorysy a dostupnost jednotlivých jednotek na dotaz. Všechny jednotky najdete na stránce Primošten Resort."
+    ],
+    "slug": "sun-hill-primosten-resort"
+   },
+   "sk": {
+    "title": "Sun Hill, Primošten Resort",
+    "status": "Vo výstavbe",
+    "description": [
+     "Sun Hill je jednou z osád Primošten Resortu, projektu nových apartmánov a víl nad Primoštenom.",
+     "Ceny, pôdorysy a dostupnosť jednotlivých jednotiek na vyžiadanie. Všetky jednotky nájdete na stránke Primošten Resort."
     ],
     "slug": "sun-hill-primosten-resort"
    }
@@ -1247,6 +1898,57 @@
      "Renovierungsbedürftig"
     ],
     "slug": "haus-in-erster-reihe-am-meer-tisno"
+   },
+   "pl": {
+    "title": "Dom w pierwszej linii od morza, Tisno",
+    "status": "Dostępny",
+    "description": [
+     "Dom w samym centrum miejscowości Tisno, w pierwszej linii od morza, z otwartym widokiem.",
+     "W suterenie są mały garaż i pokój z łazienką i kuchnią. Na parterze znajdują się salon z kuchnią, łazienka, garderoba i duże tarasy z przodu i z tyłu domu. Piętro to niewykończone mieszkanie z sypialnią, łazienką i WC.",
+     "Dom wymaga remontu. Jest zwrócony na południowy wschód."
+    ],
+    "features": [
+     "Pierwsza linia od morza",
+     "Centrum Tisna",
+     "Garaż",
+     "Tarasy z przodu i z tyłu",
+     "Do remontu"
+    ],
+    "slug": "dom-w-pierwszej-linii-od-morza-tisno"
+   },
+   "cs": {
+    "title": "Dům v první řadě u moře, Tisno",
+    "status": "K dispozici",
+    "description": [
+     "Dům v samém centru Tisna, v první řadě u moře, s otevřeným výhledem.",
+     "V suterénu je menší garáž a pokoj s koupelnou a kuchyní. V přízemí je obývací pokoj s kuchyní, koupelna, šatna a velké terasy vpředu i vzadu. První patro tvoří nedokončený byt s ložnicí, koupelnou a WC.",
+     "Dům potřebuje rekonstrukci. Je orientován na jihovýchod."
+    ],
+    "features": [
+     "První řada u moře",
+     "Centrum Tisna",
+     "Garáž",
+     "Terasy vpředu i vzadu",
+     "K rekonstrukci"
+    ],
+    "slug": "dum-v-prvni-rade-u-more-tisno"
+   },
+   "sk": {
+    "title": "Dom v prvom rade pri mori, Tisno",
+    "status": "K dispozícii",
+    "description": [
+     "Dom v samom centre Tisna, v prvom rade pri mori, s otvoreným výhľadom.",
+     "V suteréne je menšia garáž a izba s kúpeľňou a kuchyňou. Na prízemí je obývačka s kuchyňou, kúpeľňa, šatník a veľké terasy vpredu aj vzadu. Prvé poschodie tvorí nedokončený byt so spálňou, kúpeľňou a WC.",
+     "Dom potrebuje rekonštrukciu. Je orientovaný na juhovýchod."
+    ],
+    "features": [
+     "Prvý rad pri mori",
+     "Centrum Tisna",
+     "Garáž",
+     "Terasy vpredu aj vzadu",
+     "Na rekonštrukciu"
+    ],
+    "slug": "dom-v-prvom-rade-pri-mori-tisno"
    }
   },
   "tr_src": "10c985ad803e"
@@ -1427,6 +2129,87 @@
      "Aufzug; Eingang und Treppenhaus mit Stein verkleidet"
     ],
     "slug": "neue-wohnungen-im-zentrum-von-primosten"
+   },
+   "pl": {
+    "title": "Nowe apartamenty w centrum Primoštena",
+    "status": "Dostępne",
+    "description": [
+     "Nowy budynek mieszkalny w centrum Primoštena, z windą, garażami i tarasami ze szklanymi balustradami. Ceny apartamentów zawierają VAT."
+    ],
+    "features": [
+     "Winda",
+     "Garaż",
+     "Klimatyzacja",
+     "Tarasy ze szklanymi balustradami",
+     "Centrum Primoštena"
+    ],
+    "standards": [
+     "Konstrukcja żelbetowa na płycie fundamentowej 40 cm; ściany nośne 25 cm",
+     "Elewacja ocieplona wełną mineralną 10 cm (ETICS)",
+     "Antracytowe okna aluminiowe z potrójną szybą, zmotoryzowane ocieplone rolety i wbudowane moskitiery",
+     "Antywłamaniowe, ognioodporne drzwi wejściowe",
+     "Klimatyzacja Samsung multi-split inverter wbudowana w sufity",
+     "Elektryczne ogrzewanie podłogowe w łazienkach, podtynkowe spłuczki Geberit",
+     "Płytki ceramiczne do wyboru przez kupującego w ramach uzgodnień; posadzki epoksydowe w garażach i komórkach",
+     "Przygotowanie pod ładowarkę samochodu elektrycznego przy każdym miejscu garażowym",
+     "Podwójnie izolowane tarasy z ukrytym odwodnieniem; dach ocieplony 15 cm XPS",
+     "Winda; wejście i klatka schodowa wyłożone kamieniem"
+    ],
+    "slug": "nowe-apartamenty-w-centrum-primostena"
+   },
+   "cs": {
+    "title": "Nové apartmány v centru Primoštenu",
+    "status": "K dispozici",
+    "description": [
+     "Nový bytový dům v centru Primoštenu, s výtahem, garážemi a terasami se skleněným zábradlím. Ceny apartmánů zahrnují DPH."
+    ],
+    "features": [
+     "Výtah",
+     "Garáž",
+     "Klimatizace",
+     "Terasy se skleněným zábradlím",
+     "Centrum Primoštenu"
+    ],
+    "standards": [
+     "Železobetonová konstrukce na základové desce 40 cm; nosné zdi 25 cm",
+     "Fasáda zateplená 10 cm minerální vlny (ETICS)",
+     "Antracitová hliníková okna s trojsklem, motorizované zateplené rolety a vestavěné sítě proti hmyzu",
+     "Bezpečnostní protipožární vstupní dveře",
+     "Klimatizace Samsung multi-split inverter zabudovaná do stropů",
+     "Elektrické podlahové topení v koupelnách, podomítkové nádržky Geberit",
+     "Keramická dlažba podle výběru kupujícího po dohodě; epoxidové podlahy v garážích a sklepech",
+     "Příprava pro nabíječku elektromobilu u každého garážového stání",
+     "Dvojitě izolované terasy se skrytým odvodněním; střecha zateplená 15 cm XPS",
+     "Výtah; vstup a schodiště obložené kamenem"
+    ],
+    "slug": "nove-apartmany-v-centru-primostenu"
+   },
+   "sk": {
+    "title": "Nové apartmány v centre Primoštenu",
+    "status": "K dispozícii",
+    "description": [
+     "Nový bytový dom v centre Primoštenu, s výťahom, garážami a terasami so skleneným zábradlím. Ceny apartmánov zahŕňajú DPH."
+    ],
+    "features": [
+     "Výťah",
+     "Garáž",
+     "Klimatizácia",
+     "Terasy so skleneným zábradlím",
+     "Centrum Primoštenu"
+    ],
+    "standards": [
+     "Železobetónová konštrukcia na základovej doske 40 cm; nosné múry 25 cm",
+     "Fasáda zateplená 10 cm minerálnej vlny (ETICS)",
+     "Antracitové hliníkové okná s trojsklom, motorizované zateplené rolety a vstavané siete proti hmyzu",
+     "Bezpečnostné protipožiarne vstupné dvere",
+     "Klimatizácia Samsung multi-split inverter zabudovaná do stropov",
+     "Elektrické podlahové kúrenie v kúpeľniach, podomietkové nádržky Geberit",
+     "Keramická dlažba podľa výberu kupujúceho po dohode; epoxidové podlahy v garážach a pivniciach",
+     "Príprava na nabíjačku elektromobilu pri každom garážovom státí",
+     "Dvojito izolované terasy so skrytým odvodnením; strecha zateplená 15 cm XPS",
+     "Výťah; vstup a schodisko obložené kameňom"
+    ],
+    "slug": "nove-apartmany-v-centre-primostenu"
    }
   },
   "tr_src": "6e5b8cc738f6"
@@ -1534,6 +2317,60 @@
      "Platz für einen Pool"
     ],
     "slug": "moderner-neubau-mit-meerblick"
+   },
+   "pl": {
+    "title": "Nowoczesny nowy budynek z widokiem na morze",
+    "status": "Dostępny",
+    "description": [
+     "Nowa willa miejska w Brodaricy z trzema lokalami mieszkalnymi w zabudowie szeregowej, nowoczesną architekturą i widokiem na morze.",
+     "Każdy lokal ma własny ogród z miejscem na basen (niewliczony w cenę)."
+    ],
+    "features": [
+     "Garaż",
+     "Klimatyzacja",
+     "Balkon",
+     "Widok na morze",
+     "Ogród",
+     "Taras na dachu",
+     "Miejsce na basen"
+    ],
+    "slug": "nowoczesny-nowy-budynek-z-widokiem-na-morze"
+   },
+   "cs": {
+    "title": "Moderní novostavba s výhledem na moře",
+    "status": "K dispozici",
+    "description": [
+     "Nová městská vila v Brodarici se třemi bytovými jednotkami v řadě, moderní architekturou a výhledem na moře.",
+     "Každá jednotka má vlastní zahradu s místem pro bazén (není v ceně)."
+    ],
+    "features": [
+     "Garáž",
+     "Klimatizace",
+     "Balkon",
+     "Výhled na moře",
+     "Zahrada",
+     "Střešní terasa",
+     "Místo pro bazén"
+    ],
+    "slug": "moderni-novostavba-s-vyhledem-na-more"
+   },
+   "sk": {
+    "title": "Moderná novostavba s výhľadom na more",
+    "status": "K dispozícii",
+    "description": [
+     "Nová mestská vila v Brodarici s tromi bytovými jednotkami v rade, modernou architektúrou a výhľadom na more.",
+     "Každá jednotka má vlastnú záhradu s miestom na bazén (nie je v cene)."
+    ],
+    "features": [
+     "Garáž",
+     "Klimatizácia",
+     "Balkón",
+     "Výhľad na more",
+     "Záhrada",
+     "Strešná terasa",
+     "Miesto na bazén"
+    ],
+    "slug": "moderna-novostavba-s-vyhladom-na-more"
    }
   },
   "tr_src": "ae5055f1e0c7"
@@ -1611,6 +2448,60 @@
      "Garten"
     ],
     "slug": "moderne-wohnung-mit-pool"
+   },
+   "pl": {
+    "title": "Nowoczesny apartament z basenem",
+    "status": "Dostępny",
+    "description": [
+     "Nowoczesny apartament w nowym budynku z czterema lokalami w Primoštenie. Duże przeszklenia dają każdemu apartamentowi otwarty widok na stare miasto na półwyspie.",
+     "Apartament 3 ma własny basen i łączną powierzchnię 136,39 m². Budynek ma bardzo dobry dojazd od głównej ulicy.",
+     "Miejsce w garażu jest dostępne w cenie 1500 € za m², a miejsce parkingowe na zewnątrz za 5000 €."
+    ],
+    "features": [
+     "Basen",
+     "Widok na stare miasto",
+     "Blisko morza",
+     "Klimatyzacja",
+     "Balkon",
+     "Ogród"
+    ],
+    "slug": "nowoczesny-apartament-z-basenem"
+   },
+   "cs": {
+    "title": "Moderní apartmán s bazénem",
+    "status": "K dispozici",
+    "description": [
+     "Moderní apartmán v nové budově se čtyřmi jednotkami v Primoštenu. Velké prosklené stěny dávají každému apartmánu otevřený výhled na staré město na poloostrově.",
+     "Apartmán 3 má vlastní bazén a celkovou plochu 136,39 m². Budova má výborný příjezd z hlavní ulice.",
+     "Garážové stání je k dispozici za 1 500 € za m² a venkovní parkovací místo za 5 000 €."
+    ],
+    "features": [
+     "Bazén",
+     "Výhled na staré město",
+     "Blízko moře",
+     "Klimatizace",
+     "Balkon",
+     "Zahrada"
+    ],
+    "slug": "moderni-apartman-s-bazenem"
+   },
+   "sk": {
+    "title": "Moderný apartmán s bazénom",
+    "status": "K dispozícii",
+    "description": [
+     "Moderný apartmán v novej budove so štyrmi jednotkami v Primoštene. Veľké presklené steny dávajú každému apartmánu otvorený výhľad na staré mesto na polostrove.",
+     "Apartmán 3 má vlastný bazén a celkovú plochu 136,39 m². Budova má výborný príjazd z hlavnej ulice.",
+     "Garážové státie je k dispozícii za 1 500 € za m² a vonkajšie parkovacie miesto za 5 000 €."
+    ],
+    "features": [
+     "Bazén",
+     "Výhľad na staré mesto",
+     "Blízko mora",
+     "Klimatizácia",
+     "Balkón",
+     "Záhrada"
+    ],
+    "slug": "moderny-apartman-s-bazenom"
    }
   },
   "tr_src": "573746e511b8"
@@ -1699,6 +2590,66 @@
      "Garage"
     ],
     "slug": "neue-villa-mit-4-schlafzimmern-bei-vodice"
+   },
+   "pl": {
+    "title": "Nowa willa z 4 sypialniami koło Vodic",
+    "status": "Dostępna",
+    "description": [
+     "Nowa willa o powierzchni 330 m² na działce z ogrodem 460 m² koło Vodic, zbudowana z dbałością o każdy szczegół i prywatność.",
+     "Ma cztery sypialnie, każdą z własną łazienką, WC dla gości, salę fitness i basen o powierzchni 40 m². Okna Schüco, ogrzewanie podłogowe, w pełni wyposażona i umeblowana.",
+     "Centrum i restauracje są 1 km dalej, a tuż obok domu można spacerować wśród przyrody i podziwiać piękny widok."
+    ],
+    "features": [
+     "Basen 40 m²",
+     "Sala fitness",
+     "Cztery sypialnie z łazienkami",
+     "Ogrzewanie podłogowe",
+     "Umeblowana",
+     "Widok na morze",
+     "Taras na dachu",
+     "Garaż"
+    ],
+    "slug": "nowa-willa-z-4-sypialniami-koo-vodic"
+   },
+   "cs": {
+    "title": "Nová vila se 4 ložnicemi u Vodic",
+    "status": "K dispozici",
+    "description": [
+     "Nová vila o ploše 330 m² na pozemku se zahradou 460 m² u Vodic, postavená s péčí o každý detail a soukromí.",
+     "Má čtyři ložnice, každou s vlastní koupelnou, WC pro hosty, fitness místnost a bazén o ploše 40 m². Okna Schüco, podlahové topení, plně vybavená a zařízená.",
+     "Centrum a restaurace jsou 1 km daleko, procházky přírodou hned kolem domu a krásný výhled."
+    ],
+    "features": [
+     "Bazén 40 m²",
+     "Fitness místnost",
+     "Čtyři ložnice s koupelnou",
+     "Podlahové topení",
+     "Zařízená",
+     "Výhled na moře",
+     "Střešní terasa",
+     "Garáž"
+    ],
+    "slug": "nova-vila-se-4-loznicemi-u-vodic"
+   },
+   "sk": {
+    "title": "Nová vila so 4 spálňami pri Vodiciach",
+    "status": "K dispozícii",
+    "description": [
+     "Nová vila s plochou 330 m² na pozemku so záhradou 460 m² pri Vodiciach, postavená so starostlivosťou o každý detail a súkromie.",
+     "Má štyri spálne, každú s vlastnou kúpeľňou, WC pre hostí, fitness miestnosť a bazén s plochou 40 m². Okná Schüco, podlahové kúrenie, plne vybavená a zariadená.",
+     "Centrum a reštaurácie sú 1 km ďaleko, prechádzky prírodou hneď okolo domu a krásny výhľad."
+    ],
+    "features": [
+     "Bazén 40 m²",
+     "Fitness miestnosť",
+     "Štyri spálne s kúpeľňou",
+     "Podlahové kúrenie",
+     "Zariadená",
+     "Výhľad na more",
+     "Strešná terasa",
+     "Garáž"
+    ],
+    "slug": "nova-vila-so-4-spalnami-pri-vodiciach"
    }
   },
   "tr_src": "081d4dbdfaf4"
@@ -1791,6 +2742,72 @@
      "Garage"
     ],
     "slug": "moderne-villa-auf-dem-hugel-uber-primosten"
+   },
+   "pl": {
+    "title": "Nowoczesna willa na wzgórzu nad Primoštenem",
+    "status": "Dostępna",
+    "description": [
+     "Nowoczesna willa o powierzchni 343 m² na działce 1038 m² na wzgórzu nad Primoštenem, z prywatnością i widokiem na morze.",
+     "Cztery sypialnie, cztery łazienki i dwa WC oraz basen o powierzchni 40 m². Ogrzewanie podłogowe, pompa ciepła i centralne chłodzenie.",
+     "Cena dotyczy w pełni wyposażonej willi."
+    ],
+    "features": [
+     "Basen 40 m²",
+     "Widok na morze",
+     "Blisko morza",
+     "Ogrzewanie podłogowe",
+     "Pompa ciepła i centralne chłodzenie",
+     "Siłownia",
+     "Bar",
+     "Taras na dachu",
+     "Umeblowana",
+     "Garaż"
+    ],
+    "slug": "nowoczesna-willa-na-wzgorzu-nad-primostenem"
+   },
+   "cs": {
+    "title": "Moderní vila na kopci nad Primoštenem",
+    "status": "K dispozici",
+    "description": [
+     "Moderní vila o ploše 343 m² na pozemku 1 038 m² na kopci nad Primoštenem, se soukromím a výhledem na moře.",
+     "Čtyři ložnice, čtyři koupelny a dvě WC a bazén o ploše 40 m². Podlahové topení, tepelné čerpadlo a centrální chlazení.",
+     "Cena platí pro plně vybavenou vilu."
+    ],
+    "features": [
+     "Bazén 40 m²",
+     "Výhled na moře",
+     "Blízko moře",
+     "Podlahové topení",
+     "Tepelné čerpadlo a centrální chlazení",
+     "Posilovna",
+     "Bar",
+     "Střešní terasa",
+     "Zařízená",
+     "Garáž"
+    ],
+    "slug": "moderni-vila-na-kopci-nad-primostenem"
+   },
+   "sk": {
+    "title": "Moderná vila na kopci nad Primoštenom",
+    "status": "K dispozícii",
+    "description": [
+     "Moderná vila s plochou 343 m² na pozemku 1 038 m² na kopci nad Primoštenom, so súkromím a výhľadom na more.",
+     "Štyri spálne, štyri kúpeľne a dve WC a bazén s plochou 40 m². Podlahové kúrenie, tepelné čerpadlo a centrálne chladenie.",
+     "Cena platí pre plne vybavenú vilu."
+    ],
+    "features": [
+     "Bazén 40 m²",
+     "Výhľad na more",
+     "Blízko mora",
+     "Podlahové kúrenie",
+     "Tepelné čerpadlo a centrálne chladenie",
+     "Posilňovňa",
+     "Bar",
+     "Strešná terasa",
+     "Zariadená",
+     "Garáž"
+    ],
+    "slug": "moderna-vila-na-kopci-nad-primostenom"
    }
   },
   "tr_src": "a889042dffea"

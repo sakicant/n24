@@ -1,0 +1,235 @@
+{
+ "meta": {
+  "home": {
+   "title": "N24 Nieruchomości | Domy, wille i działki od Vodic do Rogoznicy",
+   "description": "Domy, wille, apartamenty i działki budowlane na wybrzeżu Szybenika, od Vodic do Rogoznicy. Lokalna agencja od 2010 roku. Zadzwoń lub napisz na WhatsApp do Tomislava: +385 95 700 7001."
+  },
+  "properties": {
+   "title": "Nieruchomości na sprzedaż na wybrzeżu Szybenika | Domy, wille, działki | N24",
+   "description": "Domy, wille, apartamenty, nowe inwestycje i działki budowlane na sprzedaż od Vodic do Rogoznicy. Filtruj według miejscowości, rodzaju, ceny i powierzchni. N24."
+  },
+  "services": {
+   "title": "Usługi w nieruchomościach w Chorwacji | Grunty i inwestycje | N24",
+   "description": "Scalanie gruntów, doradztwo inwestycyjne, zarządzanie projektami, architektura i opieka nad nieruchomościami na wybrzeżu Szybenika. N24, lokalna agencja od 2010 roku."
+  },
+  "about": {
+   "title": "O N24 Nieruchomości | Tomislav Plenča | Szybenik od 2010",
+   "description": "N24 to agencja nieruchomości z Szybenika, działająca od 2010 roku na wybrzeżu od Vodic do Rogoznicy. Poznaj dyrektora Tomislava Plenčę."
+  },
+  "contact": {
+   "title": "Kontakt | N24 Nieruchomości | Szybenik | +385 95 700 7001",
+   "description": "Zadzwoń, napisz na WhatsApp lub e-mailem do Tomislava Plenčy, N24, Bože Peričića 26, Šibenik. Kupno, sprzedaż i działki od Vodic do Rogoznicy."
+  },
+  "privacy": {
+   "title": "Polityka prywatności i plików cookie | N24 Nieruchomości",
+   "description": "Jak Nekretnine 24 d.o.o. zbiera, wykorzystuje i chroni dane osobowe oraz jak ta strona korzysta z plików cookie."
+  },
+  "terms": {
+   "title": "Regulamin | N24 Nieruchomości",
+   "description": "Regulamin korzystania ze strony N24 Nieruchomości, wydawanej przez Nekretnine 24 d.o.o., Šibenik."
+  },
+  "resort": {
+   "title": "Primošten Resort | Nowe apartamenty i wille na sprzedaż | N24",
+   "description": "Ponad 100 nowych apartamentów i willi w osiedlu Sunhill nad Primoštenem, 600 m od plaż. Plany i ceny u Tomislava Plenčy, N24."
+  },
+  "404": {
+   "title": "Nie znaleziono strony | N24 Nieruchomości",
+   "description": "Tej strony nie ma. Zobacz nieruchomości na sprzedaż na wybrzeżu Szybenika lub skontaktuj się z N24."
+  },
+  "area": {
+   "title": "Nieruchomości {name} | Domy, wille i działki na sprzedaż | N24"
+  }
+ },
+ "logo_tagline": "NIERUCHOMOŚCI",
+ "lang_menu": "Język",
+ "in_place": "w miejscowości {name}",
+ "crumb_home": "Strona główna",
+ "crumb_area": "Nieruchomości {name}",
+ "crumb_properties": "Nieruchomości",
+ "faq_common": [
+  [
+   "Czy cudzoziemcy mogą kupić nieruchomość {in_name}?",
+   "Obywatele państw UE mogą kupować nieruchomości w Chorwacji na tych samych warunkach co obywatele Chorwacji. W przypadku obywateli innych państw zależy to od umowy między Chorwacją a ich krajem oraz od zgody Ministerstwa Sprawiedliwości. Tomislav sprawdzi Twoją sytuację, zanim złożysz ofertę."
+  ],
+  [
+   "Co sprawdzić przed zakupem działki {in_name}?",
+   "Sprawdź, czy działka leży w strefie zabudowy według planu zagospodarowania, czy księga wieczysta i kataster są zgodne, kto jest właścicielem oraz czy działka ma dojazd i media. N24 sprawdza to wszystko w przypadku działek, które sprzedaje."
+  ]
+ ],
+ "dist_places": {
+  "Split Airport": "Lotnisko Split",
+  "Zadar Airport": "Lotnisko Zadar"
+ },
+ "dist": "{km} km · ok. {min} min",
+ "resort_card": {
+  "text": "Ponad 100 nowych apartamentów i willi nad Primoštenem. Każdy lokal z piętrem, powierzchnią i statusem.",
+  "go": "Zobacz lokale"
+ },
+ "places_other": {
+  "murter": "Murter",
+  "prvic": "Prvić"
+ },
+ "place_unknown": "Lokalizacja do potwierdzenia",
+ "types": {
+  "house": "Dom",
+  "apartment": "Apartament",
+  "villa": "Willa",
+  "land": "Działka",
+  "new-build": "Nowa inwestycja"
+ },
+ "type_plural": {
+  "all": {
+   "one": "nieruchomość",
+   "few": "nieruchomości",
+   "many": "nieruchomości",
+   "other": "nieruchomości"
+  },
+  "house": {
+   "one": "dom",
+   "few": "domy",
+   "many": "domów",
+   "other": "domu"
+  },
+  "apartment": {
+   "one": "apartament",
+   "few": "apartamenty",
+   "many": "apartamentów",
+   "other": "apartamentu"
+  },
+  "villa": {
+   "one": "willa",
+   "few": "wille",
+   "many": "willi",
+   "other": "willi"
+  },
+  "land": {
+   "one": "działka",
+   "few": "działki",
+   "many": "działek",
+   "other": "działki"
+  },
+  "new-build": {
+   "one": "nowa inwestycja",
+   "few": "nowe inwestycje",
+   "many": "nowych inwestycji",
+   "other": "nowej inwestycji"
+  }
+ },
+ "card": {
+  "bed": "syp.",
+  "bath": "łaz.",
+  "plot": "działka",
+  "price_request": "Cena na zapytanie",
+  "from": "Od"
+ },
+ "range": {
+  "min": "(min)",
+  "max": "(maks)",
+  "any": "Dowolnie"
+ },
+ "home": {
+  "all": "Wszystkie nieruchomości",
+  "listings": {
+   "one": "oferta",
+   "few": "oferty",
+   "many": "ofert",
+   "other": "oferty"
+  },
+  "place": " · {name}",
+  "nothing": "Na razie brak{place}, zapytaj Tomislava",
+  "show": "Pokaż: {count}{place}"
+ },
+ "search": {
+  "heading": "Na sprzedaż: {count}{place}",
+  "place": " · {name}",
+  "more": "Pokaż więcej (jeszcze {n})",
+  "apply": {
+   "one": "Pokaż {n} nieruchomość",
+   "few": "Pokaż {n} nieruchomości",
+   "many": "Pokaż {n} nieruchomości",
+   "other": "Pokaż {n} nieruchomości"
+  }
+ },
+ "area": {
+  "chips": {
+   "all": "Wszystkie",
+   "house": "Domy",
+   "apartment": "Apartamenty",
+   "villa": "Wille",
+   "land": "Działki",
+   "new-build": "Nowe inwestycje"
+  },
+  "property": "Nieruchomości",
+  "heading": "{what} na sprzedaż {in_name}"
+ },
+ "contact": {
+  "ph_buy": "Na przykład: dom z widokiem na morze w miejscowości Primošten lub Rogoznica, do 600 000 €.",
+  "ph_sell": "Na przykład: dom z 3 sypialniami w miejscowości Vodice, 140 m² na działce 500 m², 300 m od morza. Cena ok. 400 000 €.",
+  "ph_land": "Na przykład: działka budowlana ok. 1000 m² w okolicy miejscowości Grebaštica lub Žaborić, pod dom wakacyjny.",
+  "ph_other": "W czym Tomislav może pomóc?",
+  "hint_sell": "Sprzedajesz? Podaj Tomislavowi miejscowość, rodzaj, powierzchnię, wielkość działki i cenę, jeśli ją masz. Zdjęcia najłatwiej wysłać przez WhatsApp na +385 95 700 7001.",
+  "interested": "Interesuje mnie {title}({ref}). ",
+  "sending": "Wysyłanie...",
+  "sent": "Dziękujemy, zapytanie zostało wysłane. Tomislav odpowie e-mailem.",
+  "failed": "Nie udało się wysłać. Zadzwoń do Tomislava lub napisz na WhatsApp: +385 95 700 7001.",
+  "invalid": "Wpisz imię, e-mail i wiadomość oraz zaznacz pole.",
+  "too_many": "Zbyt wiele wiadomości. Zadzwoń lub napisz na WhatsApp: +385 95 700 7001."
+ },
+ "photos": {
+  "dialog": "Zdjęcia: {title}",
+  "close": "Zamknij zdjęcia",
+  "prev": "Poprzednie zdjęcie",
+  "next": "Następne zdjęcie",
+  "alt": "{title}, zdjęcie {n} z {total}"
+ },
+ "video": {
+  "pause": "Zatrzymaj film w tle",
+  "play": "Odtwórz film w tle"
+ },
+ "property": {
+  "photo_alt": "{title}, zdjęcie {n}",
+  "open_photo": "Otwórz zdjęcie {n} z {total}",
+  "more_photos": "+{n} zdjęć",
+  "all_photos": "Pokaż wszystkie zdjęcia ({n})",
+  "renders": "Niektóre obrazy są wizualizacjami. Gotowa nieruchomość może wyglądać inaczej.",
+  "about": "O nieruchomości",
+  "resort_note": "Część <a href=\"{url}\">Primošten Resort</a>. Wszystkie lokale, piętra i dostępność znajdziesz na stronie resortu.",
+  "units_title": "Lokale i ceny",
+  "plots_title": "Działki i ceny",
+  "unit": "Lokal",
+  "plot": "Działka",
+  "size": "Powierzchnia",
+  "bedrooms": "Sypialnie",
+  "garden": "Ogród",
+  "price": "Cena",
+  "on_request": "Na zapytanie",
+  "standards": "Konstrukcja i wykończenie",
+  "features": "Cechy",
+  "key_facts": "Najważniejsze dane",
+  "f_price": "Cena",
+  "f_type": "Rodzaj",
+  "f_place": "Miejscowość",
+  "f_plot": "Działka",
+  "f_living": "Powierzchnia mieszkalna",
+  "f_bedrooms": "Sypialnie",
+  "f_bathrooms": "Łazienki",
+  "f_year": "Rok budowy",
+  "f_parking": "Miejsca parkingowe",
+  "f_garage": "Garaż",
+  "f_status": "Status",
+  "f_ref": "Numer oferty",
+  "ask_title": "Interesuje Cię ta nieruchomość?",
+  "ask_text": "Tomislav Plenča odpowie na pytania i umówi oglądanie.",
+  "ask_button": "Zapytaj o tę nieruchomość",
+  "call": "Zadzwoń",
+  "reference": "Numer oferty {ref}",
+  "ref_short": "Nr {ref}",
+  "similar": "Podobne nieruchomości",
+  "wa_text": "Dzień dobry, interesuje mnie \"{title}\" ({ref}).",
+  "breadcrumb": "Ścieżka nawigacji"
+ },
+ "unit_status": {
+  "Sold": "Sprzedane",
+  "Reserved": "Zarezerwowane"
+ }
+}

@@ -139,9 +139,45 @@ function n24_next_id(array $list): string
     return 'n24-' . ($max + 1);
 }
 
+/** Address of the listing on the Croatian site (the default language). */
 function n24_listing_path(array $l): string
 {
-    return '/property/' . $l['id'] . '-' . $l['slug'] . '/';
+    return '/nekretnina/' . $l['id'] . '-' . ($l['tr']['hr']['slug'] ?? $l['slug']) . '/';
+}
+
+// Languages of the website; a listing is entered in one of them ("lang").
+const N24_LANGS = ['hr' => 'Croatian', 'en' => 'English', 'de' => 'German', 'pl' => 'Polish', 'cs' => 'Czech', 'sk' => 'Slovak'];
+
+/**
+ * Fingerprint of the text as entered. Must give the same result as source_hash() in
+ * tools/listing_tr.py, which stores it as "tr_src" when the translations are made.
+ */
+function n24_source_hash(array $l): string
+{
+    $src = [
+        'description' => array_values($l['description'] ?? []),
+        'features' => array_values($l['features'] ?? []),
+        'standards' => array_values($l['standards'] ?? []),
+        'status' => (string) ($l['status'] ?? ''),
+        'title' => (string) ($l['title'] ?? ''),
+        'units' => array_map(function ($u) { return (string) $u[0]; }, $l['units'] ?? []),
+    ];
+    return substr(sha1(json_encode($src, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES)), 0, 12);
+}
+
+/**
+ * Translation state: [] when all languages are translated from the current text,
+ * otherwise the names of the languages still to do.
+ */
+function n24_translation_todo(array $l): array
+{
+    $todo = [];
+    $current = ($l['tr_src'] ?? '') === n24_source_hash($l);
+    foreach (N24_LANGS as $code => $name) {
+        if ($code === ($l['lang'] ?? 'en')) continue;
+        if (empty($l['tr'][$code]) || !$current) $todo[] = $name;
+    }
+    return $todo;
 }
 
 function n24_photo_exists(string $name): bool

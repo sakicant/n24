@@ -1,0 +1,82 @@
+[
+ {
+  "slug": "vodice",
+  "lede": "Domy, vily, apartmány a stavební pozemky na prodej v lokalitě Vodice, nejživějším letovisku riviéry u Šibeniku.",
+  "intro": ["Vodice jsou rušné přímořské město asi 12 km severozápadně od Šibeniku. V létě patří k nejoblíbenějším místům riviéry, s dlouhou promenádou, plážemi, kavárnami a marinou ACI. Mimo sezónu jsou to živé město s obchody, školami a zdravotním střediskem, takže se hodí pro majitele rekreačních domů i pro ty, kdo tu žijí celý rok.", "Trajekt a lodě z Vodic jezdí na ostrovy Prvić a Tijat a Kornati jsou oblíbeným celodenním výletem z přístavu."],
+  "homes": "Většinu nemovitostí ve Vodicích tvoří apartmány v menších bytových domech, rodinné domy s apartmánem k pronájmu a novostavby blízko moře. Apartmány často volí kupci, kteří chtějí příjem z letního pronájmu.",
+  "land": "Stavební pozemky ve Vodicích leží převážně na okraji města a na kopcích za ním, mnohé s výhledem na moře. Před koupí je nezbytné ověřit, že pozemek leží podle územního plánu v zastavitelném území a má příjezd a sítě.",
+  "highlights": ["Marina ACI a dlouhá promenáda u moře", "Obchody, školy a zdravotní středisko celý rok", "Lodě na Prvić a Kornati"],
+  "local_q": "Jsou Vodice vhodné pro příjem z pronájmu?",
+  "local_a": "Vodice mají jednu z nejdelších turistických sezón na riviéře u Šibeniku, takže apartmány blízko moře a centra se v létě obvykle dobře pronajímají. Tomislav vám řekne, kolik vydělávají podobné nemovitosti a na co si dát pozor."
+ },
+ {
+  "slug": "srima",
+  "lede": "Domy, apartmány a pozemky na prodej v lokalitě Srima, klidné přímořské osadě mezi Vodicemi a Šibenikem.",
+  "intro": ["Srima leží hned vedle Vodic, asi 11 km od Šibeniku, u dlouhé zátoky s oblázkovými plážemi a promenádou. Je klidnější než Vodice, převažují rodinné a rekreační domy, a obchody i restaurace ve Vodicích jsou jen pár minut daleko.", "Díky dlouhým mělkým plážím je Srima oblíbená u rodin."],
+  "homes": "Ve Srimě najdete hlavně samostatné rodinné domy, rekreační domy s apartmány a novější bytové domy kousek od pláže.",
+  "land": "Stavebních pozemků je ve Srimě málo, což je jeden z důvodů, proč je tu půda žádaná. N24 prověří územní plán, vlastnictví i příjezd, než pozemek nabídne.",
+  "highlights": ["Dlouhé oblázkové pláže a promenáda", "Klidnější než Vodice, Vodice pár minut daleko", "Oblíbená u rodin"],
+  "local_q": "Jaký je rozdíl mezi Srimou a Vodicemi?",
+  "local_a": "Srima je klidnějším sousedem Vodic: převážně domy a rekreační domy u pláže, s menším provozem a nočním životem. Vodice mají víc obchodů, restaurací a služeb po celý rok a jsou jen pár minut daleko."
+ },
+ {
+  "slug": "sibenik", "in": "v Šibeniku",
+  "lede": "Apartmány, domy, vily a stavební pozemky na prodej v Šibeniku, historickém městě u moře, které žije celý rok.",
+  "intro": ["Šibenik je centrem župy a největším městem mezi Splitem a Zadarem. Staré město s kamennými uličkami stoupá od nábřeží k pevnostem a katedrála sv. Jakuba i pevnost sv. Mikuláše jsou zapsány na seznam světového dědictví UNESCO.", "Jako skutečné město má Šibenik vše otevřené celý rok: nemocnici, školy, obchody a služby. Národní park Krka je kousek ve vnitrozemí."],
+  "homes": "Šibenik nabízí největší výběr nemovitostí na tomto pobřeží: apartmány ve starém městě i v novějších čtvrtích, rodinné domy, vily na okraji města a novostavby blízko moře.",
+  "land": "Stavební pozemky v Šibeniku a okolí sahají od malých parcel v obytných zónách po větší plochy pro developerské projekty. Vlastnické poměry tu bývají složité, proto je prověření katastru a pozemkových knih obzvlášť důležité.",
+  "highlights": ["Dvě památky světového dědictví UNESCO", "Nemocnice, školy a služby celý rok", "Národní park Krka nedaleko"],
+  "local_q": "Žije se v Šibeniku dobře celý rok?",
+  "local_a": "Ano. Šibenik je město, které žije celý rok, s nemocnicí, školami, obchody a službami, a je proto nejpraktičtější volbou na tomto pobřeží pro ty, kdo tu chtějí žít trvale."
+ },
+ {
+  "slug": "brodarica",
+  "lede": "Domy, apartmány a pozemky na prodej v lokalitě Brodarica, přímořské vesnici jižně od Šibeniku naproti ostrovu Krapanj.",
+  "intro": ["Brodarica je přímořská vesnice asi 7 km jižně od Šibeniku. Hledí přes úzký průliv na Krapanj, malý ostrov známý tradicí lovu hub, kam se dostanete krátkou plavbou lodí.", "S malým přístavem, plážemi a promenádou je Brodarica klidná a do Šibeniku je to autem jen asi deset minut."],
+  "homes": "Nemovitosti v Brodarici jsou převážně rodinné domy, rekreační domy s apartmány a několik novějších bytových domů, mnohé s výhledem na Krapanj a moře.",
+  "land": "Stavební pozemky v Brodarici leží obvykle na svazích nad vesnicí. Výhled na moře je častý, proto se vyplatí včas ověřit příjezd, sítě a zastavitelné území.",
+  "highlights": ["Výhled na ostrov Krapanj", "Malý přístav a promenáda u moře", "Asi 10 minut od Šibeniku"],
+  "local_q": "Mohu přes N24 koupit nemovitost na Krapanji?",
+  "local_a": "Krapanj leží hned přes průliv a Tomislav ostrov dobře zná. Zeptejte se ho na aktuální nabídky."
+ },
+ {
+  "slug": "zaboric",
+  "lede": "Domy, vily, apartmány a stavební pozemky na prodej v lokalitě Žaborić, klidné vesnici u moře jižně od Šibeniku.",
+  "intro": ["Žaborić je malá vesnice asi 10 km jižně od Šibeniku, na hlavní pobřežní silnici směrem na Primošten. Je známá plážemi a poklidným tempem, převažují rodinné a rekreační domy.", "Do Šibeniku je to blízko na nákupy i úřady a na letiště Split necelá hodina jízdy."],
+  "homes": "Většinu nemovitostí v Žaboriću tvoří samostatné domy a rekreační domy s apartmány a také novější vily s bazény na svazích nad mořem.",
+  "land": "V Žaboriću jsou stále stavební pozemky s výhledem na moře, převážně nad vesnicí. N24 ověří, že každý pozemek leží v zastavitelném území a má příjezd, než ho nabídne.",
+  "highlights": ["Pláže a klidné vesnické tempo", "Na pobřežní silnici mezi Šibenikem a Primoštenem", "Asi 53 km od letiště Split"],
+  "local_q": "Je v Žaboriću v létě rušno?",
+  "local_a": "V červenci a srpnu je v Žaboriću živěji, ale zůstává vesnicí: nejsou tu velké hotely a pobřeží lemují hlavně rodinné a rekreační domy."
+ },
+ {
+  "slug": "grebastica",
+  "lede": "Domy, vily a pozemky na prodej v lokalitě Grebaštica, u dlouhé chráněné zátoky mezi Šibenikem a Primoštenem.",
+  "intro": ["Grebaštica leží asi 19 km jižně od Šibeniku kolem dlouhé chráněné zátoky. Zátoka udržuje moře klidné, a proto ji mají rádi plavci i majitelé malých lodí.", "Je to klidné místo a Primošten i Šibenik jsou po pobřežní silnici kousek."],
+  "homes": "V Grebaštici najdete hlavně rodinné a rekreační domy, mnohé blízko zátoky, a menší počet vil.",
+  "land": "Stavební pozemky kolem zátoky a na svazích nad ní se objevují čas od času. Mnohé se skládají z několika starých katastrálních parcel, a právě zde pomáhá scelování pozemků, které N24 provádí.",
+  "highlights": ["Dlouhá chráněná zátoka s klidným mořem", "Klidné místo mezi Šibenikem a Primoštenem", "Asi 47 km od letiště Split"],
+  "local_q": "Je Grebaštica vhodná pro majitele lodí?",
+  "local_a": "Díky chráněné zátoce je Grebaštica jedním z klidnějších míst na tomto pobřeží pro malé lodě. Zeptejte se Tomislava na nemovitosti u vody a na kotviště v okolí."
+ },
+ {
+  "slug": "primosten",
+  "lede": "Domy, vily, apartmány, novostavby a stavební pozemky na prodej v lokalitě Primošten, jednom z nejkrásnějších malých míst chorvatského pobřeží.",
+  "intro": ["Primošten je malé město asi 28 km jižně od Šibeniku. Staré město leží na malém poloostrově s kostelem na vrcholu a okolní kopce pokrývají slavné vinice obehnané kamennými zídkami, kde roste víno Babić.", "S plážemi ve stínu borovic, živým létem a letištěm Split asi 40 km daleko je Primošten jedním z nejžádanějších míst ke koupi na tomto pobřeží."],
+  "homes": "Primošten nabízí pestrou škálu nemovitostí: kamenné domy ve starém městě a v jeho okolí, moderní vily s bazény a výhledem na moře, apartmány a nové projekty jako Primošten Resort.",
+  "land": "Stavební pozemky v Primoštenu jsou velmi žádané a nabídka je omezená, zejména s výhledem na moře. Pečlivé prověření územního plánu, vlastnictví a příjezdu je před koupí nezbytné.",
+  "highlights": ["Staré město na malém poloostrově", "Vinice Babić s kamennými zídkami", "Asi 39 km od letiště Split"],
+  "local_q": "Co je Primošten Resort?",
+  "local_a": "Primošten Resort je projekt více než 100 nových apartmánů a vil nad Primoštenem. N24 je prodejním kanálem resortu a všechny jeho jednotky najdete na stránce Primošten Resort."
+ },
+ {
+  "slug": "rogoznica",
+  "lede": "Domy, vily, apartmány a stavební pozemky na prodej v lokalitě Rogoznica, přímořském městečku s velkou marinou, nejblíže letišti Split.",
+  "intro": ["Rogoznica je přímořské městečko asi 34 km jihovýchodně od Šibeniku, zčásti postavené na malém ostrově spojeném s pevninou. Najdete tu Marinu Frapa a Dračí oko, pozoruhodné slané jezero hned u moře.", "Z osmi míst, kde N24 působí, leží Rogoznica nejblíže letišti Split, asi 35 km."],
+  "homes": "Nemovitosti v Rogoznici sahají od domů ve staré části města po rekreační domy, apartmány a moderní vily kolem četných zátok.",
+  "land": "Díky členitému pobřeží má mnoho pozemků v Rogoznici výhled na moře. Jako všude ověřte před koupí zastavitelné území, vlastnictví a příjezd.",
+  "highlights": ["Marina Frapa", "Slané jezero Dračí oko", "Asi 34 km od letiště Split"],
+  "local_q": "Je Rogoznica dobrou volbou pro majitele lodí?",
+  "local_a": "S Marinou Frapa a mnoha chráněnými zátokami je Rogoznica jedním z nejlepších míst na tomto pobřeží pro majitele lodí. Zeptejte se Tomislava na nemovitosti blízko mariny."
+ }
+]
